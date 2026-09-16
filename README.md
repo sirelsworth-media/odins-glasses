@@ -6,6 +6,8 @@ NPC-only money estimates, crafting references, and a class and skill guide in a
 local Electron application. The interface supports German and English as well
 as Classic, Aurora, and Nocturne themes.
 
+[Download the latest Windows installer or portable build](https://github.com/sirelsworth-media/odins-glasses/releases/latest)
+
 ![Odin’s Glasses with the Nocturne theme](docs/nocturne.png)
 
 ## Current scope

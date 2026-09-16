@@ -5,11 +5,15 @@ app.commandLine.appendSwitch('no-sandbox');
 app.commandLine.appendSwitch('in-process-gpu');
 app.commandLine.appendSwitch('disable-backgrounding-occluded-windows');
 app.commandLine.appendSwitch('disable-renderer-backgrounding');
+app.commandLine.appendSwitch('disable-spell-checking');
+app.commandLine.appendSwitch('disable-features','WinUseBrowserSpellChecker');
 const fs = require('node:fs');
 const path = require('node:path');
 const os = require('node:os');
 const assert = require('node:assert/strict');
-app.setPath('userData', fs.mkdtempSync(path.join(os.tmpdir(),'odins-glasses-theme-test-')));
+const testProfile = fs.mkdtempSync(path.join(os.tmpdir(),'odins-glasses-theme-test-'));
+app.setPath('userData', testProfile);
+app.setPath('sessionData', path.join(testProfile,'session'));
 const output = path.resolve(__dirname,'../previews');
 fs.mkdirSync(output, { recursive: true });
 const mob = { monster_id:1019,name_en:'Peco Peco',aegis_name:'PECOPECO',level:27,hp:525,base_exp:315,job_exp:63,exp_per_hp:.6,total_exp_per_hp:.72,element:'Fire',element_level:1,race:'Brute',size:'Large',defense:0,magic_defense:0,attack_min:20,attack_max:30,exp_source:'UI test fixture',exp_source_kind:'global_measurement',spawns:[{code:'moc_fild03',name:'Sograt Desert',count:30,count_kind:'reference'}],drops:[{item_id:909,name_en:'Jellopy',category:'Etc',rate_percent:50,rate_known:true,npc_sell_price:100,image_url:null}] };
@@ -20,6 +24,16 @@ require('../api.cjs').handleApi = async (req,res) => {
  res.end(JSON.stringify(body)); return true;
 };
 const sleep = ms => new Promise(resolve=>setTimeout(resolve,ms));
+const auditContrast = () => {
+ const parse = value => { const match=value.match(/rgba?\((\d+),\s*(\d+),\s*(\d+)(?:,\s*([\d.]+))?\)/); return match ? [Number(match[1]),Number(match[2]),Number(match[3]),match[4]===undefined?1:Number(match[4])] : null; };
+ const luminance = rgb => { const channels=rgb.slice(0,3).map(value=>{const c=value/255;return c<=.04045?c/12.92:((c+.055)/1.055)**2.4;});return .2126*channels[0]+.7152*channels[1]+.0722*channels[2]; };
+ const ratio = (a,b) => { const [light,dark]=[luminance(a),luminance(b)].sort((x,y)=>y-x);return (light+.05)/(dark+.05); };
+ const background = element => { let current=element; while(current){const parsed=parse(getComputedStyle(current).backgroundColor);if(parsed&&parsed[3]>.98)return parsed;current=current.parentElement;}return [8,12,24,1]; };
+ return [...document.querySelectorAll('body *')].filter(element=>{
+   const style=getComputedStyle(element); if(style.display==='none'||style.visibility==='hidden'||Number(style.opacity)===0||!element.getClientRects().length)return false;
+   return [...element.childNodes].some(node=>node.nodeType===Node.TEXT_NODE&&node.textContent.trim());
+ }).map(element=>{const style=getComputedStyle(element);const foreground=parse(style.color);const bg=background(element);const value=foreground?ratio(foreground,bg):21;const large=parseFloat(style.fontSize)>=24||(parseFloat(style.fontSize)>=18.66&&Number(style.fontWeight)>=700);return {selector:element.className||element.tagName,text:element.textContent.trim().slice(0,60),ratio:Number(value.toFixed(2)),minimum:large?3:4.5};}).filter(result=>result.ratio<result.minimum);
+};
 app.on('browser-window-created',(_,win)=>{
  win.webContents.setBackgroundThrottling(false);
  win.webContents.once('did-finish-load',async()=>{
@@ -79,6 +93,12 @@ app.on('browser-window-created',(_,win)=>{
    await new Promise(resolve=>{win.webContents.once('did-finish-load',resolve);win.reload();});
    for(let attempt=0;attempt<30;attempt++){if(await run('document.documentElement.dataset.theme')==='nocturne')break;await sleep(100);}
    assert.equal(await run('document.documentElement.dataset.theme'),'nocturne');
+   for(let i=0;i<9;i++){
+    await run(`document.querySelectorAll('.tabs button')[${i}].click()`);await sleep(400);
+    const failures=await run(`(${auditContrast.toString()})()`);
+    assert.deepEqual(failures,[],`Nocturne WCAG 2 AA contrast failures on tab ${i}: ${JSON.stringify(failures)}`);
+    if(i===3){await run('document.querySelector(".recipeGrid").scrollIntoView({block:"start",behavior:"instant"})');win.setSize(1100,980);await sleep(500);fs.writeFileSync(path.join(output,'crafting-nocturne.png'),(await win.webContents.capturePage()).toPNG());}
+   }
    await run('document.querySelectorAll(".themeSwitch button")[1].click()');
    for(let i=0;i<9;i++){
     await run(`document.querySelectorAll('.tabs button')[${i}].click()`);await sleep(400);

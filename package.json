@@ -1,6 +1,6 @@
 {
   "name": "odins-glasses",
-  "version": "1.31.0",
+  "version": "1.31.1",
   "description": "Windows desktop companion for Ragnarok Online Zero Global",
   "main": "main.cjs",
   "author": "Sirelsworth Media",
@@ -20,7 +20,7 @@
     "verify": "npm run typecheck && npm run test:unit && npm run build:renderer",
     "test:unit": "node scripts/test-security.cjs && node scripts/test-cache.cjs && node scripts/test-item-icons.cjs && node scripts/test-behavior.cjs && node scripts/test-map-catalog.cjs && node scripts/test-money.cjs",
     "test:performance": "electron scripts/benchmark-performance.cjs",
-    "test:ui": "electron scripts/test-appearance.cjs",
+    "test:ui": "electron scripts/test-appearance.cjs && node scripts/cleanup-test-artifacts.cjs",
     "test:live-data": "node scripts/test-live-data.cjs",
     "build:renderer": "vite build --configLoader runner",
     "dist": "npm run build:renderer && electron-builder --win nsis portable"
