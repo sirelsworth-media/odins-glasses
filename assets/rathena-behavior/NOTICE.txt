@@ -1,0 +1,26 @@
+rAthena behavior reference dataset
+Copyright (C) 2024 rAthena Development Team (upstream database notice).
+License: GNU GPL version 3 or, at your option, any later version.
+NO WARRANTY; see LICENSE for the full terms and redistribution rights.
+
+Modified by Odin’s Glasses on 2026-09-04:
+Extracted monster IDs, Aegis names and baseline behavior from Renewal mob_db.yml.
+Resolved AI types using mob_db_mode_list.txt and applied explicit behavior overrides.
+Excluded HP, EXP, drops, stats, class/immunity flags and skill-dependent mode changes.
+Unknown AI types are omitted. Global behavior is NOT verified.
+
+The editable derived data (behavior.json), complete upstream input files, license
+and conversion script are included here. Upstream revision:
+e985006171d2eb320ee512a653f4c83aea3d81b6
+https://github.com/rathena/rathena/tree/e985006171d2eb320ee512a653f4c83aea3d81b6
+
+Rebuild in this folder with Node.js and js-yaml 4.1.1 installed:
+node import-rathena-behavior.cjs --offline
+No upstream network access is needed for an offline rebuild.
+
+This dataset and its adaptation script are GPL-3.0-or-later. Preserve this notice,
+LICENSE, modification notices and editable sources when redistributing it.
+The application's UNLICENSED label does not override these component rights.
+The dataset is supplied as separate editable data, not rAthena executable code.
+Separation alone is not a legal determination about the licensing of a combined
+work. Review that question before public distribution of the application.

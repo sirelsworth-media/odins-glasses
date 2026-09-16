@@ -1,0 +1,3868 @@
+{
+  "generatedAt": "2026-09-05T14:06:22.638Z",
+  "recipes": [
+    {
+      "id": "npc-5041",
+      "profession": "npc",
+      "output": {
+        "itemId": 5041,
+        "name": "Heart Hairpin",
+        "amount": 1
+      },
+      "skill": "Crafting Fashionable Glasses and Heart Hairpin",
+      "materials": [
+        {
+          "itemId": 994,
+          "name": "Flame Heart",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 2210,
+          "name": "Hair Band",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": null,
+      "location": {
+        "name": "Comodo, the Beach Town",
+        "navi": "/navi comodo 214/186"
+      },
+      "requiredLevel": null,
+      "referenceId": 22174,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "npc-5047",
+      "profession": "npc",
+      "output": {
+        "itemId": 5047,
+        "name": "Fashionable Glasses",
+        "amount": 1
+      },
+      "skill": "Crafting Fashionable Glasses and Heart Hairpin",
+      "materials": [
+        {
+          "itemId": 2203,
+          "name": "Glasses",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 975,
+          "name": "Scarlet Dyestuffs",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": null,
+      "location": {
+        "name": "Comodo, the Beach Town",
+        "navi": "/navi comodo 214/186"
+      },
+      "requiredLevel": null,
+      "referenceId": 22173,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "npc-5061",
+      "profession": "npc",
+      "output": {
+        "itemId": 5061,
+        "name": "Flower Hairpin",
+        "amount": 1
+      },
+      "skill": "So You Can Attend the Ball",
+      "materials": [
+        {
+          "itemId": 2269,
+          "name": "Romantic Flower",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 10,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": 20000,
+      "location": {
+        "name": "Comodo, the Beach Town",
+        "navi": "/navi comodo 242/179"
+      },
+      "requiredLevel": null,
+      "referenceId": 22201,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "npc-5062",
+      "profession": "npc",
+      "output": {
+        "itemId": 5062,
+        "name": "Straw Hat",
+        "amount": 1
+      },
+      "skill": "A Fine Straw Hat",
+      "materials": [
+        {
+          "itemId": 577,
+          "name": "Grain",
+          "amount": 100,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7197,
+          "name": "Tough Vines",
+          "amount": 30,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": null,
+      "location": {
+        "name": "Comodo, the Beach Town",
+        "navi": "/navi comodo 110/260"
+      },
+      "requiredLevel": null,
+      "referenceId": 22206,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "npc-5065",
+      "profession": "npc",
+      "output": {
+        "itemId": 5065,
+        "name": "Blue Fish",
+        "amount": 1
+      },
+      "skill": "I Want to Eat Fish",
+      "materials": [
+        {
+          "itemId": 624,
+          "name": "Rotten Fish",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 959,
+          "name": "Stinky Scale",
+          "amount": 30,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 544,
+          "name": "Raw Fish",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1023,
+          "name": "Fish Tail",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": null,
+      "location": {
+        "name": "Comodo, the Beach Town",
+        "navi": "/navi comodo 300/230"
+      },
+      "requiredLevel": 50,
+      "referenceId": 22204,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "npc-5067",
+      "profession": "npc",
+      "output": {
+        "itemId": 5067,
+        "name": "Sombrero",
+        "amount": 1
+      },
+      "skill": "A Fine Sombrero",
+      "materials": [
+        {
+          "itemId": 5062,
+          "name": "Straw Hat",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 952,
+          "name": "Cactus Needle",
+          "amount": 50,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": null,
+      "location": {
+        "name": "Comodo, the Beach Town",
+        "navi": "/navi comodo 110/260"
+      },
+      "requiredLevel": null,
+      "referenceId": 22207,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "npc-5444",
+      "profession": "npc",
+      "output": {
+        "itemId": 5444,
+        "name": "Hair Brush",
+        "amount": 1
+      },
+      "skill": "Crafting Hair Brush",
+      "materials": [
+        {
+          "itemId": 974,
+          "name": "Mixture",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 975,
+          "name": "Scarlet Dyestuffs",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 943,
+          "name": "Solid Shell",
+          "amount": 50,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1301,
+          "name": "Axe",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": null,
+      "location": {
+        "name": "Comodo, the Beach Town",
+        "navi": "/navi comodo 236/164"
+      },
+      "requiredLevel": null,
+      "referenceId": 22175,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "npc-2283",
+      "profession": "npc",
+      "output": {
+        "itemId": 2283,
+        "name": "Ear Muffs",
+        "amount": 1
+      },
+      "skill": "«T:Ear Muffs» for a World Issolation",
+      "materials": [
+        {
+          "itemId": 724,
+          "name": "Cursed Ruby",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 949,
+          "name": "Feather",
+          "amount": 200,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 5001,
+          "name": "Headset",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": 5000,
+      "location": {
+        "name": "Inside Geffen",
+        "navi": "/navi geffen_in 82/59"
+      },
+      "requiredLevel": null,
+      "referenceId": 22102,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "npc-5001",
+      "profession": "npc",
+      "output": {
+        "itemId": 5001,
+        "name": "Headset",
+        "amount": 1
+      },
+      "skill": "Eric’s Precious Headphones",
+      "materials": [
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 40,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 970,
+          "name": "Alcohol",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1003,
+          "name": "Coal",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": null,
+      "location": {
+        "name": "Inside Geffen",
+        "navi": "/navi geffen_in 30/71"
+      },
+      "requiredLevel": null,
+      "referenceId": 22101,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "npc-5018",
+      "profession": "npc",
+      "output": {
+        "itemId": 5018,
+        "name": "Feather Bonnet",
+        "amount": 1
+      },
+      "skill": "A Feathered Hat Full of Sentiment",
+      "materials": [
+        {
+          "itemId": 2247,
+          "name": "Romantic Gent",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 916,
+          "name": "Feather of Birds",
+          "amount": 300,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": null,
+      "location": {
+        "name": "Geffen, the City of Magic",
+        "navi": "/navi geffen 76/135"
+      },
+      "requiredLevel": null,
+      "referenceId": 22105,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "npc-5064",
+      "profession": "npc",
+      "output": {
+        "itemId": 5064,
+        "name": "Smokie Leaf",
+        "amount": 1
+      },
+      "skill": "The Secret of the Transforming Raccoon",
+      "materials": [
+        {
+          "itemId": 945,
+          "name": "Raccoon Leaf",
+          "amount": 10,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": null,
+      "location": {
+        "name": "Geffen Field",
+        "navi": "/navi gef_fild07 71/223"
+      },
+      "requiredLevel": null,
+      "referenceId": 22203,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "npc-5076",
+      "profession": "npc",
+      "output": {
+        "itemId": 5076,
+        "name": "Beanie",
+        "amount": 1
+      },
+      "skill": "Grandmother’s Beanie",
+      "materials": [
+        {
+          "itemId": 2226,
+          "name": "Cap",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 914,
+          "name": "Fluff",
+          "amount": 50,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 916,
+          "name": "Feather of Birds",
+          "amount": 50,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 949,
+          "name": "Feather",
+          "amount": 10,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": null,
+      "location": {
+        "name": "Geffen, the City of Magic",
+        "navi": "/navi geffen 207/163"
+      },
+      "requiredLevel": null,
+      "referenceId": 22208,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "npc-2273",
+      "profession": "npc",
+      "output": {
+        "itemId": 2273,
+        "name": "Doctor Band",
+        "amount": 1
+      },
+      "skill": "Crafting Doctor Band",
+      "materials": [
+        {
+          "itemId": 2275,
+          "name": "Red Bandana",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 998,
+          "name": "Iron",
+          "amount": 50,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 733,
+          "name": "Cracked Diamond",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": null,
+      "location": {
+        "name": "Izlude, the Satellite City",
+        "navi": "/navi izlude 83/205"
+      },
+      "requiredLevel": null,
+      "referenceId": 22059,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "npc-5034",
+      "profession": "npc",
+      "output": {
+        "itemId": 5034,
+        "name": "Bulb Band",
+        "amount": 1
+      },
+      "skill": "Crafting Bulb Band",
+      "materials": [
+        {
+          "itemId": 2210,
+          "name": "Hair Band",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 746,
+          "name": "Glass Bead",
+          "amount": 20,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": null,
+      "location": {
+        "name": "Izlude, the Satellite City",
+        "navi": "/navi izlude 85/204"
+      },
+      "requiredLevel": null,
+      "referenceId": 22060,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "npc-5036",
+      "profession": "npc",
+      "output": {
+        "itemId": 5036,
+        "name": "Cross Hat",
+        "amount": 1
+      },
+      "skill": "Crafting Cross Hat",
+      "materials": [
+        {
+          "itemId": 2210,
+          "name": "Hair Band",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 2608,
+          "name": "Rosary",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": null,
+      "location": {
+        "name": "Izlude, the Satellite City",
+        "navi": "/navi izlude 87/205"
+      },
+      "requiredLevel": null,
+      "referenceId": 22061,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "npc-5049",
+      "profession": "npc",
+      "output": {
+        "itemId": 5049,
+        "name": "Striped Hairband",
+        "amount": 1
+      },
+      "skill": "Crafting Striped Headband",
+      "materials": [
+        {
+          "itemId": 2210,
+          "name": "Hair Band",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 978,
+          "name": "Cobaltblue Dyestuffs",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": null,
+      "location": {
+        "name": "Izlude, the Satellite City",
+        "navi": "/navi izlude 89/204"
+      },
+      "requiredLevel": null,
+      "referenceId": 22062,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "npc-5052",
+      "profession": "npc",
+      "output": {
+        "itemId": 5052,
+        "name": "Blue Hairband",
+        "amount": 1
+      },
+      "skill": "Crafting Blue Headband",
+      "materials": [
+        {
+          "itemId": 2211,
+          "name": "Bandana",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 978,
+          "name": "Cobaltblue Dyestuffs",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": null,
+      "location": {
+        "name": "Izlude, the Satellite City",
+        "navi": "/navi izlude 85/207"
+      },
+      "requiredLevel": null,
+      "referenceId": 22063,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "npc-2272",
+      "profession": "npc",
+      "output": {
+        "itemId": 2272,
+        "name": "Stop Post",
+        "amount": 1
+      },
+      "skill": "A Stop Sign You Can Wear on Your Head",
+      "materials": [
+        {
+          "itemId": 1019,
+          "name": "Trunk",
+          "amount": 50,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 983,
+          "name": "Black Dyestuffs",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": null,
+      "location": {
+        "name": "Alberta, the Port City",
+        "navi": "/navi alberta 26/25"
+      },
+      "requiredLevel": null,
+      "referenceId": 22103,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "npc-2284",
+      "profession": "npc",
+      "output": {
+        "itemId": 2284,
+        "name": "Antlers",
+        "amount": 1
+      },
+      "skill": "Crafting Deer Horn",
+      "materials": [
+        {
+          "itemId": 923,
+          "name": "Evil Horn",
+          "amount": 3,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": null,
+      "location": {
+        "name": "Inside Alberta",
+        "navi": "/navi alberta_in 122/53"
+      },
+      "requiredLevel": null,
+      "referenceId": 22057,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "npc-5033",
+      "profession": "npc",
+      "output": {
+        "itemId": 5033,
+        "name": "Raccoon Hat",
+        "amount": 1
+      },
+      "skill": "Crafting Raccoon Hat",
+      "materials": [
+        {
+          "itemId": 945,
+          "name": "Raccoon Leaf",
+          "amount": 50,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 2213,
+          "name": "Kitty Band",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": null,
+      "location": {
+        "name": "Alberta, the Port City",
+        "navi": "/navi alberta 92/110"
+      },
+      "requiredLevel": null,
+      "referenceId": 22162,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "npc-2280",
+      "profession": "npc",
+      "output": {
+        "itemId": 2280,
+        "name": "Sakkat",
+        "amount": 1
+      },
+      "skill": "Because… It’s a Sakkat!",
+      "materials": [
+        {
+          "itemId": 1019,
+          "name": "Trunk",
+          "amount": 120,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": 10000,
+      "location": {
+        "name": "Morroc, the Desert City",
+        "navi": "/navi morocc 127/59"
+      },
+      "requiredLevel": null,
+      "referenceId": 22106,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "npc-5039",
+      "profession": "npc",
+      "output": {
+        "itemId": 5039,
+        "name": "Rainbow Eggshell",
+        "amount": 1
+      },
+      "skill": "Crafting Rainbow Eggshell",
+      "materials": [
+        {
+          "itemId": 5015,
+          "name": "Egg Shell",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 978,
+          "name": "Cobaltblue Dyestuffs",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 975,
+          "name": "Scarlet Dyestuffs",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 976,
+          "name": "Lemon Dyestuffs",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": null,
+      "location": {
+        "name": "Morroc, the Desert City",
+        "navi": "/navi morocc 217/225"
+      },
+      "requiredLevel": null,
+      "referenceId": 22177,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "npc-5070",
+      "profession": "npc",
+      "output": {
+        "itemId": 5070,
+        "name": "Hot-blooded Headband",
+        "amount": 1
+      },
+      "skill": "You, Wear the Hot-blooded Headband",
+      "materials": [
+        {
+          "itemId": 4008,
+          "name": "Picky Card",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 2211,
+          "name": "Bandana",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 982,
+          "name": "White Dyestuffs",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": null,
+      "location": {
+        "name": "Morroc, the Desert City",
+        "navi": "/navi morocc 85/74"
+      },
+      "requiredLevel": null,
+      "referenceId": 22202,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "npc-5004",
+      "profession": "npc",
+      "output": {
+        "itemId": 5004,
+        "name": "Oxygen Mask",
+        "amount": 1
+      },
+      "skill": "Oxygen Mask",
+      "materials": [
+        {
+          "itemId": 701,
+          "name": "Ora Ora",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": null,
+      "location": {
+        "name": "Inside Payon",
+        "navi": "/navi payon_in02 25/71"
+      },
+      "requiredLevel": null,
+      "referenceId": null,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "npc-5063",
+      "profession": "npc",
+      "output": {
+        "itemId": 5063,
+        "name": "Giant Band Aid",
+        "amount": 1
+      },
+      "skill": "Crafting Giant Band Aid",
+      "materials": [
+        {
+          "itemId": 930,
+          "name": "Rotten Bandage",
+          "amount": 50,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 970,
+          "name": "Alcohol",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": null,
+      "location": {
+        "name": "Payon, the Mountain Village",
+        "navi": "/navi payon 185/181"
+      },
+      "requiredLevel": null,
+      "referenceId": 22167,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "npc-5069",
+      "profession": "npc",
+      "output": {
+        "itemId": 5069,
+        "name": "Kitsune Mask",
+        "amount": 1
+      },
+      "skill": "Man with Fox Mask",
+      "materials": [
+        {
+          "itemId": 1022,
+          "name": "Nine Tails",
+          "amount": 999,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": null,
+      "location": {
+        "name": "Payon Archer Village",
+        "navi": "/navi pay_arche 63/109"
+      },
+      "requiredLevel": null,
+      "referenceId": 22064,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "npc-2278",
+      "profession": "npc",
+      "output": {
+        "itemId": 2278,
+        "name": "Mr. Smile",
+        "amount": 1
+      },
+      "skill": "Mr. Smile",
+      "materials": [
+        {
+          "itemId": 909,
+          "name": "Jellopy",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 914,
+          "name": "Fluff",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 705,
+          "name": "Clover",
+          "amount": 10,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": null,
+      "location": {
+        "name": "Prontera",
+        "navi": "/navi prontera 157/187"
+      },
+      "requiredLevel": null,
+      "referenceId": null,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "npc-2281",
+      "profession": "npc",
+      "output": {
+        "itemId": 2281,
+        "name": "Opera Masque",
+        "amount": 1
+      },
+      "skill": "Sing While Wearing an Opera Mask",
+      "materials": [
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 20,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 707,
+          "name": "Singing Plant",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": 5000,
+      "location": {
+        "name": "Prontera",
+        "navi": "/navi prontera 27/237"
+      },
+      "requiredLevel": null,
+      "referenceId": 22107,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "npc-5012",
+      "profession": "npc",
+      "output": {
+        "itemId": 5012,
+        "name": "Ph.D Hat",
+        "amount": 1
+      },
+      "skill": "Ph.D Hat",
+      "materials": [
+        {
+          "itemId": 909,
+          "name": "Jellopy",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 704,
+          "name": "Aloe",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 708,
+          "name": "Ment",
+          "amount": 10,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": null,
+      "location": {
+        "name": "Prontera",
+        "navi": "/navi prontera 40/240"
+      },
+      "requiredLevel": null,
+      "referenceId": null,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "npc-5077",
+      "profession": "npc",
+      "output": {
+        "itemId": 5077,
+        "name": "Tulip Hairpin",
+        "amount": 1
+      },
+      "skill": "Crafting Tulip Hairpin",
+      "materials": [
+        {
+          "itemId": 2278,
+          "name": "Mr. Smile",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 975,
+          "name": "Scarlet Dyestuffs",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": null,
+      "location": {
+        "name": "Al De Baran, the Border City",
+        "navi": "/navi aldebaran 240/164"
+      },
+      "requiredLevel": null,
+      "referenceId": 22176,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "npc-5082",
+      "profession": "npc",
+      "output": {
+        "itemId": 5082,
+        "name": "Decorative Mushroom",
+        "amount": 1
+      },
+      "skill": "Crafting Decorative Mushroom",
+      "materials": [
+        {
+          "itemId": 921,
+          "name": "Mushroom Spore",
+          "amount": 50,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "client",
+      "fee": null,
+      "location": {
+        "name": "Al De Baran, the Border City",
+        "navi": "/navi aldebaran 51/202"
+      },
+      "requiredLevel": null,
+      "referenceId": 22159,
+      "source": "https://ragnadex.com/en/crafting/"
+    },
+    {
+      "id": "rathena-0",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1101,
+        "name": "Sword",
+        "amount": 1
+      },
+      "skill": "Sword Forging",
+      "skillLevel": 1,
+      "itemLevel": 1,
+      "materials": [
+        {
+          "itemId": 998,
+          "name": "Iron",
+          "amount": 2,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-1",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1104,
+        "name": "Falchion",
+        "amount": 1
+      },
+      "skill": "Sword Forging",
+      "skillLevel": 1,
+      "itemLevel": 1,
+      "materials": [
+        {
+          "itemId": 998,
+          "name": "Iron",
+          "amount": 30,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-2",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1107,
+        "name": "Blade",
+        "amount": 1
+      },
+      "skill": "Sword Forging",
+      "skillLevel": 1,
+      "itemLevel": 1,
+      "materials": [
+        {
+          "itemId": 998,
+          "name": "Iron",
+          "amount": 45,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 913,
+          "name": "Tooth of Bat",
+          "amount": 25,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-3",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1110,
+        "name": "Rapier",
+        "amount": 1
+      },
+      "skill": "Sword Forging",
+      "skillLevel": 2,
+      "itemLevel": 2,
+      "materials": [
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 20,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-4",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1113,
+        "name": "Scimiter",
+        "amount": 1
+      },
+      "skill": "Sword Forging",
+      "skillLevel": 2,
+      "itemLevel": 2,
+      "materials": [
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 35,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-5",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1122,
+        "name": "Ring Pommel Saber",
+        "amount": 1
+      },
+      "skill": "Sword Forging",
+      "skillLevel": 2,
+      "itemLevel": 2,
+      "materials": [
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 40,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 920,
+          "name": "Wolf Claw",
+          "amount": 50,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-6",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1126,
+        "name": "Saber",
+        "amount": 1
+      },
+      "skill": "Sword Forging",
+      "skillLevel": 3,
+      "itemLevel": 3,
+      "materials": [
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 984,
+          "name": "Oridecon",
+          "amount": 8,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 727,
+          "name": "Opal",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-7",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1123,
+        "name": "Haedonggum",
+        "amount": 1
+      },
+      "skill": "Sword Forging",
+      "skillLevel": 3,
+      "itemLevel": 3,
+      "materials": [
+        {
+          "itemId": 984,
+          "name": "Oridecon",
+          "amount": 8,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 728,
+          "name": "Topaz",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-8",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1119,
+        "name": "Tsurugi",
+        "amount": 1
+      },
+      "skill": "Sword Forging",
+      "skillLevel": 3,
+      "itemLevel": 3,
+      "materials": [
+        {
+          "itemId": 984,
+          "name": "Oridecon",
+          "amount": 8,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 15,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 718,
+          "name": "Garnet",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-9",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1129,
+        "name": "Flamberge",
+        "amount": 1
+      },
+      "skill": "Sword Forging",
+      "skillLevel": 3,
+      "itemLevel": 3,
+      "materials": [
+        {
+          "itemId": 984,
+          "name": "Oridecon",
+          "amount": 16,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 724,
+          "name": "Cursed Ruby",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-10",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1201,
+        "name": "Knife",
+        "amount": 1
+      },
+      "skill": "Dagger Forging",
+      "skillLevel": 1,
+      "itemLevel": 1,
+      "materials": [
+        {
+          "itemId": 998,
+          "name": "Iron",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 909,
+          "name": "Jellopy",
+          "amount": 10,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-11",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1204,
+        "name": "Cutter",
+        "amount": 1
+      },
+      "skill": "Dagger Forging",
+      "skillLevel": 1,
+      "itemLevel": 1,
+      "materials": [
+        {
+          "itemId": 998,
+          "name": "Iron",
+          "amount": 25,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-12",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1207,
+        "name": "Main Gauche",
+        "amount": 1
+      },
+      "skill": "Dagger Forging",
+      "skillLevel": 1,
+      "itemLevel": 1,
+      "materials": [
+        {
+          "itemId": 998,
+          "name": "Iron",
+          "amount": 50,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-13",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1210,
+        "name": "Dirk",
+        "amount": 1
+      },
+      "skill": "Dagger Forging",
+      "skillLevel": 2,
+      "itemLevel": 2,
+      "materials": [
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 17,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-14",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1213,
+        "name": "Dagger",
+        "amount": 1
+      },
+      "skill": "Dagger Forging",
+      "skillLevel": 2,
+      "itemLevel": 2,
+      "materials": [
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 30,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-15",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1216,
+        "name": "Stiletto",
+        "amount": 1
+      },
+      "skill": "Dagger Forging",
+      "skillLevel": 2,
+      "itemLevel": 2,
+      "materials": [
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 40,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-16",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1219,
+        "name": "Gladius",
+        "amount": 1
+      },
+      "skill": "Dagger Forging",
+      "skillLevel": 3,
+      "itemLevel": 3,
+      "materials": [
+        {
+          "itemId": 984,
+          "name": "Oridecon",
+          "amount": 4,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 40,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 726,
+          "name": "Sapphire",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-17",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1222,
+        "name": "Damascus",
+        "amount": 1
+      },
+      "skill": "Dagger Forging",
+      "skillLevel": 3,
+      "itemLevel": 3,
+      "materials": [
+        {
+          "itemId": 984,
+          "name": "Oridecon",
+          "amount": 4,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 60,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 729,
+          "name": "Zircon",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-18",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1116,
+        "name": "Katana",
+        "amount": 1
+      },
+      "skill": "Two-Handed Sword Forging",
+      "skillLevel": 1,
+      "itemLevel": 1,
+      "materials": [
+        {
+          "itemId": 998,
+          "name": "Iron",
+          "amount": 35,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 958,
+          "name": "Horrendous Mouth",
+          "amount": 15,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-19",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1151,
+        "name": "Slayer",
+        "amount": 1
+      },
+      "skill": "Two-Handed Sword Forging",
+      "skillLevel": 2,
+      "itemLevel": 2,
+      "materials": [
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 25,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 957,
+          "name": "Decayed Nail",
+          "amount": 20,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-20",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1154,
+        "name": "Bastard Sword",
+        "amount": 1
+      },
+      "skill": "Two-Handed Sword Forging",
+      "skillLevel": 2,
+      "itemLevel": 2,
+      "materials": [
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 45,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-21",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1157,
+        "name": "Two-Handed Sword",
+        "amount": 1
+      },
+      "skill": "Two-Handed Sword Forging",
+      "skillLevel": 3,
+      "itemLevel": 3,
+      "materials": [
+        {
+          "itemId": 984,
+          "name": "Oridecon",
+          "amount": 12,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 10,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-22",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1160,
+        "name": "Broad Sword",
+        "amount": 1
+      },
+      "skill": "Two-Handed Sword Forging",
+      "skillLevel": 3,
+      "itemLevel": 3,
+      "materials": [
+        {
+          "itemId": 984,
+          "name": "Oridecon",
+          "amount": 12,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 20,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-23",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1163,
+        "name": "Claymore",
+        "amount": 1
+      },
+      "skill": "Two-Handed Sword Forging",
+      "skillLevel": 3,
+      "itemLevel": 3,
+      "materials": [
+        {
+          "itemId": 984,
+          "name": "Oridecon",
+          "amount": 16,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 20,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 733,
+          "name": "Cracked Diamond",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-24",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1301,
+        "name": "Axe",
+        "amount": 1
+      },
+      "skill": "Axe Forging",
+      "skillLevel": 1,
+      "itemLevel": 1,
+      "materials": [
+        {
+          "itemId": 998,
+          "name": "Iron",
+          "amount": 10,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-25",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1351,
+        "name": "Battle Axe",
+        "amount": 1
+      },
+      "skill": "Axe Forging",
+      "skillLevel": 1,
+      "itemLevel": 1,
+      "materials": [
+        {
+          "itemId": 998,
+          "name": "Iron",
+          "amount": 110,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-26",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1354,
+        "name": "Hammer",
+        "amount": 1
+      },
+      "skill": "Axe Forging",
+      "skillLevel": 2,
+      "itemLevel": 2,
+      "materials": [
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 30,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-27",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1357,
+        "name": "Buster",
+        "amount": 1
+      },
+      "skill": "Axe Forging",
+      "skillLevel": 3,
+      "itemLevel": 3,
+      "materials": [
+        {
+          "itemId": 984,
+          "name": "Oridecon",
+          "amount": 4,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 20,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 922,
+          "name": "Orc's Fang",
+          "amount": 30,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-28",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1360,
+        "name": "Two-Handed Axe",
+        "amount": 1
+      },
+      "skill": "Axe Forging",
+      "skillLevel": 3,
+      "itemLevel": 3,
+      "materials": [
+        {
+          "itemId": 984,
+          "name": "Oridecon",
+          "amount": 8,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 719,
+          "name": "Amethyst",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-29",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1501,
+        "name": "Club",
+        "amount": 1
+      },
+      "skill": "Mace Forging",
+      "skillLevel": 1,
+      "itemLevel": 1,
+      "materials": [
+        {
+          "itemId": 998,
+          "name": "Iron",
+          "amount": 3,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-30",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1504,
+        "name": "Mace",
+        "amount": 1
+      },
+      "skill": "Mace Forging",
+      "skillLevel": 1,
+      "itemLevel": 1,
+      "materials": [
+        {
+          "itemId": 998,
+          "name": "Iron",
+          "amount": 30,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-31",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1507,
+        "name": "Smasher",
+        "amount": 1
+      },
+      "skill": "Mace Forging",
+      "skillLevel": 2,
+      "itemLevel": 2,
+      "materials": [
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 20,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-32",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1510,
+        "name": "Flail",
+        "amount": 1
+      },
+      "skill": "Mace Forging",
+      "skillLevel": 2,
+      "itemLevel": 2,
+      "materials": [
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 33,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-33",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1519,
+        "name": "Chain",
+        "amount": 1
+      },
+      "skill": "Mace Forging",
+      "skillLevel": 2,
+      "itemLevel": 2,
+      "materials": [
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 45,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-34",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1513,
+        "name": "Morning Star",
+        "amount": 1
+      },
+      "skill": "Mace Forging",
+      "skillLevel": 3,
+      "itemLevel": 3,
+      "materials": [
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 85,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 730,
+          "name": "1 Carat Diamond",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-35",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1516,
+        "name": "Sword Mace",
+        "amount": 1
+      },
+      "skill": "Mace Forging",
+      "skillLevel": 3,
+      "itemLevel": 3,
+      "materials": [
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 100,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 963,
+          "name": "Sharp Scale",
+          "amount": 20,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-36",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1522,
+        "name": "Stunner",
+        "amount": 1
+      },
+      "skill": "Mace Forging",
+      "skillLevel": 3,
+      "itemLevel": 3,
+      "materials": [
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 120,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 968,
+          "name": "Heroic Emblem",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-37",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1801,
+        "name": "Waghnak",
+        "amount": 1
+      },
+      "skill": "Knuckle Forging",
+      "skillLevel": 1,
+      "itemLevel": 1,
+      "materials": [
+        {
+          "itemId": 998,
+          "name": "Iron",
+          "amount": 160,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 722,
+          "name": "Pearl",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-38",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1803,
+        "name": "Knuckle Dusters",
+        "amount": 1
+      },
+      "skill": "Knuckle Forging",
+      "skillLevel": 2,
+      "itemLevel": 2,
+      "materials": [
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 50,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-39",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1805,
+        "name": "Studded Knuckles",
+        "amount": 1
+      },
+      "skill": "Knuckle Forging",
+      "skillLevel": 2,
+      "itemLevel": 2,
+      "materials": [
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 65,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-40",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1807,
+        "name": "Fist",
+        "amount": 1
+      },
+      "skill": "Knuckle Forging",
+      "skillLevel": 3,
+      "itemLevel": 3,
+      "materials": [
+        {
+          "itemId": 984,
+          "name": "Oridecon",
+          "amount": 4,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 723,
+          "name": "Ruby",
+          "amount": 10,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-41",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1809,
+        "name": "Claw",
+        "amount": 1
+      },
+      "skill": "Knuckle Forging",
+      "skillLevel": 3,
+      "itemLevel": 3,
+      "materials": [
+        {
+          "itemId": 984,
+          "name": "Oridecon",
+          "amount": 8,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 728,
+          "name": "Topaz",
+          "amount": 10,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-42",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1811,
+        "name": "Finger",
+        "amount": 1
+      },
+      "skill": "Knuckle Forging",
+      "skillLevel": 3,
+      "itemLevel": 3,
+      "materials": [
+        {
+          "itemId": 984,
+          "name": "Oridecon",
+          "amount": 4,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 727,
+          "name": "Opal",
+          "amount": 10,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-43",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1401,
+        "name": "Javelin",
+        "amount": 1
+      },
+      "skill": "Spear Forging",
+      "skillLevel": 1,
+      "itemLevel": 1,
+      "materials": [
+        {
+          "itemId": 998,
+          "name": "Iron",
+          "amount": 3,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-44",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1404,
+        "name": "Spear",
+        "amount": 1
+      },
+      "skill": "Spear Forging",
+      "skillLevel": 1,
+      "itemLevel": 1,
+      "materials": [
+        {
+          "itemId": 998,
+          "name": "Iron",
+          "amount": 35,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-45",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1407,
+        "name": "Pike",
+        "amount": 1
+      },
+      "skill": "Spear Forging",
+      "skillLevel": 1,
+      "itemLevel": 1,
+      "materials": [
+        {
+          "itemId": 998,
+          "name": "Iron",
+          "amount": 70,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-46",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1451,
+        "name": "Guisarme",
+        "amount": 1
+      },
+      "skill": "Spear Forging",
+      "skillLevel": 2,
+      "itemLevel": 2,
+      "materials": [
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 25,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-47",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1454,
+        "name": "Glaive",
+        "amount": 1
+      },
+      "skill": "Spear Forging",
+      "skillLevel": 2,
+      "itemLevel": 2,
+      "materials": [
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 40,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-48",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1457,
+        "name": "Partizan",
+        "amount": 1
+      },
+      "skill": "Spear Forging",
+      "skillLevel": 2,
+      "itemLevel": 2,
+      "materials": [
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 55,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-49",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1460,
+        "name": "Trident",
+        "amount": 1
+      },
+      "skill": "Spear Forging",
+      "skillLevel": 3,
+      "itemLevel": 3,
+      "materials": [
+        {
+          "itemId": 984,
+          "name": "Oridecon",
+          "amount": 8,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 720,
+          "name": "Aquamarine",
+          "amount": 5,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-50",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1463,
+        "name": "Hallberd",
+        "amount": 1
+      },
+      "skill": "Spear Forging",
+      "skillLevel": 3,
+      "itemLevel": 3,
+      "materials": [
+        {
+          "itemId": 984,
+          "name": "Oridecon",
+          "amount": 12,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 999,
+          "name": "Steel",
+          "amount": 10,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-51",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1410,
+        "name": "Lance",
+        "amount": 1
+      },
+      "skill": "Spear Forging",
+      "skillLevel": 3,
+      "itemLevel": 3,
+      "materials": [
+        {
+          "itemId": 984,
+          "name": "Oridecon",
+          "amount": 12,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 723,
+          "name": "Ruby",
+          "amount": 3,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 923,
+          "name": "Evil Horn",
+          "amount": 2,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-112",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 998,
+        "name": "Iron",
+        "amount": 1
+      },
+      "skill": "Steel Tempering",
+      "skillLevel": 1,
+      "itemLevel": 21,
+      "materials": [
+        {
+          "itemId": 1002,
+          "name": "Iron Ore",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-113",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 999,
+        "name": "Steel",
+        "amount": 1
+      },
+      "skill": "Steel Tempering",
+      "skillLevel": 1,
+      "itemLevel": 21,
+      "materials": [
+        {
+          "itemId": 998,
+          "name": "Iron",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1003,
+          "name": "Coal",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-114",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 1000,
+        "name": "Star Crumb",
+        "amount": 1
+      },
+      "skill": "Enchanted Stone Craft",
+      "skillLevel": 1,
+      "itemLevel": 21,
+      "materials": [
+        {
+          "itemId": 1001,
+          "name": "Star Dust",
+          "amount": 10,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-115",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 994,
+        "name": "Flame Heart",
+        "amount": 1
+      },
+      "skill": "Enchanted Stone Craft",
+      "skillLevel": 1,
+      "itemLevel": 21,
+      "materials": [
+        {
+          "itemId": 990,
+          "name": "Red Blood",
+          "amount": 10,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-116",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 995,
+        "name": "Mystic Frozen",
+        "amount": 1
+      },
+      "skill": "Enchanted Stone Craft",
+      "skillLevel": 1,
+      "itemLevel": 21,
+      "materials": [
+        {
+          "itemId": 991,
+          "name": "Crystal Blue",
+          "amount": 10,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-117",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 996,
+        "name": "Rough Wind",
+        "amount": 1
+      },
+      "skill": "Enchanted Stone Craft",
+      "skillLevel": 1,
+      "itemLevel": 21,
+      "materials": [
+        {
+          "itemId": 992,
+          "name": "Wind of Verdure",
+          "amount": 10,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-118",
+      "profession": "blacksmith",
+      "output": {
+        "itemId": 997,
+        "name": "Great Nature",
+        "amount": 1
+      },
+      "skill": "Enchanted Stone Craft",
+      "skillLevel": 1,
+      "itemLevel": 21,
+      "materials": [
+        {
+          "itemId": 993,
+          "name": "Green Live",
+          "amount": 10,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-119",
+      "profession": "alchemist",
+      "output": {
+        "itemId": 501,
+        "name": "Red Potion",
+        "amount": 1
+      },
+      "skill": "Prepare Potion",
+      "skillLevel": 1,
+      "itemLevel": 22,
+      "materials": [
+        {
+          "itemId": 7144,
+          "name": "Potion Creation Guide",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 507,
+          "name": "Red Herb",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1093,
+          "name": "Empty Potion Bottle",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-120",
+      "profession": "alchemist",
+      "output": {
+        "itemId": 503,
+        "name": "Yellow Potion",
+        "amount": 1
+      },
+      "skill": "Prepare Potion",
+      "skillLevel": 1,
+      "itemLevel": 22,
+      "materials": [
+        {
+          "itemId": 7144,
+          "name": "Potion Creation Guide",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 508,
+          "name": "Yellow Herb",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1093,
+          "name": "Empty Potion Bottle",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-121",
+      "profession": "alchemist",
+      "output": {
+        "itemId": 504,
+        "name": "White Potion",
+        "amount": 1
+      },
+      "skill": "Prepare Potion",
+      "skillLevel": 1,
+      "itemLevel": 22,
+      "materials": [
+        {
+          "itemId": 7144,
+          "name": "Potion Creation Guide",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 509,
+          "name": "White Herb",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1093,
+          "name": "Empty Potion Bottle",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-122",
+      "profession": "alchemist",
+      "output": {
+        "itemId": 505,
+        "name": "Blue Potion",
+        "amount": 1
+      },
+      "skill": "Prepare Potion",
+      "skillLevel": 1,
+      "itemLevel": 22,
+      "materials": [
+        {
+          "itemId": 7144,
+          "name": "Potion Creation Guide",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 510,
+          "name": "Blue Herb",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 911,
+          "name": "Scell",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1093,
+          "name": "Empty Potion Bottle",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-123",
+      "profession": "alchemist",
+      "output": {
+        "itemId": 545,
+        "name": "Red Slim Potion",
+        "amount": 1
+      },
+      "skill": "Prepare Potion",
+      "skillLevel": 1,
+      "itemLevel": 22,
+      "materials": [
+        {
+          "itemId": 7133,
+          "name": "Slim Potion Creation Guide",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 501,
+          "name": "Red Potion",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1092,
+          "name": "Empty Test Tube",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 952,
+          "name": "Cactus Needle",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-124",
+      "profession": "alchemist",
+      "output": {
+        "itemId": 546,
+        "name": "Yellow Slim Potion",
+        "amount": 1
+      },
+      "skill": "Prepare Potion",
+      "skillLevel": 1,
+      "itemLevel": 22,
+      "materials": [
+        {
+          "itemId": 7133,
+          "name": "Slim Potion Creation Guide",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 503,
+          "name": "Yellow Potion",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1092,
+          "name": "Empty Test Tube",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1017,
+          "name": "Mole Whiskers",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-125",
+      "profession": "alchemist",
+      "output": {
+        "itemId": 547,
+        "name": "White Slim Potion",
+        "amount": 1
+      },
+      "skill": "Prepare Potion",
+      "skillLevel": 1,
+      "itemLevel": 22,
+      "materials": [
+        {
+          "itemId": 7133,
+          "name": "Slim Potion Creation Guide",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 504,
+          "name": "White Potion",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1092,
+          "name": "Empty Test Tube",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1061,
+          "name": "Witch Starsand",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-126",
+      "profession": "priest",
+      "output": {
+        "itemId": 523,
+        "name": "Holy Water",
+        "amount": 1
+      },
+      "skill": "Holy Water",
+      "skillLevel": 1,
+      "itemLevel": 22,
+      "materials": [
+        {
+          "itemId": 713,
+          "name": "Empty Bottle",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-127",
+      "profession": "assassin",
+      "output": {
+        "itemId": 678,
+        "name": "Poison Bottle",
+        "amount": 1
+      },
+      "skill": "Create Deadly Poison",
+      "skillLevel": 1,
+      "itemLevel": 22,
+      "materials": [
+        {
+          "itemId": 937,
+          "name": "Venom Canine",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 952,
+          "name": "Cactus Needle",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 939,
+          "name": "Bee Sting",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7033,
+          "name": "Poison Spore",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 972,
+          "name": "Karvodailnirol",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 657,
+          "name": "Berserk Potion",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 713,
+          "name": "Empty Bottle",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-128",
+      "profession": "alchemist",
+      "output": {
+        "itemId": 7135,
+        "name": "Bottle Grenade",
+        "amount": 1
+      },
+      "skill": "Prepare Potion",
+      "skillLevel": 1,
+      "itemLevel": 22,
+      "materials": [
+        {
+          "itemId": 7128,
+          "name": "Bottle Grenade Creation Guide",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 970,
+          "name": "Alcohol",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1059,
+          "name": "Fabric",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 713,
+          "name": "Empty Bottle",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-129",
+      "profession": "alchemist",
+      "output": {
+        "itemId": 7136,
+        "name": "Acid Bottle",
+        "amount": 1
+      },
+      "skill": "Prepare Potion",
+      "skillLevel": 1,
+      "itemLevel": 22,
+      "materials": [
+        {
+          "itemId": 7129,
+          "name": "Acid Bottle Creation Guide",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 713,
+          "name": "Empty Bottle",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 929,
+          "name": "Immortal Heart",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-130",
+      "profession": "alchemist",
+      "output": {
+        "itemId": 7137,
+        "name": "Plant Bottle",
+        "amount": 1
+      },
+      "skill": "Prepare Potion",
+      "skillLevel": 1,
+      "itemLevel": 22,
+      "materials": [
+        {
+          "itemId": 7130,
+          "name": "Plant Bottle Creation Guide",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 713,
+          "name": "Empty Bottle",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1032,
+          "name": "Maneater Blossom",
+          "amount": 2,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-131",
+      "profession": "alchemist",
+      "output": {
+        "itemId": 7138,
+        "name": "Marine Sphere Bottle",
+        "amount": 1
+      },
+      "skill": "Prepare Potion",
+      "skillLevel": 1,
+      "itemLevel": 22,
+      "materials": [
+        {
+          "itemId": 7131,
+          "name": "Marine Sphere Creation Guide",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 713,
+          "name": "Empty Bottle",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1050,
+          "name": "Tendon",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1051,
+          "name": "Detonator",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-132",
+      "profession": "alchemist",
+      "output": {
+        "itemId": 7139,
+        "name": "Glistening Coat",
+        "amount": 1
+      },
+      "skill": "Prepare Potion",
+      "skillLevel": 1,
+      "itemLevel": 22,
+      "materials": [
+        {
+          "itemId": 7132,
+          "name": "Glistening Coat Creation Guide",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 970,
+          "name": "Alcohol",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 950,
+          "name": "Mermaid's Heart",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1044,
+          "name": "Zenorc's Fang",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 713,
+          "name": "Empty Bottle",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-133",
+      "profession": "alchemist",
+      "output": {
+        "itemId": 12118,
+        "name": "Fireproof Potion",
+        "amount": 1
+      },
+      "skill": "Prepare Potion",
+      "skillLevel": 1,
+      "itemLevel": 22,
+      "materials": [
+        {
+          "itemId": 7434,
+          "name": "Elemental Potion Creation Guide",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 1012,
+          "name": "Frill",
+          "amount": 2,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 716,
+          "name": "Red Gemstone",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1093,
+          "name": "Empty Potion Bottle",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-134",
+      "profession": "alchemist",
+      "output": {
+        "itemId": 12119,
+        "name": "Coldproof Potion",
+        "amount": 1
+      },
+      "skill": "Prepare Potion",
+      "skillLevel": 1,
+      "itemLevel": 22,
+      "materials": [
+        {
+          "itemId": 7434,
+          "name": "Elemental Potion Creation Guide",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 950,
+          "name": "Mermaid's Heart",
+          "amount": 3,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 717,
+          "name": "Blue Gemstone",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1093,
+          "name": "Empty Potion Bottle",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-135",
+      "profession": "alchemist",
+      "output": {
+        "itemId": 12120,
+        "name": "Earthproof Potion",
+        "amount": 1
+      },
+      "skill": "Prepare Potion",
+      "skillLevel": 1,
+      "itemLevel": 22,
+      "materials": [
+        {
+          "itemId": 7434,
+          "name": "Elemental Potion Creation Guide",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 7126,
+          "name": "Large Jellopy",
+          "amount": 2,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 715,
+          "name": "Yellow Gemstone",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1093,
+          "name": "Empty Potion Bottle",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-136",
+      "profession": "alchemist",
+      "output": {
+        "itemId": 12121,
+        "name": "Thunderproof Potion",
+        "amount": 1
+      },
+      "skill": "Prepare Potion",
+      "skillLevel": 1,
+      "itemLevel": 22,
+      "materials": [
+        {
+          "itemId": 7434,
+          "name": "Elemental Potion Creation Guide",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 1057,
+          "name": "Moth Dust",
+          "amount": 3,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 717,
+          "name": "Blue Gemstone",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1093,
+          "name": "Empty Potion Bottle",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-137",
+      "profession": "alchemist",
+      "output": {
+        "itemId": 605,
+        "name": "Anodyne",
+        "amount": 1
+      },
+      "skill": "Prepare Potion",
+      "skillLevel": 1,
+      "itemLevel": 22,
+      "materials": [
+        {
+          "itemId": 7144,
+          "name": "Potion Creation Guide",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 708,
+          "name": "Ment",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 970,
+          "name": "Alcohol",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 713,
+          "name": "Empty Bottle",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-138",
+      "profession": "alchemist",
+      "output": {
+        "itemId": 606,
+        "name": "Aloevera",
+        "amount": 1
+      },
+      "skill": "Prepare Potion",
+      "skillLevel": 1,
+      "itemLevel": 22,
+      "materials": [
+        {
+          "itemId": 7144,
+          "name": "Potion Creation Guide",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 704,
+          "name": "Aloe",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 518,
+          "name": "Honey",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 713,
+          "name": "Empty Bottle",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-139",
+      "profession": "alchemist",
+      "output": {
+        "itemId": 970,
+        "name": "Alcohol",
+        "amount": 1
+      },
+      "skill": "Prepare Potion",
+      "skillLevel": 1,
+      "itemLevel": 22,
+      "materials": [
+        {
+          "itemId": 7127,
+          "name": "Alcohol Creation Guide",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 713,
+          "name": "Empty Bottle",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7033,
+          "name": "Poison Spore",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 905,
+          "name": "Stem",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1092,
+          "name": "Empty Test Tube",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-140",
+      "profession": "alchemist",
+      "output": {
+        "itemId": 7142,
+        "name": "Embryo",
+        "amount": 1
+      },
+      "skill": "Prepare Potion",
+      "skillLevel": 1,
+      "itemLevel": 22,
+      "materials": [
+        {
+          "itemId": 7144,
+          "name": "Potion Creation Guide",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 7140,
+          "name": "Seed of Life",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7141,
+          "name": "Yggdrasil Morning Dew",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7143,
+          "name": "Glass Tube",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-141",
+      "profession": "alchemist",
+      "output": {
+        "itemId": 100371,
+        "name": "Homunculus Nutrient",
+        "amount": 1
+      },
+      "skill": "Prepare Potion",
+      "skillLevel": 1,
+      "itemLevel": 22,
+      "materials": [
+        {
+          "itemId": 7144,
+          "name": "Potion Creation Guide",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 7140,
+          "name": "Seed of Life",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 508,
+          "name": "Yellow Herb",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 713,
+          "name": "Empty Bottle",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-142",
+      "profession": "sage",
+      "output": {
+        "itemId": 12114,
+        "name": "Elemental Converter (Fire)",
+        "amount": 1
+      },
+      "skill": "Create Elemental Converter",
+      "skillLevel": 1,
+      "itemLevel": 23,
+      "materials": [
+        {
+          "itemId": 7433,
+          "name": "Empty Scroll",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 990,
+          "name": "Red Blood",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-143",
+      "profession": "sage",
+      "output": {
+        "itemId": 12115,
+        "name": "Elemental Converter (Water)",
+        "amount": 1
+      },
+      "skill": "Create Elemental Converter",
+      "skillLevel": 1,
+      "itemLevel": 23,
+      "materials": [
+        {
+          "itemId": 7433,
+          "name": "Empty Scroll",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 991,
+          "name": "Crystal Blue",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-144",
+      "profession": "sage",
+      "output": {
+        "itemId": 12116,
+        "name": "Elemental Converter (Earth)",
+        "amount": 1
+      },
+      "skill": "Create Elemental Converter",
+      "skillLevel": 1,
+      "itemLevel": 23,
+      "materials": [
+        {
+          "itemId": 7433,
+          "name": "Empty Scroll",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 993,
+          "name": "Green Live",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-145",
+      "profession": "sage",
+      "output": {
+        "itemId": 12117,
+        "name": "Elemental Converter (Wind)",
+        "amount": 1
+      },
+      "skill": "Create Elemental Converter",
+      "skillLevel": 1,
+      "itemLevel": 23,
+      "materials": [
+        {
+          "itemId": 7433,
+          "name": "Empty Scroll",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 992,
+          "name": "Wind of Verdure",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    }
+  ]
+}

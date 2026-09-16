@@ -1,0 +1,8 @@
+{
+  "key": "card-garment",
+  "label": "Card · Garment",
+  "subject": "an ornate upright collectible parchment card with a clearly painted cloak emblem in its center. The card itself is the object, not actual equipment",
+  "group": "card",
+  "prompt": "Use case: stylized-concept. Asset: original fantasy inventory category icon for Card · Garment. Subject: an ornate upright collectible parchment card with a clearly painted cloak emblem in its center. The card itself is the object, not actual equipment. Cohesive hand-painted RPG field guide style, warm soft shading, brass details and restrained jewel tones. Object only, no character or hands. Full object centered, square canvas, ample margins, strong clean silhouette readable at 128px. Plain solid white background, absolutely no checkerboard. No text, letters, numbers, watermark, frame, logo or copied game artwork. This is a generic category symbol, not a specific named game item.",
+  "source": "generated-images/exec-6dd6e4c0-6ba3-4a5d-bc8f-35b3e3095141.png"
+}

@@ -1,0 +1,308 @@
+[
+  {
+    "key": "all",
+    "label": "All",
+    "subject": "an open adventurer satchel containing a tiny potion and scroll",
+    "group": "category"
+  },
+  {
+    "key": "armor",
+    "label": "Armor",
+    "subject": "a steel breastplate with small shoulder pauldrons",
+    "group": "category"
+  },
+  {
+    "key": "weapon",
+    "label": "Weapon",
+    "subject": "a sword crossed with a small axe",
+    "group": "category"
+  },
+  {
+    "key": "card",
+    "label": "Card",
+    "subject": "an ornate collectible parchment card bearing a star emblem",
+    "group": "category"
+  },
+  {
+    "key": "costume",
+    "label": "Costume",
+    "subject": "a theatrical masquerade mask with a decorative feather",
+    "group": "category"
+  },
+  {
+    "key": "consumable",
+    "label": "Consumable",
+    "subject": "a round ruby-red healing potion bottle with cork",
+    "group": "category"
+  },
+  {
+    "key": "material",
+    "label": "Material",
+    "subject": "a chunk of ore beside a spool of thread",
+    "group": "category"
+  },
+  {
+    "key": "other",
+    "label": "Other",
+    "subject": "a tied leather pouch with assorted trinkets",
+    "group": "category"
+  },
+  {
+    "key": "enchant-stone",
+    "label": "Enchant Stone",
+    "subject": "a glowing violet faceted enchantment crystal",
+    "group": "category"
+  },
+  {
+    "key": "package-box",
+    "label": "Package/Box",
+    "subject": "a closed wooden treasure box with golden clasp",
+    "group": "category"
+  },
+  {
+    "key": "collectible",
+    "label": "Collectible",
+    "subject": "a polished gold commemorative medallion",
+    "group": "category"
+  },
+  {
+    "key": "pet-egg",
+    "label": "Pet Egg",
+    "subject": "a speckled egg nestled on a small straw cushion",
+    "group": "category"
+  },
+  {
+    "key": "pet-equipment",
+    "label": "Pet Equipment",
+    "subject": "a small blue animal collar with golden bell",
+    "group": "category"
+  },
+  {
+    "key": "taming-item",
+    "label": "Taming Item",
+    "subject": "an animal treat offered on a small feeding dish",
+    "group": "category"
+  },
+  {
+    "key": "equipment",
+    "label": "Equipment",
+    "subject": "a travel belt with buckle and armored glove",
+    "group": "category"
+  },
+  {
+    "key": "unknown",
+    "label": "Unknown",
+    "subject": "a sealed mysterious cloth bundle with a plain wax seal",
+    "group": "category"
+  },
+  {
+    "key": "sub-body-armor",
+    "label": "Armor",
+    "subject": "a fitted steel torso cuirass without shoulder armor",
+    "group": "subtype"
+  },
+  {
+    "key": "sub-shield",
+    "label": "Shield",
+    "subject": "a blue kite shield with brass rim",
+    "group": "subtype"
+  },
+  {
+    "key": "sub-shoes",
+    "label": "Shoes",
+    "subject": "a pair of brown leather adventurer boots",
+    "group": "subtype"
+  },
+  {
+    "key": "sub-garment",
+    "label": "Garment",
+    "subject": "a flowing teal hooded cloak",
+    "group": "subtype"
+  },
+  {
+    "key": "sub-accessory",
+    "label": "Accessory",
+    "subject": "a golden ring set with an emerald",
+    "group": "subtype"
+  },
+  {
+    "key": "sub-upper-headgear",
+    "label": "Upper Headgear",
+    "subject": "a small steel helmet with nose guard",
+    "group": "subtype"
+  },
+  {
+    "key": "sub-middle-headgear",
+    "label": "Middle Headgear",
+    "subject": "a pair of round brass goggles",
+    "group": "subtype"
+  },
+  {
+    "key": "sub-lower-headgear",
+    "label": "Lower Headgear",
+    "subject": "a red scarf covering the neck and lower face, no person",
+    "group": "subtype"
+  },
+  {
+    "key": "sub-book",
+    "label": "Book",
+    "subject": "a closed leather spellbook with gold clasps",
+    "group": "subtype"
+  },
+  {
+    "key": "sub-bow",
+    "label": "Bow",
+    "subject": "a curved wooden bow with taut string",
+    "group": "subtype"
+  },
+  {
+    "key": "sub-dagger",
+    "label": "Dagger",
+    "subject": "a short steel dagger with compact leather grip",
+    "group": "subtype"
+  },
+  {
+    "key": "sub-instrument",
+    "label": "Instrument",
+    "subject": "a wooden lute with visible strings",
+    "group": "subtype"
+  },
+  {
+    "key": "sub-katar",
+    "label": "Katar",
+    "subject": "a push dagger with triangular blade and parallel side grips",
+    "group": "subtype"
+  },
+  {
+    "key": "sub-knuckle",
+    "label": "Knuckle",
+    "subject": "a bronze four-hole knuckle weapon",
+    "group": "subtype"
+  },
+  {
+    "key": "sub-mace",
+    "label": "Mace",
+    "subject": "a steel flanged mace with short handle",
+    "group": "subtype"
+  },
+  {
+    "key": "sub-one-handed-axe",
+    "label": "One-handed Axe",
+    "subject": "a compact single-bladed hand axe with short grip",
+    "group": "subtype"
+  },
+  {
+    "key": "sub-one-handed-spear",
+    "label": "One-handed Spear",
+    "subject": "a short light spear with narrow leaf blade",
+    "group": "subtype"
+  },
+  {
+    "key": "sub-one-handed-staff",
+    "label": "One-handed Staff",
+    "subject": "a short wooden magic wand with small blue gem",
+    "group": "subtype"
+  },
+  {
+    "key": "sub-one-handed-sword",
+    "label": "One-handed Sword",
+    "subject": "a compact arming sword with one-hand grip and simple crossguard",
+    "group": "subtype"
+  },
+  {
+    "key": "sub-two-handed-axe",
+    "label": "Two-handed Axe",
+    "subject": "a massive double-bladed battle axe with long two-hand haft",
+    "group": "subtype"
+  },
+  {
+    "key": "sub-two-handed-spear",
+    "label": "Two-handed Spear",
+    "subject": "a long heavy polearm spear with long shaft",
+    "group": "subtype"
+  },
+  {
+    "key": "sub-two-handed-staff",
+    "label": "Two-handed Staff",
+    "subject": "a tall mage staff with long grip and ornate crystal crown",
+    "group": "subtype"
+  },
+  {
+    "key": "sub-two-handed-sword",
+    "label": "Two-handed Sword",
+    "subject": "a long greatsword with extended two-hand grip and broad blade",
+    "group": "subtype"
+  },
+  {
+    "key": "sub-whip",
+    "label": "Whip",
+    "subject": "a coiled brown leather whip with handle",
+    "group": "subtype"
+  },
+  {
+    "key": "card-weapon",
+    "label": "Card · Weapon",
+    "subject": "an ornate upright collectible parchment card with a clearly painted sword emblem in its center. The card itself is the object, not actual equipment",
+    "group": "card"
+  },
+  {
+    "key": "card-armor",
+    "label": "Card · Armor",
+    "subject": "an ornate upright collectible parchment card with a clearly painted breastplate emblem in its center. The card itself is the object, not actual equipment",
+    "group": "card"
+  },
+  {
+    "key": "card-shield",
+    "label": "Card · Shield",
+    "subject": "an ornate upright collectible parchment card with a clearly painted shield emblem in its center. The card itself is the object, not actual equipment",
+    "group": "card"
+  },
+  {
+    "key": "card-shoes",
+    "label": "Card · Shoes",
+    "subject": "an ornate upright collectible parchment card with a clearly painted pair of boots emblem in its center. The card itself is the object, not actual equipment",
+    "group": "card"
+  },
+  {
+    "key": "card-garment",
+    "label": "Card · Garment",
+    "subject": "an ornate upright collectible parchment card with a clearly painted cloak emblem in its center. The card itself is the object, not actual equipment",
+    "group": "card"
+  },
+  {
+    "key": "card-accessory",
+    "label": "Card · Accessory",
+    "subject": "an ornate upright collectible parchment card with a clearly painted ring emblem in its center. The card itself is the object, not actual equipment",
+    "group": "card"
+  },
+  {
+    "key": "card-upper-headgear",
+    "label": "Card · Upper Headgear",
+    "subject": "an ornate upright collectible parchment card with a clearly painted helmet emblem in its center. The card itself is the object, not actual equipment",
+    "group": "card"
+  },
+  {
+    "key": "sub-arrow",
+    "label": "Arrow",
+    "subject": "a crossed pair of hunting arrows with teal fletching",
+    "group": "subtype"
+  },
+  {
+    "key": "sub-shuriken",
+    "label": "Shuriken",
+    "subject": "a compact four-point steel throwing star",
+    "group": "subtype"
+  },
+  {
+    "key": "sub-kunai",
+    "label": "Kunai",
+    "subject": "a blackened-steel kunai with ring pommel",
+    "group": "subtype"
+  },
+  {
+    "key": "sub-huuma",
+    "label": "Huuma Shuriken",
+    "subject": "a large four-bladed windmill shuriken weapon",
+    "group": "subtype"
+  }
+]

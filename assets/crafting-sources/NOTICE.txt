@@ -1,0 +1,14 @@
+Crafting reference sources
+
+RagnaDex Headgear Crafting (https://ragnadex.com/en/crafting/)
+- 31 NPC headgear recipes. RagnaDex states that 30/31 locations were checked against the Zero Global client navigation data.
+- RagnaDex open API/data reuse condition: name RagnaDex and preserve source context.
+
+rAthena produce_db.txt
+- Upstream revision e985006171d2eb320ee512a653f4c83aea3d81b6.
+- GPL-3.0-or-later; full source file and license are included here.
+- Only recipe indices 0-145 are imported: classic forging, metals, alchemy, Holy Water, Deadly Poison and elemental converters.
+- These are reference recipes and are NOT automatically confirmed for Ragnarok Zero Global.
+
+Generated file: renderer/src/data/crafting-recipes.json
+Rebuild: node scripts/import-crafting-data.cjs

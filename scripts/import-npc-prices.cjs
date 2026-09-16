@@ -1,0 +1,3 @@
+const fs=require('fs');const yaml=require('js-yaml');const revision='e985006171d2eb320ee512a653f4c83aea3d81b6';const prices={};
+for(const file of ['item_db_etc.yml','item_db_usable.yml','item_db_equip.yml']){for(const row of yaml.load(fs.readFileSync(`assets/economy-sources/${file}`,'utf8'), {json:true}).Body){if(row.Trade?.NoSell)continue;if(row.Sell==null && row.Buy==null)continue;const sell=row.Sell??Math.floor(row.Buy/2);if(Number.isFinite(sell)&&sell>=0)prices[row.Id]={aegis:row.AegisName,sell};}}
+fs.writeFileSync('assets/economy-sources/prices.json',JSON.stringify({revision,prices}));console.log(Object.keys(prices).length+' reference prices');

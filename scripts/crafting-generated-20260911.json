@@ -1,0 +1,257 @@
+{
+  "commonPrompt": "Use case: stylized-concept. Create ONE original Odin’s Glasses fantasy inventory illustration, square. Use image 1 only to identify the game item's recognizable object, main colors and silhouette; image 2 is our existing illustration STYLE reference. Redesign details and rendering into our own polished hand-painted fantasy style with soft cel shading, warm brown contours, gentle highlights. Center the complete single item, large readable silhouette at 128px, with generous 10% margin. Uniform warm ivory background #fffaf1 and a small soft contact shadow. No person, text, letters, logo, watermark, frame, collage, pixel art, or copied sprite pixels. Subject: ",
+  "items": [
+    {
+      "itemId": 5041,
+      "name": "Heart Hairpin",
+      "subject": "rose-red heart ornament on a small bronze hair clip",
+      "source": "generated-images/exec-cfe0051c-7ff3-49c3-b429-aed181202717.png",
+      "reference": "https://www.divine-pride.net/database/item/5041",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5047,
+      "name": "Fashionable Glasses",
+      "subject": "fashionable oval rose-tinted sunglasses with warm bronze frames and curved brown temples",
+      "source": "generated-images/exec-120a1070-7e27-419c-8b4f-08a142ab4d90.png",
+      "reference": "https://www.divine-pride.net/database/item/5047",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5061,
+      "name": "Flower Hairpin",
+      "subject": "coral-pink five-petal flower ornament with a golden center on a short comb hairpin",
+      "source": "generated-images/exec-956df7dd-0719-4ddd-b85f-de41da74d6eb.png",
+      "reference": "https://www.divine-pride.net/database/item/5061",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5065,
+      "name": "Blue Fish",
+      "subject": "curved blue fish headpiece, sapphire scales, a friendly round eye, raised dorsal fin and curled tail",
+      "source": "generated-images/exec-27b111d6-e45f-4cc8-af69-66ae48a55282.png",
+      "reference": "https://www.divine-pride.net/database/item/5065",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5067,
+      "name": "Sombrero",
+      "subject": "wide woven straw sombrero with a tall domed crown and red triangular patterned hat band",
+      "source": "generated-images/exec-c77d6ba0-d1ce-490a-827e-44f4ce206882.png",
+      "reference": "https://www.divine-pride.net/database/item/5067",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5444,
+      "name": "Hair Brush",
+      "subject": "coral-red handled comb with a neat row of long teeth, shown diagonally",
+      "source": "generated-images/exec-db8f0344-1676-43fc-8ac3-d8d917d3f466.png",
+      "reference": "https://www.divine-pride.net/database/item/5444",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 2283,
+      "name": "Ear Muffs",
+      "subject": "pair of cream wool earmuffs on an arched tan headband with russet leather shells",
+      "source": "generated-images/exec-503690c1-96db-4cc1-be52-215a844ac2c4.png",
+      "reference": "https://www.divine-pride.net/database/item/2283",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5018,
+      "name": "Feather Bonnet",
+      "subject": "small rounded tan felt bonnet with curled brim, brown band, and a single long pale feather tucked into its side",
+      "source": "generated-images/exec-4408826b-a6b4-4a94-9357-f14e2bde988f.png",
+      "reference": "https://www.divine-pride.net/database/item/5018",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5064,
+      "name": "Smokie Leaf",
+      "subject": "one fresh green pointed leaf with a short curved stem and visible diagonal veins, wearable leaf accessory",
+      "source": "generated-images/exec-b3bbebf9-8f16-4e33-acb2-b623ec622fde.png",
+      "reference": "https://www.divine-pride.net/database/item/5064",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5076,
+      "name": "Beanie",
+      "subject": "soft cream and very pale blush pink knitted beanie with a folded ribbed cuff and fluffy pompom",
+      "source": "generated-images/exec-1bf2447b-dce9-4961-afe4-bebbe5587b00.png",
+      "reference": "https://www.divine-pride.net/database/item/5076",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 2273,
+      "name": "Doctor Band",
+      "subject": "brown leather medical headband with a round ivory-silver reflector disc on the front, small dark center hole",
+      "source": "generated-images/exec-1144c294-c497-455e-b094-7e147acb5900.png",
+      "reference": "https://www.divine-pride.net/database/item/2273",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5034,
+      "name": "Bulb Band",
+      "subject": "curved thin brown hairband topped by one small glowing golden glass light bulb and brass socket",
+      "source": "generated-images/exec-93eb528d-df06-490b-81d9-112982cafb44.png",
+      "reference": "https://www.divine-pride.net/database/item/5034",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5036,
+      "name": "Cross Hat",
+      "subject": "thin curved brown headband with a vertical warm brass cross ornament rising from its center",
+      "source": "generated-images/exec-ff5c843f-25e0-4805-b3d9-71d34319fe48.png",
+      "reference": "https://www.divine-pride.net/database/item/5036",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5049,
+      "name": "Striped Hairband",
+      "subject": "short round cylindrical fabric hairband or crown ring with vertical red and ivory stripes, open top",
+      "source": "generated-images/exec-fb0c7da7-e803-4cf1-9415-8fd51dfffe8f.png",
+      "reference": "https://www.divine-pride.net/database/item/5049",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5052,
+      "name": "Blue Hairband",
+      "subject": "simple slate-blue satin ring headband, smooth broad fabric, small stitched seam",
+      "source": "generated-images/exec-c03c50f7-880e-43e0-b8bf-826056b15134.png",
+      "reference": "https://www.divine-pride.net/database/item/5052",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 2272,
+      "name": "Stop Post",
+      "subject": "tiny wearable rustic wooden roadside sign on a short dark post, plank board with two wood support rails, no lettering or text; simple raised stop-hand emblem instead",
+      "source": "generated-images/exec-a5b179af-715d-41fa-809d-636f9865cccd.png",
+      "reference": "https://www.divine-pride.net/database/item/2272",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 2284,
+      "name": "Antlers",
+      "subject": "pair of branching tawny deer antlers connected at their bases as a wearable crown, ivory tips",
+      "source": "generated-images/exec-a505a4af-5a4f-4fd5-a5e9-79f8f59ba545.png",
+      "reference": "https://www.divine-pride.net/database/item/2284",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5033,
+      "name": "Raccoon Hat",
+      "subject": "soft tan raccoon-face costume cap, pointed ears and dark brown eye mask markings, cute rounded muzzle",
+      "source": "generated-images/exec-12a6b7e9-f420-4b27-8459-c8264a29edbf.png",
+      "reference": "https://www.divine-pride.net/database/item/5033",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 2280,
+      "name": "Sakkat",
+      "subject": "traditional broad conical woven straw hat, tan reeds radiating from a pointed crown, simple thin bound brim",
+      "source": "generated-images/exec-9257fa2a-25a1-45eb-bb47-88fb3c01290e.png",
+      "reference": "https://www.divine-pride.net/database/item/2280",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5039,
+      "name": "Rainbow Eggshell",
+      "subject": "broken ivory eggshell half worn as a hat, scattered lavender, muted blue and pale gold spots, irregular cracked rim",
+      "source": "generated-images/exec-d7f7a990-6996-4bc4-9500-7af196620773.png",
+      "reference": "https://www.divine-pride.net/database/item/5039",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5070,
+      "name": "Hot-blooded Headband",
+      "subject": "cream-white cloth headband tied at the back with two upright loose tails, warm soft fabric",
+      "source": "generated-images/exec-13f6b68f-1da5-4e6a-acb7-d50721cee8e8.png",
+      "reference": "https://www.divine-pride.net/database/item/5070",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5004,
+      "name": "Oxygen Mask",
+      "subject": "small pale silver-beige breathing mask with a soft rounded triangular cup, front intake fitting and brown elastic straps, no person",
+      "source": "generated-images/exec-f9784f29-1412-492a-9515-b069e9f58f94.png",
+      "reference": "https://www.divine-pride.net/database/item/5004",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5063,
+      "name": "Giant Band Aid",
+      "subject": "two oversized pale beige medical adhesive plasters overlapping as a plus shape, padded central gauze and subtle perforations",
+      "source": "generated-images/exec-71f80e63-974e-4781-bc57-24c3d90aa460.png",
+      "reference": "https://www.divine-pride.net/database/item/5063",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5069,
+      "name": "Kitsune Mask",
+      "subject": "cream fox festival mask with pointed ears, vermilion cheek and eye accents, gentle closed-eye smile and two red hanging ribbons",
+      "source": "generated-images/exec-d8976191-c79f-43cd-8c0a-f0945b9a2557.png",
+      "reference": "https://www.divine-pride.net/database/item/5069",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 2281,
+      "name": "Opera Masque",
+      "subject": "ivory asymmetric half-face opera mask covering the eyes and nose and extending down one cheek, bronze edging around eye holes",
+      "source": "generated-images/exec-0c11d799-3cfb-4492-a900-ccbcb443b3ad.png",
+      "reference": "https://www.divine-pride.net/database/item/2281",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5012,
+      "name": "Ph.D Hat",
+      "subject": "dark brown academic mortarboard cap with square flat top and golden tassel, three-quarter view",
+      "source": "generated-images/exec-fbeb78bb-cfda-4382-9ecd-cabbb5a9196f.png",
+      "reference": "https://www.divine-pride.net/database/item/5012",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5077,
+      "name": "Tulip Hairpin",
+      "subject": "coral red-orange tulip bud hair ornament with layered pointed petals and a small bronze pin visible behind",
+      "source": "generated-images/exec-c2388c2c-b2c6-47ca-8d96-4c1e86f5d71f.png",
+      "reference": "https://www.divine-pride.net/database/item/5077",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5082,
+      "name": "Decorative Mushroom",
+      "subject": "whimsical red mushroom head ornament with large cream spots, pale ruffled gills and warm ivory stem with a small root-like base",
+      "source": "generated-images/exec-02823a81-f433-455e-af02-d80633a9307d.png",
+      "reference": "https://www.divine-pride.net/database/item/5082",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    }
+  ]
+}

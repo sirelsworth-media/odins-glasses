@@ -1,0 +1,8 @@
+{
+  "key": "card",
+  "label": "Card",
+  "subject": "an ornate collectible parchment card bearing a star emblem",
+  "group": "category",
+  "prompt": "Use case: stylized-concept. Asset: original fantasy inventory category icon for Card. Subject: an ornate collectible parchment card bearing a star emblem. Cohesive hand-painted RPG field guide style, warm soft shading, brass details and restrained jewel tones. Object only, no character or hands. Full object centered, square canvas, ample margins, strong clean silhouette readable at 128px. Plain solid white background, absolutely no checkerboard. No text, letters, numbers, watermark, frame, logo or copied game artwork. This is a generic category symbol, not a specific named game item.",
+  "source": "generated-images/exec-5062fc63-3c36-4f27-bff8-af89733e07b1.png"
+}

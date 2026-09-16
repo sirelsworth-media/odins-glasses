@@ -1,0 +1,34 @@
+{
+  "measuredAt": "2026-09-16T16:47:05.198Z",
+  "platform": "win32 x64",
+  "electron": "44.2.0",
+  "catalogSize": 489,
+  "runs": {
+    "coldStart": 1,
+    "warmReload": 5,
+    "sizeFilter": 30,
+    "persistentCacheRead": 30
+  },
+  "milliseconds": {
+    "coldStart": 15707.9,
+    "warmReloadMedian": 1122.6,
+    "warmReloadP95": 1212.8,
+    "sizeFilterMedian": 8.5,
+    "sizeFilterP95": 10.8,
+    "sizeFilterMax": 12.6,
+    "persistentCacheReadMedian": 2.2,
+    "persistentCacheReadP95": 4.9
+  },
+  "memoryMiB": {
+    "mainWorkingSet": 166.6,
+    "rendererWorkingSet": 279.2,
+    "combinedWorkingSet": 445.8
+  },
+  "targets": {
+    "coldStartMs": 20000,
+    "warmReloadP95Ms": 1500,
+    "localFilterP95Ms": 300,
+    "persistentCacheReadP95Ms": 100
+  },
+  "passed": true
+}

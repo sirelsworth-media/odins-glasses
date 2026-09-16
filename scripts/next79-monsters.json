@@ -1,0 +1,713 @@
+[
+  {
+    "id": 1322,
+    "name": "Spring Rabbit",
+    "level": 88,
+    "race": "Brute",
+    "element": "Earth",
+    "aegis": "SPRING_RABBIT",
+    "description": "Spring Rabbit"
+  },
+  {
+    "id": 1960,
+    "name": "Thorn of Magic",
+    "level": 89,
+    "race": "Demon",
+    "element": "Dark",
+    "aegis": "G_ENTWEIHEN_M",
+    "description": "Spring Rabbit"
+  },
+  {
+    "id": 1247,
+    "name": "Antonio",
+    "level": 90,
+    "race": "Demihuman",
+    "element": "Holy",
+    "aegis": "ANTONIO",
+    "description": "Spring Rabbit"
+  },
+  {
+    "id": 1288,
+    "name": "Emperium",
+    "level": 90,
+    "race": "Angel",
+    "element": "Holy",
+    "aegis": "EMPELIUM",
+    "description": "Spring Rabbit"
+  },
+  {
+    "id": 1314,
+    "name": "Permeter",
+    "level": 90,
+    "race": "Brute",
+    "element": "Neutral",
+    "aegis": "PERMETER",
+    "description": "Spring Rabbit"
+  },
+  {
+    "id": 1409,
+    "name": "Dumpling Child",
+    "level": 90,
+    "race": "Demihuman",
+    "element": "Neutral",
+    "aegis": "RICE_CAKE_BOY",
+    "description": "A small cheerful dumpling spirit, rounded white rice-cake body, red little cap, green leaf accents, tiny arms and feet"
+  },
+  {
+    "id": 1316,
+    "name": "Solider",
+    "level": 92,
+    "race": "Brute",
+    "element": "Earth",
+    "aegis": "SOLIDER",
+    "description": "A squat sturdy earth turtle with brown angular shell and heavy stone-like forelimbs"
+  },
+  {
+    "id": 1319,
+    "name": "Freezer",
+    "level": 94,
+    "race": "Brute",
+    "element": "Water",
+    "aegis": "FREEZER",
+    "description": "An upright pale blue frost turtle, icy turquoise shell plates and flipper arms"
+  },
+  {
+    "id": 1373,
+    "name": "Lord of the Dead",
+    "level": 94,
+    "race": "Demon",
+    "element": "Dark",
+    "aegis": "LORD_OF_DEATH",
+    "description": "An imposing undead dark knight on a black skeletal horse, heavy charcoal armor and long polearm, no gore"
+  },
+  {
+    "id": 1586,
+    "name": "Leaf Cat",
+    "level": 96,
+    "race": "Brute",
+    "element": "Earth",
+    "aegis": "LEAF_CAT",
+    "description": "A tiny tawny leaf cat, large rounded ears and curling tail, green leaf balanced on its head"
+  },
+  {
+    "id": 1318,
+    "name": "Heater",
+    "level": 98,
+    "race": "Brute",
+    "element": "Fire",
+    "aegis": "HEATER",
+    "description": "A red-orange fire turtle with a dark segmented shell, thick legs and warm glowing cracks"
+  },
+  {
+    "id": 1324,
+    "name": "Treasure Chest",
+    "level": 99,
+    "race": "Formless",
+    "element": "Neutral",
+    "aegis": "TREASURE_BOX1",
+    "description": "An old oak treasure chest with iron bands, partly open with a few gold coins"
+  },
+  {
+    "id": 1325,
+    "name": "Treasure Chest",
+    "level": 99,
+    "race": "Formless",
+    "element": "Neutral",
+    "aegis": "TREASURE_BOX2",
+    "description": "A rounded crimson wooden treasure chest with brass bands and heavy lock"
+  },
+  {
+    "id": 1363,
+    "name": "Treasure Chest",
+    "level": 99,
+    "race": "Formless",
+    "element": "Neutral",
+    "aegis": "TREASURE_BOX40",
+    "description": "A weathered blue steel treasure coffer, riveted edges and silver clasp"
+  },
+  {
+    "id": 2288,
+    "name": "Treasure Chest",
+    "level": 99,
+    "race": "Formless",
+    "element": "Holy",
+    "aegis": "GLD_TREASURE",
+    "description": "A gilded ivory treasure chest with holy golden light escaping the lid"
+  },
+  {
+    "id": 1315,
+    "name": "Assaulter",
+    "level": 100,
+    "race": "Demihuman",
+    "element": "Wind",
+    "aegis": "ASSULTER",
+    "description": "A nimble green humanoid ninja turtle, dark shell, simple fabric wraps and short paired blades"
+  },
+  {
+    "id": 1400,
+    "name": "Karakasa",
+    "level": 100,
+    "race": "Formless",
+    "element": "Neutral",
+    "aegis": "KARAKASA",
+    "description": "A folkloric red paper umbrella spirit with one large eye, long tongue and one hopping sandal foot"
+  },
+  {
+    "id": 1508,
+    "name": "Quve",
+    "level": 100,
+    "race": "Undead",
+    "element": "Undead",
+    "aegis": "QUVE",
+    "description": "A small mischievous round pale undead ghost in a ragged dark pointed hood"
+  },
+  {
+    "id": 1509,
+    "name": "Lude",
+    "level": 101,
+    "race": "Undead",
+    "element": "Undead",
+    "aegis": "LUDE",
+    "description": "A tiny pumpkin-headed floating Halloween ghost wearing a dark cloak"
+  },
+  {
+    "id": 1415,
+    "name": "Baby Leopard",
+    "level": 102,
+    "race": "Brute",
+    "element": "Ghost",
+    "aegis": "BABY_LEOPARD",
+    "description": "A playful spotted leopard cub crouching with a curling tail and bright alert eyes"
+  },
+  {
+    "id": 1510,
+    "name": "Heirozoist",
+    "level": 102,
+    "race": "Demon",
+    "element": "Dark",
+    "aegis": "HYLOZOIST",
+    "description": "A sinister stitched rabbit doll, long ears, mismatched button eyes, little muted cloth outfit"
+  },
+  {
+    "id": 1506,
+    "name": "Disguise",
+    "level": 103,
+    "race": "Demon",
+    "element": "Earth",
+    "aegis": "DISGUISE",
+    "description": "A hunched small masked goblin wrapped in an oversized moss-green rag cloak, hooked wooden staff"
+  },
+  {
+    "id": 1516,
+    "name": "Mi Gao",
+    "level": 103,
+    "race": "Formless",
+    "element": "Earth",
+    "aegis": "INCREASE_SOIL",
+    "description": "A living round clod of earth with a simple mischievous face, little pebbles and grass shoots"
+  },
+  {
+    "id": 1418,
+    "name": "Evil Snake Lord",
+    "level": 105,
+    "race": "Brute",
+    "element": "Ghost",
+    "aegis": "DARK_SNAKE_LORD",
+    "description": "An imposing spectral serpentine lord, long coiling snake body, ancient ceremonial armor and flowing pale hair"
+  },
+  {
+    "id": 1503,
+    "name": "Gibbet",
+    "level": 105,
+    "race": "Demon",
+    "element": "Dark",
+    "aegis": "GIBBET",
+    "description": "A haunted gnarled dead tree with a face in the trunk and dangling tattered ropes, no person hanging"
+  },
+  {
+    "id": 1587,
+    "name": "Kraben",
+    "level": 105,
+    "race": "Formless",
+    "element": "Ghost",
+    "aegis": "KRABEN",
+    "description": "A floating tropical wooden ghost mask with trailing leaves and a wisp of pale spectral smoke"
+  },
+  {
+    "id": 20379,
+    "name": "Ice Ghost",
+    "level": 105,
+    "race": "Demon",
+    "element": "Water",
+    "aegis": "ICE_GHOST_H",
+    "description": "A hovering translucent pale blue ice specter with a ragged robe-shaped body and crystalline hands"
+  },
+  {
+    "id": 1164,
+    "name": "Requiem",
+    "level": 106,
+    "race": "Demihuman",
+    "element": "Dark",
+    "aegis": "REQUIEM",
+    "description": "A hooded desert mourner carrying a large wooden coffin across its back, tattered earth-colored robe"
+  },
+  {
+    "id": 1514,
+    "name": "Zhu Po Long",
+    "level": 106,
+    "race": "Dragon",
+    "element": "Wind",
+    "aegis": "DANCING_DRAGON",
+    "description": "A small sinuous jade-green eastern dragon with red crest, whiskers and four clawed feet"
+  },
+  {
+    "id": 1631,
+    "name": "Green Maiden",
+    "level": 106,
+    "race": "Demihuman",
+    "element": "Wind",
+    "aegis": "CHUNG_E_",
+    "description": "An adult martial artist woman in flowing green silk robes, poised on one foot, long black hair"
+  },
+  {
+    "id": 1194,
+    "name": "Arclouze",
+    "level": 107,
+    "race": "Insect",
+    "element": "Earth",
+    "aegis": "ARCLOUSE",
+    "description": "A many-legged armored ochre pillbug with spiny segments and long antennae"
+  },
+  {
+    "id": 1310,
+    "name": "Majoruros",
+    "level": 107,
+    "race": "Brute",
+    "element": "Fire",
+    "aegis": "MAJORUROS",
+    "description": "A powerful bull-headed humanoid, tawny fur, heavy horns, rough loincloth and a large axe"
+  },
+  {
+    "id": 20380,
+    "name": "Flame Ghost",
+    "level": 107,
+    "race": "Demon",
+    "element": "Fire",
+    "aegis": "FLAME_GHOST_H",
+    "description": "A floating red-orange fire specter with a ragged smoky body, bright ember eyes and flame hands"
+  },
+  {
+    "id": 1504,
+    "name": "Dullahan",
+    "level": 108,
+    "race": "Undead",
+    "element": "Undead",
+    "aegis": "DULLAHAN",
+    "description": "A headless armored ghost knight carrying its helmeted head in one hand and a sword in the other, no blood"
+  },
+  {
+    "id": 1517,
+    "name": "Jing Guai",
+    "level": 108,
+    "race": "Demon",
+    "element": "Earth",
+    "aegis": "LI_ME_MANG_RYANG",
+    "description": "A squat mischievous earth goblin in worn rustic clothes with a prominent nose and bushy eyebrows"
+  },
+  {
+    "id": 1140,
+    "name": "Marduk",
+    "level": 109,
+    "race": "Demihuman",
+    "element": "Fire",
+    "aegis": "MARDUK",
+    "description": "A jackal-headed ancient desert priest in weathered robes carrying a ceremonial staff"
+  },
+  {
+    "id": 1206,
+    "name": "Anolian",
+    "level": 109,
+    "race": "Fish",
+    "element": "Water",
+    "aegis": "ANOLIAN",
+    "description": "A broad upright green crocodilian river monster with a long snout, ridged tail and webbed claws"
+  },
+  {
+    "id": 1505,
+    "name": "Loli Ruri",
+    "level": 109,
+    "race": "Demon",
+    "element": "Dark",
+    "aegis": "LOLI_RURI",
+    "description": "An adult gothic witch in a long dark burgundy dress, long pale hair and a small black cat at her feet, fully clothed"
+  },
+  {
+    "id": 1584,
+    "name": "Tamruan",
+    "level": 109,
+    "race": "Demon",
+    "element": "Dark",
+    "aegis": "TAMRUAN",
+    "description": "A tall demon warrior in ornate Southeast Asian inspired golden armor, fierce carved-mask face and curved blade"
+  },
+  {
+    "id": 20370,
+    "name": "Contaminated Sting",
+    "level": 109,
+    "race": "Formless",
+    "element": "Earth",
+    "aegis": "STING_H",
+    "description": "A mutated earthen hand monster rising from a compact mound of dark mud, elongated clawlike fingers"
+  },
+  {
+    "id": 20371,
+    "name": "Prison Breaker",
+    "level": 109,
+    "race": "Demihuman",
+    "element": "Undead",
+    "aegis": "RAGGED_ZOMBIE_H",
+    "description": "An undead escaped prisoner in tattered striped clothes with broken shackles, gaunt face, no gore"
+  },
+  {
+    "id": 1312,
+    "name": "Turtle General",
+    "level": 110,
+    "race": "Brute",
+    "element": "Earth",
+    "aegis": "TURTLE_GENERAL",
+    "description": "An imposing elderly turtle general with a broad shell, heavy red-gold martial armor and polearm"
+  },
+  {
+    "id": 1507,
+    "name": "Bloody Murderer",
+    "level": 110,
+    "race": "Demihuman",
+    "element": "Dark",
+    "aegis": "BLOODY_MURDERER",
+    "description": "A looming masked executioner wearing a dark stained apron and carrying a large cleaver, no blood, no victim"
+  },
+  {
+    "id": 1583,
+    "name": "Tao Gunka",
+    "level": 110,
+    "race": "Demon",
+    "element": "Neutral",
+    "aegis": "TAO_GUNKA",
+    "description": "A massive squat stone demon with a broad face, knobbly rock skin and heavy fists"
+  },
+  {
+    "id": 1688,
+    "name": "Lady Tanee",
+    "level": 112,
+    "race": "Plant",
+    "element": "Wind",
+    "aegis": "LADY_TANEE",
+    "description": "An adult tropical tree spirit woman with flowing black hair, modest green-gold dress, seated among banana leaves"
+  },
+  {
+    "id": 1512,
+    "name": "Yao Jun",
+    "level": 113,
+    "race": "Undead",
+    "element": "Undead",
+    "aegis": "HYEGUN",
+    "description": "A hopping undead scholar in a traditional dark blue robe and round hat, paper talisman on forehead"
+  },
+  {
+    "id": 1297,
+    "name": "Ancient Mummy",
+    "level": 114,
+    "race": "Undead",
+    "element": "Undead",
+    "aegis": "ANCIENT_MUMMY",
+    "description": "An ancient dried mummy wrapped in frayed ochre linen, hieroglyphic amulets and a hunched pose"
+  },
+  {
+    "id": 1513,
+    "name": "Mao Guai",
+    "level": 115,
+    "race": "Brute",
+    "element": "Wind",
+    "aegis": "CIVIL_SERVANT",
+    "description": "A large white-furred folkloric ape spirit with red face, long arms and ancient cloth belt"
+  },
+  {
+    "id": 1268,
+    "name": "Bloody Knight",
+    "level": 116,
+    "race": "Formless",
+    "element": "Dark",
+    "aegis": "BLOODY_KNIGHT",
+    "description": "A towering empty suit of crimson-black armor with horned helmet, broad shield and enormous sword"
+  },
+  {
+    "id": 1406,
+    "name": "Kapha",
+    "level": 116,
+    "race": "Fish",
+    "element": "Water",
+    "aegis": "KAPHA",
+    "description": "A green folkloric river kappa with turtle shell, beaklike mouth, webbed hands and shallow bowl on head"
+  },
+  {
+    "id": 1630,
+    "name": "White Lady",
+    "level": 116,
+    "race": "Demihuman",
+    "element": "Wind",
+    "aegis": "BACSOJIN_",
+    "description": "An adult ethereal healer spirit in flowing white traditional robes, long dark hair and a pale floating ribbon"
+  },
+  {
+    "id": 1293,
+    "name": "Creamy Fear",
+    "level": 117,
+    "race": "Insect",
+    "element": "Wind",
+    "aegis": "CREMY_FEAR",
+    "description": "A large eerie purple moth with broad patterned wings, curled antennae and furry body"
+  },
+  {
+    "id": 1413,
+    "name": "Hermit Plant",
+    "level": 117,
+    "race": "Plant",
+    "element": "Fire",
+    "aegis": "WILD_GINSENG",
+    "description": "A walking wild ginseng root with a wrinkled little face, root-limbs and a tuft of green leaves"
+  },
+  {
+    "id": 1417,
+    "name": "Zipper Bear",
+    "level": 117,
+    "race": "Brute",
+    "element": "Dark",
+    "aegis": "ZIPPER_BEAR",
+    "description": "A stocky brown bear with a visible zipper seam down its belly, toy-like but fierce"
+  },
+  {
+    "id": 1154,
+    "name": "Pasana",
+    "level": 118,
+    "race": "Demihuman",
+    "element": "Fire",
+    "aegis": "PASANA",
+    "description": "An ancient desert warrior wearing a wrapped cloth head covering, bronze ornaments and carrying a curved sword"
+  },
+  {
+    "id": 1306,
+    "name": "Leib Olmai",
+    "level": 118,
+    "race": "Brute",
+    "element": "Earth",
+    "aegis": "LEIB_OLMAI",
+    "description": "A massive upright brown forest bear with a heavy mane, powerful paws and calm fierce expression"
+  },
+  {
+    "id": 1298,
+    "name": "Zombie Master",
+    "level": 119,
+    "race": "Undead",
+    "element": "Undead",
+    "aegis": "ZOMBIE_MASTER",
+    "description": "An imposing undead overseer in ragged dark robes, gaunt face and clawlike hands, no gore"
+  },
+  {
+    "id": 1404,
+    "name": "Miyabi Doll",
+    "level": 119,
+    "race": "Demon",
+    "element": "Dark",
+    "aegis": "MIYABI_NINGYO",
+    "description": "An elegant haunted Japanese doll in a modest richly patterned kimono, porcelain face and long black hair"
+  },
+  {
+    "id": 1410,
+    "name": "Enchanted Peach Tree",
+    "level": 119,
+    "race": "Plant",
+    "element": "Earth",
+    "aegis": "LIVE_PEACH_TREE",
+    "description": "A small living peach tree with a kindly face in its trunk, rosy peaches, green leaves and root-feet"
+  },
+  {
+    "id": 1208,
+    "name": "Wanderer",
+    "level": 120,
+    "race": "Demon",
+    "element": "Wind",
+    "aegis": "WANDER_MAN",
+    "description": "A spectral wandering swordsman in tattered robe and wide straw hat, long curved blade"
+  },
+  {
+    "id": 1295,
+    "name": "Owl Baron",
+    "level": 120,
+    "race": "Demon",
+    "element": "Neutral",
+    "aegis": "OWL_BARON",
+    "description": "An aristocratic owl sorcerer with huge wings, elaborate dark violet robe and an ornate staff"
+  },
+  {
+    "id": 1303,
+    "name": "Giant Hornet",
+    "level": 120,
+    "race": "Insect",
+    "element": "Wind",
+    "aegis": "GIANT_HONET",
+    "description": "A giant yellow-black hornet with powerful mandibles, translucent wings and long stinger"
+  },
+  {
+    "id": 1311,
+    "name": "Gullinbursti",
+    "level": 120,
+    "race": "Brute",
+    "element": "Earth",
+    "aegis": "GULLINBURSTI",
+    "description": "A fierce wild boar with bristling golden-brown fur, heavy curved tusks and sturdy short legs"
+  },
+  {
+    "id": 1492,
+    "name": "Samurai Specter",
+    "level": 120,
+    "race": "Demihuman",
+    "element": "Dark",
+    "aegis": "INCANTATION_SAMURAI",
+    "description": "A spectral samurai in aged layered armor with a horned helmet, a katana and wisps of dark smoke"
+  },
+  {
+    "id": 20367,
+    "name": "Contaminated Raydric",
+    "level": 120,
+    "race": "Demihuman",
+    "element": "Dark",
+    "aegis": "RAYDRIC_H",
+    "description": "A corrupted armored soldier in dark moss-stained plate with a huge sword and faint violet glow"
+  },
+  {
+    "id": 1291,
+    "name": "Wraith Dead",
+    "level": 121,
+    "race": "Undead",
+    "element": "Undead",
+    "aegis": "WRAITH_DEAD",
+    "description": "A terrifying floating skeletal wraith, long ragged cloak and outstretched bony hands"
+  },
+  {
+    "id": 1300,
+    "name": "Caterpillar",
+    "level": 121,
+    "race": "Insect",
+    "element": "Earth",
+    "aegis": "CATERPILLAR",
+    "description": "A thick segmented green caterpillar with bristles, many short legs and orange markings"
+  },
+  {
+    "id": 1305,
+    "name": "Ancient Worm",
+    "level": 121,
+    "race": "Insect",
+    "element": "Poison",
+    "aegis": "ANCIENT_WORM",
+    "description": "A huge ancient venomous worm with purple-brown armored segments and tusked mouth"
+  },
+  {
+    "id": 1402,
+    "name": "Poisonous Toad",
+    "level": 121,
+    "race": "Brute",
+    "element": "Poison",
+    "aegis": "POISON_TOAD",
+    "description": "A squat poisonous toad with mottled purple-green warty skin and swollen cheeks"
+  },
+  {
+    "id": 1219,
+    "name": "Abysmal Knight",
+    "level": 122,
+    "race": "Demihuman",
+    "element": "Dark",
+    "aegis": "KNIGHT_OF_ABYSS",
+    "description": "An imposing black-armored knight mounted on a dark horse with heavy barding and flowing cape"
+  },
+  {
+    "id": 1408,
+    "name": "Bloody Butterfly",
+    "level": 122,
+    "race": "Insect",
+    "element": "Wind",
+    "aegis": "BLOOD_BUTTERFLY",
+    "description": "A large crimson butterfly with dramatic patterned wings and a dark delicate body"
+  },
+  {
+    "id": 1401,
+    "name": "Shinobi",
+    "level": 123,
+    "race": "Demihuman",
+    "element": "Dark",
+    "aegis": "SHINOBI",
+    "description": "A masked ninja in navy cloth armor, crouched with short blade and flowing scarf"
+  },
+  {
+    "id": 1403,
+    "name": "Firelock Soldier",
+    "level": 123,
+    "race": "Undead",
+    "element": "Undead",
+    "aegis": "ANTIQUE_FIRELOCK",
+    "description": "An undead antique rifleman in aged traditional lamellar armor carrying a wooden matchlock rifle"
+  },
+  {
+    "id": 1412,
+    "name": "Taoist Hermit",
+    "level": 124,
+    "race": "Formless",
+    "element": "Neutral",
+    "aegis": "EVIL_CLOUD_HERMIT",
+    "description": "An elderly Taoist hermit with white beard and ceremonial hat riding a small swirling cloud"
+  },
+  {
+    "id": 1283,
+    "name": "Chimera",
+    "level": 125,
+    "race": "Brute",
+    "element": "Fire",
+    "aegis": "CHIMERA",
+    "description": "A fantasy chimera with a lion body, a goat head rising beside the lion head, leathery wings and serpent tail"
+  },
+  {
+    "id": 1375,
+    "name": "The Paper",
+    "level": 126,
+    "race": "Formless",
+    "element": "Neutral",
+    "aegis": "THE_PAPER",
+    "description": "A mischievous floating folded paper spirit with painted eyes, torn edges and curling paper limbs"
+  },
+  {
+    "id": 1416,
+    "name": "Evil Nymph",
+    "level": 126,
+    "race": "Demon",
+    "element": "Dark",
+    "aegis": "WICKED_NYMPH",
+    "description": "An adult supernatural woman in long flowing violet robes with ornate hairpins and ethereal sleeves"
+  },
+  {
+    "id": 1157,
+    "name": "Pharaoh",
+    "level": 127,
+    "race": "Demihuman",
+    "element": "Dark",
+    "aegis": "PHARAOH",
+    "description": "An undead pharaoh in a striped gold-blue headdress with crook and ancient wrapped robes"
+  },
+  {
+    "id": 1405,
+    "name": "Tengu",
+    "level": 127,
+    "race": "Demon",
+    "element": "Earth",
+    "aegis": "TENGU",
+    "description": "A red-faced long-nosed mountain tengu in traditional robes with a feather fan and dark wings"
+  }
+]

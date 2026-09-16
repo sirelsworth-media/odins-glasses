@@ -1,0 +1,8 @@
+{
+  "key": "card-shield",
+  "label": "Card · Shield",
+  "subject": "an ornate upright collectible parchment card with a clearly painted shield emblem in its center. The card itself is the object, not actual equipment",
+  "group": "card",
+  "prompt": "Use case: stylized-concept. Asset: original fantasy inventory category icon for Card · Shield. Subject: an ornate upright collectible parchment card with a clearly painted shield emblem in its center. The card itself is the object, not actual equipment. Cohesive hand-painted RPG field guide style, warm soft shading, brass details and restrained jewel tones. Object only, no character or hands. Full object centered, square canvas, ample margins, strong clean silhouette readable at 128px. Plain solid white background, absolutely no checkerboard. No text, letters, numbers, watermark, frame, logo or copied game artwork. This is a generic category symbol, not a specific named game item.",
+  "source": "generated-images/exec-7b3d97e5-2692-418e-87da-0caf2a581ee6.png"
+}

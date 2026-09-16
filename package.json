@@ -1,0 +1,109 @@
+{
+  "name": "odins-glasses",
+  "version": "1.31.0",
+  "description": "Windows desktop companion for Ragnarok Online Zero Global",
+  "main": "main.cjs",
+  "author": "Sirelsworth Media",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/sirelsworth-media/odins-glasses#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirelsworth-media/odins-glasses.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sirelsworth-media/odins-glasses/issues"
+  },
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "typecheck": "tsc --noEmit",
+    "verify": "npm run typecheck && npm run test:unit && npm run build:renderer",
+    "test:unit": "node scripts/test-security.cjs && node scripts/test-cache.cjs && node scripts/test-item-icons.cjs && node scripts/test-behavior.cjs && node scripts/test-map-catalog.cjs && node scripts/test-money.cjs",
+    "test:performance": "electron scripts/benchmark-performance.cjs",
+    "test:ui": "electron scripts/test-appearance.cjs",
+    "test:live-data": "node scripts/test-live-data.cjs",
+    "build:renderer": "vite build --configLoader runner",
+    "dist": "npm run build:renderer && electron-builder --win nsis portable"
+  },
+  "dependencies": {
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "5.1.1",
+    "electron": "44.2.0",
+    "electron-builder": "26.15.3",
+    "js-yaml": "^4.3.2",
+    "typescript": "5.9.3",
+    "vite": "7.3.6"
+  },
+  "build": {
+    "appId": "media.sirelsworth.odinsglasses",
+    "productName": "Odin’s Glasses",
+    "artifactName": "Odins-Glasses-${version}-${arch}.${ext}",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "main.cjs",
+      "preload.cjs",
+      "api.cjs",
+      "server/**/*",
+      "renderer-dist/**/*",
+      "assets/**/*"
+    ],
+    "extraResources": [
+      {
+        "from": "assets/rathena-behavior",
+        "to": "rathena-behavior-sources"
+      },
+      {
+        "from": "assets/rathena-behavior/LICENSE",
+        "to": "LICENSE.txt"
+      },
+      {
+        "from": "THIRD_PARTY_NOTICES.md",
+        "to": "THIRD_PARTY_NOTICES.md"
+      },
+      {
+        "from": "ASSET-LICENSES.md",
+        "to": "ASSET-LICENSES.md"
+      },
+      {
+        "from": "SOURCE.md",
+        "to": "SOURCE.md"
+      }
+    ],
+    "win": {
+      "icon": "assets/icon-512.png",
+      "signAndEditExecutable": false,
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "nsis": {
+      "artifactName": "Odins-Glasses-${version}-${arch}-Setup.${ext}",
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Odin’s Glasses"
+    },
+    "portable": {
+      "artifactName": "Odins-Glasses-${version}-${arch}-Portable.${ext}"
+    }
+  }
+}

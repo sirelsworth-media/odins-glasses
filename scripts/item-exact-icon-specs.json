@@ -1,0 +1,1553 @@
+{
+  "commonPrompt": "Original polished hand-painted cute fantasy game inventory icon, soft cel shading, centered single object, warm ivory background, readable at 128 px; no text, border, logo, watermark, or copied pixel art.",
+  "items": [
+    {
+      "itemId": 601,
+      "name": "Fly Wing",
+      "subject": "one compact pale feathered wing with a tiny swirling gust",
+      "source": "generated-images/exec-5b0f7cc7-7d6d-48b8-ba57-0a9b37510713.png"
+    },
+    {
+      "itemId": 602,
+      "name": "Butterfly Wing",
+      "subject": "symmetrical lavender and sky-blue butterfly wings with a glowing crystal center",
+      "source": "generated-images/exec-0440d2cf-8ffe-4563-968e-afa2268c1b6e.png"
+    },
+    {
+      "itemId": 1002,
+      "name": "Iron Ore",
+      "subject": "charcoal rock with dull silver metallic veins",
+      "source": "generated-images/exec-42536190-c2b2-4191-b332-64984ac1aaf5.png"
+    },
+    {
+      "itemId": 998,
+      "name": "Iron",
+      "subject": "dark forged iron bars with hammer marks",
+      "source": "generated-images/exec-d87da514-7175-4d22-9dff-352c99ab2f5e.png"
+    },
+    {
+      "itemId": 999,
+      "name": "Steel",
+      "subject": "bright silver-blue forged steel ingots",
+      "source": "generated-images/exec-5dbaeaa1-b7cb-41cb-ab9a-72d70aa9203d.png"
+    },
+    {
+      "itemId": 1003,
+      "name": "Coal",
+      "subject": "three irregular deep-black coal lumps",
+      "source": "generated-images/exec-50d430f4-13cc-4604-aee9-85118fa57625.png"
+    },
+    {
+      "itemId": 756,
+      "name": "Rough Oridecon",
+      "subject": "midnight raw rock with vivid cobalt metallic veins",
+      "source": "generated-images/exec-51f3b5c5-3037-46cd-a027-35c911fd76c8.png"
+    },
+    {
+      "itemId": 984,
+      "name": "Oridecon",
+      "subject": "refined cobalt alloy ingot with cyan core glow",
+      "source": "generated-images/exec-3f2f906b-4754-4b5b-8535-68411c025e48.png"
+    },
+    {
+      "itemId": 757,
+      "name": "Rough Elunium",
+      "subject": "charcoal raw rock with emerald metallic veins",
+      "source": "generated-images/exec-550d1b2e-b695-4038-8733-962db5f41efd.png"
+    },
+    {
+      "itemId": 985,
+      "name": "Elunium",
+      "subject": "refined emerald alloy ingot with mint core glow",
+      "source": "generated-images/exec-be19a7a0-8e54-412b-abb8-8f2f9510acd9.png"
+    },
+    {
+      "itemId": 1010,
+      "name": "Phracon",
+      "subject": "small copper-orange refining mineral with hammer glint",
+      "source": "generated-images/exec-04fbdacb-0df8-4014-b1d3-464fd276f1be.png"
+    },
+    {
+      "itemId": 1011,
+      "name": "Emveretarcon",
+      "subject": "violet-silver refining mineral with shield gleam",
+      "source": "generated-images/exec-1658f715-8177-4e7b-a961-2d22f8950898.png"
+    },
+    {
+      "itemId": 1000,
+      "name": "Star Crumb",
+      "subject": "golden-white chipped crystalline star fragment",
+      "source": "generated-images/exec-bc76641c-3295-4f07-8413-3c76872a7fbc.png"
+    },
+    {
+      "itemId": 501,
+      "name": "Red Potion",
+      "subject": "small round healing potion with vivid ruby-red liquid",
+      "source": "generated-images/exec-c73cfca3-ed3d-4593-8e72-0667fcb0c046.png"
+    },
+    {
+      "itemId": 503,
+      "name": "Yellow Potion",
+      "subject": "small round healing potion with luminous golden-yellow liquid",
+      "source": "generated-images/exec-f56f16d0-ee57-44d3-bf1b-f46b2e33cede.png"
+    },
+    {
+      "itemId": 504,
+      "name": "White Potion",
+      "subject": "small round healing potion with pearly white liquid",
+      "source": "generated-images/exec-ace55300-809f-4136-be37-34c0c136d5cd.png"
+    },
+    {
+      "itemId": 505,
+      "name": "Blue Potion",
+      "subject": "small round mana potion with luminous sapphire-blue liquid",
+      "source": "generated-images/exec-a754306f-e381-4347-bcdb-1b3ac64e3623.png"
+    },
+    {
+      "itemId": 507,
+      "name": "Red Herb",
+      "subject": "medicinal herb sprig with three broad crimson leaves",
+      "source": "generated-images/exec-2aee4a78-03ac-4bda-8636-afd700438ad1.png"
+    },
+    {
+      "itemId": 508,
+      "name": "Yellow Herb",
+      "subject": "medicinal herb sprig with three broad yellow leaves",
+      "source": "generated-images/exec-b623b298-d454-4222-9020-d21246b7fd91.png"
+    },
+    {
+      "itemId": 509,
+      "name": "White Herb",
+      "subject": "medicinal herb sprig with three broad ivory-white leaves",
+      "source": "generated-images/exec-ae8946fb-1b26-49bc-9539-2b7006a56ff7.png"
+    },
+    {
+      "itemId": 510,
+      "name": "Blue Herb",
+      "subject": "rare medicinal herb sprig with three broad cobalt-blue leaves",
+      "source": "generated-images/exec-8cb61a0f-8315-44e9-81e2-38d60bd81d77.png"
+    },
+    {
+      "itemId": 713,
+      "name": "Empty Bottle",
+      "subject": "empty clear round alchemist bottle without cork",
+      "source": "generated-images/exec-f37c643c-94c2-487a-9925-4fdc2c2ff164.png"
+    },
+    {
+      "itemId": 1093,
+      "name": "Empty Potion Bottle",
+      "subject": "empty squat potion flask with cork lying beside it",
+      "source": "generated-images/exec-a1861f3d-8a28-4387-a996-7ccb82511fe8.png"
+    },
+    {
+      "itemId": 1092,
+      "name": "Empty Test Tube",
+      "subject": "empty glass alchemy test tube in a brass stand",
+      "source": "generated-images/exec-40b2dd74-ea54-4848-9f67-8fa1ece1365d.png"
+    },
+    {
+      "itemId": 970,
+      "name": "Alcohol",
+      "subject": "amber alchemist bottle filled with clear alcohol",
+      "source": "generated-images/exec-a9dc2e2a-19d3-436e-a465-5256260bbcb1.png"
+    },
+    {
+      "itemId": 990,
+      "name": "Red Blood",
+      "subject": "raw ruby-red fire elemental crystal shard",
+      "source": "generated-images/exec-868366ea-12f7-46d6-bb56-553223d11ea7.png"
+    },
+    {
+      "itemId": 991,
+      "name": "Crystal Blue",
+      "subject": "raw deep-blue water elemental crystal shard",
+      "source": "generated-images/exec-2da3d6a0-dce2-4a04-8636-d81c144c09f6.png"
+    },
+    {
+      "itemId": 992,
+      "name": "Wind of Verdure",
+      "subject": "raw pale-green wind elemental leaf crystal",
+      "source": "generated-images/exec-bd106d50-a229-43f5-8802-6be338b82bac.png"
+    },
+    {
+      "itemId": 993,
+      "name": "Green Live",
+      "subject": "raw moss-green earth elemental crystal with sprout",
+      "source": "generated-images/exec-02dd67d4-448f-4205-9dc0-fc6cacc8830a.png"
+    },
+    {
+      "itemId": 994,
+      "name": "Flame Heart",
+      "subject": "refined heart-shaped fire elemental gemstone",
+      "source": "generated-images/exec-bf241f2f-14a8-4c9c-966a-e731f023cec8.png"
+    },
+    {
+      "itemId": 995,
+      "name": "Mystic Frozen",
+      "subject": "refined frozen teardrop water elemental gemstone",
+      "source": "generated-images/exec-45f25252-e806-46cd-89aa-0617cc43f9a9.png"
+    },
+    {
+      "itemId": 996,
+      "name": "Rough Wind",
+      "subject": "refined pale-cyan spiral feather wind elemental jewel",
+      "source": "generated-images/exec-0e17ef8a-e750-4d0b-bdaf-582bb94e5463.png"
+    },
+    {
+      "itemId": 997,
+      "name": "Great Nature",
+      "subject": "refined square-cut olive earth elemental gemstone",
+      "source": "generated-images/exec-6a7a0a3b-5ac7-444e-a75e-d8b07a24e984.png"
+    },
+    {
+      "itemId": 909,
+      "name": "Jellopy",
+      "subject": "one small translucent pale-pink gelatinous mineral blob",
+      "source": "generated-images/exec-1e44d02f-739d-48d6-9cf6-20ebf4905d57.png"
+    },
+    {
+      "itemId": 502,
+      "name": "Orange Potion",
+      "subject": "small round healing potion with glowing orange liquid",
+      "source": "generated-images/exec-f4c830f2-876c-434d-8427-ae219794e683.png"
+    },
+    {
+      "itemId": 506,
+      "name": "Green Potion",
+      "subject": "small round antidote potion with emerald-green liquid",
+      "source": "generated-images/exec-f2fe83ed-a7c0-457d-af99-93aa8d34c943.png"
+    },
+    {
+      "itemId": 645,
+      "name": "Concentration Potion",
+      "subject": "slender amber-gold stimulant potion with a focused ornament",
+      "source": "generated-images/exec-1a4345ed-a9ad-4e57-840c-6b64ae44a387.png"
+    },
+    {
+      "itemId": 656,
+      "name": "Awakening Potion",
+      "subject": "angular crimson-orange stimulant potion with a rising glow",
+      "source": "generated-images/exec-9a8a540d-fca8-4362-bb3a-c1eb18cdcb7c.png"
+    },
+    {
+      "itemId": 657,
+      "name": "Berserk Potion",
+      "subject": "heavy dark-red battle stimulant potion with black metal shoulders",
+      "source": "generated-images/exec-c7c87e72-7a2d-4d4b-8bc1-6f6a78c63f76.png"
+    },
+    {
+      "itemId": 569,
+      "name": "Novice Potion",
+      "subject": "tiny friendly beginner healing potion with rosy-red liquid and a pale-blue ribbon",
+      "source": "generated-images/exec-ddf61778-5d2f-408e-bf62-a849f2b2beae.png"
+    },
+    {
+      "itemId": 523,
+      "name": "Holy Water",
+      "subject": "clear holy-water vial with pale-blue liquid and golden halo stopper",
+      "source": "generated-images/exec-95beb5b8-5cd8-46f8-9a30-5fc18525c53c.png"
+    },
+    {
+      "itemId": 7144,
+      "name": "Potion Creation Guide",
+      "subject": "green leather alchemist recipe book with a potion flask emblem",
+      "source": "generated-images/exec-064679ec-de51-42ad-86a1-b19ab550a11b.png"
+    },
+    {
+      "itemId": 7133,
+      "name": "Slim Potion Creation Guide",
+      "subject": "slim crimson alchemist recipe booklet with a vial emblem",
+      "source": "generated-images/exec-feb661c4-df8e-4224-9844-e32c53cad339.png"
+    },
+    {
+      "itemId": 7433,
+      "name": "Empty Scroll",
+      "subject": "clean blank rolled parchment tied with a pale cord",
+      "source": "generated-images/exec-88b7617e-96bd-4999-873b-ee49c28b9c8a.png"
+    },
+    {
+      "itemId": 7434,
+      "name": "Elemental Potion Creation Guide",
+      "subject": "indigo alchemist recipe book with four elemental gem emblems",
+      "source": "generated-images/exec-ef747958-1d8b-4160-acdd-e9cf147c820e.png"
+    },
+    {
+      "itemId": 975,
+      "name": "Scarlet Dyestuffs",
+      "subject": "clear dye bottle with scarlet pigment and a stained cloth swatch",
+      "source": "generated-images/exec-bb3c48fd-d035-44b7-b66f-1bd9ca07127f.png"
+    },
+    {
+      "itemId": 545,
+      "name": "Red Slim Potion",
+      "subject": "tall narrow alchemist vial with ruby-red healing liquid",
+      "source": "generated-images/exec-230525a7-19c8-4e27-a6b6-0639a7c2e60e.png"
+    },
+    {
+      "itemId": 546,
+      "name": "Yellow Slim Potion",
+      "subject": "tall narrow alchemist vial with golden-yellow healing liquid",
+      "source": "generated-images/exec-3cd6c416-51c4-415c-9d80-c7b3767e3f60.png"
+    },
+    {
+      "itemId": 547,
+      "name": "White Slim Potion",
+      "subject": "tall narrow alchemist vial with pearly white healing liquid",
+      "source": "generated-images/exec-3152ca98-ef33-482d-9f08-3b9ca19a7855.png"
+    },
+    {
+      "itemId": 678,
+      "name": "Poison Bottle",
+      "subject": "squat ominous alchemist bottle with glowing violet poison",
+      "source": "generated-images/exec-a07e6bb8-0480-4e08-ba1f-85af106d7484.png"
+    },
+    {
+      "itemId": 952,
+      "name": "Cactus Needle",
+      "subject": "sharp pale-green cactus needle bundle",
+      "source": "generated-images/exec-5c918b07-f417-4fe5-82b0-b4d0d47de0c2.png"
+    },
+    {
+      "itemId": 978,
+      "name": "Cobaltblue Dyestuffs",
+      "subject": "cobalt-blue dye bottle and stained cloth swatch",
+      "source": "generated-images/exec-21733319-fb08-4d63-b32d-f6668330b8da.png"
+    },
+    {
+      "itemId": 2210,
+      "name": "Hair Band",
+      "subject": "simple flexible muted-brown cloth hair band",
+      "source": "generated-images/exec-35e2dd1d-fe33-44f7-9875-e4397d265d2a.png"
+    },
+    {
+      "itemId": 704,
+      "name": "Aloe",
+      "subject": "fresh thick aloe leaf showing translucent healing gel",
+      "source": "generated-images/exec-f9c808de-7af9-403c-9958-ec1b23746b32.png"
+    },
+    {
+      "itemId": 708,
+      "name": "Ment",
+      "subject": "rare aromatic teal mint-like herb sprig",
+      "source": "generated-images/exec-3fca3665-4ed5-4a70-a222-f65daaee31a8.png"
+    },
+    {
+      "itemId": 717,
+      "name": "Blue Gemstone",
+      "subject": "faceted deep-blue magical gemstone",
+      "source": "generated-images/exec-b6f278f9-a698-4e8c-8cbe-069ad10219d6.png"
+    },
+    {
+      "itemId": 723,
+      "name": "Ruby",
+      "subject": "polished oval vivid-crimson ruby",
+      "source": "generated-images/exec-9a1285f8-642a-43da-a9c4-af1e025f7eab.png"
+    },
+    {
+      "itemId": 724,
+      "name": "Cursed Ruby",
+      "subject": "cracked dark-red ruby with violet curse haze",
+      "source": "generated-images/exec-bf607187-60a0-4aa7-b264-fd06b9577801.png"
+    },
+    {
+      "itemId": 727,
+      "name": "Opal",
+      "subject": "polished milky opal with soft rainbow fire",
+      "source": "generated-images/exec-7f6293b2-0d42-41e5-a6d9-ac09c38226dc.png"
+    },
+    {
+      "itemId": 728,
+      "name": "Topaz",
+      "subject": "faceted honey-gold topaz gemstone",
+      "source": "generated-images/exec-393c940e-91fa-4e17-ae3e-a5b7a86d20cc.png"
+    },
+    {
+      "itemId": 733,
+      "name": "Cracked Diamond",
+      "subject": "cloudy cracked diamond with a chipped edge",
+      "source": "generated-images/exec-8a2b2aa7-9525-4ae4-9e94-1c45310623d4.png"
+    },
+    {
+      "itemId": 914,
+      "name": "Fluff",
+      "subject": "soft round tuft of pale cream monster fur",
+      "source": "generated-images/exec-92f75589-2ab2-41f6-9ade-1b5a650596b4.png"
+    },
+    {
+      "itemId": 916,
+      "name": "Feather of Birds",
+      "subject": "three small natural cream-and-brown bird feathers",
+      "source": "generated-images/exec-3e8c0431-6754-4c2a-a65e-a86673aed7c4.png"
+    },
+    {
+      "itemId": 923,
+      "name": "Evil Horn",
+      "subject": "curved charcoal-black demon horn with a chipped tip",
+      "source": "generated-images/exec-c4856576-ee7a-4448-a4d3-a2816355c19e.png"
+    },
+    {
+      "itemId": 945,
+      "name": "Raccoon Leaf",
+      "subject": "broad russet leaf with a raccoon-tail stripe pattern",
+      "source": "generated-images/exec-154874b8-96f6-4896-bdc4-2b52cf038da4.png"
+    },
+    {
+      "itemId": 949,
+      "name": "Feather",
+      "subject": "long elegant white feather with a silver edge",
+      "source": "generated-images/exec-563e58f5-f648-45a3-89ea-f572c71fcb0e.png"
+    },
+    {
+      "itemId": 950,
+      "name": "Mermaid's Heart",
+      "subject": "pearlescent aqua heart-shaped shell jewel",
+      "source": "generated-images/exec-c0b93b16-f4cb-47da-b629-db9d4e65812c.png"
+    },
+    {
+      "itemId": 1019,
+      "name": "Trunk",
+      "subject": "short freshly cut brown tree-log section",
+      "source": "generated-images/exec-7c061af3-8ddb-479f-9ba2-a8a5180818c6.png"
+    },
+    {
+      "itemId": 2211,
+      "name": "Bandana",
+      "subject": "folded red adventurer bandana tied in a knot",
+      "source": "generated-images/exec-34e24140-a821-46ae-b028-7535bd37c23e.png"
+    },
+    {
+      "itemId": 7033,
+      "name": "Poison Spore",
+      "subject": "three round purple mushroom spores with green haze",
+      "source": "generated-images/exec-ff6ca0bb-40e4-4fa7-9fcc-2354d271b3cf.png"
+    },
+    {
+      "itemId": 518,
+      "name": "Honey",
+      "subject": "small honeycomb dripping warm golden honey",
+      "source": "generated-images/exec-60168349-c05e-47d2-a426-8a32f6b19e47.png"
+    },
+    {
+      "itemId": 544,
+      "name": "Raw Fish",
+      "subject": "fresh silvery-blue whole fish cooking ingredient",
+      "source": "generated-images/exec-0d7a6f26-af6c-4d1d-a9ca-9c8468e8e925.png"
+    },
+    {
+      "itemId": 577,
+      "name": "Grain",
+      "subject": "tied sheaf of golden grain heads",
+      "source": "generated-images/exec-e084be91-e4fa-47da-9773-68ab9225527f.png"
+    },
+    {
+      "itemId": 624,
+      "name": "Rotten Fish",
+      "subject": "spoiled gray-green fish with subtle stink wisps",
+      "source": "generated-images/exec-f5a3ab94-fa0d-4db0-af3f-a150629cde04.png"
+    },
+    {
+      "itemId": 701,
+      "name": "Ora Ora",
+      "subject": "golden-orange monster essence clump with sparks",
+      "source": "generated-images/exec-79ec12f2-1f53-45d0-b1be-33ea826e3aeb.png"
+    },
+    {
+      "itemId": 705,
+      "name": "Clover",
+      "subject": "fresh bright-green four-leaf clover",
+      "source": "generated-images/exec-db5f057b-6689-4705-a7ea-c67f80eeb86b.png"
+    },
+    {
+      "itemId": 707,
+      "name": "Singing Plant",
+      "subject": "magical plant sprig with a bell-shaped violet bloom",
+      "source": "generated-images/exec-6190020b-4d17-493c-9fa6-6f4ad7356af1.png"
+    },
+    {
+      "itemId": 715,
+      "name": "Yellow Gemstone",
+      "subject": "faceted luminous yellow magical gemstone",
+      "source": "generated-images/exec-04731780-7e9e-4fc7-93ce-c44cbc8195d6.png"
+    },
+    {
+      "itemId": 716,
+      "name": "Red Gemstone",
+      "subject": "faceted luminous red magical gemstone",
+      "source": "generated-images/exec-75fa83fc-dfb2-46f3-aef9-49fc110d8ecc.png"
+    },
+    {
+      "itemId": 718,
+      "name": "Garnet",
+      "subject": "polished deep wine-red garnet gemstone",
+      "source": "generated-images/exec-09c80ab3-c8fa-4c17-a1cb-3d5507286c25.png"
+    },
+    {
+      "itemId": 719,
+      "name": "Amethyst",
+      "subject": "faceted rich-purple amethyst gemstone",
+      "source": "generated-images/exec-8696aa88-26b8-4c0e-9d53-2badd3046f26.png"
+    },
+    {
+      "itemId": 720,
+      "name": "Aquamarine",
+      "subject": "faceted clear sea-blue aquamarine gemstone",
+      "source": "generated-images/exec-587798c0-57ed-4012-bf40-a6f6be49efd1.png"
+    },
+    {
+      "itemId": 722,
+      "name": "Pearl",
+      "subject": "large round lustrous white pearl",
+      "source": "generated-images/exec-e3b0d1cf-607a-4684-921c-15a7f9d2442b.png"
+    },
+    {
+      "itemId": 726,
+      "name": "Sapphire",
+      "subject": "faceted royal-blue sapphire gemstone",
+      "source": "generated-images/exec-b2e8fbfe-e37c-4aaa-ab75-ff7866674bc1.png"
+    },
+    {
+      "itemId": 729,
+      "name": "Zircon",
+      "subject": "faceted pale-cyan zircon gemstone",
+      "source": "generated-images/exec-4b31ed95-c60d-4bd2-8617-186ce93dbdb5.png"
+    },
+    {
+      "itemId": 730,
+      "name": "1 Carat Diamond",
+      "subject": "small flawless clear brilliant-cut diamond",
+      "source": "generated-images/exec-d8912486-67f2-45cb-aed0-c5a2fab0f040.png"
+    },
+    {
+      "itemId": 746,
+      "name": "Glass Bead",
+      "subject": "smooth round translucent glass bead",
+      "source": "generated-images/exec-ccb8c53a-91be-4013-b243-95a4f4e29eea.png"
+    },
+    {
+      "itemId": 905,
+      "name": "Stem",
+      "subject": "sturdy fresh green plant stem",
+      "source": "generated-images/exec-b8da860c-b994-4bb7-a734-93c96f4daac7.png"
+    },
+    {
+      "itemId": 911,
+      "name": "Scell",
+      "subject": "small smooth ochre monster shell fragment",
+      "source": "generated-images/exec-e48d4ee2-70b6-408f-a886-d24fc6e1deba.png"
+    },
+    {
+      "itemId": 913,
+      "name": "Tooth of Bat",
+      "subject": "small curved ivory bat fang with a dark root",
+      "source": "generated-images/exec-3217fd7b-0078-4b84-9212-d92d6d13b2be.png"
+    },
+    {
+      "itemId": 2203,
+      "name": "Glasses",
+      "subject": "simple round clear-lens adventurer glasses",
+      "source": "generated-images/exec-4dce5d77-d417-42f7-b5de-abe79f485c5b.png"
+    },
+    {
+      "itemId": 2269,
+      "name": "Romantic Flower",
+      "subject": "elegant wearable red rose with a short stem",
+      "source": "generated-images/exec-bae1aa88-0175-4ebf-b7a2-eb3d45a7ad75.png"
+    },
+    {
+      "itemId": 7197,
+      "name": "Tough Vines",
+      "subject": "coiled bundle of thick thorny jungle vines",
+      "source": "generated-images/exec-dbda1115-c845-45db-8be6-bd06ec3f51af.png"
+    },
+    {
+      "itemId": 959,
+      "name": "Stinky Scale",
+      "subject": "murky olive fish scale with subtle odor wisps",
+      "source": "generated-images/exec-bc3cb7a7-0807-4d2c-b5cc-38770d089fa4.png"
+    },
+    {
+      "itemId": 1023,
+      "name": "Fish Tail",
+      "subject": "curved silvery-blue fish tail with intact fin",
+      "source": "generated-images/exec-858a3231-08ce-4225-a093-73a43df502a6.png"
+    },
+    {
+      "itemId": 5062,
+      "name": "Straw Hat",
+      "subject": "broad woven golden-straw sun hat",
+      "source": "generated-images/exec-b2f6b247-8ef0-4d88-b621-e218fbd9896b.png"
+    },
+    {
+      "itemId": 974,
+      "name": "Mixture",
+      "subject": "laboratory flask with layered violet and amber mixture",
+      "source": "generated-images/exec-191c4d95-495f-443a-96ad-befbea416b71.png"
+    },
+    {
+      "itemId": 943,
+      "name": "Solid Shell",
+      "subject": "thick polished tan insect shell plate",
+      "source": "generated-images/exec-47243a36-6ab3-4858-b0bb-9db3a8135478.png"
+    },
+    {
+      "itemId": 1301,
+      "name": "Axe",
+      "subject": "sturdy single-bladed iron axe with wooden handle",
+      "source": "generated-images/exec-e79db69f-10ed-4693-a0c2-5319376fd280.png"
+    },
+    {
+      "itemId": 5001,
+      "name": "Headset",
+      "subject": "compact fantasy headset with padded ear cups",
+      "source": "generated-images/exec-16308bc6-50ea-4e09-84dd-971379065b30.png"
+    },
+    {
+      "itemId": 2247,
+      "name": "Romantic Gent",
+      "subject": "elegant dark formal top hat with wine-red ribbon",
+      "source": "generated-images/exec-73cada8b-328d-4b91-8d06-1d8485872535.png"
+    },
+    {
+      "itemId": 2226,
+      "name": "Cap",
+      "subject": "simple soft tan adventurer cap",
+      "source": "generated-images/exec-632369c8-2320-4cbc-bbdc-f793b9bda046.png"
+    },
+    {
+      "itemId": 2275,
+      "name": "Red Bandana",
+      "subject": "vivid red folded bandana with long tied tails",
+      "source": "generated-images/exec-026345fe-e61f-4f28-8c62-600a523ec1bf.png"
+    },
+    {
+      "itemId": 2608,
+      "name": "Rosary",
+      "subject": "loop of ivory prayer beads with a simple gold charm",
+      "source": "generated-images/exec-d2744b75-dde9-46d0-9de7-2b9e24d3c895.png"
+    },
+    {
+      "itemId": 983,
+      "name": "Black Dyestuffs",
+      "subject": "black dye bottle and stained cloth swatch",
+      "source": "generated-images/exec-a6ae4952-be9d-45fe-8abb-3424dbef52ca.png"
+    },
+    {
+      "itemId": 2213,
+      "name": "Kitty Band",
+      "subject": "cream-and-brown cloth hair band with cat ears",
+      "source": "generated-images/exec-a0c1d26d-f75a-4432-9102-c06902149bf5.png"
+    },
+    {
+      "itemId": 5015,
+      "name": "Egg Shell",
+      "subject": "clean broken pale eggshell half worn as a cap",
+      "source": "generated-images/exec-3976c127-cd79-4360-9cf6-0b5ea66254d9.png"
+    },
+    {
+      "itemId": 976,
+      "name": "Lemon Dyestuffs",
+      "subject": "lemon-yellow dye bottle and stained cloth swatch",
+      "source": "generated-images/exec-d48afa30-17d0-47e9-ac25-d48292358be0.png"
+    },
+    {
+      "itemId": 4008,
+      "name": "Picky Card",
+      "subject": "cream fantasy monster card with a yellow chick silhouette",
+      "source": "generated-images/exec-ea4c61d8-8d9e-425d-8574-24f671b381fe.png"
+    },
+    {
+      "itemId": 982,
+      "name": "White Dyestuffs",
+      "subject": "white dye bottle and stained cloth swatch",
+      "source": "generated-images/exec-3e61644e-6347-4295-a30c-43be88b16ed6.png"
+    },
+    {
+      "itemId": 930,
+      "name": "Rotten Bandage",
+      "subject": "aged gray-brown stained bandage roll",
+      "source": "generated-images/exec-0598f1a6-6faa-4595-93b9-53055ba30d5c.png"
+    },
+    {
+      "itemId": 1022,
+      "name": "Nine Tails",
+      "subject": "fan-shaped bundle of nine golden fox-tail tufts",
+      "source": "generated-images/exec-e1df15fd-6190-4448-af2a-be8c34a7e6f6.png"
+    },
+    {
+      "itemId": 2278,
+      "name": "Mr. Smile",
+      "subject": "simple cheerful pale-ivory smiling-face mask",
+      "source": "generated-images/exec-6a74541b-4d18-4ccf-8153-84224e056872.png"
+    },
+    {
+      "itemId": 921,
+      "name": "Mushroom Spore",
+      "subject": "three soft round tan mushroom spores",
+      "source": "generated-images/exec-f33cf6aa-4e72-4e36-be34-c8fdf4306ccf.png"
+    },
+    {
+      "itemId": 920,
+      "name": "Wolf Claw",
+      "subject": "large curved dark-gray wolf claw",
+      "source": "generated-images/exec-ad46b101-3503-4876-bfec-eed402788b83.png"
+    },
+    {
+      "itemId": 958,
+      "name": "Horrendous Mouth",
+      "subject": "stylized grotesque monster jaw with uneven teeth",
+      "source": "generated-images/exec-6366dcf4-e7ca-4427-a4c0-c37af799dcc3.png"
+    },
+    {
+      "itemId": 957,
+      "name": "Decayed Nail",
+      "subject": "long brittle cracked gray monster nail",
+      "source": "generated-images/exec-1f9a3732-d5bd-4c5b-9989-b9018b0af401.png"
+    },
+    {
+      "itemId": 922,
+      "name": "Orc's Fang",
+      "subject": "heavy curved chipped ivory-green orc tusk",
+      "source": "generated-images/exec-1b20cc52-2337-403d-bb5c-9eb2b1c3107d.png"
+    },
+    {
+      "itemId": 963,
+      "name": "Sharp Scale",
+      "subject": "razor-edged silver-blue monster scale",
+      "source": "generated-images/exec-063685e4-f306-42d9-9313-c7cf988f69b2.png"
+    },
+    {
+      "itemId": 968,
+      "name": "Heroic Emblem",
+      "subject": "worn bronze shield badge with a raised wing",
+      "source": "generated-images/exec-064f5070-ca18-49b1-a6b4-90c455a10915.png"
+    },
+    {
+      "itemId": 1001,
+      "name": "Star Dust",
+      "subject": "mound of luminous pale-gold crystalline stardust",
+      "source": "generated-images/exec-ab155585-7e00-4f37-9a67-31a39de061f2.png"
+    },
+    {
+      "itemId": 1017,
+      "name": "Mole Whiskers",
+      "subject": "bundle of long fine dark mole whiskers",
+      "source": "generated-images/exec-f8146c25-322f-46d9-b869-bb856b35a998.png"
+    },
+    {
+      "itemId": 1061,
+      "name": "Witch Starsand",
+      "subject": "mound of violet-black magical sand with star glints",
+      "source": "generated-images/exec-36785384-b3bd-47ed-859e-ae63414d5f27.png"
+    },
+    {
+      "itemId": 937,
+      "name": "Venom Canine",
+      "subject": "long pale fang with a green venom droplet",
+      "source": "generated-images/exec-6e270baa-b749-4405-8d39-e56317758cea.png"
+    },
+    {
+      "itemId": 939,
+      "name": "Bee Sting",
+      "subject": "sharp striped amber-and-black insect stinger",
+      "source": "generated-images/exec-887c8851-736a-46c2-bea5-a2d769cc7721.png"
+    },
+    {
+      "itemId": 972,
+      "name": "Karvodailnirol",
+      "subject": "dark-violet oily alchemical reagent vial",
+      "source": "generated-images/exec-1957eae5-86f2-406d-b464-0d8c825b84d8.png"
+    },
+    {
+      "itemId": 7128,
+      "name": "Bottle Grenade Creation Guide",
+      "subject": "red-brown recipe book with throwing-bottle emblem",
+      "source": "generated-images/exec-5d16a70c-9bb9-4b7f-88bd-283d0200dc8f.png"
+    },
+    {
+      "itemId": 1059,
+      "name": "Fabric",
+      "subject": "folded sturdy beige woven fabric",
+      "source": "generated-images/exec-1a4c3b09-88cd-4d53-a66d-3ba56b836726.png"
+    },
+    {
+      "itemId": 7129,
+      "name": "Acid Bottle Creation Guide",
+      "subject": "yellow-green recipe book with acid-flask emblem",
+      "source": "generated-images/exec-29370d13-8e4b-4538-9c61-9c648b0a5df9.png"
+    },
+    {
+      "itemId": 929,
+      "name": "Immortal Heart",
+      "subject": "stylized dark-crimson heart organ with blue glow",
+      "source": "generated-images/exec-9ed87a8c-6acb-47da-9925-0f4b4e2363ed.png"
+    },
+    {
+      "itemId": 7130,
+      "name": "Plant Bottle Creation Guide",
+      "subject": "leafy-green recipe book with sprouting-bottle emblem",
+      "source": "generated-images/exec-bca04fad-a1ef-4a58-a3ba-b31dc970b0eb.png"
+    },
+    {
+      "itemId": 1032,
+      "name": "Maneater Blossom",
+      "subject": "detached red-orange carnivorous plant blossom",
+      "source": "generated-images/exec-bd9eeacf-2b46-4ab9-9598-dc4918f8366c.png"
+    },
+    {
+      "itemId": 7131,
+      "name": "Marine Sphere Creation Guide",
+      "subject": "ocean-blue recipe book with bubble-bottle emblem",
+      "source": "generated-images/exec-a88ac719-f850-4498-a110-57abafff4136.png"
+    },
+    {
+      "itemId": 1050,
+      "name": "Tendon",
+      "subject": "coiled pale tan stylized monster tendon",
+      "source": "generated-images/exec-6791e2ed-e218-4524-b383-242a65584131.png"
+    },
+    {
+      "itemId": 1051,
+      "name": "Detonator",
+      "subject": "compact brass alchemy detonator with red crystal trigger",
+      "source": "generated-images/exec-4f04f422-db81-4b20-986a-949bcb5fd905.png"
+    },
+    {
+      "itemId": 7132,
+      "name": "Glistening Coat Creation Guide",
+      "subject": "silver-blue recipe book with armor-flask emblem",
+      "source": "generated-images/exec-8d84bf5b-968b-48af-99f4-8e95763f077a.png"
+    },
+    {
+      "itemId": 1044,
+      "name": "Zenorc's Fang",
+      "subject": "stout crooked dark-ivory fang with moss-green root",
+      "source": "generated-images/exec-51ea07f9-2d77-49d0-b58e-6aa4f68bd54f.png"
+    },
+    {
+      "itemId": 1012,
+      "name": "Frill",
+      "subject": "fan-shaped pale-green reptile neck-frill membrane",
+      "source": "generated-images/exec-3f5690a3-f7ce-4a0e-ad73-1b4d8d8a4526.png"
+    },
+    {
+      "itemId": 7126,
+      "name": "Large Jellopy",
+      "subject": "large translucent pale-pink gelatinous mineral blob",
+      "source": "generated-images/exec-1a8e0877-1012-4631-b604-a3257b2b8f00.png"
+    },
+    {
+      "itemId": 1057,
+      "name": "Moth Dust",
+      "subject": "mound of pale-lavender moth-wing dust",
+      "source": "generated-images/exec-13e83c11-5231-44ac-83d2-3cb5aff27220.png"
+    },
+    {
+      "itemId": 7127,
+      "name": "Alcohol Creation Guide",
+      "subject": "amber-brown recipe book with distillation-flask emblem",
+      "source": "generated-images/exec-19945032-fc5e-4b22-b8f5-e74e7dc62f45.png"
+    },
+    {
+      "itemId": 7140,
+      "name": "Seed of Life",
+      "subject": "luminous green seed with a tiny golden sprout",
+      "source": "generated-images/exec-cdaabc49-c5a6-4fb6-9746-2b04ab9ce124.png"
+    },
+    {
+      "itemId": 7141,
+      "name": "Yggdrasil Morning Dew",
+      "subject": "crystal-clear dew drop on an emerald world-tree leaf",
+      "source": "generated-images/exec-c7865e3b-ecdd-4b79-a972-e0769e7dd016.png"
+    },
+    {
+      "itemId": 7143,
+      "name": "Glass Tube",
+      "subject": "clean empty transparent laboratory glass tube",
+      "source": "generated-images/exec-46103a70-3ef4-420d-98d6-ba45b7c26789.png"
+    },
+    {
+      "itemId": 7135,
+      "name": "Bottle Grenade",
+      "subject": "reinforced throwing bottle with fiery orange liquid",
+      "source": "generated-images/exec-cff1a3a1-89ec-45b9-9da4-0f2f94369627.png"
+    },
+    {
+      "itemId": 7136,
+      "name": "Acid Bottle",
+      "subject": "thick-glass bottle with bright yellow-green acid",
+      "source": "generated-images/exec-f10e000e-2a6f-413b-bc1e-c0aa66530eb5.png"
+    },
+    {
+      "itemId": 7137,
+      "name": "Plant Bottle",
+      "subject": "bottle with a tiny living sprout in nutrient liquid",
+      "source": "generated-images/exec-e3d73df6-acf1-44d7-804b-4ff8b965fb70.png"
+    },
+    {
+      "itemId": 7138,
+      "name": "Marine Sphere Bottle",
+      "subject": "blue bottle with a tiny aquatic bubble creature silhouette",
+      "source": "generated-images/exec-ee08e181-349f-4f1f-8026-cc5807a42e06.png"
+    },
+    {
+      "itemId": 7139,
+      "name": "Glistening Coat",
+      "subject": "silver flask with shimmering pearlescent coating liquid",
+      "source": "generated-images/exec-91b233b9-5b00-498c-a030-978f9e056686.png"
+    },
+    {
+      "itemId": 12118,
+      "name": "Fireproof Potion",
+      "subject": "blue protection potion with red flame shield charm",
+      "source": "generated-images/exec-83aa7903-ede8-4c37-92db-16e9161a6aca.png"
+    },
+    {
+      "itemId": 12119,
+      "name": "Coldproof Potion",
+      "subject": "orange protection potion with blue snowflake shield charm",
+      "source": "generated-images/exec-1fc60997-010a-4d2e-bc84-6e43e88dd8c4.png"
+    },
+    {
+      "itemId": 12120,
+      "name": "Earthproof Potion",
+      "subject": "green protection potion with brown stone shield charm",
+      "source": "generated-images/exec-07f9c94b-0995-453f-a904-6f86d074f271.png"
+    },
+    {
+      "itemId": 12121,
+      "name": "Thunderproof Potion",
+      "subject": "amber protection potion with cyan lightning shield charm",
+      "source": "generated-images/exec-f6ceb53c-1b70-431a-a84b-01e283f2c9c9.png"
+    },
+    {
+      "itemId": 605,
+      "name": "Anodyne",
+      "subject": "calming lavender medicine vial with feather stopper",
+      "source": "generated-images/exec-b30e6fa2-f1b1-4b1c-b92a-8af21403acf8.png"
+    },
+    {
+      "itemId": 606,
+      "name": "Aloevera",
+      "subject": "aloe-green medicine bottle with translucent gel",
+      "source": "generated-images/exec-23f96fbb-cdc8-4ed4-b095-ec9ec785e808.png"
+    },
+    {
+      "itemId": 7142,
+      "name": "Embryo",
+      "subject": "sealed capsule with a glowing pink-gold life spark",
+      "source": "generated-images/exec-49642202-dec8-4768-b979-6610833e0cab.png"
+    },
+    {
+      "itemId": 100371,
+      "name": "Homunculus Nutrient",
+      "subject": "feeding vial with luminous turquoise nutrient liquid",
+      "source": "generated-images/exec-f31a5a95-9916-4e8b-b479-510f437a882a.png"
+    },
+    {
+      "itemId": 12114,
+      "name": "Elemental Converter (Fire)",
+      "subject": "parchment charm with red flame crystal seal",
+      "source": "generated-images/exec-80d5a6bc-3621-4e50-8f3b-633222e91b60.png"
+    },
+    {
+      "itemId": 12115,
+      "name": "Elemental Converter (Water)",
+      "subject": "parchment charm with blue water crystal seal",
+      "source": "generated-images/exec-a5cd6468-da72-439e-85f6-52081690ea4f.png"
+    },
+    {
+      "itemId": 12116,
+      "name": "Elemental Converter (Earth)",
+      "subject": "parchment charm with green earth crystal seal",
+      "source": "generated-images/exec-4919827b-a6bb-4f44-b4c7-f6811b5aac55.png"
+    },
+    {
+      "itemId": 12117,
+      "name": "Elemental Converter (Wind)",
+      "subject": "parchment charm with cyan wind crystal seal",
+      "source": "generated-images/exec-6232e1ae-9001-471e-bc57-771a1c2739c1.png"
+    },
+    {
+      "itemId": 14534,
+      "name": "Small Life Potion",
+      "subject": "tiny heart-shaped rose-gold life medicine ampoule",
+      "source": "generated-images/exec-bf437f59-363d-4e75-a4ee-ef270d68055f.png"
+    },
+    {
+      "itemId": 23203,
+      "name": "Small Mana Potion",
+      "subject": "tiny crescent-shaped deep-blue mana medicine ampoule",
+      "source": "generated-images/exec-75fa7ab0-04b7-4d8c-8df0-e303faa29651.png"
+    },
+    {
+      "itemId": 22817,
+      "name": "Small Healing Potion",
+      "subject": "tiny round pink-red healing ampoule with bandage charm",
+      "source": "generated-images/exec-cdb74ba8-5af1-4d9f-963a-bb2d266dca3f.png"
+    },
+    {
+      "itemId": 22545,
+      "name": "[NFS] Speed Potion",
+      "subject": "sleek cyan speed potion with swept-back glass fins",
+      "source": "generated-images/exec-d60f717e-1068-4ee5-8b5e-159cbcd8286b.png"
+    },
+    {
+      "itemId": 1101,
+      "name": "Sword",
+      "subject": "plain short iron arming sword with simple straight crossguard and brown leather grip",
+      "source": "generated-images/exec-29944a5b-693d-4350-935f-8865a55927f7.png"
+    },
+    {
+      "itemId": 1104,
+      "name": "Falchion",
+      "subject": "single-edged slightly curved broad falchion with clipped tip",
+      "source": "generated-images/exec-540d5bb4-344e-4f8c-a02a-5ec9e7ff4796.png"
+    },
+    {
+      "itemId": 1107,
+      "name": "Blade",
+      "subject": "robust short straight one-handed sword with broad dark-steel blade, pronounced fuller and asymmetrical hooked guard",
+      "source": "generated-images/exec-91d7434a-4be9-491d-90ed-ca9fde98d376.png"
+    },
+    {
+      "itemId": 1110,
+      "name": "Rapier",
+      "subject": "slender thrusting rapier with ornate swept silver guard",
+      "source": "generated-images/exec-a23411d9-2f9e-4a4f-8ccf-e48fcb37e0eb.png"
+    },
+    {
+      "itemId": 1113,
+      "name": "Scimiter",
+      "subject": "strongly curved single-edged scimitar with brass guard",
+      "source": "generated-images/exec-75deba55-62d6-47bc-8137-3f1f89f936f6.png"
+    },
+    {
+      "itemId": 1122,
+      "name": "Ring Pommel Saber",
+      "subject": "cavalry saber with curved blade and distinctive large ring pommel",
+      "source": "generated-images/exec-3221c46c-7916-412e-a4f8-1dd87e07ec20.png"
+    },
+    {
+      "itemId": 1126,
+      "name": "Saber",
+      "subject": "elegant slightly curved saber with protective knuckle guard",
+      "source": "generated-images/exec-45a39a98-89e2-4753-83d1-c827e90952ba.png"
+    },
+    {
+      "itemId": 1123,
+      "name": "Haedonggum",
+      "subject": "straight Korean-inspired single-edged sword with angular blade, compact disc guard and jade pommel tassel",
+      "source": "generated-images/exec-e8b8026f-30ee-4dd3-83f8-1027de8dbbca.png"
+    },
+    {
+      "itemId": 1119,
+      "name": "Tsurugi",
+      "subject": "slender ancient straight double-edged ritual sword with narrow leaf blade and restrained bronze crosspiece",
+      "source": "generated-images/exec-a72a0dc1-ebc9-44cc-a742-cc84e44733b9.png"
+    },
+    {
+      "itemId": 1129,
+      "name": "Flamberge",
+      "subject": "long one-handed sword with distinctive wavy flame-shaped blade",
+      "source": "generated-images/exec-f3fcc4d7-d2fe-4c4b-a13f-dc1351db0124.png"
+    },
+    {
+      "itemId": 1201,
+      "name": "Knife",
+      "subject": "tiny practical utility knife with short steel blade and plain wood handle",
+      "source": "generated-images/exec-93e5d121-84f8-495a-b569-24a7265b85ac.png"
+    },
+    {
+      "itemId": 1204,
+      "name": "Cutter",
+      "subject": "compact heavy cleaver-like dagger with thick chopping blade",
+      "source": "generated-images/exec-fb98843c-db7a-4011-b8b2-40b332076908.png"
+    },
+    {
+      "itemId": 1207,
+      "name": "Main Gauche",
+      "subject": "elegant parrying dagger with broad protective swept guard",
+      "source": "generated-images/exec-1de5a77c-c12e-41c7-b004-145cf1d1f586.png"
+    },
+    {
+      "itemId": 1210,
+      "name": "Dirk",
+      "subject": "long narrow Scottish-style dagger with simple crossguard",
+      "source": "generated-images/exec-0c8221b9-fe1d-4f10-9f24-acf9c8d43ded.png"
+    },
+    {
+      "itemId": 1213,
+      "name": "Dagger",
+      "subject": "balanced double-edged fantasy dagger with compact guard",
+      "source": "generated-images/exec-72d55b61-8ba6-42ea-b5ca-ccbd1a59d284.png"
+    },
+    {
+      "itemId": 1216,
+      "name": "Stiletto",
+      "subject": "very slim needle-point stiletto dagger with narrow triangular blade",
+      "source": "generated-images/exec-42844db0-2e4b-4977-86fb-d1c443e7586c.png"
+    },
+    {
+      "itemId": 1219,
+      "name": "Gladius",
+      "subject": "short broad Roman-style gladius sword with simple bronze guard",
+      "source": "generated-images/exec-be03d89c-42e4-44d7-8683-e7494e00203f.png"
+    },
+    {
+      "itemId": 1222,
+      "name": "Damascus",
+      "subject": "curved dagger with layered-wave steel pattern and dark ornate grip",
+      "source": "generated-images/exec-6cdd2990-77e0-4b87-b63e-3c3b02abaf60.png"
+    },
+    {
+      "itemId": 1116,
+      "name": "Katana",
+      "subject": "long gently curved katana with wrapped hilt and small round guard",
+      "source": "generated-images/exec-e8e25bda-414d-4495-9d91-7ecef0639e1f.png"
+    },
+    {
+      "itemId": 1151,
+      "name": "Slayer",
+      "subject": "massive dark two-handed execution sword with rugged brutal blade",
+      "source": "generated-images/exec-d4d55d71-caf6-4828-ae13-e1728762224b.png"
+    },
+    {
+      "itemId": 1154,
+      "name": "Bastard Sword",
+      "subject": "hand-and-a-half straight sword with long leather grip and balanced guard",
+      "source": "generated-images/exec-b003dd41-c841-4ca9-842b-a482e98a7725.png"
+    },
+    {
+      "itemId": 1157,
+      "name": "Two-Handed Sword",
+      "subject": "classic long greatsword with straight guard and two-handed grip",
+      "source": "generated-images/exec-e6f2e7c9-92b2-41e2-b164-5417644f7f9c.png"
+    },
+    {
+      "itemId": 1160,
+      "name": "Broad Sword",
+      "subject": "broad heavy two-handed blade with wide central fuller",
+      "source": "generated-images/exec-895b698f-17fc-4d2e-b8d1-301ccce14dac.png"
+    },
+    {
+      "itemId": 1163,
+      "name": "Claymore",
+      "subject": "very long Highland-style greatsword with angled quillons",
+      "source": "generated-images/exec-3531fa63-18fb-4480-925f-eb7a720c5a0e.png"
+    },
+    {
+      "itemId": 1351,
+      "name": "Battle Axe",
+      "subject": "compact one-handed combat axe with crescent steel blade and sturdy wooden haft",
+      "source": "generated-images/exec-c0a4f48d-36da-4f83-a0fa-426ff82e8d62.png"
+    },
+    {
+      "itemId": 1354,
+      "name": "Hammer",
+      "subject": "small practical one-handed blacksmith combat hammer with compact rectangular steel head",
+      "source": "generated-images/exec-d904768a-9c6f-4b45-9cd5-f97edd450915.png"
+    },
+    {
+      "itemId": 1357,
+      "name": "Buster",
+      "subject": "oversized brutal double-headed battle axe with thick chipped steel blades",
+      "source": "generated-images/exec-91899663-2985-45ef-8688-7d8d83fcd5dd.png"
+    },
+    {
+      "itemId": 1360,
+      "name": "Two-Handed Axe",
+      "subject": "long-hafted huge two-handed axe with broad symmetrical steel head",
+      "source": "generated-images/exec-3a14820e-5494-4b4b-9cca-ec1170fa1508.png"
+    },
+    {
+      "itemId": 1501,
+      "name": "Club",
+      "subject": "simple knotted wooden club with a chunky natural head",
+      "source": "generated-images/exec-eec554b5-a713-4d12-9909-001fddf5750c.png"
+    },
+    {
+      "itemId": 1504,
+      "name": "Mace",
+      "subject": "compact iron flanged mace with leather-wrapped handle",
+      "source": "generated-images/exec-d6ccfb84-a6b5-4f3a-a7b7-e9d151f7f90a.png"
+    },
+    {
+      "itemId": 1507,
+      "name": "Smasher",
+      "subject": "one-handed square-headed crushing hammer with flat block-shaped steel head and slim handle",
+      "source": "generated-images/exec-983258be-4b0e-43c6-8e12-f357f025f7c9.png"
+    },
+    {
+      "itemId": 1510,
+      "name": "Flail",
+      "subject": "handled flail with single spiked iron ball on a short chain",
+      "source": "generated-images/exec-83a0069b-58fc-4639-b9b9-ee70da381a49.png"
+    },
+    {
+      "itemId": 1519,
+      "name": "Chain",
+      "subject": "long loose S-curve of fighting-chain links with a small smooth teardrop weight",
+      "source": "generated-images/exec-54dbda2e-9de9-49dc-a907-85e64455569e.png"
+    },
+    {
+      "itemId": 1513,
+      "name": "Morning Star",
+      "subject": "long-handled morning star with fixed spiked ball head and no chain",
+      "source": "generated-images/exec-167896a2-445a-49e8-a28d-142f0189f048.png"
+    },
+    {
+      "itemId": 1516,
+      "name": "Sword Mace",
+      "subject": "compact one-handed mace with a short handle and pointed sword-like flanges around a solid core",
+      "source": "generated-images/exec-d7c750cd-c49e-4846-ba3f-1b03bb921aa7.png"
+    },
+    {
+      "itemId": 1522,
+      "name": "Stunner",
+      "subject": "compact stun baton mace with slim handle and small gold-orange amber-crystal striking cap",
+      "source": "generated-images/exec-eae74983-bfaa-482c-b0c9-0c007ea5fbcb.png"
+    },
+    {
+      "itemId": 1801,
+      "name": "Waghnak",
+      "subject": "matching pair of simple metal fist claws with short curved blades",
+      "source": "generated-images/exec-96456865-8503-4769-8d67-77de2495c291.png"
+    },
+    {
+      "itemId": 1803,
+      "name": "Knuckle Dusters",
+      "subject": "matching pair of sturdy brass knuckle weapons",
+      "source": "generated-images/exec-3b88aa85-328a-4e14-ab61-bd526d57119d.png"
+    },
+    {
+      "itemId": 1805,
+      "name": "Studded Knuckles",
+      "subject": "matching pair of leather fist guards covered with small metal studs",
+      "source": "generated-images/exec-5eea5676-449f-401b-af44-6a5e87bbc53f.png"
+    },
+    {
+      "itemId": 1807,
+      "name": "Fist",
+      "subject": "reinforced gauntlet-like fist weapon with a broad metal striking plate",
+      "source": "generated-images/exec-2decf7a3-5ff8-44d9-a3d1-9f3562d00005.png"
+    },
+    {
+      "itemId": 1809,
+      "name": "Claw",
+      "subject": "matching pair of aggressive three-bladed hand claws",
+      "source": "generated-images/exec-e4458aff-f703-4ee8-b75f-0f5cd11e0853.png"
+    },
+    {
+      "itemId": 1811,
+      "name": "Finger",
+      "subject": "compact set of ornate finger-mounted claw rings with tiny pointed blades",
+      "source": "generated-images/exec-7f1b10b8-f939-4154-a11f-d96f2eada536.png"
+    },
+    {
+      "itemId": 1401,
+      "name": "Javelin",
+      "subject": "light short throwing spear with slim wooden shaft and small leaf-shaped point",
+      "source": "generated-images/exec-6869ca82-f8ce-414f-a112-8a19529314ce.png"
+    },
+    {
+      "itemId": 1404,
+      "name": "Spear",
+      "subject": "classic medium wooden spear with leaf-shaped steel point",
+      "source": "generated-images/exec-0922ab0b-a780-4718-8c02-e07d7c6ca627.png"
+    },
+    {
+      "itemId": 1407,
+      "name": "Pike",
+      "subject": "long high-contrast dark pike with thick diamond steel spike and visible metal socket",
+      "source": "generated-images/exec-d5dc8614-7eec-44ed-aa5a-abf29e69e020.png"
+    },
+    {
+      "itemId": 1451,
+      "name": "Guisarme",
+      "subject": "polearm with hooked single-edged steel blade and long wooden shaft",
+      "source": "generated-images/exec-1d408a63-7dc0-49d6-91ae-3221209bc70b.png"
+    },
+    {
+      "itemId": 1454,
+      "name": "Glaive",
+      "subject": "long polearm with elegant broad curved single-edged blade",
+      "source": "generated-images/exec-179b9cec-4dcd-4285-a7f4-183823f4c012.png"
+    },
+    {
+      "itemId": 1457,
+      "name": "Partizan",
+      "subject": "polearm with broad spearhead and two distinctive small side lugs",
+      "source": "generated-images/exec-bf678266-1252-44d1-a772-e99bad845a6f.png"
+    },
+    {
+      "itemId": 1460,
+      "name": "Trident",
+      "subject": "three-pronged steel trident with long reinforced shaft",
+      "source": "generated-images/exec-ade02762-f4cf-43e8-bba5-f55f11d343da.png"
+    },
+    {
+      "itemId": 1463,
+      "name": "Hallberd",
+      "subject": "halberd with crescent axe blade, tall top spike, and rear hook",
+      "source": "generated-images/exec-943adeb5-8ca5-46bc-b7c8-6b446d980c6f.png"
+    },
+    {
+      "itemId": 1410,
+      "name": "Lance",
+      "subject": "heavy knight's jousting lance with long tapered conical body and broad round handguard",
+      "source": "generated-images/exec-de5dbf79-73da-4405-b1ee-a9a1caeee89d.png"
+    },
+    {
+      "itemId": 5041,
+      "name": "Heart Hairpin",
+      "subject": "rose-red heart ornament on a small bronze hair clip",
+      "source": "generated-images/exec-cfe0051c-7ff3-49c3-b429-aed181202717.png",
+      "reference": "https://www.divine-pride.net/database/item/5041",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5047,
+      "name": "Fashionable Glasses",
+      "subject": "fashionable oval rose-tinted sunglasses with warm bronze frames and curved brown temples",
+      "source": "generated-images/exec-120a1070-7e27-419c-8b4f-08a142ab4d90.png",
+      "reference": "https://www.divine-pride.net/database/item/5047",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5061,
+      "name": "Flower Hairpin",
+      "subject": "coral-pink five-petal flower ornament with a golden center on a short comb hairpin",
+      "source": "generated-images/exec-956df7dd-0719-4ddd-b85f-de41da74d6eb.png",
+      "reference": "https://www.divine-pride.net/database/item/5061",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5065,
+      "name": "Blue Fish",
+      "subject": "curved blue fish headpiece, sapphire scales, a friendly round eye, raised dorsal fin and curled tail",
+      "source": "generated-images/exec-27b111d6-e45f-4cc8-af69-66ae48a55282.png",
+      "reference": "https://www.divine-pride.net/database/item/5065",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5067,
+      "name": "Sombrero",
+      "subject": "wide woven straw sombrero with a tall domed crown and red triangular patterned hat band",
+      "source": "generated-images/exec-c77d6ba0-d1ce-490a-827e-44f4ce206882.png",
+      "reference": "https://www.divine-pride.net/database/item/5067",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5444,
+      "name": "Hair Brush",
+      "subject": "coral-red handled comb with a neat row of long teeth, shown diagonally",
+      "source": "generated-images/exec-db8f0344-1676-43fc-8ac3-d8d917d3f466.png",
+      "reference": "https://www.divine-pride.net/database/item/5444",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 2283,
+      "name": "Ear Muffs",
+      "subject": "pair of cream wool earmuffs on an arched tan headband with russet leather shells",
+      "source": "generated-images/exec-503690c1-96db-4cc1-be52-215a844ac2c4.png",
+      "reference": "https://www.divine-pride.net/database/item/2283",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5018,
+      "name": "Feather Bonnet",
+      "subject": "small rounded tan felt bonnet with curled brim, brown band, and a single long pale feather tucked into its side",
+      "source": "generated-images/exec-4408826b-a6b4-4a94-9357-f14e2bde988f.png",
+      "reference": "https://www.divine-pride.net/database/item/5018",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5064,
+      "name": "Smokie Leaf",
+      "subject": "one fresh green pointed leaf with a short curved stem and visible diagonal veins, wearable leaf accessory",
+      "source": "generated-images/exec-b3bbebf9-8f16-4e33-acb2-b623ec622fde.png",
+      "reference": "https://www.divine-pride.net/database/item/5064",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5076,
+      "name": "Beanie",
+      "subject": "soft cream and very pale blush pink knitted beanie with a folded ribbed cuff and fluffy pompom",
+      "source": "generated-images/exec-1bf2447b-dce9-4961-afe4-bebbe5587b00.png",
+      "reference": "https://www.divine-pride.net/database/item/5076",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 2273,
+      "name": "Doctor Band",
+      "subject": "brown leather medical headband with a round ivory-silver reflector disc on the front, small dark center hole",
+      "source": "generated-images/exec-1144c294-c497-455e-b094-7e147acb5900.png",
+      "reference": "https://www.divine-pride.net/database/item/2273",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5034,
+      "name": "Bulb Band",
+      "subject": "curved thin brown hairband topped by one small glowing golden glass light bulb and brass socket",
+      "source": "generated-images/exec-93eb528d-df06-490b-81d9-112982cafb44.png",
+      "reference": "https://www.divine-pride.net/database/item/5034",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5036,
+      "name": "Cross Hat",
+      "subject": "thin curved brown headband with a vertical warm brass cross ornament rising from its center",
+      "source": "generated-images/exec-ff5c843f-25e0-4805-b3d9-71d34319fe48.png",
+      "reference": "https://www.divine-pride.net/database/item/5036",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5049,
+      "name": "Striped Hairband",
+      "subject": "short round cylindrical fabric hairband or crown ring with vertical red and ivory stripes, open top",
+      "source": "generated-images/exec-fb0c7da7-e803-4cf1-9415-8fd51dfffe8f.png",
+      "reference": "https://www.divine-pride.net/database/item/5049",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5052,
+      "name": "Blue Hairband",
+      "subject": "simple slate-blue satin ring headband, smooth broad fabric, small stitched seam",
+      "source": "generated-images/exec-c03c50f7-880e-43e0-b8bf-826056b15134.png",
+      "reference": "https://www.divine-pride.net/database/item/5052",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 2272,
+      "name": "Stop Post",
+      "subject": "tiny wearable rustic wooden roadside sign on a short dark post, plank board with two wood support rails, no lettering or text; simple raised stop-hand emblem instead",
+      "source": "generated-images/exec-a5b179af-715d-41fa-809d-636f9865cccd.png",
+      "reference": "https://www.divine-pride.net/database/item/2272",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 2284,
+      "name": "Antlers",
+      "subject": "pair of branching tawny deer antlers connected at their bases as a wearable crown, ivory tips",
+      "source": "generated-images/exec-a505a4af-5a4f-4fd5-a5e9-79f8f59ba545.png",
+      "reference": "https://www.divine-pride.net/database/item/2284",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5033,
+      "name": "Raccoon Hat",
+      "subject": "soft tan raccoon-face costume cap, pointed ears and dark brown eye mask markings, cute rounded muzzle",
+      "source": "generated-images/exec-12a6b7e9-f420-4b27-8459-c8264a29edbf.png",
+      "reference": "https://www.divine-pride.net/database/item/5033",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 2280,
+      "name": "Sakkat",
+      "subject": "traditional broad conical woven straw hat, tan reeds radiating from a pointed crown, simple thin bound brim",
+      "source": "generated-images/exec-9257fa2a-25a1-45eb-bb47-88fb3c01290e.png",
+      "reference": "https://www.divine-pride.net/database/item/2280",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5039,
+      "name": "Rainbow Eggshell",
+      "subject": "broken ivory eggshell half worn as a hat, scattered lavender, muted blue and pale gold spots, irregular cracked rim",
+      "source": "generated-images/exec-d7f7a990-6996-4bc4-9500-7af196620773.png",
+      "reference": "https://www.divine-pride.net/database/item/5039",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5070,
+      "name": "Hot-blooded Headband",
+      "subject": "cream-white cloth headband tied at the back with two upright loose tails, warm soft fabric",
+      "source": "generated-images/exec-13f6b68f-1da5-4e6a-acb7-d50721cee8e8.png",
+      "reference": "https://www.divine-pride.net/database/item/5070",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5004,
+      "name": "Oxygen Mask",
+      "subject": "small pale silver-beige breathing mask with a soft rounded triangular cup, front intake fitting and brown elastic straps, no person",
+      "source": "generated-images/exec-f9784f29-1412-492a-9515-b069e9f58f94.png",
+      "reference": "https://www.divine-pride.net/database/item/5004",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5063,
+      "name": "Giant Band Aid",
+      "subject": "two oversized pale beige medical adhesive plasters overlapping as a plus shape, padded central gauze and subtle perforations",
+      "source": "generated-images/exec-71f80e63-974e-4781-bc57-24c3d90aa460.png",
+      "reference": "https://www.divine-pride.net/database/item/5063",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5069,
+      "name": "Kitsune Mask",
+      "subject": "cream fox festival mask with pointed ears, vermilion cheek and eye accents, gentle closed-eye smile and two red hanging ribbons",
+      "source": "generated-images/exec-d8976191-c79f-43cd-8c0a-f0945b9a2557.png",
+      "reference": "https://www.divine-pride.net/database/item/5069",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 2281,
+      "name": "Opera Masque",
+      "subject": "ivory asymmetric half-face opera mask covering the eyes and nose and extending down one cheek, bronze edging around eye holes",
+      "source": "generated-images/exec-0c11d799-3cfb-4492-a900-ccbcb443b3ad.png",
+      "reference": "https://www.divine-pride.net/database/item/2281",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5012,
+      "name": "Ph.D Hat",
+      "subject": "dark brown academic mortarboard cap with square flat top and golden tassel, three-quarter view",
+      "source": "generated-images/exec-fbeb78bb-cfda-4382-9ecd-cabbb5a9196f.png",
+      "reference": "https://www.divine-pride.net/database/item/5012",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5077,
+      "name": "Tulip Hairpin",
+      "subject": "coral red-orange tulip bud hair ornament with layered pointed petals and a small bronze pin visible behind",
+      "source": "generated-images/exec-c2388c2c-b2c6-47ca-8d96-4c1e86f5d71f.png",
+      "reference": "https://www.divine-pride.net/database/item/5077",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    },
+    {
+      "itemId": 5082,
+      "name": "Decorative Mushroom",
+      "subject": "whimsical red mushroom head ornament with large cream spots, pale ruffled gills and warm ivory stem with a small root-like base",
+      "source": "generated-images/exec-02823a81-f433-455e-af02-d80633a9307d.png",
+      "reference": "https://www.divine-pride.net/database/item/5082",
+      "method": "built-in image_gen",
+      "date": "2026-09-11"
+    }
+  ]
+}

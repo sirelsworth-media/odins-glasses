@@ -1,0 +1,143 @@
+/* Classic is the original stylesheet. Aurora is a scoped, reversible skin. */
+.renderedItemIcon{background:white!important;border-radius:9px;overflow:hidden}.renderedItemIcon img{width:100%;height:100%;object-fit:contain;display:block}
+.itemCategoryPreview{display:flex;align-items:center;gap:12px;margin:14px 0 20px}.itemCategoryPreview strong,.itemCategoryPreview small{display:block}.itemCategoryPreview strong{font-size:13px}.itemCategoryPreview small{font-size:10px;color:var(--muted);margin-top:4px}
+.monsterArtwork{grid-column:1/-1;display:flex;align-items:center;gap:28px;margin:0 0 18px;padding:20px;border:1px solid var(--line);background:var(--paper);border-radius:12px;min-width:0}
+.monsterArtwork img{display:block;width:min(480px,65%);height:auto;aspect-ratio:1;object-fit:contain;background:white;border-radius:10px;flex-shrink:1;min-width:0}
+.monsterArtwork figcaption{min-width:0;overflow-wrap:anywhere}.monsterArtwork figcaption strong{display:block;font-size:24px}.monsterArtwork figcaption span{display:block;margin-top:9px;font-size:11px;line-height:1.6;color:var(--muted)}
+.championArtwork img{box-shadow:0 0 0 3px #72baff,0 0 22px #52a9ff50}
+@media(max-width:650px){.monsterArtwork{flex-direction:column;gap:12px;padding:12px}.monsterArtwork img{width:100%;max-width:480px}.monsterArtwork figcaption{text-align:center}.monsterArtwork figcaption strong{font-size:18px}}
+.navigationIcon{width:21px;height:21px;flex:0 0 auto}
+.tabs button{display:flex;align-items:center;justify-content:center;gap:9px}
+.topbar{gap:20px;flex-wrap:wrap;height:auto;min-height:76px;padding-top:12px;padding-bottom:12px}
+.brand{order:0}.themeSwitch{order:1;margin-left:auto}.topActions{order:2}
+.themeSwitch{display:flex;gap:3px;padding:4px;border:1px solid var(--line);background:var(--cream);border-radius:12px}
+.themeSwitch button{display:flex;align-items:center;gap:6px;padding:7px 10px;border:0;border-radius:8px;background:transparent;font-size:11px;font-weight:700;cursor:pointer}
+.themeSwitch button[aria-pressed=true]{background:var(--paper);box-shadow:0 2px 5px #162d3515;color:var(--ink)}
+.themeSwatch{width:12px;height:12px;border-radius:50%;border:1px solid #0002}.themeSwatch.classic{background:linear-gradient(135deg,#f4f0e6 50%,#c5402d 50%)}.themeSwatch.aurora{background:linear-gradient(135deg,#14b8a6 50%,#3b82f6 50%)}.themeSwatch.nocturne{background:linear-gradient(135deg,#111827 50%,#8b5cf6 50%)}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+html[data-theme=aurora]{--ink:#182d41;--paper:#f4f7fb;--cream:#e9eff5;--red:#087e82;--gold:#d09c2a;--muted:#576b7d;--line:#d6e1e9;color-scheme:light}
+html[data-theme=aurora] body{background:radial-gradient(ellipse at 92% 0,#d9f3f0 0,transparent 40%),var(--paper);font-family:'Segoe UI',Arial,sans-serif}
+[data-theme=aurora] .topbar{background:#ffffffed;border-color:#e2eaf0;box-shadow:0 2px 15px #173e5c05;padding-left:clamp(22px,4vw,64px);padding-right:clamp(22px,4vw,64px)}
+[data-theme=aurora] .brandMark{border-radius:13px;transform:none;background:linear-gradient(140deg,#0b9691,#306ac5);box-shadow:0 5px 14px #087e8228}
+[data-theme=aurora] .brand strong{font-family:inherit;font-size:20px;letter-spacing:-.6px}
+[data-theme=aurora] .brand small{font-size:9px;letter-spacing:.09em}
+[data-theme=aurora] .topActions{gap:12px}
+[data-theme=aurora] .langSwitch,[data-theme=aurora] .appBackButton{border-radius:9px;background:#f0f5f8}
+[data-theme=aurora] .langSwitch button{border-radius:6px}
+[data-theme=aurora] .desktopBadge{border-color:var(--line);color:var(--muted);background:#edf3f8;border-radius:5px}
+[data-theme=aurora] .hero{padding:44px clamp(22px,5vw,76px) 38px;gap:30px;border:0;align-items:center}
+[data-theme=aurora] h1{font-family:inherit;font-size:clamp(38px,4.5vw,66px);font-weight:750;line-height:1.05;letter-spacing:-.055em}
+[data-theme=aurora] h1 em{font-style:normal;font-weight:750;color:#087e82}
+[data-theme=aurora] .eyebrow{letter-spacing:.16em;font-size:10px;margin-bottom:14px}
+[data-theme=aurora] .heroCopy{color:var(--muted);font-size:14px;max-width:540px;margin-top:18px;line-height:1.7}
+[data-theme=aurora] .heroStats{border-radius:18px;background:#ffffffb8;box-shadow:0 12px 35px #244c6908;overflow:hidden}
+[data-theme=aurora] .heroStats div{padding:22px 24px}
+[data-theme=aurora] .heroStats strong{font-family:inherit;font-weight:750;font-size:30px;letter-spacing:-1px;color:#1b4965}
+[data-theme=aurora] .tabs{margin:0 clamp(22px,5vw,76px);padding:6px;gap:4px;border:1px solid var(--line);border-radius:14px;background:#e8eff5;overflow-x:auto}
+[data-theme=aurora] .tabs button{flex:1;white-space:nowrap;padding:13px 12px;border:0;border-radius:9px;font-size:12px;color:#4c657a;transition:background .15s,color .15s}
+[data-theme=aurora] .tabs button:hover{background:#ffffffa6;color:#087e82}
+[data-theme=aurora] .tabs button.active{background:#fff;color:#086f75;box-shadow:0 2px 8px #234b6412}
+[data-theme=aurora] .workspace{padding:28px clamp(22px,5vw,76px) 60px;gap:26px}
+[data-theme=aurora] :is(.fieldWorkspace,.monsterSearchWorkspace,.itemWorkspace,.raidWorkspace,.craftWorkspace){padding-left:clamp(22px,5vw,76px);padding-right:clamp(22px,5vw,76px)}
+[data-theme=aurora] :is(h2,h3,.mobIdentity strong,.regionIdentity strong,.fieldIdentity strong,.searchMonsterIdentity strong,.itemIdentity strong,.recipeCard strong){font-family:'Segoe UI',Arial,sans-serif;letter-spacing:-.025em}
+[data-theme=aurora] :is(.filterPanel,.fieldFilters,.itemFilters,.craftControls){background:#fff;border:1px solid var(--line);border-radius:16px;box-shadow:0 8px 30px #234b6406}
+[data-theme=aurora] .filterPanel{padding:22px}
+[data-theme=aurora] .filterPanel label{color:#486175;letter-spacing:.045em}
+[data-theme=aurora] :is(input,select){border-radius:8px;background:#f7fafc;color:var(--ink);border-color:#ccdbe5;min-height:36px;font:inherit}
+[data-theme=aurora] input:focus,[data-theme=aurora] select:focus{border-color:#168f96}
+[data-theme=aurora] .profileSummary{border-radius:10px;background:#eaf7f6;color:#1f565d;border-color:#c3e7e3}
+[data-theme=aurora] .applyButton{background:#087e82;border-radius:10px;box-shadow:0 4px 10px #087e8220;color:white}
+[data-theme=aurora] .applyButton:hover{background:#096d71}
+[data-theme=aurora] :is(.mobCard,.regionCard,.fieldCard,.searchMonsterCard,.itemCard,.recipeCard,.materialCard,.dungeonCard,.bossCard){background:#fff;border-color:var(--line);border-radius:14px;box-shadow:0 3px 14px #203e5505;overflow:hidden}
+[data-theme=aurora] :is(.mobCard,.regionCard,.fieldCard,.searchMonsterCard,.itemCard,.recipeCard):hover{border-color:#9fbccf;box-shadow:0 6px 20px #203e550b}
+[data-theme=aurora] :is(.mobCard.expanded,.searchMonsterCard.expanded,.itemCard.expanded){border-color:#73b6b9}
+[data-theme=aurora] :is(.monsterDetails,.searchMonsterDetails,.itemDetailBody,.detailPanel,.fieldMonsters){background:#f2f7fa;border-color:var(--line);border-radius:10px}
+[data-theme=aurora] :is(.detailStats>span,.detailStats>div,.itemDetailStats>span,.itemDescription,.itemDetailImage,.elementModifierBlock span){background:#fff;border-color:var(--line)}
+[data-theme=aurora] :is(.itemJobs,.recipeMaterials,.materialUses){background:#edf3f7}
+[data-theme=aurora] :is(.viewSwitch,.segmented,.craftViewSwitch){background:#e9f0f5;border-color:var(--line);border-radius:9px;padding:3px}
+[data-theme=aurora] :is(.viewSwitch,.segmented,.craftViewSwitch) button{border-radius:6px}
+[data-theme=aurora] :is(.monsterSearchBox,.itemSearchBox,.dungeonSearch,.craftSearch){border-radius:11px;background:#fff;border-color:var(--line)}
+[data-theme=aurora] :is(.searchHint,.loadingBox,.emptyDetail,.craftUnknown){background:#edf3f8;border-color:var(--line);border-radius:14px;color:var(--muted)}
+[data-theme=aurora] .weakness{background:#e5f4f8;color:#146879;border-radius:9px}
+[data-theme=aurora] .rank{color:#8096a7}
+[data-theme=aurora] .mapline{border-color:#dfe8ee}
+[data-theme=aurora] :is(.referenceTag,.variantBadge,.ignoredVariantBadge){border-radius:5px;background:#fff2d8;color:#795916}
+[data-theme=aurora] :is(.verifiedTag,.globalEvidence){border-radius:5px;background:#e4f5ec;color:#256545}
+[data-theme=aurora] .fieldCard.elementLimited{border-color:#dbb567;background:#fffcf5}
+[data-theme=aurora] .fieldElementWarning{color:#805610;background:#fff0cc;border-radius:6px}
+[data-theme=aurora] .elementChips button{border-radius:20px;background:#f7fafc;color:#4e6577;border-color:#ccdce7}
+[data-theme=aurora] .elementChips button.excluded{background:#fff0e7;color:#9b4626;border-color:#dfac91}
+[data-theme=aurora] :is(.detailSpawnLink,.dropLink,.fieldMonsterLink):hover{background:#e0f1f2;color:#096b73}
+[data-theme=aurora] .legalFooter{background:#eaf0f6;color:#576b7d;border-color:var(--line);line-height:1.8}
+[data-theme=aurora] .sourceNote{color:#5a7080;line-height:1.7}
+[data-theme=aurora] .generatedItemIcon{border-radius:10px;overflow:hidden}
+
+/* Nocturne is a modern dark overlay with high-contrast panels and cool accents. */
+html[data-theme=nocturne]{--ink:#e7edf7;--paper:#0b1020;--cream:#151c2f;--red:#8b5cf6;--gold:#f3b84b;--muted:#98a6bd;--line:#29344d;color-scheme:dark;background:#080c18}
+html[data-theme=nocturne] body{background:radial-gradient(circle at 82% -8%,#3c256f66 0,transparent 36%),radial-gradient(circle at 8% 15%,#0c617047 0,transparent 30%),#080c18;font-family:'Segoe UI',Arial,sans-serif}
+[data-theme=nocturne] .topbar{background:#0b1020e8;border-color:#273149;box-shadow:0 10px 35px #0007;padding-left:clamp(22px,4vw,64px);padding-right:clamp(22px,4vw,64px)}
+[data-theme=nocturne] .brandMark{border-radius:12px;transform:none;background:linear-gradient(145deg,#8b5cf6,#16a6b6);box-shadow:0 0 26px #8b5cf655}
+[data-theme=nocturne] .brand strong{font-family:inherit;font-size:20px;letter-spacing:-.6px}
+[data-theme=nocturne] .themeSwitch{background:#11182a;border-color:#303b55}
+[data-theme=nocturne] .themeSwitch button{color:#91a0b9}
+[data-theme=nocturne] .themeSwitch button[aria-pressed=true]{background:#26314a;color:#f3f6fc;box-shadow:0 0 0 1px #8b5cf666,0 5px 18px #0005}
+[data-theme=nocturne] :is(.langSwitch,.appBackButton){background:#121a2c;border-color:#303b55;border-radius:9px}
+[data-theme=nocturne] .desktopBadge{background:#151e33;border-color:#33405e;color:#aab6ca;border-radius:6px}
+[data-theme=nocturne] .status i{background:#32d3a2;box-shadow:0 0 0 4px #32d3a222,0 0 14px #32d3a277}
+[data-theme=nocturne] .hero{padding:48px clamp(22px,5vw,76px) 40px;border:0;align-items:center}
+[data-theme=nocturne] h1{font-family:inherit;font-size:clamp(40px,5vw,70px);font-weight:760;line-height:1;letter-spacing:-.055em}
+[data-theme=nocturne] h1 em{font-style:normal;font-weight:760;color:#a78bfa;text-shadow:0 0 24px #8b5cf655}
+[data-theme=nocturne] .heroCopy{color:#a7b3c7;font-size:14px;line-height:1.75}
+[data-theme=nocturne] .heroStats{background:#11182bd9;border-color:#2c3854;border-radius:18px;box-shadow:0 18px 45px #0006;overflow:hidden}
+[data-theme=nocturne] .heroStats div{border-color:#2c3854}
+[data-theme=nocturne] .heroStats strong{font-family:inherit;color:#d9d2ff}
+[data-theme=nocturne] .tabs{margin:0 clamp(22px,5vw,76px);padding:6px;gap:4px;border:1px solid #263149;border-radius:14px;background:#101729;overflow-x:auto;box-shadow:0 8px 25px #0003}
+[data-theme=nocturne] .tabs button{flex:1;white-space:nowrap;padding:13px 12px;border:0;border-radius:9px;color:#8e9cb4;transition:background .15s,color .15s}
+[data-theme=nocturne] .tabs button:hover{background:#1b2540;color:#d7d1ff}
+[data-theme=nocturne] .tabs button.active{background:linear-gradient(145deg,#2a2450,#1b3148);color:#f1efff;box-shadow:0 0 0 1px #8b5cf655,0 5px 18px #0005}
+[data-theme=nocturne] .workspace{padding:28px clamp(22px,5vw,76px) 60px;gap:26px}
+[data-theme=nocturne] :is(.fieldWorkspace,.monsterSearchWorkspace,.itemWorkspace,.raidWorkspace,.craftWorkspace){padding-left:clamp(22px,5vw,76px);padding-right:clamp(22px,5vw,76px)}
+[data-theme=nocturne] :is(h2,h3,.mobIdentity strong,.regionIdentity strong,.fieldIdentity strong,.searchMonsterIdentity strong,.itemIdentity strong,.recipeCard strong){font-family:'Segoe UI',Arial,sans-serif;letter-spacing:-.025em}
+[data-theme=nocturne] :is(.filterPanel,.fieldFilters,.itemFilters,.craftControls,.classPath){background:#11182a;border:1px solid #2a3650;border-radius:16px;box-shadow:0 12px 34px #0004}
+[data-theme=nocturne] .filterPanel{padding:22px}
+[data-theme=nocturne] .filterPanel label{color:#a8b4c9}
+[data-theme=nocturne] :is(input,select,textarea){background:#0b1120;color:#e7edf7;border-color:#35425f;border-radius:8px;min-height:36px;font:inherit}
+[data-theme=nocturne] :is(input,select,textarea):focus{border-color:#8b5cf6}
+[data-theme=nocturne] .profileSummary{background:#17243a;color:#bcebf0;border-color:#285468;border-radius:10px}
+[data-theme=nocturne] .profiles button{background:#121a2d;border-color:#2d3953}
+[data-theme=nocturne] .profiles button.active{background:#251f43;border-color:#8b5cf6}
+[data-theme=nocturne] .applyButton{background:linear-gradient(135deg,#7c4de1,#236f91);border-radius:10px;box-shadow:0 7px 18px #0005;color:white}
+[data-theme=nocturne] :is(.mobCard,.regionCard,.fieldCard,.searchMonsterCard,.itemCard,.recipeCard,.materialCard,.dungeonCard,.bossCard,.moneyCard,.skillCard){background:#11182a;border-color:#2b3751;border-radius:14px;box-shadow:0 8px 24px #0003;overflow:hidden}
+[data-theme=nocturne] :is(.mobCard,.regionCard,.fieldCard,.searchMonsterCard,.itemCard,.recipeCard,.materialCard,.dungeonCard,.moneyCard,.skillCard):hover{border-color:#685a9f;box-shadow:0 10px 28px #0005}
+[data-theme=nocturne] :is(.mobCard.expanded,.searchMonsterCard.expanded,.itemCard.expanded){border-color:#8b5cf6}
+[data-theme=nocturne] :is(.monsterDetails,.searchMonsterDetails,.itemDetailBody,.detailPanel,.fieldMonsters){background:#0d1425;border-color:#2c3852;border-radius:10px}
+[data-theme=nocturne] :is(.detailStats>span,.detailStats>div,.itemDetailStats>span,.itemDescription,.itemDetailImage,.elementModifierBlock span){background:#141d31;border-color:#303d58}
+[data-theme=nocturne] :is(.itemJobs,.recipeMaterials,.materialUses,.helperNotice){background:#151e32;border-color:#313d58}
+[data-theme=nocturne] :is(.viewSwitch,.segmented,.craftViewSwitch){background:#0b1120;border-color:#2e3a55;border-radius:9px;padding:3px}
+[data-theme=nocturne] :is(.viewSwitch,.segmented,.craftViewSwitch) button{border-radius:6px;background:transparent}
+[data-theme=nocturne] :is(.viewSwitch,.segmented,.craftViewSwitch) button.active{background:#2a2450;color:#eeeaff}
+[data-theme=nocturne] :is(.monsterSearchBox,.itemSearchBox,.dungeonSearch,.craftSearch){background:#11182a;border-color:#2d3954;border-radius:11px}
+[data-theme=nocturne] :is(.searchHint,.loadingBox,.emptyDetail,.craftUnknown,.loadMoreButton){background:#11192b;border-color:#2d3954;border-radius:12px;color:#9ba9bf}
+[data-theme=nocturne] .weakness{background:#152b3c;color:#75d5e2;border-radius:9px}
+[data-theme=nocturne] .weakness strong{color:#75d5e2}
+[data-theme=nocturne] .rank{color:#71819d}
+[data-theme=nocturne] .mapline{border-color:#2b3750}
+[data-theme=nocturne] :is(.referenceTag,.variantBadge,.ignoredVariantBadge){background:#392f20;color:#f1c76b;border-radius:5px}
+[data-theme=nocturne] :is(.verifiedTag,.globalEvidence){background:#16372f;color:#6de0b4;border-radius:5px}
+[data-theme=nocturne] .fieldCard.elementLimited{border-color:#836a34;background:#171a24}
+[data-theme=nocturne] .fieldElementWarning{color:#f0c76e;background:#352c1c;border-radius:6px}
+[data-theme=nocturne] .elementChips button{background:#10182a;color:#a8b5ca;border-color:#35415d;border-radius:20px}
+[data-theme=nocturne] .elementChips button.excluded{background:#382027;color:#f1a0ab;border-color:#74404b}
+[data-theme=nocturne] :is(.detailSpawnLink,.dropLink,.fieldMonsterLink):hover{background:#242047;color:#d8d1ff}
+[data-theme=nocturne] :is(.dropTable,.helperPage table){background:#0f1728;border-color:#2c3852}
+[data-theme=nocturne] .dropLabels{background:#192238;color:#9eabc0}
+[data-theme=nocturne] .legalFooter{background:#0c1221;color:#8f9db5;border-color:#263149}
+[data-theme=nocturne] .sourceNote{color:#8998b0}
+[data-theme=nocturne] .generatedItemIcon{border-radius:10px;overflow:hidden}
+[data-theme=nocturne] .paperPortrait>img{mix-blend-mode:normal}
+[data-theme=nocturne] .monsterArtwork{background:#10182a;border-color:#2d3954}
+[data-theme=nocturne] .monsterArtwork img{background:#edf0f4}
+[data-theme=nocturne] ::selection{background:#6948ba;color:#fff}
+@media(max-width:1100px){.topbar .status,.topbar .desktopBadge{display:none}:is([data-theme=aurora],[data-theme=nocturne]) .tabs button{padding:12px 9px;font-size:11px}}
+@media(max-width:700px){.topbar{gap:10px}.brand{flex:1}.brand small{display:none}.themeSwitch{margin-left:0}.topActions{margin-left:auto}.themeSwitch button{padding:6px}.tabs button{white-space:nowrap}:is([data-theme=aurora],[data-theme=nocturne]) .hero{padding-top:30px}:is([data-theme=aurora],[data-theme=nocturne]) .heroStats{margin-top:22px}:is([data-theme=aurora],[data-theme=nocturne]) .tabs button{flex:none}:is([data-theme=aurora],[data-theme=nocturne]) .workspace{gap:18px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}

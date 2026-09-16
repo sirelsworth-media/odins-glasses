@@ -1,0 +1,65 @@
+ODIN’S GLASSES – MONSTER PORTRAIT SOURCE NOTES
+
+2026-09-04 anatomy corrections: Assaulter 1315, Dullahan 1504, Galapago 1391,
+Kraben 1587, Mao Guai 1513, Nereid 1255, Obeaune 1044. Fresh built-in image_gen
+renders from user-provided anatomy descriptions, without sprite inputs. Kraben
+was corrected again to remove crustacean anatomy; Obeaune now crawls on land.
+Prompts and generation sources: scripts/corrections-seven-manifest.json.
+Originals and 128px versions: outputs/Monster-Korrekturen-7 (workspace root).
+White backgrounds retained; aspect ratio preserved during resizing.
+
+Purpose:
+Batch 1.20.0, 2026-09-04: 79 additional original painterly illustrations,
+generated individually with the built-in image generator from written subject
+descriptions. No original sprite images were passed to the generator in this batch.
+Full selection and descriptions: scripts/next79-monsters.json. Exact prompts and
+generation paths: scripts/generated79-manifest.json. A first Spring Rabbit attempt
+with a checkerboard was rejected and regenerated on a white background.
+This batch preserves the generated white background and is resized to 128 x 128;
+CSS multiply blends the paper into the portrait backing. It is not alpha-cut out.
+50 additional C-variant mappings use exact Aegis-name suffix matches, not a new
+pairwise visual comparison. They reuse the base illustration with the existing aura.
+During contact-sheet QA, a missing description field in the initial generation
+batch was detected. 34 visibly mismatched motifs were regenerated with validated,
+explicit anatomy descriptions. The final manifest records the actual accepted
+prompts, including name-only prompts for initial attempts accepted after review.
+These are interpretations, not official depictions or a legal clearance.
+
+These PNG files are newly generated bestiary illustrations for Odin’s Glasses. Original game sprites are not included in this directory or in the packaged app.
+
+Reference workflow:
+- Monster identity, ID and level selection: the application's RagnaDex-based monster data.
+- Visual recognition reference: the corresponding RO Zero DB/TWROZ sprite for each monster ID, viewed individually on 2026-09-02.
+- Each reference was used only to identify body plan, important silhouette traits and established color identity.
+- Each final portrait was generated as a new painterly illustration with a fresh pose and new rendering. It was then converted to a transparent 128 x 128 PNG.
+- This workflow reduces direct reuse of copyrighted pixels, but it is not a legal clearance or a guarantee that a rights holder cannot object to a recognizable derivative depiction.
+
+Shared prompt template:
+"Create a new original hand-painted portrait of the depicted monster for a compact fantasy bestiary icon. Preserve the recognizable species/body plan and key palette from the reference, but invent a fresh pose and original rendering. One complete subject, centered, transparent background, no scenery, frame, text, logo, watermark, copied pixels, copied outline or pixel art."
+
+Initial portraits from 1.14.1:
+1013 Wolf; 1019 Peco Peco; 1033 Elder Willow; 1174 Stainer.
+
+Low-level batch from 1.15.0:
+1001 Scorpion; 1002 Poring; 1004 Hornet; 1005 Familiar; 1007 Fabre; 1008 Pupa; 1009 Condor; 1010 Willow; 1011 Chonchon; 1012 Roda Frog; 1014 Spore; 1015 Zombie; 1018 Creamy; 1020 Mandragora; 1024 Wormtail; 1025 Boa; 1028 Soldier Skeleton; 1031 Poporing; 1047 Peco Peco Egg; 1048 Thief Bug Egg; 1049 Picky; 1050 Picky; 1051 Thief Bug; 1052 Rocker; 1053 Thief Bug Female; 1054 Thief Bug Male; 1055 Muka; 1056 Smokie; 1060 Bigfoot; 1063 Lunatic; 1068 Hydra; 1076 Skeleton; 1077 Poison Spore; 1078 Red Plant; 1079 Blue Plant; 1080 Green Plant; 1081 Yellow Plant; 1082 White Plant; 1083 Shining Plant; 1084 Black Mushroom; 1085 Red Mushroom; 1088 Vocal; 1089 Toad; 1094 Ambernite; 1097 Ant Egg; 1103 Caramel; 1107 Baby Desert Wolf; 1113 Drops; 1167 Savage Babe; 1175 Tarou.
+
+Level 34-79 batch from 1.16.0:
+1093 Eclipse; 1105 Deniro; 1185 Whisper; 1128 Horn; 1160 Piere; 1176 Vitata; 1095 Andre; 1034 Thara Frog; 1161 Plankton; 1242 Marin; 1057 Yoyo; 1104 Coco; 1070 Kukre; 1121 Giearth; 1141 Marina; 1066 Vadon; 1064 Megalodon; 1179 Whisper; 1111 Drainliar; 1144 Marse; 1067 Cornutus; 1071 Pirate Skeleton; 1016 Archer Skeleton; 1090 Mastering; 1073 Crab; 1142 Marine Sphere; 1153 Orc Zombie; 1686 Orc Baby; 1023 Orc Warrior; 1032 Verit; 1123 Goblin; 1124 Goblin; 1158 Phen; 1044 Obeaune; 1116 Eggyra; 1152 Orc Skeleton; 1177 Zenorc; 1273 Orc Lady; 1391 Galapago; 1041 Mummy; 1045 Marc; 1091 Dragon Fly; 1100 Argos; 1191 Mimic; 1317 Seal; 1042 Steel Chonchon; 1069 Swordfish; 1122 Goblin; 1214 Choco; 1254 Raggler; 1323 Sea Otter; 1392 Rotar Zairo; 1026 Munak; 1125 Goblin; 1146 Matyr; 1149 Minorous; 1313 Mobster; 1029 Isis; 1188 Bongun; 1074 Shellfish; 1108 Deviace; 1264 Merman; 1266 Aster; 1036 Ghoul; 1065 Strouf; 1308 Panzer Goblin; 1035 Hunter Fly; 1130 Jakk; 1138 Magnolia; 1170 Sohee; 1274 Megalith; 1058 Metaller; 1129 Horong; 1258 Goblin Archer; 1277 Greatest General; 1279 Tri Joint; 1280 Goblin Steamrider; 1299 Goblin Leader; 1494 Beetle King; 1687 Grove; 1126 Goblin; 1110 Dokebi; 1119 Frilldora; 1271 Alligator; 1278 Stalactic Golem; 1061 Nightmare; 1118 Flora; 1166 Savage; 1265 Cookie; 1281 Sage Worm; 1180 Nine Tail; 1195 Rideword; 1211 Brilight; 1260 Dark Frame; 1192 Wraith; 1145 Martin; 1189 Orc Archer; 1249 Myst Case; 1040 Golem; 1165 Sandman.
+
+Next 50 portraits from 1.18.0:
+2398 Little Poring; 2450 Thief Poring; 2404 Dead Plankton; 2405 Weak Skeleton; 2406 Weak Soldier Skeleton; 3816 Enriched Marin; 3815 Enriched Poring; 3810 King Poring; 3811 Hugh Goldling; 3812 Huge Amering; 3813 Enriched Drops; 3814 Enriched Poporing; 1062 Santa Poring; 2210 Christmas Snow Rabbit; 2380 Gift Stealing Raccoon; 1588 Christmas Orc; 1147 Maya; 1287 Soldier Guardian; 1245 Christmas Goblin; 1087 Orc Hero; 1086 Golden Thief Bug; 1244 Christmas Jakk; 1190 Orc Lord; 1038 Osiris; 1511 Amon Ra; 1246 Christmas Cookie; 1285 Archer Guardian; 1389 Dracula; 1150 Moonlight Flower; 1114 Dustiness; 1117 Evil Druid; 1127 Hode; 1269 Clock; 1199 Punk; 1209 Cramp; 1248 Cruiser; 1276 Raydric Archer; 1495 Stone Shooter; 1115 Eddga; 1139 Mantis; 1262 Mutant Dragonoid; 1380 Driller; 1163 Raydric; 1213 High Orc; 1582 Deviling; 1155 Petite (Earth); 1156 Petite (Wind); 1216 Penomena; 1286 Knight Guardian; 1321 Dragon Tail.
+
+All 50 were inspected together against their reference sprites after export. Hode and Christmas Goblin were regenerated to correct an identity/background error. Moonlight Flower and Petite (Earth) were generated from written descriptions after their harmless direct references were incorrectly blocked by the image safety system. The delivered app includes only the new 128 x 128 PNG portraits, not the reference sprites or full-resolution generation files.
+
+Exception: Obeaune (1044) was generated from a written description after visual inspection because the harmless sprite repeatedly triggered an incorrect safety rejection when attached directly.
+
+C-variant audit from 1.17.0:
+94 C1-C5 entries matching 79 illustrated base monsters were compared pair-by-pair against the RO Zero DB reference sprites. Every checked pair retained the same monster silhouette. The C files contain an added color/tint effect, so Odin’s Glasses reuses the original 128 x 128 portrait and renders its own blue champion aura as a separate CSS layer. No C reference sprite and no duplicate C portrait PNG is shipped. The explicit variant-to-base-ID mapping is kept in renderer/src/domain/variant-portrait-map.ts.
+
+September 3 update portrait from 1.18.1:
+1255 Nereid (Neraid). This was the only missing normal monster motif found while checking the newly opened Orc Underground Caverns, Northern Caverns - Luanda, Prontera Culvert memorial dungeon, and Orc's Memory against the existing portrait set. The original 128 x 128 portrait was generated from the monster's name, Earth-element cave-brute data, and a light visual cross-check; no reference sprite is shipped.
+
+Level 87-105 batch from 1.19.0:
+1498 Wootan Shooter; 1499 Wootan Fighter; 1102 Bathory; 1169 Skeleton Worker; 1193 Alarm; 1243 Sasquatch; 1493 Dryad; 1197 Zombie Prisoner; 1256 Pest; 1101 Baphomet Jr.; 1131 Joker; 1143 Marionette; 1270 Clock Tower Manager; 1037 Side Winder; 1112 Drake; 1196 Skeleton Prisoner; 1261 Wild Rose; 1046 Doppelganger; 1159 Phreeoni; 1251 Stormy Knight; 1320 Owl Duke; 1377 Elder; 1092 Vagabond Wolf; 1109 Deviruchi; 1497 Wooden Golem; 1515 Baby Hatii; 1257 Injustice; 1272 Dark Lord; 1302 Dark Illusion; 1099 Argiope; 1263 Wind Ghost; 1132 Khalitzburg; 1151 Myst; 1198 Dark Priest; 1201 Rybio; 1252 Hatii; 1500 Parasite; 1096 Angeling; 1120 Ghostring; 1253 Gargoyle; 1275 Alice; 1148 Medusa; 1202 Phendark; 1267 Carat; 1207 Sting; 1039 Baphomet; 1098 Anubis; 1178 Zerom; 1200 Zealotus; 20368 Contaminated Raydric Archer.
+
+The 50 candidates were selected from the current RagnaDex Zero list by ascending level, excluding existing portraits and C1-C5 variants. Each generated image used a fresh pose and rendering. Dryad and Parasite were generated from written descriptions after their harmless plantlike reference sprites triggered an incorrect image-safety rejection. Only the final transparent 128 x 128 PNG portraits are shipped.

@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1315,
+    "name": "Assaulter",
+    "prompt": "Use case: stylized-concept. Asset: replacement fantasy bestiary portrait for Assaulter. Subject: A crouching agile turtle assassin, pronounced domed shell and light combat gear. Original reptilian face and original weapon shapes. No colorful eye mask and no Ninja Turtles proportions.\nStyle: original hand-painted fantasy field-guide illustration, warm painterly shading and clear readable shapes, consistent compact game icon. One complete subject centered with generous margins, square composition, all limbs and props within frame. Plain solid white background, no scenery, no checkerboard, no lettering, no watermark, no border. Follow the anatomy description precisely; create a fresh original pose and rendering. Intended final display 128px but retain high resolution original.",
+    "source": "generated-images/exec-aff3a436-5cd3-4b39-936c-3ddb129f14b4.png",
+    "method": "built-in image_gen"
+  },
+  {
+    "id": 1504,
+    "name": "Dullahan",
+    "prompt": "Use case: stylized-concept. Asset: replacement fantasy bestiary portrait for Dullahan. Subject: A headless cursed suit of armor walking on foot. An unmistakably EMPTY neck opening, no helmet or head, and eerie animated armor pieces define its silhouette. Two armored legs, standing on the ground. No horse, no mounted rider.\nStyle: original hand-painted fantasy field-guide illustration, warm painterly shading and clear readable shapes, consistent compact game icon. One complete subject centered with generous margins, square composition, all limbs and props within frame. Plain solid white background, no scenery, no checkerboard, no lettering, no watermark, no border. Follow the anatomy description precisely; create a fresh original pose and rendering. Intended final display 128px but retain high resolution original.",
+    "source": "generated-images/exec-0360978d-250d-4af7-a136-42da794397e2.png",
+    "method": "built-in image_gen"
+  },
+  {
+    "id": 1391,
+    "name": "Galapago",
+    "prompt": "Use case: stylized-concept. Asset: replacement fantasy bestiary portrait for Galapago. Subject: A round adorable penguin holding a drink with a straw in one flipper. Clear bird beak, short flippers, penguin feet; relaxed cheeky happy expression.\nStyle: original hand-painted fantasy field-guide illustration, warm painterly shading and clear readable shapes, consistent compact game icon. One complete subject centered with generous margins, square composition, all limbs and props within frame. Plain solid white background, no scenery, no checkerboard, no lettering, no watermark, no border. Follow the anatomy description precisely; create a fresh original pose and rendering. Intended final display 128px but retain high resolution original.",
+    "source": "generated-images/exec-504f85db-a5a7-437e-9395-fae673d15e05.png",
+    "method": "built-in image_gen"
+  },
+  {
+    "id": 1587,
+    "name": "Kraben",
+    "prompt": "Use case: stylized-concept. Create a small HUMANOID fantasy spirit warrior, fully corporeal, with humanlike face, nose and mouth, visible torso, TWO humanlike arms and TWO humanlike legs. He holds TWO conspicuous round shields, one on either side, with ordinary hands. Face torso legs clearly visible. This subject is named Kraben but the name does NOT mean crab: absolutely NO crab, NO crustacean, NO shell, NO claws, NO carapace, NO insect or reptilian anatomy, NO eyestalks. Also NOT a floating mask. Original hand-painted fantasy field guide illustration, compact readable silhouette, complete figure and both shields centered with ample margin on plain solid white background, square composition, warm painterly shading. No scenery, lettering, border or watermark.",
+    "source": "generated-images/exec-fda5cc2b-9772-42ac-9676-f6be1d9e09f6.png",
+    "method": "built-in image_gen"
+  },
+  {
+    "id": 1513,
+    "name": "Mao Guai",
+    "prompt": "Use case: stylized-concept. Asset: replacement fantasy bestiary portrait for Mao Guai. Subject: A small chihuahua-like high priest wearing a BLUE robe. Large alert upright dog ears, short canine muzzle, dignified slightly grumpy expression. Clearly a small dog humanoid, NOT an ape and NOT a yeti.\nStyle: original hand-painted fantasy field-guide illustration, warm painterly shading and clear readable shapes, consistent compact game icon. One complete subject centered with generous margins, square composition, all limbs and props within frame. Plain solid white background, no scenery, no checkerboard, no lettering, no watermark, no border. Follow the anatomy description precisely; create a fresh original pose and rendering. Intended final display 128px but retain high resolution original.",
+    "source": "generated-images/exec-769ebb62-1ddf-44c6-b7a5-5386d82889de.png",
+    "method": "built-in image_gen"
+  },
+  {
+    "id": 1255,
+    "name": "Nereid",
+    "prompt": "Use case: stylized-concept. Asset: replacement fantasy bestiary portrait for Nereid. Subject: A long sleek eel-like aquatic creature with SMALL legs. Smooth slightly shiny skin, sinuous elongated body and narrow tapering tail. Strongly elongated eel silhouette with little limbs, NOT a squat frog.\nStyle: original hand-painted fantasy field-guide illustration, warm painterly shading and clear readable shapes, consistent compact game icon. One complete subject centered with generous margins, square composition, all limbs and props within frame. Plain solid white background, no scenery, no checkerboard, no lettering, no watermark, no border. Follow the anatomy description precisely; create a fresh original pose and rendering. Intended final display 128px but retain high resolution original.",
+    "source": "generated-images/exec-defb2ded-fb7d-46b4-aea4-970a55b83823.png",
+    "method": "built-in image_gen"
+  },
+  {
+    "id": 1044,
+    "name": "Obeaune",
+    "prompt": "Original hand-painted fantasy bestiary icon: a hostile aquatic siren monster crawling on land, fully dressed in opaque layered dark robes and a long-sleeved tunic. Humanoid head and arms, ominous scowling face. Both hands planted on the ground, elbows bent, low hunched shoulders, pulling itself forward. Instead of legs, a long eel-like lower body trails horizontally along the ground with small fins and tapering tail. Whole figure seen from three-quarter side view, clearly crawling rather than standing or swimming. Dark fairy-tale monster, nonsexual, no exposed torso, no gore. Warm painterly field-guide shading, clear silhouette readable at small size, square canvas, full creature visible with ample margins, plain white background, no lettering or frame.",
+    "source": "generated-images/exec-c1b14a93-7868-46a0-b1d3-0de09fc2e965.png",
+    "method": "built-in image_gen"
+  }
+]

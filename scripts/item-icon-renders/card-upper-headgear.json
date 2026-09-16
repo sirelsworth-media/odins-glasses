@@ -1,0 +1,8 @@
+{
+  "key": "card-upper-headgear",
+  "label": "Card · Upper Headgear",
+  "subject": "an ornate upright collectible parchment card with a clearly painted helmet emblem in its center. The card itself is the object, not actual equipment",
+  "group": "card",
+  "prompt": "Use case: stylized-concept. Asset: original fantasy inventory category icon for Card · Upper Headgear. Subject: an ornate upright collectible parchment card with a clearly painted helmet emblem in its center. The card itself is the object, not actual equipment. Cohesive hand-painted RPG field guide style, warm soft shading, brass details and restrained jewel tones. Object only, no character or hands. Full object centered, square canvas, ample margins, strong clean silhouette readable at 128px. Plain solid white background, absolutely no checkerboard. No text, letters, numbers, watermark, frame, logo or copied game artwork. This is a generic category symbol, not a specific named game item.",
+  "source": "generated-images/exec-7af857a5-274d-46d3-a00e-b07f169370d3.png"
+}

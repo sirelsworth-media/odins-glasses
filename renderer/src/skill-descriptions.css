@@ -1,0 +1,30 @@
+.skillDescription {
+  margin: 14px 0;
+  padding: 13px 14px;
+  border-left: 3px solid var(--red);
+  border-radius: 0 7px 7px 0;
+  background: var(--cream, #efe8dc);
+}
+
+.skillDescription strong {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.skillDescription p {
+  margin: 0;
+  white-space: pre-line;
+}
+
+.skillDescription small {
+  display: block;
+  margin-top: 7px;
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.skillDescription.missing {
+  border-left-color: var(--muted);
+  color: var(--muted);
+}

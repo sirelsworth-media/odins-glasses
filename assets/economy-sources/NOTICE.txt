@@ -1,0 +1,9 @@
+NPC price references: rAthena, GPL-3.0-or-later.
+Revision: e985006171d2eb320ee512a653f4c83aea3d81b6
+Sources: https://github.com/rathena/rathena/tree/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re
+Original item_db_etc.yml, item_db_usable.yml and item_db_equip.yml retained.
+Derived prices.json created 2026-09-11 by scripts/import-npc-prices.cjs.
+Sell is used if present; otherwise floor(Buy / 2), per upstream schema.
+Entries with neither price are omitted: no confirmed Zero Global price is inferred.
+Only matching item ID and Aegis identity may use a reference price.
+Not verified for Zero Global. No player-market prices. Full license: LICENSE.
