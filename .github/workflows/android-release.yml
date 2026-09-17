@@ -1,0 +1,62 @@
+name: Android Signed Release
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  signed-apk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: 21
+          cache: gradle
+      - run: npm ci
+      - run: npm run mobile:sync
+      - name: Restore signing key
+        env:
+          ANDROID_SIGNING_KEYSTORE_BASE64: ${{ secrets.ANDROID_SIGNING_KEYSTORE_BASE64 }}
+        run: |
+          test -n "$ANDROID_SIGNING_KEYSTORE_BASE64"
+          printf '%s' "$ANDROID_SIGNING_KEYSTORE_BASE64" | base64 --decode > "$RUNNER_TEMP/odins-glasses-release.jks"
+      - name: Build signed release APK
+        working-directory: android
+        env:
+          ODINS_KEYSTORE_PATH: ${{ runner.temp }}/odins-glasses-release.jks
+          ODINS_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          ODINS_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          ODINS_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleRelease --no-daemon
+      - name: Verify release signature
+        run: |
+          APKSIGNER="$(find "$ANDROID_SDK_ROOT/build-tools" -name apksigner -type f | sort -V | tail -1)"
+          "$APKSIGNER" verify --verbose --print-certs android/app/build/outputs/apk/release/app-release.apk | tee signing-certificate.txt
+          grep -qi "02417474388d44a79b20d0f81d1da88123995636cf6f750035eecc88abc74772" signing-certificate.txt
+      - name: Prepare release files
+        id: release
+        run: |
+          VERSION_NAME="$(sed -n 's/.*versionName "\([^"]*\)".*/\1/p' android/app/build.gradle)"
+          mkdir -p release-android
+          cp android/app/build/outputs/apk/release/app-release.apk "release-android/Odins-Glasses-Android-$VERSION_NAME.apk"
+          cp signing-certificate.txt release-android/ANDROID-SIGNING-CERTIFICATE.txt
+          cd release-android
+          sha256sum "Odins-Glasses-Android-$VERSION_NAME.apk" > "SHA256SUMS-Android-$VERSION_NAME.txt"
+          echo "version_name=$VERSION_NAME" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: odins-glasses-android-${{ steps.release.outputs.version_name }}-signed
+          path: release-android/*
+          if-no-files-found: error
+          retention-days: 30
