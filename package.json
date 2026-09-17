@@ -23,13 +23,20 @@
     "test:ui": "electron scripts/test-appearance.cjs && node scripts/cleanup-test-artifacts.cjs",
     "test:live-data": "node scripts/test-live-data.cjs",
     "build:renderer": "vite build --configLoader runner",
+    "mobile:sync-data": "node scripts/build-mobile-data.cjs",
+    "build:mobile:web": "npm run mobile:sync-data && vite build --mode mobile --configLoader runner",
+    "mobile:sync": "npm run build:mobile:web && node scripts/run-capacitor.cjs sync android",
+    "mobile:apk": "npm run mobile:sync && cd android && gradlew.bat assembleDebug",
     "dist": "npm run build:renderer && electron-builder --win nsis portable"
   },
   "dependencies": {
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/core": "^8.5.2",
     "react": "19.2.0",
     "react-dom": "19.2.0"
   },
   "devDependencies": {
+    "@capacitor/cli": "^8.5.2",
     "@types/react": "19.2.7",
     "@types/react-dom": "19.2.3",
     "@vitejs/plugin-react": "5.1.1",

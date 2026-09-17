@@ -1,4 +1,5 @@
 import type { Boss, Dungeon, DungeonDetail, HuntField, ItemDetail, ItemListEntry, Monster, UnratedMap } from "../domain/types";
+import { mobileApi } from "./mobile-api";
 
 type ItemSearchResponse = { items: ItemListEntry[]; total: number };
 
@@ -12,7 +13,7 @@ async function getJson<T>(path: string, signal?: AbortSignal): Promise<T> {
   return response.json() as Promise<T>;
 }
 
-export const api = {
+const desktopApi = {
   money: (signal?: AbortSignal) => getJson<{items: Monster[]}>("/api/money", signal),
   skills: (signal?: AbortSignal) => getJson<import("../ClassGuide").SkillData>("/api/skills", signal),
   monsters: (params: URLSearchParams, signal?: AbortSignal) => getJson<{ items: Monster[] }>(`/api/monsters?${params}`, signal),
@@ -24,3 +25,5 @@ export const api = {
   dungeon: (slug: string) => getJson<DungeonDetail>(`/api/dungeons/${encodeURIComponent(slug)}`),
   bosses: () => getJson<{ bosses: Boss[] }>("/api/bosses"),
 };
+
+export const api = __ODINS_MOBILE_BUILD__ ? mobileApi : desktopApi;

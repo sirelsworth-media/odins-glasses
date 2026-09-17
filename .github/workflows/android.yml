@@ -1,0 +1,59 @@
+name: Android Alpha
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "android/**"
+      - "renderer/**"
+      - "server/**"
+      - "scripts/build-mobile-data.cjs"
+      - "scripts/run-capacitor.cjs"
+      - "api.cjs"
+      - "capacitor.config.ts"
+      - "package.json"
+      - "package-lock.json"
+      - "vite.config.mjs"
+      - ".github/workflows/android.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+          cache: gradle
+      - uses: android-actions/setup-android@v3
+      - name: Install Android SDK 36
+        run: sdkmanager "platforms;android-36" "build-tools;36.0.0"
+      - run: npm ci
+      - run: npm run mobile:sync
+      - name: Build installable alpha APK
+        working-directory: android
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleDebug --no-daemon
+      - name: Prepare artifact
+        run: |
+          mkdir -p release-android
+          cp android/app/build/outputs/apk/debug/app-debug.apk release-android/Odins-Glasses-Android-0.1.0-alpha.1.apk
+          cd release-android
+          sha256sum Odins-Glasses-Android-0.1.0-alpha.1.apk > SHA256SUMS-Android-0.1.0-alpha.1.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: odins-glasses-android-alpha
+          path: release-android/*
+          if-no-files-found: error
+          retention-days: 30

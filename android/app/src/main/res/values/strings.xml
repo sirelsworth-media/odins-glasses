@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Odin’s Glasses</string>
+    <string name="title_activity_main">Odin’s Glasses</string>
+    <string name="package_name">media.sirelsworth.odinsglasses</string>
+    <string name="custom_url_scheme">media.sirelsworth.odinsglasses</string>
+</resources>

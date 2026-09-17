@@ -8,6 +8,7 @@ release-birthday-mo/
 .builder-cache/
 .electron-cache/
 .npm-cache*/
+.mobile-public/
 previews/
 renderer/public-birthday/
 electron-builder.birthday.json

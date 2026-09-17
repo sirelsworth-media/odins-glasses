@@ -201,6 +201,22 @@ function itemDescription(raw) {
   return raw.wirkung.map((entry) => entry.en || entry.de || "").filter(Boolean).join("\n");
 }
 
+function normalizeItemDetail(raw, monsters) {
+  const source = itemSection(raw);
+  const mobById = new Map(monsters.map((mob) => [mob.monster_id, mob]));
+  const droppedBy = [...(raw.faellt_von || []), ...(raw.faellt_von_andere || [])].map((drop) => {
+    const mob = mobById.get(Number(drop.monster_id));
+    return { monster_id: numberOrNull(drop.monster_id), name_en: drop.name || mob?.name_en || "Unknown monster", aegis_name: mob?.aegis_name || null, level: mob?.level ?? null, image_url: null, rate_percent: numberOrNull(drop.rate), rate_kind: numberOrNull(drop.rate) == null ? "unknown" : "percentage", raw_rate: drop.rate ?? null };
+  }).sort((a, b) => Number(b.rate_percent ?? -1) - Number(a.rate_percent ?? -1));
+  return {
+    source, source_slug: raw.aegis || String(raw.id), item_id: Number(raw.id), name_en: raw.name || raw.name_de || `Item #${raw.id}`, name_zh: null, aegis_name: raw.aegis || null,
+    category: raw.typ === "Card" ? "Card" : source === "weapon" ? "Weapon" : source === "armor" ? "Armor" : source === "costume" ? "Costume" : raw.typ || "Unknown",
+    subtype: itemSubtype(raw, source), slot: raw.plaetze?.join(", ") || null, description: itemDescription(raw), icon_url: null, slots: numberOrNull(raw.slots),
+    attack: numberOrNull(raw.atk), magic_attack: numberOrNull(raw.matk), defense: numberOrNull(raw.def), magic_defense: null, weapon_level: numberOrNull(raw.waffenstufe), required_level: numberOrNull(raw.stufe_min), weight: numberOrNull(raw.gewicht),
+    buy_price: null, sell_price: null, equip_jobs: Array.isArray(raw.jobs) ? raw.jobs.join(", ") : raw.jobs || null, can_trade: null, refinable: raw.aufwertbar == null ? null : Boolean(raw.aufwertbar), element: raw.element || null, card_prefix_name: null, dropped_by: droppedBy,
+  };
+}
+
 async function itemDetailApi(url) {
   const id = String(url.searchParams.get("id") || "").trim();
   const slug = String(url.searchParams.get("slug") || "").trim().toLowerCase();
@@ -209,19 +225,7 @@ async function itemDetailApi(url) {
     const [itemsPayload, monsters] = await Promise.all([ragnadexItems(), allMonsters()]);
     const raw = (Array.isArray(itemsPayload) ? itemsPayload : itemsPayload.items || []).find((item) => String(item.id) === id || String(item.aegis || "").toLowerCase() === slug || String(item.id) === slug);
     if (!raw) throw new Error("Item nicht in RagnaDex gefunden");
-    const source = itemSection(raw);
-    const mobById = new Map(monsters.map((mob) => [mob.monster_id, mob]));
-    const droppedBy = [...(raw.faellt_von || []), ...(raw.faellt_von_andere || [])].map((drop) => {
-      const mob = mobById.get(Number(drop.monster_id));
-      return { monster_id: numberOrNull(drop.monster_id), name_en: drop.name || mob?.name_en || "Unknown monster", aegis_name: mob?.aegis_name || null, level: mob?.level ?? null, image_url: null, rate_percent: numberOrNull(drop.rate), rate_kind: numberOrNull(drop.rate) == null ? "unknown" : "percentage", raw_rate: drop.rate ?? null };
-    }).sort((a, b) => Number(b.rate_percent ?? -1) - Number(a.rate_percent ?? -1));
-    return { item: {
-      source, source_slug: raw.aegis || String(raw.id), item_id: Number(raw.id), name_en: raw.name || raw.name_de || `Item #${raw.id}`, name_zh: null, aegis_name: raw.aegis || null,
-      category: raw.typ === "Card" ? "Card" : source === "weapon" ? "Weapon" : source === "armor" ? "Armor" : source === "costume" ? "Costume" : raw.typ || "Unknown",
-      subtype: itemSubtype(raw, source), slot: raw.plaetze?.join(", ") || null, description: itemDescription(raw), icon_url: null, slots: numberOrNull(raw.slots),
-      attack: numberOrNull(raw.atk), magic_attack: numberOrNull(raw.matk), defense: numberOrNull(raw.def), magic_defense: null, weapon_level: numberOrNull(raw.waffenstufe), required_level: numberOrNull(raw.stufe_min), weight: numberOrNull(raw.gewicht),
-      buy_price: null, sell_price: null, equip_jobs: Array.isArray(raw.jobs) ? raw.jobs.join(", ") : raw.jobs || null, can_trade: null, refinable: raw.aufwertbar == null ? null : Boolean(raw.aufwertbar), element: raw.element || null, card_prefix_name: null, dropped_by: droppedBy,
-    }, source: "RagnaDex open API" };
+    return { item: normalizeItemDetail(raw, monsters), source: "RagnaDex open API" };
   });
 }
 
@@ -323,15 +327,38 @@ async function bossesApi() {
   });
 }
 
+async function skillsApi() {
+  const data = await cached("ragnadex:skills:v1", 3600000, () => fetchJson(RAGNADEX + "/skills.json"), { persistent: true, staleWhileRevalidate: true });
+  if (!Array.isArray(data.berufe) || !data.skills || typeof data.skills !== "object" || Array.isArray(data.skills)) throw new Error("Skill data format changed");
+  return { families: data.berufe, skills: data.skills, source: "RagnaDex / rAthena / community" };
+}
+
+async function createMobileSnapshot() {
+  const [monsters, itemPayload, skills, fieldResult, dungeonResult, bossResult] = await Promise.all([
+    allMonsters(), ragnadexItems(), skillsApi(), fieldsApi(), dungeonsApi(), bossesApi(),
+  ]);
+  const rawItems = Array.isArray(itemPayload) ? itemPayload : itemPayload.items || [];
+  const dungeonDetails = {};
+  for (const dungeon of dungeonResult.maps) dungeonDetails[dungeon.slug] = await dungeonDetailApi(dungeon.slug);
+  return {
+    schema: 1,
+    generated_at: new Date().toISOString(),
+    source: "RagnaDex open API + Zero Global overrides + rAthena NPC references",
+    monsters,
+    items: rawItems.map((item) => normalizeItemDetail(item, monsters)),
+    skills,
+    fields: fieldResult,
+    dungeons: dungeonResult,
+    dungeon_details: dungeonDetails,
+    bosses: bossResult,
+  };
+}
+
 const handleApi = createApiHandler({
   "/api/money": async () => ({ items: await allMonsters(), source: "RagnaDex + rAthena NPC reference prices" }),
-  "/api/skills": async () => {
-    const data = await cached("ragnadex:skills:v1", 3600000, () => fetchJson(RAGNADEX + "/skills.json"), { persistent: true, staleWhileRevalidate: true });
-    if (!Array.isArray(data.berufe) || !data.skills || typeof data.skills !== "object" || Array.isArray(data.skills)) throw new Error("Skill data format changed");
-    return { families: data.berufe, skills: data.skills, source: "RagnaDex / rAthena / community" };
-  },
+  "/api/skills": skillsApi,
   "/api/monsters": monstersApi, "/api/search": searchApi, "/api/item-search": itemSearchApi, "/api/item-detail": itemDetailApi,
   "/api/fields": fieldsApi, "/api/dungeons": dungeonsApi, "/api/bosses": bossesApi,
 }, [{ prefix: "/api/dungeons/", load: dungeonDetailApi }]);
 
-module.exports = { handleApi };
+module.exports = { handleApi, createMobileSnapshot };

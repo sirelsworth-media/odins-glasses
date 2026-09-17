@@ -8,6 +8,9 @@ as Classic, Aurora, and Nocturne themes.
 
 [Download the latest Windows installer or portable build](https://github.com/sirelsworth-media/odins-glasses/releases/latest)
 
+An offline-capable Android companion is in alpha development. See
+[the Android build notes](docs/ANDROID.md) for its scope and build process.
+
 ![Odin’s Glasses with the Nocturne theme](docs/nocturne.png)
 
 ## Current scope
@@ -25,7 +28,8 @@ use the locally stored last-good dataset.
 
 ## Development
 
-Requirements: Windows x64 and a current Node.js release with npm.
+Desktop requirements: Windows x64 and a current Node.js release with npm. The
+Android workflow supplies its own Java and Android SDK environment.
 
 ```powershell
 npm ci

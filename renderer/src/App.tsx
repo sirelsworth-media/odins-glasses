@@ -448,11 +448,11 @@ export default function Home() {
   }, [tab, focusedFieldCode, fieldsLoading, shownFields]);
 
   return (
-    <main>
+    <main className={__ODINS_MOBILE_BUILD__ ? "mobileApp" : undefined}>
       <header className="topbar">
         <ThemeSwitch lang={lang} />
         <a className="brand" href="#top"><span className="brandMark">OG</span><span><strong>Odin’s Glasses</strong><small>RO Zero Global Companion</small></span></a>
-        <div className="topActions"><button type="button" className="appBackButton" disabled={!tabHistory.length} onClick={goBack}>← {lang === "de" ? "Zurück" : "Back"}</button><div className="status"><i /> {words.live}</div><div className="desktopBadge">WINDOWS APP</div><div className="langSwitch" aria-label={lang === "de" ? "Sprache" : "Language"}><button className={lang === "de" ? "active" : ""} onClick={() => setLang("de")}>DE</button><button className={lang === "en" ? "active" : ""} onClick={() => setLang("en")}>EN</button></div></div>
+        <div className="topActions"><button type="button" className="appBackButton" disabled={!tabHistory.length} onClick={goBack}>← {lang === "de" ? "Zurück" : "Back"}</button><div className="status"><i /> {__ODINS_MOBILE_BUILD__ ? (lang === "de" ? "Offline-Daten bereit" : "Offline data ready") : words.live}</div><div className="desktopBadge">{__ODINS_MOBILE_BUILD__ ? "ANDROID ALPHA" : "WINDOWS APP"}</div><div className="langSwitch" aria-label={lang === "de" ? "Sprache" : "Language"}><button className={lang === "de" ? "active" : ""} onClick={() => setLang("de")}>DE</button><button className={lang === "en" ? "active" : ""} onClick={() => setLang("en")}>EN</button></div></div>
       </header>
 
       <section className="hero" id="top">
