@@ -169,6 +169,8 @@ export default function Home() {
   const [expandedItem, setExpandedItem] = useState<string | null>(null); const [itemDetailLoading, setItemDetailLoading] = useState<string | null>(null);
   const [itemDetails, setItemDetails] = useState<Record<string, ItemDetail>>({});
   const [requestedItem, setRequestedItem] = useState<string | null>(null);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [mobileNavCompact, setMobileNavCompact] = useState(false);
   const words = {
     de: { live: "Live-Daten · beim Öffnen aktualisiert", hunt: "Jagdplaner", raids: "Bosse & Dungeons", classBuild: "KLASSE & BUILD", allTargets: "zeigt alle passenden Gegner", against: "gegen", levelRange: "Levelbereich", targetElement: "Ziel-Element", sorting: "Sortierung", expHp: "EXP / HP (Richtwert)", totalExpHp: "Gesamt-EXP / HP (Richtwert)", lowestLevel: "Niedrigstes Level", showVariants: "Spezialvarianten anzeigen", update: "Jetzt aktualisieren →", bestTargets: "BESTE ZIELE", enemiesFor: "Gegner für", normalEnemies: "normale Gegner", specialVariants: "Spezialvarianten", hits: "Treffer", loadingMonsters: "Monsterdaten werden geladen …", variant: "Spezialvariante", noMap: "Keine Karte hinterlegt", measured: "✓ Global gemessen", unconfirmed: "EXP unbestätigt", groupContent: "GRUPPENINHALTE", dungeonIntro: "RagnaDex-Spawns, Monsterlevel und Bosse aus einer einheitlichen offenen Quelle.", dungeons: "Dungeons", bossMonsters: "Bossmonster", loadingRaids: "Dungeon- und Bossdaten werden geladen …", searchDungeon: "Dungeon suchen, z. B. Payon Cave …", maps: "Karten", paths: "Wege", analysing: "Dungeon wird analysiert …", monsterLevel: "Monsterlevel", monstersOnMap: "Monster auf der Karte", connections: "Verbindungen", chooseDungeon: "Dungeon auswählen", chooseDungeonHint: "Dann erscheinen Levelbereich und alle bekannten Monster.", unknown: "Unbekannt", unknownSpawn: "Spawn unbekannt" },
     en: { live: "Live data · refreshed when opened", hunt: "Hunt planner", raids: "Bosses & Dungeons", classBuild: "CLASS & BUILD", allTargets: "shows all suitable targets", against: "against", levelRange: "Level range", targetElement: "Target element", sorting: "Sorting", expHp: "EXP / HP (estimate)", totalExpHp: "Total EXP / HP (estimate)", lowestLevel: "Lowest level", showVariants: "Show special variants", update: "Refresh now →", bestTargets: "BEST TARGETS", enemiesFor: "monsters for", normalEnemies: "normal monsters", specialVariants: "special variants", hits: "results", loadingMonsters: "Loading monster data …", variant: "Special variant", noMap: "No map listed", measured: "✓ Measured on Global", unconfirmed: "EXP unconfirmed", groupContent: "GROUP CONTENT", dungeonIntro: "RagnaDex spawns, monster levels, and bosses from one openly reusable source.", dungeons: "Dungeons", bossMonsters: "Boss monsters", loadingRaids: "Loading dungeon and boss data …", searchDungeon: "Search dungeon, e.g. Payon Cave …", maps: "maps", paths: "paths", analysing: "Analysing dungeon …", monsterLevel: "Monster level", monstersOnMap: "Monsters on this map", connections: "Connections", chooseDungeon: "Select a dungeon", chooseDungeonHint: "Its level range and all known monsters will appear here.", unknown: "Unknown", unknownSpawn: "Spawn unknown" },
@@ -182,6 +184,8 @@ export default function Home() {
     setExcludedFieldElements((current) => current.includes(elementName) ? current.filter((item) => item !== elementName) : [...current, elementName]);
   }
   function navigateToTab(nextTab: AppTab) {
+    setMobileMenuOpen(false);
+    setMobileNavCompact(false);
     if (nextTab === tab) return;
     setTabHistory((current) => [...current, tab].slice(-30));
     setTab(nextTab);
@@ -446,30 +450,76 @@ export default function Home() {
     if (tab !== "fields" || !focusedFieldCode || fieldsLoading) return;
     window.setTimeout(() => document.getElementById(`field-${focusedFieldCode}`)?.scrollIntoView({ behavior: "smooth", block: "center" }), 0);
   }, [tab, focusedFieldCode, fieldsLoading, shownFields]);
+  useEffect(() => {
+    if (!__ODINS_MOBILE_BUILD__) return;
+    let previousY = window.scrollY;
+    let scheduled = false;
+    const updateNavigation = () => {
+      const currentY = window.scrollY;
+      if (!mobileMenuOpen) {
+        if (currentY > previousY + 6 && currentY > 120) setMobileNavCompact(true);
+        else if (currentY < previousY - 6) setMobileNavCompact(false);
+      }
+      previousY = currentY;
+      scheduled = false;
+    };
+    const onScroll = () => {
+      if (scheduled) return;
+      scheduled = true;
+      window.requestAnimationFrame(updateNavigation);
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, [mobileMenuOpen]);
+  useEffect(() => {
+    if (!__ODINS_MOBILE_BUILD__) return;
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setMobileMenuOpen(false);
+    };
+    window.addEventListener("keydown", onKeyDown);
+    document.body.classList.toggle("mobileDrawerOpen", mobileMenuOpen);
+    return () => {
+      window.removeEventListener("keydown", onKeyDown);
+      document.body.classList.remove("mobileDrawerOpen");
+    };
+  }, [mobileMenuOpen]);
+
+  const navigationItems: { key: AppTab; label: string }[] = [
+    { key: "hunt", label: words.hunt },
+    { key: "search", label: lang === "de" ? "Monster-Suche" : "Monster Search" },
+    { key: "items", label: "Items" },
+    { key: "crafting", label: "Crafting" },
+    { key: "fields", label: lang === "de" ? "Feld-Hunting" : "Field Hunting" },
+    { key: "specials", label: lang === "de" ? "Spezialvarianten" : "Special variants" },
+    { key: "dungeons", label: words.raids },
+    { key: "money", label: "Money Helper" },
+    { key: "classes", label: lang === "de" ? "Klassen & Skills" : "Classes & Skills" },
+  ];
 
   return (
     <main className={__ODINS_MOBILE_BUILD__ ? "mobileApp" : undefined}>
       <header className="topbar">
+        {__ODINS_MOBILE_BUILD__ && <button type="button" className="mobileMenuButton" aria-label={lang === "de" ? "Navigation öffnen" : "Open navigation"} aria-controls="mobile-navigation" aria-expanded={mobileMenuOpen} onClick={() => setMobileMenuOpen((current) => !current)}><span /><span /><span /></button>}
         <ThemeSwitch lang={lang} />
         <a className="brand" href="#top"><span className="brandMark">OG</span><span><strong>Odin’s Glasses</strong><small>RO Zero Global Companion</small></span></a>
         <div className="topActions"><button type="button" className="appBackButton" disabled={!tabHistory.length} onClick={goBack}>← {lang === "de" ? "Zurück" : "Back"}</button><div className="status"><i /> {__ODINS_MOBILE_BUILD__ ? (lang === "de" ? "Offline-Daten bereit" : "Offline data ready") : words.live}</div><div className="desktopBadge">{__ODINS_MOBILE_BUILD__ ? "ANDROID ALPHA" : "WINDOWS APP"}</div><div className="langSwitch" aria-label={lang === "de" ? "Sprache" : "Language"}><button className={lang === "de" ? "active" : ""} onClick={() => setLang("de")}>DE</button><button className={lang === "en" ? "active" : ""} onClick={() => setLang("en")}>EN</button></div></div>
       </header>
+
+      {__ODINS_MOBILE_BUILD__ && <>
+        <button type="button" className={`mobileDrawerScrim${mobileMenuOpen ? " open" : ""}`} aria-label={lang === "de" ? "Navigation schließen" : "Close navigation"} tabIndex={mobileMenuOpen ? 0 : -1} onClick={() => setMobileMenuOpen(false)} />
+        <aside id="mobile-navigation" className={`mobileDrawer${mobileMenuOpen ? " open" : ""}`} aria-hidden={!mobileMenuOpen}>
+          <div className="mobileDrawerHead"><span className="brandMark">OG</span><div><strong>Odin’s Glasses</strong><small>{lang === "de" ? "Navigation" : "Navigation"}</small></div><button type="button" aria-label={lang === "de" ? "Navigation schließen" : "Close navigation"} onClick={() => setMobileMenuOpen(false)}>×</button></div>
+          <nav aria-label={lang === "de" ? "Bereiche" : "Sections"}>{navigationItems.map((item) => <button type="button" key={item.key} className={tab === item.key ? "active" : ""} onClick={() => navigateToTab(item.key)}><NavigationIcon name={item.key} /><span>{item.label}</span></button>)}</nav>
+        </aside>
+      </>}
 
       <section className="hero" id="top">
         <div><p className="eyebrow">{lang === "de" ? "LEVELN, PLANEN, LOSZIEHEN" : "LEVEL, PLAN, SET OUT"}</p><h1>{lang === "de" ? <>Finde den nächsten<br /><em>guten Kampf.</em></> : <>Find your next<br /><em>good fight.</em></>}</h1><p className="heroCopy">{lang === "de" ? "Monsterwerte, elementare Vorteile, Spawnkarten und Dungeon-Infos – für alle Klassen und Builds." : "Monster stats, elemental advantages, spawn maps and dungeon information – for every class and build."}</p></div>
         <div className="heroStats"><div><strong>489</strong><span>Monster</span></div><div><strong>4.584</strong><span>Items</span></div><div><strong>3</strong><span>{lang === "de" ? "Quelltypen" : "Source types"}</span></div></div>
       </section>
 
-      <nav className="tabs" aria-label={lang === "de" ? "Bereiche" : "Sections"}>
-        <button className={tab === "hunt" ? "active" : ""} onClick={() => navigateToTab("hunt")}><NavigationIcon name="hunt" />{words.hunt}</button>
-        <button className={tab === "search" ? "active" : ""} onClick={() => navigateToTab("search")}><NavigationIcon name="search" />{lang === "de" ? "Monster-Suche" : "Monster Search"}</button>
-        <button className={tab === "items" ? "active" : ""} onClick={() => navigateToTab("items")}><NavigationIcon name="items" />Items</button>
-        <button className={tab === "crafting" ? "active" : ""} onClick={() => navigateToTab("crafting")}><NavigationIcon name="crafting" />Crafting</button>
-        <button className={tab === "fields" ? "active" : ""} onClick={() => navigateToTab("fields")}><NavigationIcon name="fields" />{lang === "de" ? "Feld-Hunting" : "Field Hunting"}</button>
-        <button className={tab === "specials" ? "active" : ""} onClick={() => navigateToTab("specials")}><NavigationIcon name="specials" />{lang === "de" ? "Spezialvarianten" : "Special variants"}</button>
-        <button className={tab === "dungeons" ? "active" : ""} onClick={() => navigateToTab("dungeons")}><NavigationIcon name="dungeons" />{words.raids}</button>
-        <button className={tab === "money" ? "active" : ""} onClick={() => navigateToTab("money")}><NavigationIcon name="money" />Money Helper</button>
-        <button className={tab === "classes" ? "active" : ""} onClick={() => navigateToTab("classes")}><NavigationIcon name="classes" />{lang === "de" ? "Klassen & Skills" : "Classes & Skills"}</button>
+      <nav className={`tabs${__ODINS_MOBILE_BUILD__ && mobileNavCompact ? " mobileCompact" : ""}`} aria-label={lang === "de" ? "Bereiche" : "Sections"} onClick={() => { if (__ODINS_MOBILE_BUILD__) setMobileNavCompact(false); }}>
+        {navigationItems.map((item) => <button type="button" key={item.key} className={tab === item.key ? "active" : ""} onClick={() => navigateToTab(item.key)}><NavigationIcon name={item.key} />{item.label}</button>)}
       </nav>
 
       {tab === "money" ? <MoneyHelper lang={lang} /> : tab === "classes" ? <ClassGuide lang={lang} /> : tab === "crafting" ? <Crafting lang={lang} onOpenItem={openItemFromCrafting} /> : tab === "search" ? <section className="monsterSearchWorkspace" id="monster-search">
