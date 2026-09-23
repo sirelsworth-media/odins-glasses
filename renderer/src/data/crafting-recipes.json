@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T14:06:22.638Z",
+  "generatedAt": "2026-09-23T14:34:14.619Z",
   "recipes": [
     {
       "id": "npc-5041",
@@ -7,6 +7,7 @@
       "output": {
         "itemId": 5041,
         "name": "Heart Hairpin",
+        "nameDe": "Heart Hairpin",
         "amount": 1
       },
       "skill": "Crafting Fashionable Glasses and Heart Hairpin",
@@ -14,12 +15,14 @@
         {
           "itemId": 994,
           "name": "Flame Heart",
+          "nameDe": "Flame Heart",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 2210,
           "name": "Hair Band",
+          "nameDe": "Hair Band",
           "amount": 1,
           "role": "ingredient"
         }
@@ -40,6 +43,7 @@
       "output": {
         "itemId": 5047,
         "name": "Fashionable Glasses",
+        "nameDe": "Fashionable Glasses",
         "amount": 1
       },
       "skill": "Crafting Fashionable Glasses and Heart Hairpin",
@@ -47,12 +51,14 @@
         {
           "itemId": 2203,
           "name": "Glasses",
+          "nameDe": "Glasses",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 975,
           "name": "Scarlet Dyestuffs",
+          "nameDe": "Scarlet Dyestuffs",
           "amount": 1,
           "role": "ingredient"
         }
@@ -73,6 +79,7 @@
       "output": {
         "itemId": 5061,
         "name": "Flower Hairpin",
+        "nameDe": "Flower Hairpin",
         "amount": 1
       },
       "skill": "So You Can Attend the Ball",
@@ -80,12 +87,14 @@
         {
           "itemId": 2269,
           "name": "Romantic Flower",
+          "nameDe": "Romantic Flower",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Steel",
           "amount": 10,
           "role": "ingredient"
         }
@@ -106,6 +115,7 @@
       "output": {
         "itemId": 5062,
         "name": "Straw Hat",
+        "nameDe": "Straw Hat",
         "amount": 1
       },
       "skill": "A Fine Straw Hat",
@@ -113,12 +123,14 @@
         {
           "itemId": 577,
           "name": "Grain",
+          "nameDe": "Grain",
           "amount": 100,
           "role": "ingredient"
         },
         {
           "itemId": 7197,
           "name": "Tough Vines",
+          "nameDe": "Tough Vines",
           "amount": 30,
           "role": "ingredient"
         }
@@ -139,6 +151,7 @@
       "output": {
         "itemId": 5065,
         "name": "Blue Fish",
+        "nameDe": "Blue Fish",
         "amount": 1
       },
       "skill": "I Want to Eat Fish",
@@ -146,24 +159,28 @@
         {
           "itemId": 624,
           "name": "Rotten Fish",
+          "nameDe": "Rotten Fish",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 959,
           "name": "Stinky Scale",
+          "nameDe": "Stinky Scale",
           "amount": 30,
           "role": "ingredient"
         },
         {
           "itemId": 544,
           "name": "Raw Fish",
+          "nameDe": "Raw Fish",
           "amount": 5,
           "role": "ingredient"
         },
         {
           "itemId": 1023,
           "name": "Fish Tail",
+          "nameDe": "Fish Tail",
           "amount": 1,
           "role": "ingredient"
         }
@@ -184,6 +201,7 @@
       "output": {
         "itemId": 5067,
         "name": "Sombrero",
+        "nameDe": "Sombrero",
         "amount": 1
       },
       "skill": "A Fine Sombrero",
@@ -191,12 +209,14 @@
         {
           "itemId": 5062,
           "name": "Straw Hat",
+          "nameDe": "Straw Hat",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 952,
           "name": "Cactus Needle",
+          "nameDe": "Cactus Needle",
           "amount": 50,
           "role": "ingredient"
         }
@@ -217,6 +237,7 @@
       "output": {
         "itemId": 5444,
         "name": "Hair Brush",
+        "nameDe": "Hair Brush",
         "amount": 1
       },
       "skill": "Crafting Hair Brush",
@@ -224,24 +245,28 @@
         {
           "itemId": 974,
           "name": "Mixture",
+          "nameDe": "Mixture",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 975,
           "name": "Scarlet Dyestuffs",
+          "nameDe": "Scarlet Dyestuffs",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 943,
           "name": "Solid Shell",
+          "nameDe": "Solid Shell",
           "amount": 50,
           "role": "ingredient"
         },
         {
           "itemId": 1301,
           "name": "Axe",
+          "nameDe": "Axe",
           "amount": 1,
           "role": "ingredient"
         }
@@ -262,6 +287,7 @@
       "output": {
         "itemId": 2283,
         "name": "Ear Muffs",
+        "nameDe": "Ear Muffs",
         "amount": 1
       },
       "skill": "«T:Ear Muffs» for a World Issolation",
@@ -269,18 +295,21 @@
         {
           "itemId": 724,
           "name": "Cursed Ruby",
+          "nameDe": "Cursed Ruby",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 949,
           "name": "Feather",
+          "nameDe": "Feather",
           "amount": 200,
           "role": "ingredient"
         },
         {
           "itemId": 5001,
           "name": "Headset",
+          "nameDe": "Headset",
           "amount": 1,
           "role": "ingredient"
         }
@@ -301,6 +330,7 @@
       "output": {
         "itemId": 5001,
         "name": "Headset",
+        "nameDe": "Headset",
         "amount": 1
       },
       "skill": "Eric’s Precious Headphones",
@@ -308,18 +338,21 @@
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Steel",
           "amount": 40,
           "role": "ingredient"
         },
         {
           "itemId": 970,
           "name": "Alcohol",
+          "nameDe": "Alcohol",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 1003,
           "name": "Coal",
+          "nameDe": "Coal",
           "amount": 1,
           "role": "ingredient"
         }
@@ -340,6 +373,7 @@
       "output": {
         "itemId": 5018,
         "name": "Feather Bonnet",
+        "nameDe": "Feather Bonnet",
         "amount": 1
       },
       "skill": "A Feathered Hat Full of Sentiment",
@@ -347,12 +381,14 @@
         {
           "itemId": 2247,
           "name": "Romantic Gent",
+          "nameDe": "Romantic Gent",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 916,
           "name": "Feather of Birds",
+          "nameDe": "Feather of Birds",
           "amount": 300,
           "role": "ingredient"
         }
@@ -373,6 +409,7 @@
       "output": {
         "itemId": 5064,
         "name": "Smokie Leaf",
+        "nameDe": "Smokie Leaf",
         "amount": 1
       },
       "skill": "The Secret of the Transforming Raccoon",
@@ -380,6 +417,7 @@
         {
           "itemId": 945,
           "name": "Raccoon Leaf",
+          "nameDe": "Raccoon Leaf",
           "amount": 10,
           "role": "ingredient"
         }
@@ -400,6 +438,7 @@
       "output": {
         "itemId": 5076,
         "name": "Beanie",
+        "nameDe": "Beanie",
         "amount": 1
       },
       "skill": "Grandmother’s Beanie",
@@ -407,24 +446,28 @@
         {
           "itemId": 2226,
           "name": "Cap",
+          "nameDe": "Cap",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 914,
           "name": "Fluff",
+          "nameDe": "Fluff",
           "amount": 50,
           "role": "ingredient"
         },
         {
           "itemId": 916,
           "name": "Feather of Birds",
+          "nameDe": "Feather of Birds",
           "amount": 50,
           "role": "ingredient"
         },
         {
           "itemId": 949,
           "name": "Feather",
+          "nameDe": "Feather",
           "amount": 10,
           "role": "ingredient"
         }
@@ -445,6 +488,7 @@
       "output": {
         "itemId": 2273,
         "name": "Doctor Band",
+        "nameDe": "Doctor Band",
         "amount": 1
       },
       "skill": "Crafting Doctor Band",
@@ -452,18 +496,21 @@
         {
           "itemId": 2275,
           "name": "Red Bandana",
+          "nameDe": "Red Bandana",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 998,
           "name": "Iron",
+          "nameDe": "Iron",
           "amount": 50,
           "role": "ingredient"
         },
         {
           "itemId": 733,
           "name": "Cracked Diamond",
+          "nameDe": "Cracked Diamond",
           "amount": 1,
           "role": "ingredient"
         }
@@ -484,6 +531,7 @@
       "output": {
         "itemId": 5034,
         "name": "Bulb Band",
+        "nameDe": "Bulb Band",
         "amount": 1
       },
       "skill": "Crafting Bulb Band",
@@ -491,12 +539,14 @@
         {
           "itemId": 2210,
           "name": "Hair Band",
+          "nameDe": "Hair Band",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 746,
           "name": "Glass Bead",
+          "nameDe": "Glass Bead",
           "amount": 20,
           "role": "ingredient"
         }
@@ -517,6 +567,7 @@
       "output": {
         "itemId": 5036,
         "name": "Cross Hat",
+        "nameDe": "Cross Hat",
         "amount": 1
       },
       "skill": "Crafting Cross Hat",
@@ -524,12 +575,14 @@
         {
           "itemId": 2210,
           "name": "Hair Band",
+          "nameDe": "Hair Band",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 2608,
           "name": "Rosary",
+          "nameDe": "Rosary",
           "amount": 1,
           "role": "ingredient"
         }
@@ -550,6 +603,7 @@
       "output": {
         "itemId": 5049,
         "name": "Striped Hairband",
+        "nameDe": "Striped Hairband",
         "amount": 1
       },
       "skill": "Crafting Striped Headband",
@@ -557,12 +611,14 @@
         {
           "itemId": 2210,
           "name": "Hair Band",
+          "nameDe": "Hair Band",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 978,
           "name": "Cobaltblue Dyestuffs",
+          "nameDe": "Cobaltblue Dyestuffs",
           "amount": 1,
           "role": "ingredient"
         }
@@ -583,6 +639,7 @@
       "output": {
         "itemId": 5052,
         "name": "Blue Hairband",
+        "nameDe": "Blue Hairband",
         "amount": 1
       },
       "skill": "Crafting Blue Headband",
@@ -590,12 +647,14 @@
         {
           "itemId": 2211,
           "name": "Bandana",
+          "nameDe": "Bandana",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 978,
           "name": "Cobaltblue Dyestuffs",
+          "nameDe": "Cobaltblue Dyestuffs",
           "amount": 1,
           "role": "ingredient"
         }
@@ -616,6 +675,7 @@
       "output": {
         "itemId": 2272,
         "name": "Stop Post",
+        "nameDe": "Stop Post",
         "amount": 1
       },
       "skill": "A Stop Sign You Can Wear on Your Head",
@@ -623,12 +683,14 @@
         {
           "itemId": 1019,
           "name": "Trunk",
+          "nameDe": "Trunk",
           "amount": 50,
           "role": "ingredient"
         },
         {
           "itemId": 983,
           "name": "Black Dyestuffs",
+          "nameDe": "Black Dyestuffs",
           "amount": 1,
           "role": "ingredient"
         }
@@ -649,6 +711,7 @@
       "output": {
         "itemId": 2284,
         "name": "Antlers",
+        "nameDe": "Antlers",
         "amount": 1
       },
       "skill": "Crafting Deer Horn",
@@ -656,6 +719,7 @@
         {
           "itemId": 923,
           "name": "Evil Horn",
+          "nameDe": "Evil Horn",
           "amount": 3,
           "role": "ingredient"
         }
@@ -676,6 +740,7 @@
       "output": {
         "itemId": 5033,
         "name": "Raccoon Hat",
+        "nameDe": "Raccoon Hat",
         "amount": 1
       },
       "skill": "Crafting Raccoon Hat",
@@ -683,12 +748,14 @@
         {
           "itemId": 945,
           "name": "Raccoon Leaf",
+          "nameDe": "Raccoon Leaf",
           "amount": 50,
           "role": "ingredient"
         },
         {
           "itemId": 2213,
           "name": "Kitty Band",
+          "nameDe": "Kitty Band",
           "amount": 1,
           "role": "ingredient"
         }
@@ -709,6 +776,7 @@
       "output": {
         "itemId": 2280,
         "name": "Sakkat",
+        "nameDe": "Sakkat",
         "amount": 1
       },
       "skill": "Because… It’s a Sakkat!",
@@ -716,6 +784,7 @@
         {
           "itemId": 1019,
           "name": "Trunk",
+          "nameDe": "Trunk",
           "amount": 120,
           "role": "ingredient"
         }
@@ -736,6 +805,7 @@
       "output": {
         "itemId": 5039,
         "name": "Rainbow Eggshell",
+        "nameDe": "Rainbow Eggshell",
         "amount": 1
       },
       "skill": "Crafting Rainbow Eggshell",
@@ -743,24 +813,28 @@
         {
           "itemId": 5015,
           "name": "Egg Shell",
+          "nameDe": "Egg Shell",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 978,
           "name": "Cobaltblue Dyestuffs",
+          "nameDe": "Cobaltblue Dyestuffs",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 975,
           "name": "Scarlet Dyestuffs",
+          "nameDe": "Scarlet Dyestuffs",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 976,
           "name": "Lemon Dyestuffs",
+          "nameDe": "Lemon Dyestuffs",
           "amount": 1,
           "role": "ingredient"
         }
@@ -781,6 +855,7 @@
       "output": {
         "itemId": 5070,
         "name": "Hot-blooded Headband",
+        "nameDe": "Hot-blooded Headband",
         "amount": 1
       },
       "skill": "You, Wear the Hot-blooded Headband",
@@ -788,18 +863,21 @@
         {
           "itemId": 4008,
           "name": "Picky Card",
+          "nameDe": "Picky Card",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 2211,
           "name": "Bandana",
+          "nameDe": "Bandana",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 982,
           "name": "White Dyestuffs",
+          "nameDe": "White Dyestuffs",
           "amount": 1,
           "role": "ingredient"
         }
@@ -820,6 +898,7 @@
       "output": {
         "itemId": 5004,
         "name": "Oxygen Mask",
+        "nameDe": "Oxygen Mask",
         "amount": 1
       },
       "skill": "Oxygen Mask",
@@ -827,6 +906,7 @@
         {
           "itemId": 701,
           "name": "Ora Ora",
+          "nameDe": "Ora Ora",
           "amount": 1,
           "role": "ingredient"
         }
@@ -847,6 +927,7 @@
       "output": {
         "itemId": 5063,
         "name": "Giant Band Aid",
+        "nameDe": "Giant Band Aid",
         "amount": 1
       },
       "skill": "Crafting Giant Band Aid",
@@ -854,12 +935,14 @@
         {
           "itemId": 930,
           "name": "Rotten Bandage",
+          "nameDe": "Rotten Bandage",
           "amount": 50,
           "role": "ingredient"
         },
         {
           "itemId": 970,
           "name": "Alcohol",
+          "nameDe": "Alcohol",
           "amount": 1,
           "role": "ingredient"
         }
@@ -880,6 +963,7 @@
       "output": {
         "itemId": 5069,
         "name": "Kitsune Mask",
+        "nameDe": "Kitsune Mask",
         "amount": 1
       },
       "skill": "Man with Fox Mask",
@@ -887,6 +971,7 @@
         {
           "itemId": 1022,
           "name": "Nine Tails",
+          "nameDe": "Nine Tails",
           "amount": 999,
           "role": "ingredient"
         }
@@ -907,6 +992,7 @@
       "output": {
         "itemId": 2278,
         "name": "Mr. Smile",
+        "nameDe": "Mr. Smile",
         "amount": 1
       },
       "skill": "Mr. Smile",
@@ -914,18 +1000,21 @@
         {
           "itemId": 909,
           "name": "Jellopy",
+          "nameDe": "Jellopy",
           "amount": 10,
           "role": "ingredient"
         },
         {
           "itemId": 914,
           "name": "Fluff",
+          "nameDe": "Fluff",
           "amount": 10,
           "role": "ingredient"
         },
         {
           "itemId": 705,
           "name": "Clover",
+          "nameDe": "Clover",
           "amount": 10,
           "role": "ingredient"
         }
@@ -946,6 +1035,7 @@
       "output": {
         "itemId": 2281,
         "name": "Opera Masque",
+        "nameDe": "Opera Masque",
         "amount": 1
       },
       "skill": "Sing While Wearing an Opera Mask",
@@ -953,12 +1043,14 @@
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Steel",
           "amount": 20,
           "role": "ingredient"
         },
         {
           "itemId": 707,
           "name": "Singing Plant",
+          "nameDe": "Singing Plant",
           "amount": 1,
           "role": "ingredient"
         }
@@ -979,6 +1071,7 @@
       "output": {
         "itemId": 5012,
         "name": "Ph.D Hat",
+        "nameDe": "Ph.D Hat",
         "amount": 1
       },
       "skill": "Ph.D Hat",
@@ -986,18 +1079,21 @@
         {
           "itemId": 909,
           "name": "Jellopy",
+          "nameDe": "Jellopy",
           "amount": 10,
           "role": "ingredient"
         },
         {
           "itemId": 704,
           "name": "Aloe",
+          "nameDe": "Aloe",
           "amount": 10,
           "role": "ingredient"
         },
         {
           "itemId": 708,
           "name": "Ment",
+          "nameDe": "Ment",
           "amount": 10,
           "role": "ingredient"
         }
@@ -1018,6 +1114,7 @@
       "output": {
         "itemId": 5077,
         "name": "Tulip Hairpin",
+        "nameDe": "Tulip Hairpin",
         "amount": 1
       },
       "skill": "Crafting Tulip Hairpin",
@@ -1025,12 +1122,14 @@
         {
           "itemId": 2278,
           "name": "Mr. Smile",
+          "nameDe": "Mr. Smile",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 975,
           "name": "Scarlet Dyestuffs",
+          "nameDe": "Scarlet Dyestuffs",
           "amount": 1,
           "role": "ingredient"
         }
@@ -1051,6 +1150,7 @@
       "output": {
         "itemId": 5082,
         "name": "Decorative Mushroom",
+        "nameDe": "Decorative Mushroom",
         "amount": 1
       },
       "skill": "Crafting Decorative Mushroom",
@@ -1058,6 +1158,7 @@
         {
           "itemId": 921,
           "name": "Mushroom Spore",
+          "nameDe": "Mushroom Spore",
           "amount": 50,
           "role": "ingredient"
         }
@@ -1078,6 +1179,7 @@
       "output": {
         "itemId": 1101,
         "name": "Sword",
+        "nameDe": "Schwert",
         "amount": 1
       },
       "skill": "Sword Forging",
@@ -1087,6 +1189,7 @@
         {
           "itemId": 998,
           "name": "Iron",
+          "nameDe": "Eisen",
           "amount": 2,
           "role": "ingredient"
         }
@@ -1103,6 +1206,7 @@
       "output": {
         "itemId": 1104,
         "name": "Falchion",
+        "nameDe": "Falchion",
         "amount": 1
       },
       "skill": "Sword Forging",
@@ -1112,6 +1216,7 @@
         {
           "itemId": 998,
           "name": "Iron",
+          "nameDe": "Eisen",
           "amount": 30,
           "role": "ingredient"
         }
@@ -1128,6 +1233,7 @@
       "output": {
         "itemId": 1107,
         "name": "Blade",
+        "nameDe": "Blade",
         "amount": 1
       },
       "skill": "Sword Forging",
@@ -1137,12 +1243,14 @@
         {
           "itemId": 998,
           "name": "Iron",
+          "nameDe": "Eisen",
           "amount": 45,
           "role": "ingredient"
         },
         {
           "itemId": 913,
           "name": "Tooth of Bat",
+          "nameDe": "Fledermauszahn",
           "amount": 25,
           "role": "ingredient"
         }
@@ -1159,6 +1267,7 @@
       "output": {
         "itemId": 1110,
         "name": "Rapier",
+        "nameDe": "Rapier",
         "amount": 1
       },
       "skill": "Sword Forging",
@@ -1168,6 +1277,7 @@
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 20,
           "role": "ingredient"
         }
@@ -1184,6 +1294,7 @@
       "output": {
         "itemId": 1113,
         "name": "Scimiter",
+        "nameDe": "Krummsäbel",
         "amount": 1
       },
       "skill": "Sword Forging",
@@ -1193,6 +1304,7 @@
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 35,
           "role": "ingredient"
         }
@@ -1209,6 +1321,7 @@
       "output": {
         "itemId": 1122,
         "name": "Ring Pommel Saber",
+        "nameDe": "Säbel mit Ringknauf",
         "amount": 1
       },
       "skill": "Sword Forging",
@@ -1218,12 +1331,14 @@
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 40,
           "role": "ingredient"
         },
         {
           "itemId": 920,
           "name": "Wolf Claw",
+          "nameDe": "Wolfsklaue",
           "amount": 50,
           "role": "ingredient"
         }
@@ -1240,6 +1355,7 @@
       "output": {
         "itemId": 1126,
         "name": "Saber",
+        "nameDe": "Säbel",
         "amount": 1
       },
       "skill": "Sword Forging",
@@ -1249,18 +1365,21 @@
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 5,
           "role": "ingredient"
         },
         {
           "itemId": 984,
           "name": "Oridecon",
+          "nameDe": "Oridecon",
           "amount": 8,
           "role": "ingredient"
         },
         {
           "itemId": 727,
           "name": "Opal",
+          "nameDe": "Opal",
           "amount": 1,
           "role": "ingredient"
         }
@@ -1277,6 +1396,7 @@
       "output": {
         "itemId": 1123,
         "name": "Haedonggum",
+        "nameDe": "Haedonggum",
         "amount": 1
       },
       "skill": "Sword Forging",
@@ -1286,18 +1406,21 @@
         {
           "itemId": 984,
           "name": "Oridecon",
+          "nameDe": "Oridecon",
           "amount": 8,
           "role": "ingredient"
         },
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 10,
           "role": "ingredient"
         },
         {
           "itemId": 728,
           "name": "Topaz",
+          "nameDe": "Topas",
           "amount": 1,
           "role": "ingredient"
         }
@@ -1314,6 +1437,7 @@
       "output": {
         "itemId": 1119,
         "name": "Tsurugi",
+        "nameDe": "Tsurugi",
         "amount": 1
       },
       "skill": "Sword Forging",
@@ -1323,18 +1447,21 @@
         {
           "itemId": 984,
           "name": "Oridecon",
+          "nameDe": "Oridecon",
           "amount": 8,
           "role": "ingredient"
         },
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 15,
           "role": "ingredient"
         },
         {
           "itemId": 718,
           "name": "Garnet",
+          "nameDe": "Granat",
           "amount": 1,
           "role": "ingredient"
         }
@@ -1351,6 +1478,7 @@
       "output": {
         "itemId": 1129,
         "name": "Flamberge",
+        "nameDe": "Flamberge",
         "amount": 1
       },
       "skill": "Sword Forging",
@@ -1360,12 +1488,14 @@
         {
           "itemId": 984,
           "name": "Oridecon",
+          "nameDe": "Oridecon",
           "amount": 16,
           "role": "ingredient"
         },
         {
           "itemId": 724,
           "name": "Cursed Ruby",
+          "nameDe": "Verfluchter Rubin",
           "amount": 1,
           "role": "ingredient"
         }
@@ -1382,6 +1512,7 @@
       "output": {
         "itemId": 1201,
         "name": "Knife",
+        "nameDe": "Messer",
         "amount": 1
       },
       "skill": "Dagger Forging",
@@ -1391,12 +1522,14 @@
         {
           "itemId": 998,
           "name": "Iron",
+          "nameDe": "Eisen",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 909,
           "name": "Jellopy",
+          "nameDe": "Jellopy",
           "amount": 10,
           "role": "ingredient"
         }
@@ -1413,6 +1546,7 @@
       "output": {
         "itemId": 1204,
         "name": "Cutter",
+        "nameDe": "Cutter",
         "amount": 1
       },
       "skill": "Dagger Forging",
@@ -1422,6 +1556,7 @@
         {
           "itemId": 998,
           "name": "Iron",
+          "nameDe": "Eisen",
           "amount": 25,
           "role": "ingredient"
         }
@@ -1438,6 +1573,7 @@
       "output": {
         "itemId": 1207,
         "name": "Main Gauche",
+        "nameDe": "Main Gauche",
         "amount": 1
       },
       "skill": "Dagger Forging",
@@ -1447,6 +1583,7 @@
         {
           "itemId": 998,
           "name": "Iron",
+          "nameDe": "Eisen",
           "amount": 50,
           "role": "ingredient"
         }
@@ -1463,6 +1600,7 @@
       "output": {
         "itemId": 1210,
         "name": "Dirk",
+        "nameDe": "Langdolch",
         "amount": 1
       },
       "skill": "Dagger Forging",
@@ -1472,6 +1610,7 @@
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 17,
           "role": "ingredient"
         }
@@ -1488,6 +1627,7 @@
       "output": {
         "itemId": 1213,
         "name": "Dagger",
+        "nameDe": "Dolch",
         "amount": 1
       },
       "skill": "Dagger Forging",
@@ -1497,6 +1637,7 @@
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 30,
           "role": "ingredient"
         }
@@ -1513,6 +1654,7 @@
       "output": {
         "itemId": 1216,
         "name": "Stiletto",
+        "nameDe": "Stilett",
         "amount": 1
       },
       "skill": "Dagger Forging",
@@ -1522,6 +1664,7 @@
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 40,
           "role": "ingredient"
         }
@@ -1538,6 +1681,7 @@
       "output": {
         "itemId": 1219,
         "name": "Gladius",
+        "nameDe": "Gladius",
         "amount": 1
       },
       "skill": "Dagger Forging",
@@ -1547,18 +1691,21 @@
         {
           "itemId": 984,
           "name": "Oridecon",
+          "nameDe": "Oridecon",
           "amount": 4,
           "role": "ingredient"
         },
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 40,
           "role": "ingredient"
         },
         {
           "itemId": 726,
           "name": "Sapphire",
+          "nameDe": "Saphir",
           "amount": 1,
           "role": "ingredient"
         }
@@ -1575,6 +1722,7 @@
       "output": {
         "itemId": 1222,
         "name": "Damascus",
+        "nameDe": "Damaskus",
         "amount": 1
       },
       "skill": "Dagger Forging",
@@ -1584,18 +1732,21 @@
         {
           "itemId": 984,
           "name": "Oridecon",
+          "nameDe": "Oridecon",
           "amount": 4,
           "role": "ingredient"
         },
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 60,
           "role": "ingredient"
         },
         {
           "itemId": 729,
           "name": "Zircon",
+          "nameDe": "Zirkon",
           "amount": 1,
           "role": "ingredient"
         }
@@ -1612,6 +1763,7 @@
       "output": {
         "itemId": 1116,
         "name": "Katana",
+        "nameDe": "Katana",
         "amount": 1
       },
       "skill": "Two-Handed Sword Forging",
@@ -1621,12 +1773,14 @@
         {
           "itemId": 998,
           "name": "Iron",
+          "nameDe": "Eisen",
           "amount": 35,
           "role": "ingredient"
         },
         {
           "itemId": 958,
           "name": "Horrendous Mouth",
+          "nameDe": "Zahn des Toten",
           "amount": 15,
           "role": "ingredient"
         }
@@ -1643,6 +1797,7 @@
       "output": {
         "itemId": 1151,
         "name": "Slayer",
+        "nameDe": "Schlächter",
         "amount": 1
       },
       "skill": "Two-Handed Sword Forging",
@@ -1652,12 +1807,14 @@
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 25,
           "role": "ingredient"
         },
         {
           "itemId": 957,
           "name": "Decayed Nail",
+          "nameDe": "Nagel des Toten",
           "amount": 20,
           "role": "ingredient"
         }
@@ -1674,6 +1831,7 @@
       "output": {
         "itemId": 1154,
         "name": "Bastard Sword",
+        "nameDe": "Bastardschwert",
         "amount": 1
       },
       "skill": "Two-Handed Sword Forging",
@@ -1683,6 +1841,7 @@
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 45,
           "role": "ingredient"
         }
@@ -1699,6 +1858,7 @@
       "output": {
         "itemId": 1157,
         "name": "Two-Handed Sword",
+        "nameDe": "Zweihand-Schwert",
         "amount": 1
       },
       "skill": "Two-Handed Sword Forging",
@@ -1708,12 +1868,14 @@
         {
           "itemId": 984,
           "name": "Oridecon",
+          "nameDe": "Oridecon",
           "amount": 12,
           "role": "ingredient"
         },
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 10,
           "role": "ingredient"
         }
@@ -1730,6 +1892,7 @@
       "output": {
         "itemId": 1160,
         "name": "Broad Sword",
+        "nameDe": "Breitschwert",
         "amount": 1
       },
       "skill": "Two-Handed Sword Forging",
@@ -1739,12 +1902,14 @@
         {
           "itemId": 984,
           "name": "Oridecon",
+          "nameDe": "Oridecon",
           "amount": 12,
           "role": "ingredient"
         },
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 20,
           "role": "ingredient"
         }
@@ -1761,6 +1926,7 @@
       "output": {
         "itemId": 1163,
         "name": "Claymore",
+        "nameDe": "Claymore",
         "amount": 1
       },
       "skill": "Two-Handed Sword Forging",
@@ -1770,18 +1936,21 @@
         {
           "itemId": 984,
           "name": "Oridecon",
+          "nameDe": "Oridecon",
           "amount": 16,
           "role": "ingredient"
         },
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 20,
           "role": "ingredient"
         },
         {
           "itemId": 733,
           "name": "Cracked Diamond",
+          "nameDe": "Gebrochener Diamant",
           "amount": 1,
           "role": "ingredient"
         }
@@ -1798,6 +1967,7 @@
       "output": {
         "itemId": 1301,
         "name": "Axe",
+        "nameDe": "Axt",
         "amount": 1
       },
       "skill": "Axe Forging",
@@ -1807,6 +1977,7 @@
         {
           "itemId": 998,
           "name": "Iron",
+          "nameDe": "Eisen",
           "amount": 10,
           "role": "ingredient"
         }
@@ -1823,6 +1994,7 @@
       "output": {
         "itemId": 1351,
         "name": "Battle Axe",
+        "nameDe": "Streitaxt",
         "amount": 1
       },
       "skill": "Axe Forging",
@@ -1832,6 +2004,7 @@
         {
           "itemId": 998,
           "name": "Iron",
+          "nameDe": "Eisen",
           "amount": 110,
           "role": "ingredient"
         }
@@ -1848,6 +2021,7 @@
       "output": {
         "itemId": 1354,
         "name": "Hammer",
+        "nameDe": "Hammer",
         "amount": 1
       },
       "skill": "Axe Forging",
@@ -1857,6 +2031,7 @@
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 30,
           "role": "ingredient"
         }
@@ -1873,6 +2048,7 @@
       "output": {
         "itemId": 1357,
         "name": "Buster",
+        "nameDe": "Buster",
         "amount": 1
       },
       "skill": "Axe Forging",
@@ -1882,18 +2058,21 @@
         {
           "itemId": 984,
           "name": "Oridecon",
+          "nameDe": "Oridecon",
           "amount": 4,
           "role": "ingredient"
         },
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 20,
           "role": "ingredient"
         },
         {
           "itemId": 922,
           "name": "Orc's Fang",
+          "nameDe": "Ork-Reißzahn",
           "amount": 30,
           "role": "ingredient"
         }
@@ -1910,6 +2089,7 @@
       "output": {
         "itemId": 1360,
         "name": "Two-Handed Axe",
+        "nameDe": "Zweihand-Axt",
         "amount": 1
       },
       "skill": "Axe Forging",
@@ -1919,18 +2099,21 @@
         {
           "itemId": 984,
           "name": "Oridecon",
+          "nameDe": "Oridecon",
           "amount": 8,
           "role": "ingredient"
         },
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 10,
           "role": "ingredient"
         },
         {
           "itemId": 719,
           "name": "Amethyst",
+          "nameDe": "Amethyst",
           "amount": 1,
           "role": "ingredient"
         }
@@ -1947,6 +2130,7 @@
       "output": {
         "itemId": 1501,
         "name": "Club",
+        "nameDe": "Keule",
         "amount": 1
       },
       "skill": "Mace Forging",
@@ -1956,6 +2140,7 @@
         {
           "itemId": 998,
           "name": "Iron",
+          "nameDe": "Eisen",
           "amount": 3,
           "role": "ingredient"
         }
@@ -1972,6 +2157,7 @@
       "output": {
         "itemId": 1504,
         "name": "Mace",
+        "nameDe": "Streitkolben",
         "amount": 1
       },
       "skill": "Mace Forging",
@@ -1981,6 +2167,7 @@
         {
           "itemId": 998,
           "name": "Iron",
+          "nameDe": "Eisen",
           "amount": 30,
           "role": "ingredient"
         }
@@ -1997,6 +2184,7 @@
       "output": {
         "itemId": 1507,
         "name": "Smasher",
+        "nameDe": "Zerschmetterer",
         "amount": 1
       },
       "skill": "Mace Forging",
@@ -2006,6 +2194,7 @@
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 20,
           "role": "ingredient"
         }
@@ -2022,6 +2211,7 @@
       "output": {
         "itemId": 1510,
         "name": "Flail",
+        "nameDe": "Dreschflegel",
         "amount": 1
       },
       "skill": "Mace Forging",
@@ -2031,6 +2221,7 @@
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 33,
           "role": "ingredient"
         }
@@ -2047,6 +2238,7 @@
       "output": {
         "itemId": 1519,
         "name": "Chain",
+        "nameDe": "Kette",
         "amount": 1
       },
       "skill": "Mace Forging",
@@ -2056,6 +2248,7 @@
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 45,
           "role": "ingredient"
         }
@@ -2072,6 +2265,7 @@
       "output": {
         "itemId": 1513,
         "name": "Morning Star",
+        "nameDe": "Morgenstern",
         "amount": 1
       },
       "skill": "Mace Forging",
@@ -2081,12 +2275,14 @@
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 85,
           "role": "ingredient"
         },
         {
           "itemId": 730,
           "name": "1 Carat Diamond",
+          "nameDe": "1-Karat-Diamant",
           "amount": 1,
           "role": "ingredient"
         }
@@ -2103,6 +2299,7 @@
       "output": {
         "itemId": 1516,
         "name": "Sword Mace",
+        "nameDe": "Schwertstreitkolben",
         "amount": 1
       },
       "skill": "Mace Forging",
@@ -2112,12 +2309,14 @@
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 100,
           "role": "ingredient"
         },
         {
           "itemId": 963,
           "name": "Sharp Scale",
+          "nameDe": "Scharfe Schuppe",
           "amount": 20,
           "role": "ingredient"
         }
@@ -2134,6 +2333,7 @@
       "output": {
         "itemId": 1522,
         "name": "Stunner",
+        "nameDe": "Stunner",
         "amount": 1
       },
       "skill": "Mace Forging",
@@ -2143,12 +2343,14 @@
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 120,
           "role": "ingredient"
         },
         {
           "itemId": 968,
           "name": "Heroic Emblem",
+          "nameDe": "Ork-Tapferkeitsabzeichen",
           "amount": 1,
           "role": "ingredient"
         }
@@ -2165,6 +2367,7 @@
       "output": {
         "itemId": 1801,
         "name": "Waghnak",
+        "nameDe": "Waghnak",
         "amount": 1
       },
       "skill": "Knuckle Forging",
@@ -2174,12 +2377,14 @@
         {
           "itemId": 998,
           "name": "Iron",
+          "nameDe": "Eisen",
           "amount": 160,
           "role": "ingredient"
         },
         {
           "itemId": 722,
           "name": "Pearl",
+          "nameDe": "Perle",
           "amount": 1,
           "role": "ingredient"
         }
@@ -2196,6 +2401,7 @@
       "output": {
         "itemId": 1803,
         "name": "Knuckle Dusters",
+        "nameDe": "Schlagring",
         "amount": 1
       },
       "skill": "Knuckle Forging",
@@ -2205,6 +2411,7 @@
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 50,
           "role": "ingredient"
         }
@@ -2221,6 +2428,7 @@
       "output": {
         "itemId": 1805,
         "name": "Studded Knuckles",
+        "nameDe": "Hora",
         "amount": 1
       },
       "skill": "Knuckle Forging",
@@ -2230,6 +2438,7 @@
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 65,
           "role": "ingredient"
         }
@@ -2246,6 +2455,7 @@
       "output": {
         "itemId": 1807,
         "name": "Fist",
+        "nameDe": "Faust",
         "amount": 1
       },
       "skill": "Knuckle Forging",
@@ -2255,12 +2465,14 @@
         {
           "itemId": 984,
           "name": "Oridecon",
+          "nameDe": "Oridecon",
           "amount": 4,
           "role": "ingredient"
         },
         {
           "itemId": 723,
           "name": "Ruby",
+          "nameDe": "Rubin",
           "amount": 10,
           "role": "ingredient"
         }
@@ -2277,6 +2489,7 @@
       "output": {
         "itemId": 1809,
         "name": "Claw",
+        "nameDe": "Klaue",
         "amount": 1
       },
       "skill": "Knuckle Forging",
@@ -2286,12 +2499,14 @@
         {
           "itemId": 984,
           "name": "Oridecon",
+          "nameDe": "Oridecon",
           "amount": 8,
           "role": "ingredient"
         },
         {
           "itemId": 728,
           "name": "Topaz",
+          "nameDe": "Topas",
           "amount": 10,
           "role": "ingredient"
         }
@@ -2308,6 +2523,7 @@
       "output": {
         "itemId": 1811,
         "name": "Finger",
+        "nameDe": "Finger",
         "amount": 1
       },
       "skill": "Knuckle Forging",
@@ -2317,12 +2533,14 @@
         {
           "itemId": 984,
           "name": "Oridecon",
+          "nameDe": "Oridecon",
           "amount": 4,
           "role": "ingredient"
         },
         {
           "itemId": 727,
           "name": "Opal",
+          "nameDe": "Opal",
           "amount": 10,
           "role": "ingredient"
         }
@@ -2339,6 +2557,7 @@
       "output": {
         "itemId": 1401,
         "name": "Javelin",
+        "nameDe": "Speer",
         "amount": 1
       },
       "skill": "Spear Forging",
@@ -2348,6 +2567,7 @@
         {
           "itemId": 998,
           "name": "Iron",
+          "nameDe": "Eisen",
           "amount": 3,
           "role": "ingredient"
         }
@@ -2364,6 +2584,7 @@
       "output": {
         "itemId": 1404,
         "name": "Spear",
+        "nameDe": "Speer",
         "amount": 1
       },
       "skill": "Spear Forging",
@@ -2373,6 +2594,7 @@
         {
           "itemId": 998,
           "name": "Iron",
+          "nameDe": "Eisen",
           "amount": 35,
           "role": "ingredient"
         }
@@ -2389,6 +2611,7 @@
       "output": {
         "itemId": 1407,
         "name": "Pike",
+        "nameDe": "Pike",
         "amount": 1
       },
       "skill": "Spear Forging",
@@ -2398,6 +2621,7 @@
         {
           "itemId": 998,
           "name": "Iron",
+          "nameDe": "Eisen",
           "amount": 70,
           "role": "ingredient"
         }
@@ -2414,6 +2638,7 @@
       "output": {
         "itemId": 1451,
         "name": "Guisarme",
+        "nameDe": "Guisarme",
         "amount": 1
       },
       "skill": "Spear Forging",
@@ -2423,6 +2648,7 @@
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 25,
           "role": "ingredient"
         }
@@ -2439,6 +2665,7 @@
       "output": {
         "itemId": 1454,
         "name": "Glaive",
+        "nameDe": "Gleve",
         "amount": 1
       },
       "skill": "Spear Forging",
@@ -2448,6 +2675,7 @@
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 40,
           "role": "ingredient"
         }
@@ -2464,6 +2692,7 @@
       "output": {
         "itemId": 1457,
         "name": "Partizan",
+        "nameDe": "Partisane",
         "amount": 1
       },
       "skill": "Spear Forging",
@@ -2473,6 +2702,7 @@
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 55,
           "role": "ingredient"
         }
@@ -2489,6 +2719,7 @@
       "output": {
         "itemId": 1460,
         "name": "Trident",
+        "nameDe": "Dreizack",
         "amount": 1
       },
       "skill": "Spear Forging",
@@ -2498,18 +2729,21 @@
         {
           "itemId": 984,
           "name": "Oridecon",
+          "nameDe": "Oridecon",
           "amount": 8,
           "role": "ingredient"
         },
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 10,
           "role": "ingredient"
         },
         {
           "itemId": 720,
           "name": "Aquamarine",
+          "nameDe": "Aquamarin",
           "amount": 5,
           "role": "ingredient"
         }
@@ -2526,6 +2760,7 @@
       "output": {
         "itemId": 1463,
         "name": "Hallberd",
+        "nameDe": "Hellebarde",
         "amount": 1
       },
       "skill": "Spear Forging",
@@ -2535,12 +2770,14 @@
         {
           "itemId": 984,
           "name": "Oridecon",
+          "nameDe": "Oridecon",
           "amount": 12,
           "role": "ingredient"
         },
         {
           "itemId": 999,
           "name": "Steel",
+          "nameDe": "Stahl",
           "amount": 10,
           "role": "ingredient"
         }
@@ -2557,6 +2794,7 @@
       "output": {
         "itemId": 1410,
         "name": "Lance",
+        "nameDe": "Lanze",
         "amount": 1
       },
       "skill": "Spear Forging",
@@ -2566,18 +2804,3881 @@
         {
           "itemId": 984,
           "name": "Oridecon",
+          "nameDe": "Oridecon",
           "amount": 12,
           "role": "ingredient"
         },
         {
           "itemId": 723,
           "name": "Ruby",
+          "nameDe": "Rubin",
           "amount": 3,
           "role": "ingredient"
         },
         {
           "itemId": 923,
           "name": "Evil Horn",
+          "nameDe": "Baphomets Horn",
+          "amount": 2,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-52",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12041,
+        "name": "Fried Grasshopper",
+        "nameDe": "Gebratene Heuschrecke",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 1,
+      "itemLevel": 11,
+      "materials": [
+        {
+          "itemId": 7472,
+          "name": "Lv.1 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 1",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 940,
+          "name": "Grasshopper's Leg",
+          "nameDe": "Hinterbein einer Heuschrecke",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7031,
+          "name": "Old Frying Pan",
+          "nameDe": "Alte Bratpfanne",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7457,
+          "name": "Cooking Oil",
+          "nameDe": "Speiseöl",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-53",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12046,
+        "name": "Grape Juice Herbal Tea",
+        "nameDe": "Kräutertee mit Traubensaft",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 1,
+      "itemLevel": 11,
+      "materials": [
+        {
+          "itemId": 7472,
+          "name": "Lv.1 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 1",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 514,
+          "name": "Grape",
+          "nameDe": "Traube",
+          "amount": 3,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 501,
+          "name": "Red Potion",
+          "nameDe": "Roter Trank",
+          "amount": 2,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-54",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12051,
+        "name": "Steamed Crab",
+        "nameDe": "Gedämpfte Krabbenscheren",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 1,
+      "itemLevel": 11,
+      "materials": [
+        {
+          "itemId": 7472,
+          "name": "Lv.1 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 1",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 960,
+          "name": "Nipper",
+          "nameDe": "Greifzange",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 511,
+          "name": "Green Herb",
+          "nameDe": "Grünes Kraut",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 503,
+          "name": "Yellow Potion",
+          "nameDe": "Gelber Trank",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-55",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12056,
+        "name": "Frog Egg Squid Ink Soup",
+        "nameDe": "Froschlaichsuppe",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 1,
+      "itemLevel": 11,
+      "materials": [
+        {
+          "itemId": 7472,
+          "name": "Lv.1 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 1",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 577,
+          "name": "Grain",
+          "nameDe": "Getreide",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 908,
+          "name": "Spawn",
+          "nameDe": "Froschlaich",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1024,
+          "name": "Squid Ink",
+          "nameDe": "Tinte",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-56",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12061,
+        "name": "Honey Grape Juice",
+        "nameDe": "Honig-Traubensaft",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 1,
+      "itemLevel": 11,
+      "materials": [
+        {
+          "itemId": 7472,
+          "name": "Lv.1 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 1",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 518,
+          "name": "Honey",
+          "nameDe": "Honig",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 514,
+          "name": "Grape",
+          "nameDe": "Traube",
+          "amount": 2,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 501,
+          "name": "Red Potion",
+          "nameDe": "Roter Trank",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-57",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12066,
+        "name": "Fried Monkey Tails",
+        "nameDe": "Gebratener Affenschwanz",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 1,
+      "itemLevel": 11,
+      "materials": [
+        {
+          "itemId": 7472,
+          "name": "Lv.1 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 1",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 942,
+          "name": "Yoyo Tail",
+          "nameDe": "Affenschwanz",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7031,
+          "name": "Old Frying Pan",
+          "nameDe": "Alte Bratpfanne",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7457,
+          "name": "Cooking Oil",
+          "nameDe": "Speiseöl",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-58",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12042,
+        "name": "Flipper Salad",
+        "nameDe": "Gewürzter Schwimmhaut-Salat",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 2,
+      "itemLevel": 12,
+      "materials": [
+        {
+          "itemId": 7473,
+          "name": "Lv.2 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 2",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 918,
+          "name": "Sticky Webfoot",
+          "nameDe": "Klebrige Schwimmhaut",
+          "amount": 20,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 511,
+          "name": "Green Herb",
+          "nameDe": "Grünes Kraut",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 508,
+          "name": "Yellow Herb",
+          "nameDe": "Gelbes Kraut",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7454,
+          "name": "Plain Sauce",
+          "nameDe": "Milde Soße",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-59",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12052,
+        "name": "Assorted Seafood",
+        "nameDe": "Meeresfrüchtegericht",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 2,
+      "itemLevel": 12,
+      "materials": [
+        {
+          "itemId": 7473,
+          "name": "Lv.2 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 2",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 966,
+          "name": "Clam Flesh",
+          "nameDe": "Muschelfleisch",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 956,
+          "name": "Gill",
+          "nameDe": "Stachlige Kiemen",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 951,
+          "name": "Fin",
+          "nameDe": "Rückenflosse",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 579,
+          "name": "Delicious Fish",
+          "nameDe": "Schmackhafter Fisch",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-60",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12047,
+        "name": "Autumn Red Tea",
+        "nameDe": "Schwarztee „Zehntausend Blätter“",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 2,
+      "itemLevel": 12,
+      "materials": [
+        {
+          "itemId": 7473,
+          "name": "Lv.2 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 2",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 510,
+          "name": "Blue Herb",
+          "nameDe": "Blaues Kraut",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 507,
+          "name": "Red Herb",
+          "nameDe": "Rotes Kraut",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 508,
+          "name": "Yellow Herb",
+          "nameDe": "Gelbes Kraut",
+          "amount": 10,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-61",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12057,
+        "name": "Smooth Noodle",
+        "nameDe": "Glitschige Nudeln",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 2,
+      "itemLevel": 12,
+      "materials": [
+        {
+          "itemId": 7473,
+          "name": "Lv.2 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 2",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 577,
+          "name": "Grain",
+          "nameDe": "Getreide",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7454,
+          "name": "Plain Sauce",
+          "nameDe": "Milde Soße",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1062,
+          "name": "Jack o' Pumpkin",
+          "nameDe": "Kürbiskopf",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 515,
+          "name": "Carrot",
+          "nameDe": "Karotte",
+          "amount": 3,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-62",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12062,
+        "name": "Chocolate Mousse Cake",
+        "nameDe": "Schokoladenmousse-Kuchen",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 2,
+      "itemLevel": 12,
+      "materials": [
+        {
+          "itemId": 7473,
+          "name": "Lv.2 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 2",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 7182,
+          "name": "Cacao",
+          "nameDe": "Kakao",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 539,
+          "name": "Piece of Cake",
+          "nameDe": "Kuchenstück",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 519,
+          "name": "Milk",
+          "nameDe": "Milch",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 736,
+          "name": "China",
+          "nameDe": "Weißer Teller",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-63",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12067,
+        "name": "Mixed Juice",
+        "nameDe": "Gemischter Saft",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 2,
+      "itemLevel": 12,
+      "materials": [
+        {
+          "itemId": 7473,
+          "name": "Lv.2 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 2",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 531,
+          "name": "Apple Juice",
+          "nameDe": "Apfelsaft",
+          "amount": 3,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 534,
+          "name": "Carrot Juice",
+          "nameDe": "Karottensaft",
+          "amount": 2,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 533,
+          "name": "Grape Juice",
+          "nameDe": "Traubensaft",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 620,
+          "name": "Orange Juice",
+          "nameDe": "Orangensaft",
+          "amount": 2,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-64",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12063,
+        "name": "Fruit Mix",
+        "nameDe": "Fruchtmix",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 3,
+      "itemLevel": 13,
+      "materials": [
+        {
+          "itemId": 7474,
+          "name": "Lv.3 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 3",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 512,
+          "name": "Apple",
+          "nameDe": "Apfel",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 513,
+          "name": "Banana",
+          "nameDe": "Banane",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 582,
+          "name": "Orange",
+          "nameDe": "Orange",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 578,
+          "name": "Strawberry",
+          "nameDe": "Erdbeere",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7452,
+          "name": "Yellow Spice",
+          "nameDe": "Gelbes Gewürz",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-65",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12048,
+        "name": "Honey Herbal Tea",
+        "nameDe": "Kräuter-Honigtee",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 3,
+      "itemLevel": 13,
+      "materials": [
+        {
+          "itemId": 7474,
+          "name": "Lv.3 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 3",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 518,
+          "name": "Honey",
+          "nameDe": "Honig",
+          "amount": 2,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 509,
+          "name": "White Herb",
+          "nameDe": "Weißes Kraut",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7452,
+          "name": "Yellow Spice",
+          "nameDe": "Gelbes Gewürz",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-66",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12043,
+        "name": "Bomber Steak",
+        "nameDe": "Bomber-Steak",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 3,
+      "itemLevel": 13,
+      "materials": [
+        {
+          "itemId": 7474,
+          "name": "Lv.3 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 3",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 517,
+          "name": "Meat",
+          "nameDe": "Fleisch",
+          "amount": 4,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7031,
+          "name": "Old Frying Pan",
+          "nameDe": "Alte Bratpfanne",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 511,
+          "name": "Green Herb",
+          "nameDe": "Grünes Kraut",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7286,
+          "name": "Red Chili",
+          "nameDe": "Rote Chili",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7455,
+          "name": "Hot Sauce",
+          "nameDe": "Scharfe Soße",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-67",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12053,
+        "name": "Clam Soup",
+        "nameDe": "Muschelsuppe",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 3,
+      "itemLevel": 13,
+      "materials": [
+        {
+          "itemId": 7474,
+          "name": "Lv.3 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 3",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 966,
+          "name": "Clam Flesh",
+          "nameDe": "Muschelfleisch",
+          "amount": 20,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 961,
+          "name": "Conch",
+          "nameDe": "Muschel",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 518,
+          "name": "Honey",
+          "nameDe": "Honig",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7453,
+          "name": "Sweet Sauce",
+          "nameDe": "Süße Soße",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-68",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12058,
+        "name": "Tentacle Cheese Gratin",
+        "nameDe": "Tentakel Käsegratin",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 3,
+      "itemLevel": 13,
+      "materials": [
+        {
+          "itemId": 7474,
+          "name": "Lv.3 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 3",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 962,
+          "name": "Tentacle",
+          "nameDe": "Tentakel",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 548,
+          "name": "Cheese",
+          "nameDe": "Käse",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 549,
+          "name": "Yam",
+          "nameDe": "Kastanien-Süßkartoffel",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7453,
+          "name": "Sweet Sauce",
+          "nameDe": "Süße Soße",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-69",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12068,
+        "name": "Fried Sweet Potato",
+        "nameDe": "Kandierte Süßkartoffel",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 3,
+      "itemLevel": 13,
+      "materials": [
+        {
+          "itemId": 7474,
+          "name": "Lv.3 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 3",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 516,
+          "name": "Sweet Potato",
+          "nameDe": "Süßkartoffel",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 549,
+          "name": "Yam",
+          "nameDe": "Kastanien-Süßkartoffel",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 633,
+          "name": "Baked Sweet Potato",
+          "nameDe": "Gebackene Süßkartoffel",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7453,
+          "name": "Sweet Sauce",
+          "nameDe": "Süße Soße",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-70",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12049,
+        "name": "Morrcc Fruit Wine",
+        "nameDe": "Morroc-Fruchtwein",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 4,
+      "itemLevel": 14,
+      "materials": [
+        {
+          "itemId": 7475,
+          "name": "Lv.4 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 4",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 578,
+          "name": "Strawberry",
+          "nameDe": "Erdbeere",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 568,
+          "name": "Lemon",
+          "nameDe": "Zitrone",
+          "amount": 4,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 582,
+          "name": "Orange",
+          "nameDe": "Orange",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 970,
+          "name": "Alcohol",
+          "nameDe": "Alkohol",
+          "amount": 2,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 514,
+          "name": "Grape",
+          "nameDe": "Traube",
+          "amount": 5,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-71",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12054,
+        "name": "Seasoned Jellyfish",
+        "nameDe": "Gewürzte Quallen",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 4,
+      "itemLevel": 14,
+      "materials": [
+        {
+          "itemId": 7475,
+          "name": "Lv.4 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 4",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 962,
+          "name": "Tentacle",
+          "nameDe": "Tentakel",
+          "amount": 30,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 509,
+          "name": "White Herb",
+          "nameDe": "Weißes Kraut",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7194,
+          "name": "Soft Blade of Grass",
+          "nameDe": "Weiches Blatt",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7031,
+          "name": "Old Frying Pan",
+          "nameDe": "Alte Bratpfanne",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1024,
+          "name": "Squid Ink",
+          "nameDe": "Tinte",
+          "amount": 20,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-72",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12044,
+        "name": "Herb Marinade Beef",
+        "nameDe": "Kräuter-marinierte Rippchen",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 4,
+      "itemLevel": 14,
+      "materials": [
+        {
+          "itemId": 7475,
+          "name": "Lv.4 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 4",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 517,
+          "name": "Meat",
+          "nameDe": "Fleisch",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 507,
+          "name": "Red Herb",
+          "nameDe": "Rotes Kraut",
+          "amount": 3,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 508,
+          "name": "Yellow Herb",
+          "nameDe": "Gelbes Kraut",
+          "amount": 2,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 511,
+          "name": "Green Herb",
+          "nameDe": "Grünes Kraut",
+          "amount": 3,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7453,
+          "name": "Sweet Sauce",
+          "nameDe": "Süße Soße",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 568,
+          "name": "Lemon",
+          "nameDe": "Zitrone",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-73",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12064,
+        "name": "Cream Sandwich",
+        "nameDe": "Cremesandwich",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 4,
+      "itemLevel": 14,
+      "materials": [
+        {
+          "itemId": 7475,
+          "name": "Lv.4 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 4",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 580,
+          "name": "Bread",
+          "nameDe": "Brot",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 519,
+          "name": "Milk",
+          "nameDe": "Milch",
+          "amount": 15,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 548,
+          "name": "Cheese",
+          "nameDe": "Käse",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 508,
+          "name": "Yellow Herb",
+          "nameDe": "Gelbes Kraut",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 517,
+          "name": "Meat",
+          "nameDe": "Fleisch",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7453,
+          "name": "Sweet Sauce",
+          "nameDe": "Süße Soße",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-74",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12059,
+        "name": "Lutie Cold Noodle",
+        "nameDe": "Scharfe kalte Nudeln aus Lutie",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 4,
+      "itemLevel": 14,
+      "materials": [
+        {
+          "itemId": 7475,
+          "name": "Lv.4 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 4",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 577,
+          "name": "Grain",
+          "nameDe": "Getreide",
+          "amount": 3,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7455,
+          "name": "Hot Sauce",
+          "nameDe": "Scharfe Soße",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7066,
+          "name": "Ice Cubic",
+          "nameDe": "Eisstück",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 515,
+          "name": "Carrot",
+          "nameDe": "Karotte",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1062,
+          "name": "Jack o' Pumpkin",
+          "nameDe": "Kürbiskopf",
+          "amount": 10,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-75",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12069,
+        "name": "Steamed Ancient Lips",
+        "nameDe": "Antikes Fischgericht",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 4,
+      "itemLevel": 14,
+      "materials": [
+        {
+          "itemId": 7475,
+          "name": "Lv.4 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 4",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 1054,
+          "name": "Ancient Lips",
+          "nameDe": "Antike Fischlippen",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 945,
+          "name": "Raccoon Leaf",
+          "nameDe": "Waschbär-Blatt",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 509,
+          "name": "White Herb",
+          "nameDe": "Weißes Kraut",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 579,
+          "name": "Delicious Fish",
+          "nameDe": "Schmackhafter Fisch",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7453,
+          "name": "Sweet Sauce",
+          "nameDe": "Süße Soße",
+          "amount": 2,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-76",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12050,
+        "name": "Mastela Fruit Wine",
+        "nameDe": "Mastela-Likör",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 5,
+      "itemLevel": 15,
+      "materials": [
+        {
+          "itemId": 7476,
+          "name": "Lv.5 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 5",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 522,
+          "name": "Mastela Fruit",
+          "nameDe": "Mastela-Frucht",
+          "amount": 4,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 505,
+          "name": "Blue Potion",
+          "nameDe": "Blauer Trank",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 970,
+          "name": "Alcohol",
+          "nameDe": "Alkohol",
+          "amount": 2,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 568,
+          "name": "Lemon",
+          "nameDe": "Zitrone",
+          "amount": 2,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7452,
+          "name": "Yellow Spice",
+          "nameDe": "Gelbes Gewürz",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-77",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12045,
+        "name": "Lutie Lady's Pancake",
+        "nameDe": "Pfannkuchen der Tante aus Lutie",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 5,
+      "itemLevel": 15,
+      "materials": [
+        {
+          "itemId": 7476,
+          "name": "Lv.5 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 5",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 516,
+          "name": "Sweet Potato",
+          "nameDe": "Süßkartoffel",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 518,
+          "name": "Honey",
+          "nameDe": "Honig",
+          "amount": 2,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7457,
+          "name": "Cooking Oil",
+          "nameDe": "Speiseöl",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 515,
+          "name": "Carrot",
+          "nameDe": "Karotte",
+          "amount": 3,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 577,
+          "name": "Grain",
+          "nameDe": "Getreide",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-78",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12065,
+        "name": "Green Salad",
+        "nameDe": "Grüner Salat",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 5,
+      "itemLevel": 15,
+      "materials": [
+        {
+          "itemId": 7476,
+          "name": "Lv.5 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 5",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 520,
+          "name": "Hinalle Leaflet",
+          "nameDe": "Hinalle-Blatt",
+          "amount": 2,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 521,
+          "name": "Aloe Leaflet",
+          "nameDe": "Aloe-Blatt",
+          "amount": 3,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7100,
+          "name": "Sharp Leaf",
+          "nameDe": "Scharfes Blatt",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7198,
+          "name": "Huge Leaf",
+          "nameDe": "Großes Blatt",
+          "amount": 6,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7453,
+          "name": "Sweet Sauce",
+          "nameDe": "Süße Soße",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7452,
+          "name": "Yellow Spice",
+          "nameDe": "Gelbes Gewürz",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-79",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12060,
+        "name": "Steamed Bat Wing in Pumpkin",
+        "nameDe": "Gedämpfter Fledermausflügel im Kürbis",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 5,
+      "itemLevel": 15,
+      "materials": [
+        {
+          "itemId": 7476,
+          "name": "Lv.5 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 5",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 7006,
+          "name": "Wing of Red Bat",
+          "nameDe": "Roter Fledermausflügel",
+          "amount": 20,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1062,
+          "name": "Jack o' Pumpkin",
+          "nameDe": "Kürbiskopf",
+          "amount": 20,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7482,
+          "name": "Pot",
+          "nameDe": "Kochtopf",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 520,
+          "name": "Hinalle Leaflet",
+          "nameDe": "Hinalle-Blatt",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 507,
+          "name": "Red Herb",
+          "nameDe": "Rotes Kraut",
+          "amount": 10,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-80",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12055,
+        "name": "Spicy Fried Bao",
+        "nameDe": "Scharf gegrillte Teigtasche",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 5,
+      "itemLevel": 15,
+      "materials": [
+        {
+          "itemId": 7476,
+          "name": "Lv.5 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 5",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 553,
+          "name": "Bao",
+          "nameDe": "Teigtasche",
+          "amount": 20,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 508,
+          "name": "Yellow Herb",
+          "nameDe": "Gelbes Kraut",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7455,
+          "name": "Hot Sauce",
+          "nameDe": "Scharfe Soße",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7456,
+          "name": "Red Spice",
+          "nameDe": "Rotes Gewürz",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 511,
+          "name": "Green Herb",
+          "nameDe": "Grünes Kraut",
+          "amount": 20,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-81",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12070,
+        "name": "Fried Scorpion Tails",
+        "nameDe": "Skorpion-Pfanne",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 5,
+      "itemLevel": 15,
+      "materials": [
+        {
+          "itemId": 7476,
+          "name": "Lv.5 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 5",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 904,
+          "name": "Scorpion Tail",
+          "nameDe": "Skorpionschwanz",
+          "amount": 20,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1042,
+          "name": "Bug Leg",
+          "nameDe": "Kurze Beine",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7198,
+          "name": "Huge Leaf",
+          "nameDe": "Großes Blatt",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7031,
+          "name": "Old Frying Pan",
+          "nameDe": "Alte Bratpfanne",
+          "amount": 2,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7457,
+          "name": "Cooking Oil",
+          "nameDe": "Speiseöl",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-82",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12071,
+        "name": "Shiny Marinade Beef",
+        "nameDe": "Shining Neobiani",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 6,
+      "itemLevel": 16,
+      "materials": [
+        {
+          "itemId": 7477,
+          "name": "Lv.6 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 6",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 517,
+          "name": "Meat",
+          "nameDe": "Fleisch",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 518,
+          "name": "Honey",
+          "nameDe": "Honig",
+          "amount": 2,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 508,
+          "name": "Yellow Herb",
+          "nameDe": "Gelbes Kraut",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 522,
+          "name": "Mastela Fruit",
+          "nameDe": "Mastela-Frucht",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 954,
+          "name": "Shining Scale",
+          "nameDe": "Glänzende Schuppe",
+          "amount": 20,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-83",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12076,
+        "name": "Red Mushroom Wine",
+        "nameDe": "Roter Pilzwein",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 6,
+      "itemLevel": 16,
+      "materials": [
+        {
+          "itemId": 7477,
+          "name": "Lv.6 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 6",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 581,
+          "name": "Edible Mushroom",
+          "nameDe": "Essbarer Pilz",
+          "amount": 3,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 533,
+          "name": "Grape Juice",
+          "nameDe": "Traubensaft",
+          "amount": 3,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 921,
+          "name": "Mushroom Spore",
+          "nameDe": "Pilzspore",
+          "amount": 20,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 970,
+          "name": "Alcohol",
+          "nameDe": "Alkohol",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7456,
+          "name": "Red Spice",
+          "nameDe": "Rotes Gewürz",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-84",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12091,
+        "name": "Peach Cake",
+        "nameDe": "Pfirsichkuchen",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 6,
+      "itemLevel": 16,
+      "materials": [
+        {
+          "itemId": 7477,
+          "name": "Lv.6 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 6",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 7164,
+          "name": "Solid Peach",
+          "nameDe": "Sehr harter Pfirsich",
+          "amount": 20,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 539,
+          "name": "Piece of Cake",
+          "nameDe": "Kuchenstück",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 548,
+          "name": "Cheese",
+          "nameDe": "Käse",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 519,
+          "name": "Milk",
+          "nameDe": "Milch",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 620,
+          "name": "Orange Juice",
+          "nameDe": "Orangensaft",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7453,
+          "name": "Sweet Sauce",
+          "nameDe": "Süße Soße",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-85",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12086,
+        "name": "Chile Shrimp Gratin",
+        "nameDe": "Chili-Garnelen-Gratin",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 6,
+      "itemLevel": 16,
+      "materials": [
+        {
+          "itemId": 7477,
+          "name": "Lv.6 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 6",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 7286,
+          "name": "Red Chili",
+          "nameDe": "Rote Chili",
+          "amount": 20,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 567,
+          "name": "Shrimp",
+          "nameDe": "Garnele",
+          "amount": 20,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7453,
+          "name": "Sweet Sauce",
+          "nameDe": "Süße Soße",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 568,
+          "name": "Lemon",
+          "nameDe": "Zitrone",
+          "amount": 20,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-86",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12081,
+        "name": "Awfully Bitter Bracer",
+        "nameDe": "Extrem bitterer Trank",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 6,
+      "itemLevel": 16,
+      "materials": [
+        {
+          "itemId": 7477,
+          "name": "Lv.6 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 6",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 7188,
+          "name": "Brown Root",
+          "nameDe": "Braune Wurzel",
+          "amount": 20,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1033,
+          "name": "Maneater Root",
+          "nameDe": "Wurzel der Menschenfresserpflanze",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 921,
+          "name": "Mushroom Spore",
+          "nameDe": "Pilzspore",
+          "amount": 20,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 581,
+          "name": "Edible Mushroom",
+          "nameDe": "Essbarer Pilz",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 518,
+          "name": "Honey",
+          "nameDe": "Honig",
+          "amount": 2,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-87",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12096,
+        "name": "Lucky Soup",
+        "nameDe": "Geoun-Tang",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 6,
+      "itemLevel": 16,
+      "materials": [
+        {
+          "itemId": 7477,
+          "name": "Lv.6 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 6",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 903,
+          "name": "Reptile Tongue",
+          "nameDe": "Reptilienzunge",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1015,
+          "name": "Tongue",
+          "nameDe": "Lange dünne Zunge",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 705,
+          "name": "Clover",
+          "nameDe": "Klee",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1061,
+          "name": "Witch Starsand",
+          "nameDe": "Hexen-Sternensand",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 704,
+          "name": "Aloe",
+          "nameDe": "Aloe",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-88",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12072,
+        "name": "Whole Roast",
+        "nameDe": "Ganzes Barbecue",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 7,
+      "itemLevel": 17,
+      "materials": [
+        {
+          "itemId": 7478,
+          "name": "Lv.7 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 7",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 517,
+          "name": "Meat",
+          "nameDe": "Fleisch",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7098,
+          "name": "Live Coal",
+          "nameDe": "Glut",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1003,
+          "name": "Coal",
+          "nameDe": "Kohle",
+          "amount": 2,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7455,
+          "name": "Hot Sauce",
+          "nameDe": "Scharfe Soße",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1019,
+          "name": "Trunk",
+          "nameDe": "Holzstück",
+          "amount": 15,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 509,
+          "name": "White Herb",
+          "nameDe": "Weißes Kraut",
+          "amount": 10,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-89",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12077,
+        "name": "Special Royal Jelly Herbal Tea",
+        "nameDe": "Spezial-Royal-Jelly-Kräutertee",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 7,
+      "itemLevel": 17,
+      "materials": [
+        {
+          "itemId": 7478,
+          "name": "Lv.7 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 7",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 526,
+          "name": "Royal Jelly",
+          "nameDe": "Gelée Royale",
+          "amount": 4,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 518,
+          "name": "Honey",
+          "nameDe": "Honig",
+          "amount": 2,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 509,
+          "name": "White Herb",
+          "nameDe": "Weißes Kraut",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 520,
+          "name": "Hinalle Leaflet",
+          "nameDe": "Hinalle-Blatt",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7452,
+          "name": "Yellow Spice",
+          "nameDe": "Gelbes Gewürz",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-90",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12092,
+        "name": "Soul Haunted Bread",
+        "nameDe": "Seelenjagd-Brot",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 7,
+      "itemLevel": 17,
+      "materials": [
+        {
+          "itemId": 7478,
+          "name": "Lv.7 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 7",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 580,
+          "name": "Bread",
+          "nameDe": "Brot",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 522,
+          "name": "Mastela Fruit",
+          "nameDe": "Mastela-Frucht",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7453,
+          "name": "Sweet Sauce",
+          "nameDe": "Süße Soße",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 708,
+          "name": "Ment",
+          "nameDe": "Ment",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 609,
+          "name": "Amulet",
+          "nameDe": "Talisman der Rückkehr",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 619,
+          "name": "Unripe Apple",
+          "nameDe": "Unreifer Apfel",
+          "amount": 2,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-91",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12087,
+        "name": "Steamed Alligator with Vegetable",
+        "nameDe": "Gegrilltes Krokodil mit gedünstetem Gemüse",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 7,
+      "itemLevel": 17,
+      "materials": [
+        {
+          "itemId": 7478,
+          "name": "Lv.7 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 7",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 7003,
+          "name": "Anolian Skin",
+          "nameDe": "Anolian-Haut",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1062,
+          "name": "Jack o' Pumpkin",
+          "nameDe": "Kürbiskopf",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 515,
+          "name": "Carrot",
+          "nameDe": "Karotte",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 521,
+          "name": "Aloe Leaflet",
+          "nameDe": "Aloe-Blatt",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 508,
+          "name": "Yellow Herb",
+          "nameDe": "Gelbes Kraut",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7452,
+          "name": "Yellow Spice",
+          "nameDe": "Gelbes Gewürz",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-92",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12082,
+        "name": "Sumptuous Feast",
+        "nameDe": "Festmahl der Köstlichkeiten",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 7,
+      "itemLevel": 17,
+      "materials": [
+        {
+          "itemId": 7478,
+          "name": "Lv.7 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 7",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 1023,
+          "name": "Fish Tail",
+          "nameDe": "Fischschwanz",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 521,
+          "name": "Aloe Leaflet",
+          "nameDe": "Aloe-Blatt",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1028,
+          "name": "Mane",
+          "nameDe": "Ebermähne",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 579,
+          "name": "Delicious Fish",
+          "nameDe": "Schmackhafter Fisch",
+          "amount": 2,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 537,
+          "name": "Pet Food",
+          "nameDe": "Tierfutter",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7453,
+          "name": "Sweet Sauce",
+          "nameDe": "Süße Soße",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-93",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12097,
+        "name": "Assorted Shish Kebob",
+        "nameDe": "Spieß",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 7,
+      "itemLevel": 17,
+      "materials": [
+        {
+          "itemId": 7478,
+          "name": "Lv.7 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 7",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 936,
+          "name": "Scale Shell",
+          "nameDe": "Schuppige Haut",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 956,
+          "name": "Gill",
+          "nameDe": "Stachlige Kiemen",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7194,
+          "name": "Soft Blade of Grass",
+          "nameDe": "Weiches Blatt",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 517,
+          "name": "Meat",
+          "nameDe": "Fleisch",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 581,
+          "name": "Edible Mushroom",
+          "nameDe": "Essbarer Pilz",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 966,
+          "name": "Clam Flesh",
+          "nameDe": "Muschelfleisch",
+          "amount": 10,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-94",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12073,
+        "name": "Bearfoot Special",
+        "nameDe": "Bärenfuß-Spezial",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 8,
+      "itemLevel": 18,
+      "materials": [
+        {
+          "itemId": 7479,
+          "name": "Lv.8 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 8",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 948,
+          "name": "Bear's Footskin",
+          "nameDe": "Bärenpfote",
+          "amount": 20,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 515,
+          "name": "Carrot",
+          "nameDe": "Karotte",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1062,
+          "name": "Jack o' Pumpkin",
+          "nameDe": "Kürbiskopf",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 521,
+          "name": "Aloe Leaflet",
+          "nameDe": "Aloe-Blatt",
+          "amount": 2,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 520,
+          "name": "Hinalle Leaflet",
+          "nameDe": "Hinalle-Blatt",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7454,
+          "name": "Plain Sauce",
+          "nameDe": "Milde Soße",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-95",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12078,
+        "name": "Royal Family Tea",
+        "nameDe": "Königliche Luxus-Kutsche",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 8,
+      "itemLevel": 18,
+      "materials": [
+        {
+          "itemId": 7479,
+          "name": "Lv.8 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 8",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 576,
+          "name": "Prickly Fruit",
+          "nameDe": "Stachelige Frucht",
+          "amount": 4,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 520,
+          "name": "Hinalle Leaflet",
+          "nameDe": "Hinalle-Blatt",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 610,
+          "name": "Yggdrasil Leaf",
+          "nameDe": "Yggdrasil-Blatt",
+          "amount": 3,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 521,
+          "name": "Aloe Leaflet",
+          "nameDe": "Aloe-Blatt",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 526,
+          "name": "Royal Jelly",
+          "nameDe": "Gelée Royale",
+          "amount": 6,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7452,
+          "name": "Yellow Spice",
+          "nameDe": "Gelbes Gewürz",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-96",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12093,
+        "name": "Special Toast",
+        "nameDe": "Spezial-Toast",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 8,
+      "itemLevel": 18,
+      "materials": [
+        {
+          "itemId": 7479,
+          "name": "Lv.8 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 8",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 580,
+          "name": "Bread",
+          "nameDe": "Brot",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 526,
+          "name": "Royal Jelly",
+          "nameDe": "Gelée Royale",
+          "amount": 2,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 517,
+          "name": "Meat",
+          "nameDe": "Fleisch",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 578,
+          "name": "Strawberry",
+          "nameDe": "Erdbeere",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7455,
+          "name": "Hot Sauce",
+          "nameDe": "Scharfe Soße",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 548,
+          "name": "Cheese",
+          "nameDe": "Käse",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7453,
+          "name": "Sweet Sauce",
+          "nameDe": "Süße Soße",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-97",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12088,
+        "name": "Incredibly Spicy Curry",
+        "nameDe": "Superscharfes Curry +9",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 8,
+      "itemLevel": 18,
+      "materials": [
+        {
+          "itemId": 7479,
+          "name": "Lv.8 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 8",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 606,
+          "name": "Aloevera",
+          "nameDe": "Aloe Vera",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7455,
+          "name": "Hot Sauce",
+          "nameDe": "Scharfe Soße",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 517,
+          "name": "Meat",
+          "nameDe": "Fleisch",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 520,
+          "name": "Hinalle Leaflet",
+          "nameDe": "Hinalle-Blatt",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1062,
+          "name": "Jack o' Pumpkin",
+          "nameDe": "Kürbiskopf",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 515,
+          "name": "Carrot",
+          "nameDe": "Karotte",
+          "amount": 10,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-98",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12083,
+        "name": "Giant Burito",
+        "nameDe": "Riesiges Wrap-Gericht",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 8,
+      "itemLevel": 18,
+      "materials": [
+        {
+          "itemId": 7479,
+          "name": "Lv.8 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 8",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 7298,
+          "name": "Leaf Clothes",
+          "nameDe": "Kleidung aus Blättern",
+          "amount": 20,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 517,
+          "name": "Meat",
+          "nameDe": "Fleisch",
+          "amount": 20,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 622,
+          "name": "Rainbow Carrot",
+          "nameDe": "Regenbogen-Karotte",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1062,
+          "name": "Jack o' Pumpkin",
+          "nameDe": "Kürbiskopf",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7454,
+          "name": "Plain Sauce",
+          "nameDe": "Milde Soße",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 577,
+          "name": "Grain",
+          "nameDe": "Getreide",
+          "amount": 2,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-99",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12098,
+        "name": "Strawberry Flavored Rice Ball",
+        "nameDe": "Erdbeer-Reisbällchen",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 8,
+      "itemLevel": 18,
+      "materials": [
+        {
+          "itemId": 7479,
+          "name": "Lv.8 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 8",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 578,
+          "name": "Strawberry",
+          "nameDe": "Erdbeere",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 577,
+          "name": "Grain",
+          "nameDe": "Getreide",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7298,
+          "name": "Leaf Clothes",
+          "nameDe": "Kleidung aus Blättern",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7452,
+          "name": "Yellow Spice",
+          "nameDe": "Gelbes Gewürz",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7456,
+          "name": "Red Spice",
+          "nameDe": "Rotes Gewürz",
+          "amount": 2,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7454,
+          "name": "Plain Sauce",
+          "nameDe": "Milde Soße",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-100",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12074,
+        "name": "Tendon Satay",
+        "nameDe": "Sautierte Sehnen",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 9,
+      "itemLevel": 19,
+      "materials": [
+        {
+          "itemId": 7480,
+          "name": "Lv.9 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 9",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 1050,
+          "name": "Tendon",
+          "nameDe": "Sehne",
+          "amount": 40,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7482,
+          "name": "Pot",
+          "nameDe": "Kochtopf",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 548,
+          "name": "Cheese",
+          "nameDe": "Käse",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7455,
+          "name": "Hot Sauce",
+          "nameDe": "Scharfe Soße",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1003,
+          "name": "Coal",
+          "nameDe": "Kohle",
+          "amount": 2,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 511,
+          "name": "Green Herb",
+          "nameDe": "Grünes Kraut",
+          "amount": 30,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1024,
+          "name": "Squid Ink",
+          "nameDe": "Tinte",
+          "amount": 10,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-101",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12079,
+        "name": "Tristan 12-Year",
+        "nameDe": "Tristan 12 Jahre",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 9,
+      "itemLevel": 19,
+      "materials": [
+        {
+          "itemId": 7480,
+          "name": "Lv.9 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 9",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 610,
+          "name": "Yggdrasil Leaf",
+          "nameDe": "Yggdrasil-Blatt",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 582,
+          "name": "Orange",
+          "nameDe": "Orange",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 970,
+          "name": "Alcohol",
+          "nameDe": "Alkohol",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 526,
+          "name": "Royal Jelly",
+          "nameDe": "Gelée Royale",
+          "amount": 4,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 505,
+          "name": "Blue Potion",
+          "nameDe": "Blauer Trank",
+          "amount": 2,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7452,
+          "name": "Yellow Spice",
+          "nameDe": "Gelbes Gewürz",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 521,
+          "name": "Aloe Leaflet",
+          "nameDe": "Aloe-Blatt",
+          "amount": 10,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-102",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12094,
+        "name": "Heavenly Fruit Juice",
+        "nameDe": "Himmlischer Fruchtsaft",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 9,
+      "itemLevel": 19,
+      "materials": [
+        {
+          "itemId": 7480,
+          "name": "Lv.9 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 9",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 619,
+          "name": "Unripe Apple",
+          "nameDe": "Unreifer Apfel",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 582,
+          "name": "Orange",
+          "nameDe": "Orange",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 578,
+          "name": "Strawberry",
+          "nameDe": "Erdbeere",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7456,
+          "name": "Red Spice",
+          "nameDe": "Rotes Gewürz",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 634,
+          "name": "Tropical Banana",
+          "nameDe": "Tropische Banane",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 533,
+          "name": "Grape Juice",
+          "nameDe": "Traubensaft",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 970,
+          "name": "Alcohol",
+          "nameDe": "Alkohol",
+          "amount": 2,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-103",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12089,
+        "name": "Special Meat Stew",
+        "nameDe": "Spezieller Fleischeintopf",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 9,
+      "itemLevel": 19,
+      "materials": [
+        {
+          "itemId": 7480,
+          "name": "Lv.9 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 9",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 517,
+          "name": "Meat",
+          "nameDe": "Fleisch",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 526,
+          "name": "Royal Jelly",
+          "nameDe": "Gelée Royale",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 711,
+          "name": "Shoot",
+          "nameDe": "Spross",
+          "amount": 20,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7454,
+          "name": "Plain Sauce",
+          "nameDe": "Milde Soße",
+          "amount": 4,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 508,
+          "name": "Yellow Herb",
+          "nameDe": "Gelbes Kraut",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 509,
+          "name": "White Herb",
+          "nameDe": "Weißes Kraut",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 507,
+          "name": "Red Herb",
+          "nameDe": "Rotes Kraut",
+          "amount": 5,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-104",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12084,
+        "name": "Ascending Dragon Soup",
+        "nameDe": "Suppe des aufsteigenden Drachen",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 9,
+      "itemLevel": 19,
+      "materials": [
+        {
+          "itemId": 7480,
+          "name": "Lv.9 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 9",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 7123,
+          "name": "Dragon Skin",
+          "nameDe": "Drachenhaut",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1037,
+          "name": "Dragon Tail",
+          "nameDe": "Drachenschwanz",
+          "amount": 20,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 610,
+          "name": "Yggdrasil Leaf",
+          "nameDe": "Yggdrasil-Blatt",
+          "amount": 3,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 526,
+          "name": "Royal Jelly",
+          "nameDe": "Gelée Royale",
+          "amount": 6,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7455,
+          "name": "Hot Sauce",
+          "nameDe": "Scharfe Soße",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7456,
+          "name": "Red Spice",
+          "nameDe": "Rotes Gewürz",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 632,
+          "name": "Fatty Chubby Earthworm",
+          "nameDe": "Dicker, fetter Wurm",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-105",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12099,
+        "name": "Blood Flavored Soda",
+        "nameDe": "Blutgeschmack-Limonade",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 9,
+      "itemLevel": 19,
+      "materials": [
+        {
+          "itemId": 7480,
+          "name": "Lv.9 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 9",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 702,
+          "name": "Animal Blood",
+          "nameDe": "Tierblut",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 605,
+          "name": "Anodyne",
+          "nameDe": "Schmerzmittel",
+          "amount": 2,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 606,
+          "name": "Aloevera",
+          "nameDe": "Aloe Vera",
+          "amount": 2,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 970,
+          "name": "Alcohol",
+          "nameDe": "Alkohol",
+          "amount": 2,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 526,
+          "name": "Royal Jelly",
+          "nameDe": "Gelée Royale",
+          "amount": 6,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7456,
+          "name": "Red Spice",
+          "nameDe": "Rotes Gewürz",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 531,
+          "name": "Apple Juice",
+          "nameDe": "Apfelsaft",
+          "amount": 10,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-106",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12075,
+        "name": "Steamed Tongue",
+        "nameDe": "Zungengericht",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 10,
+      "itemLevel": 20,
+      "materials": [
+        {
+          "itemId": 7481,
+          "name": "Lv.10 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 10",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 1015,
+          "name": "Tongue",
+          "nameDe": "Lange dünne Zunge",
+          "amount": 20,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7482,
+          "name": "Pot",
+          "nameDe": "Kochtopf",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 970,
+          "name": "Alcohol",
+          "nameDe": "Alkohol",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 606,
+          "name": "Aloevera",
+          "nameDe": "Aloe Vera",
+          "amount": 2,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7455,
+          "name": "Hot Sauce",
+          "nameDe": "Scharfe Soße",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 526,
+          "name": "Royal Jelly",
+          "nameDe": "Gelée Royale",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 610,
+          "name": "Yggdrasil Leaf",
+          "nameDe": "Yggdrasil-Blatt",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 505,
+          "name": "Blue Potion",
+          "nameDe": "Blauer Trank",
+          "amount": 2,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-107",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12080,
+        "name": "Dragon Breath Cocktail",
+        "nameDe": "Drachenatem-Cocktail",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 10,
+      "itemLevel": 20,
+      "materials": [
+        {
+          "itemId": 7481,
+          "name": "Lv.10 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 10",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 1033,
+          "name": "Maneater Root",
+          "nameDe": "Wurzel der Menschenfresserpflanze",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 707,
+          "name": "Singing Plant",
+          "nameDe": "Singende Pflanze",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 521,
+          "name": "Aloe Leaflet",
+          "nameDe": "Aloe-Blatt",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 526,
+          "name": "Royal Jelly",
+          "nameDe": "Gelée Royale",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 568,
+          "name": "Lemon",
+          "nameDe": "Zitrone",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 576,
+          "name": "Prickly Fruit",
+          "nameDe": "Stachelige Frucht",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 607,
+          "name": "Yggdrasil Berry",
+          "nameDe": "Yggdrasil-Beere",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 510,
+          "name": "Blue Herb",
+          "nameDe": "Blaues Kraut",
+          "amount": 10,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-108",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12095,
+        "name": "Hwergelmir's Tonic",
+        "nameDe": "Hvergelmirs Wein",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 10,
+      "itemLevel": 20,
+      "materials": [
+        {
+          "itemId": 7481,
+          "name": "Lv.10 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 10",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 607,
+          "name": "Yggdrasil Berry",
+          "nameDe": "Yggdrasil-Beere",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7066,
+          "name": "Ice Cubic",
+          "nameDe": "Eisstück",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7119,
+          "name": "Bacillus",
+          "nameDe": "Myzel",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 526,
+          "name": "Royal Jelly",
+          "nameDe": "Gelée Royale",
+          "amount": 4,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 645,
+          "name": "Concentration Potion",
+          "nameDe": "Konzentrationstrank",
+          "amount": 3,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 970,
+          "name": "Alcohol",
+          "nameDe": "Alkohol",
+          "amount": 5,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 576,
+          "name": "Prickly Fruit",
+          "nameDe": "Stachelige Frucht",
+          "amount": 2,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 710,
+          "name": "Illusion Flower",
+          "nameDe": "Phantomblume",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-109",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12090,
+        "name": "Steamed Desert Scorpions",
+        "nameDe": "Wüstenskorpion-Sanddampfgericht",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 10,
+      "itemLevel": 20,
+      "materials": [
+        {
+          "itemId": 7481,
+          "name": "Lv.10 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 10",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 904,
+          "name": "Scorpion Tail",
+          "nameDe": "Skorpionschwanz",
+          "amount": 20,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7125,
+          "name": "Scorpion Claw",
+          "nameDe": "Skorpionklaue",
+          "amount": 20,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 606,
+          "name": "Aloevera",
+          "nameDe": "Aloe Vera",
+          "amount": 2,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 610,
+          "name": "Yggdrasil Leaf",
+          "nameDe": "Yggdrasil-Blatt",
+          "amount": 3,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 621,
+          "name": "Bitter Herb",
+          "nameDe": "Bitterkraut",
+          "amount": 3,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 526,
+          "name": "Royal Jelly",
+          "nameDe": "Gelée Royale",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7455,
+          "name": "Hot Sauce",
+          "nameDe": "Scharfe Soße",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7482,
+          "name": "Pot",
+          "nameDe": "Kochtopf",
+          "amount": 1,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-110",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12085,
+        "name": "Immortal Stew",
+        "nameDe": "Unsterblicher Eintopf",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 10,
+      "itemLevel": 20,
+      "materials": [
+        {
+          "itemId": 7481,
+          "name": "Lv.10 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 10",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 929,
+          "name": "Immortal Heart",
+          "nameDe": "Unaufhaltsames Herz",
+          "amount": 20,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 934,
+          "name": "Memento",
+          "nameDe": "Memento",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 608,
+          "name": "Yggdrasil Seed",
+          "nameDe": "Yggdrasil-Samen",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 605,
+          "name": "Anodyne",
+          "nameDe": "Schmerzmittel",
+          "amount": 2,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 950,
+          "name": "Mermaid's Heart",
+          "nameDe": "Herz der Meerjungfrau",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7455,
+          "name": "Hot Sauce",
+          "nameDe": "Scharfe Soße",
+          "amount": 2,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 609,
+          "name": "Amulet",
+          "nameDe": "Talisman der Rückkehr",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 621,
+          "name": "Bitter Herb",
+          "nameDe": "Bitterkraut",
+          "amount": 2,
+          "role": "ingredient"
+        }
+      ],
+      "confidence": "classic",
+      "fee": null,
+      "location": null,
+      "requiredLevel": null,
+      "source": "https://raw.githubusercontent.com/rathena/rathena/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re/produce_db.txt"
+    },
+    {
+      "id": "rathena-111",
+      "profession": "cooking",
+      "output": {
+        "itemId": 12100,
+        "name": "Cooked Nine Tail's Tails",
+        "nameDe": "Neunschwanz-Gericht",
+        "amount": 1
+      },
+      "skill": "Cooking",
+      "skillLevel": 10,
+      "itemLevel": 20,
+      "materials": [
+        {
+          "itemId": 7481,
+          "name": "Lv.10 Cookbook",
+          "nameDe": "Rezeptbuch Lv. 10",
+          "amount": 0,
+          "role": "tool"
+        },
+        {
+          "itemId": 1022,
+          "name": "Nine Tails",
+          "nameDe": "Fuchsschwanz",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 706,
+          "name": "Four-Leaf Clover",
+          "nameDe": "Vierblättriges Kleeblatt",
+          "amount": 2,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 1033,
+          "name": "Maneater Root",
+          "nameDe": "Wurzel der Menschenfresserpflanze",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7100,
+          "name": "Sharp Leaf",
+          "nameDe": "Scharfes Blatt",
+          "amount": 10,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 610,
+          "name": "Yggdrasil Leaf",
+          "nameDe": "Yggdrasil-Blatt",
+          "amount": 4,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7454,
+          "name": "Plain Sauce",
+          "nameDe": "Milde Soße",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 7452,
+          "name": "Yellow Spice",
+          "nameDe": "Gelbes Gewürz",
+          "amount": 1,
+          "role": "ingredient"
+        },
+        {
+          "itemId": 709,
+          "name": "Izidor",
+          "nameDe": "Isidor",
           "amount": 2,
           "role": "ingredient"
         }
@@ -2590,10 +6691,11 @@
     },
     {
       "id": "rathena-112",
-      "profession": "blacksmith",
+      "profession": "smelting",
       "output": {
         "itemId": 998,
         "name": "Iron",
+        "nameDe": "Eisen",
         "amount": 1
       },
       "skill": "Steel Tempering",
@@ -2603,6 +6705,7 @@
         {
           "itemId": 1002,
           "name": "Iron Ore",
+          "nameDe": "Eisenerz",
           "amount": 1,
           "role": "ingredient"
         }
@@ -2615,10 +6718,11 @@
     },
     {
       "id": "rathena-113",
-      "profession": "blacksmith",
+      "profession": "smelting",
       "output": {
         "itemId": 999,
         "name": "Steel",
+        "nameDe": "Stahl",
         "amount": 1
       },
       "skill": "Steel Tempering",
@@ -2628,12 +6732,14 @@
         {
           "itemId": 998,
           "name": "Iron",
+          "nameDe": "Eisen",
           "amount": 5,
           "role": "ingredient"
         },
         {
           "itemId": 1003,
           "name": "Coal",
+          "nameDe": "Kohle",
           "amount": 1,
           "role": "ingredient"
         }
@@ -2646,10 +6752,11 @@
     },
     {
       "id": "rathena-114",
-      "profession": "blacksmith",
+      "profession": "smelting",
       "output": {
         "itemId": 1000,
         "name": "Star Crumb",
+        "nameDe": "Sternfragment",
         "amount": 1
       },
       "skill": "Enchanted Stone Craft",
@@ -2659,6 +6766,7 @@
         {
           "itemId": 1001,
           "name": "Star Dust",
+          "nameDe": "Sternenstaub",
           "amount": 10,
           "role": "ingredient"
         }
@@ -2671,10 +6779,11 @@
     },
     {
       "id": "rathena-115",
-      "profession": "blacksmith",
+      "profession": "smelting",
       "output": {
         "itemId": 994,
         "name": "Flame Heart",
+        "nameDe": "Flammenherz",
         "amount": 1
       },
       "skill": "Enchanted Stone Craft",
@@ -2684,6 +6793,7 @@
         {
           "itemId": 990,
           "name": "Red Blood",
+          "nameDe": "Rotes Blut",
           "amount": 10,
           "role": "ingredient"
         }
@@ -2696,10 +6806,11 @@
     },
     {
       "id": "rathena-116",
-      "profession": "blacksmith",
+      "profession": "smelting",
       "output": {
         "itemId": 995,
         "name": "Mystic Frozen",
+        "nameDe": "Mystisch Gefroren",
         "amount": 1
       },
       "skill": "Enchanted Stone Craft",
@@ -2709,6 +6820,7 @@
         {
           "itemId": 991,
           "name": "Crystal Blue",
+          "nameDe": "Kristallblau",
           "amount": 10,
           "role": "ingredient"
         }
@@ -2721,10 +6833,11 @@
     },
     {
       "id": "rathena-117",
-      "profession": "blacksmith",
+      "profession": "smelting",
       "output": {
         "itemId": 996,
         "name": "Rough Wind",
+        "nameDe": "Rauer Wind",
         "amount": 1
       },
       "skill": "Enchanted Stone Craft",
@@ -2734,6 +6847,7 @@
         {
           "itemId": 992,
           "name": "Wind of Verdure",
+          "nameDe": "Grüner Wind",
           "amount": 10,
           "role": "ingredient"
         }
@@ -2746,10 +6860,11 @@
     },
     {
       "id": "rathena-118",
-      "profession": "blacksmith",
+      "profession": "smelting",
       "output": {
         "itemId": 997,
         "name": "Great Nature",
+        "nameDe": "Große Natur",
         "amount": 1
       },
       "skill": "Enchanted Stone Craft",
@@ -2759,6 +6874,7 @@
         {
           "itemId": 993,
           "name": "Green Live",
+          "nameDe": "Green Live",
           "amount": 10,
           "role": "ingredient"
         }
@@ -2775,6 +6891,7 @@
       "output": {
         "itemId": 501,
         "name": "Red Potion",
+        "nameDe": "Roter Trank",
         "amount": 1
       },
       "skill": "Prepare Potion",
@@ -2784,18 +6901,21 @@
         {
           "itemId": 7144,
           "name": "Potion Creation Guide",
+          "nameDe": "Herstellungsanleitung für Standardtränke",
           "amount": 0,
           "role": "tool"
         },
         {
           "itemId": 507,
           "name": "Red Herb",
+          "nameDe": "Rotes Kraut",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 1093,
           "name": "Empty Potion Bottle",
+          "nameDe": "Leere Trankflasche",
           "amount": 1,
           "role": "ingredient"
         }
@@ -2812,6 +6932,7 @@
       "output": {
         "itemId": 503,
         "name": "Yellow Potion",
+        "nameDe": "Gelber Trank",
         "amount": 1
       },
       "skill": "Prepare Potion",
@@ -2821,18 +6942,21 @@
         {
           "itemId": 7144,
           "name": "Potion Creation Guide",
+          "nameDe": "Herstellungsanleitung für Standardtränke",
           "amount": 0,
           "role": "tool"
         },
         {
           "itemId": 508,
           "name": "Yellow Herb",
+          "nameDe": "Gelbes Kraut",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 1093,
           "name": "Empty Potion Bottle",
+          "nameDe": "Leere Trankflasche",
           "amount": 1,
           "role": "ingredient"
         }
@@ -2849,6 +6973,7 @@
       "output": {
         "itemId": 504,
         "name": "White Potion",
+        "nameDe": "Weißer Trank",
         "amount": 1
       },
       "skill": "Prepare Potion",
@@ -2858,18 +6983,21 @@
         {
           "itemId": 7144,
           "name": "Potion Creation Guide",
+          "nameDe": "Herstellungsanleitung für Standardtränke",
           "amount": 0,
           "role": "tool"
         },
         {
           "itemId": 509,
           "name": "White Herb",
+          "nameDe": "Weißes Kraut",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 1093,
           "name": "Empty Potion Bottle",
+          "nameDe": "Leere Trankflasche",
           "amount": 1,
           "role": "ingredient"
         }
@@ -2886,6 +7014,7 @@
       "output": {
         "itemId": 505,
         "name": "Blue Potion",
+        "nameDe": "Blauer Trank",
         "amount": 1
       },
       "skill": "Prepare Potion",
@@ -2895,24 +7024,28 @@
         {
           "itemId": 7144,
           "name": "Potion Creation Guide",
+          "nameDe": "Herstellungsanleitung für Standardtränke",
           "amount": 0,
           "role": "tool"
         },
         {
           "itemId": 510,
           "name": "Blue Herb",
+          "nameDe": "Blaues Kraut",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 911,
           "name": "Scell",
+          "nameDe": "Shell",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 1093,
           "name": "Empty Potion Bottle",
+          "nameDe": "Leere Trankflasche",
           "amount": 1,
           "role": "ingredient"
         }
@@ -2929,6 +7062,7 @@
       "output": {
         "itemId": 545,
         "name": "Red Slim Potion",
+        "nameDe": "Kondensierter roter Trank",
         "amount": 1
       },
       "skill": "Prepare Potion",
@@ -2938,24 +7072,28 @@
         {
           "itemId": 7133,
           "name": "Slim Potion Creation Guide",
+          "nameDe": "Herstellungsanleitung für Slim-Tränke",
           "amount": 0,
           "role": "tool"
         },
         {
           "itemId": 501,
           "name": "Red Potion",
+          "nameDe": "Roter Trank",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 1092,
           "name": "Empty Test Tube",
+          "nameDe": "Leeres Reagenzglas",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 952,
           "name": "Cactus Needle",
+          "nameDe": "Spitzer Kaktusstachel",
           "amount": 1,
           "role": "ingredient"
         }
@@ -2972,6 +7110,7 @@
       "output": {
         "itemId": 546,
         "name": "Yellow Slim Potion",
+        "nameDe": "Kondensierter gelber Trank",
         "amount": 1
       },
       "skill": "Prepare Potion",
@@ -2981,24 +7120,28 @@
         {
           "itemId": 7133,
           "name": "Slim Potion Creation Guide",
+          "nameDe": "Herstellungsanleitung für Slim-Tränke",
           "amount": 0,
           "role": "tool"
         },
         {
           "itemId": 503,
           "name": "Yellow Potion",
+          "nameDe": "Gelber Trank",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 1092,
           "name": "Empty Test Tube",
+          "nameDe": "Leeres Reagenzglas",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 1017,
           "name": "Mole Whiskers",
+          "nameDe": "Schnurrhaar des Maulwurfs",
           "amount": 1,
           "role": "ingredient"
         }
@@ -3015,6 +7158,7 @@
       "output": {
         "itemId": 547,
         "name": "White Slim Potion",
+        "nameDe": "Kondensierter weißer Trank",
         "amount": 1
       },
       "skill": "Prepare Potion",
@@ -3024,24 +7168,28 @@
         {
           "itemId": 7133,
           "name": "Slim Potion Creation Guide",
+          "nameDe": "Herstellungsanleitung für Slim-Tränke",
           "amount": 0,
           "role": "tool"
         },
         {
           "itemId": 504,
           "name": "White Potion",
+          "nameDe": "Weißer Trank",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 1092,
           "name": "Empty Test Tube",
+          "nameDe": "Leeres Reagenzglas",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 1061,
           "name": "Witch Starsand",
+          "nameDe": "Hexen-Sternensand",
           "amount": 1,
           "role": "ingredient"
         }
@@ -3058,6 +7206,7 @@
       "output": {
         "itemId": 523,
         "name": "Holy Water",
+        "nameDe": "Heiliges Wasser",
         "amount": 1
       },
       "skill": "Holy Water",
@@ -3067,6 +7216,7 @@
         {
           "itemId": 713,
           "name": "Empty Bottle",
+          "nameDe": "Leere Flasche",
           "amount": 1,
           "role": "ingredient"
         }
@@ -3083,6 +7233,7 @@
       "output": {
         "itemId": 678,
         "name": "Poison Bottle",
+        "nameDe": "Giftflasche",
         "amount": 1
       },
       "skill": "Create Deadly Poison",
@@ -3092,42 +7243,49 @@
         {
           "itemId": 937,
           "name": "Venom Canine",
+          "nameDe": "Giftzahn",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 952,
           "name": "Cactus Needle",
+          "nameDe": "Spitzer Kaktusstachel",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 939,
           "name": "Bee Sting",
+          "nameDe": "Bienenstich",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 7033,
           "name": "Poison Spore",
+          "nameDe": "Giftspore",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 972,
           "name": "Karvodailnirol",
+          "nameDe": "Karvodailnirol",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 657,
           "name": "Berserk Potion",
+          "nameDe": "Berserkertrank",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 713,
           "name": "Empty Bottle",
+          "nameDe": "Leere Flasche",
           "amount": 1,
           "role": "ingredient"
         }
@@ -3144,6 +7302,7 @@
       "output": {
         "itemId": 7135,
         "name": "Bottle Grenade",
+        "nameDe": "Flaschengranate",
         "amount": 1
       },
       "skill": "Prepare Potion",
@@ -3153,24 +7312,28 @@
         {
           "itemId": 7128,
           "name": "Bottle Grenade Creation Guide",
+          "nameDe": "Herstellungsanleitung: Brandflasche",
           "amount": 0,
           "role": "tool"
         },
         {
           "itemId": 970,
           "name": "Alcohol",
+          "nameDe": "Alkohol",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 1059,
           "name": "Fabric",
+          "nameDe": "Transparentes Stoffstück",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 713,
           "name": "Empty Bottle",
+          "nameDe": "Leere Flasche",
           "amount": 1,
           "role": "ingredient"
         }
@@ -3187,6 +7350,7 @@
       "output": {
         "itemId": 7136,
         "name": "Acid Bottle",
+        "nameDe": "Säureflasche",
         "amount": 1
       },
       "skill": "Prepare Potion",
@@ -3196,18 +7360,21 @@
         {
           "itemId": 7129,
           "name": "Acid Bottle Creation Guide",
+          "nameDe": "Herstellungsanleitung: Säureflasche",
           "amount": 0,
           "role": "tool"
         },
         {
           "itemId": 713,
           "name": "Empty Bottle",
+          "nameDe": "Leere Flasche",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 929,
           "name": "Immortal Heart",
+          "nameDe": "Unaufhaltsames Herz",
           "amount": 1,
           "role": "ingredient"
         }
@@ -3224,6 +7391,7 @@
       "output": {
         "itemId": 7137,
         "name": "Plant Bottle",
+        "nameDe": "Flasche mit Menschenfresserpflanze",
         "amount": 1
       },
       "skill": "Prepare Potion",
@@ -3233,18 +7401,21 @@
         {
           "itemId": 7130,
           "name": "Plant Bottle Creation Guide",
+          "nameDe": "Handbuch zur Herstellung von Pflanzenflaschen",
           "amount": 0,
           "role": "tool"
         },
         {
           "itemId": 713,
           "name": "Empty Bottle",
+          "nameDe": "Leere Flasche",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 1032,
           "name": "Maneater Blossom",
+          "nameDe": "Blüte der Menschenfresserpflanze",
           "amount": 2,
           "role": "ingredient"
         }
@@ -3261,6 +7432,7 @@
       "output": {
         "itemId": 7138,
         "name": "Marine Sphere Bottle",
+        "nameDe": "Marine-Sphären-Flasche",
         "amount": 1
       },
       "skill": "Prepare Potion",
@@ -3270,24 +7442,28 @@
         {
           "itemId": 7131,
           "name": "Marine Sphere Creation Guide",
+          "nameDe": "Herstellungsanleitung: Marine Sphere",
           "amount": 0,
           "role": "tool"
         },
         {
           "itemId": 713,
           "name": "Empty Bottle",
+          "nameDe": "Leere Flasche",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 1050,
           "name": "Tendon",
+          "nameDe": "Sehne",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 1051,
           "name": "Detonator",
+          "nameDe": "Detonator",
           "amount": 1,
           "role": "ingredient"
         }
@@ -3304,6 +7480,7 @@
       "output": {
         "itemId": 7139,
         "name": "Glistening Coat",
+        "nameDe": "Beschichtungsmittel",
         "amount": 1
       },
       "skill": "Prepare Potion",
@@ -3313,30 +7490,35 @@
         {
           "itemId": 7132,
           "name": "Glistening Coat Creation Guide",
+          "nameDe": "Herstellungsanleitung: Beschichtungsmittel",
           "amount": 0,
           "role": "tool"
         },
         {
           "itemId": 970,
           "name": "Alcohol",
+          "nameDe": "Alkohol",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 950,
           "name": "Mermaid's Heart",
+          "nameDe": "Herz der Meerjungfrau",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 1044,
           "name": "Zenorc's Fang",
+          "nameDe": "Zenorc-Zahn",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 713,
           "name": "Empty Bottle",
+          "nameDe": "Leere Flasche",
           "amount": 1,
           "role": "ingredient"
         }
@@ -3353,6 +7535,7 @@
       "output": {
         "itemId": 12118,
         "name": "Fireproof Potion",
+        "nameDe": "Trank gegen Feuer",
         "amount": 1
       },
       "skill": "Prepare Potion",
@@ -3362,24 +7545,28 @@
         {
           "itemId": 7434,
           "name": "Elemental Potion Creation Guide",
+          "nameDe": "Handbuch zur Herstellung von Elementartränken",
           "amount": 0,
           "role": "tool"
         },
         {
           "itemId": 1012,
           "name": "Frill",
+          "nameDe": "Echsennackenhaut",
           "amount": 2,
           "role": "ingredient"
         },
         {
           "itemId": 716,
           "name": "Red Gemstone",
+          "nameDe": "Roter Edelstein",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 1093,
           "name": "Empty Potion Bottle",
+          "nameDe": "Leere Trankflasche",
           "amount": 1,
           "role": "ingredient"
         }
@@ -3396,6 +7583,7 @@
       "output": {
         "itemId": 12119,
         "name": "Coldproof Potion",
+        "nameDe": "Trank gegen Kälte",
         "amount": 1
       },
       "skill": "Prepare Potion",
@@ -3405,24 +7593,28 @@
         {
           "itemId": 7434,
           "name": "Elemental Potion Creation Guide",
+          "nameDe": "Handbuch zur Herstellung von Elementartränken",
           "amount": 0,
           "role": "tool"
         },
         {
           "itemId": 950,
           "name": "Mermaid's Heart",
+          "nameDe": "Herz der Meerjungfrau",
           "amount": 3,
           "role": "ingredient"
         },
         {
           "itemId": 717,
           "name": "Blue Gemstone",
+          "nameDe": "Blauer Edelstein",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 1093,
           "name": "Empty Potion Bottle",
+          "nameDe": "Leere Trankflasche",
           "amount": 1,
           "role": "ingredient"
         }
@@ -3439,6 +7631,7 @@
       "output": {
         "itemId": 12120,
         "name": "Earthproof Potion",
+        "nameDe": "Trank gegen Erde",
         "amount": 1
       },
       "skill": "Prepare Potion",
@@ -3448,24 +7641,28 @@
         {
           "itemId": 7434,
           "name": "Elemental Potion Creation Guide",
+          "nameDe": "Handbuch zur Herstellung von Elementartränken",
           "amount": 0,
           "role": "tool"
         },
         {
           "itemId": 7126,
           "name": "Large Jellopy",
+          "nameDe": "Großes Jellopy",
           "amount": 2,
           "role": "ingredient"
         },
         {
           "itemId": 715,
           "name": "Yellow Gemstone",
+          "nameDe": "Gelber Edelstein",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 1093,
           "name": "Empty Potion Bottle",
+          "nameDe": "Leere Trankflasche",
           "amount": 1,
           "role": "ingredient"
         }
@@ -3482,6 +7679,7 @@
       "output": {
         "itemId": 12121,
         "name": "Thunderproof Potion",
+        "nameDe": "Trank gegen Donner",
         "amount": 1
       },
       "skill": "Prepare Potion",
@@ -3491,24 +7689,28 @@
         {
           "itemId": 7434,
           "name": "Elemental Potion Creation Guide",
+          "nameDe": "Handbuch zur Herstellung von Elementartränken",
           "amount": 0,
           "role": "tool"
         },
         {
           "itemId": 1057,
           "name": "Moth Dust",
+          "nameDe": "Mottenflügelstaub",
           "amount": 3,
           "role": "ingredient"
         },
         {
           "itemId": 717,
           "name": "Blue Gemstone",
+          "nameDe": "Blauer Edelstein",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 1093,
           "name": "Empty Potion Bottle",
+          "nameDe": "Leere Trankflasche",
           "amount": 1,
           "role": "ingredient"
         }
@@ -3525,6 +7727,7 @@
       "output": {
         "itemId": 605,
         "name": "Anodyne",
+        "nameDe": "Schmerzmittel",
         "amount": 1
       },
       "skill": "Prepare Potion",
@@ -3534,24 +7737,28 @@
         {
           "itemId": 7144,
           "name": "Potion Creation Guide",
+          "nameDe": "Herstellungsanleitung für Standardtränke",
           "amount": 0,
           "role": "tool"
         },
         {
           "itemId": 708,
           "name": "Ment",
+          "nameDe": "Ment",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 970,
           "name": "Alcohol",
+          "nameDe": "Alkohol",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 713,
           "name": "Empty Bottle",
+          "nameDe": "Leere Flasche",
           "amount": 1,
           "role": "ingredient"
         }
@@ -3568,6 +7775,7 @@
       "output": {
         "itemId": 606,
         "name": "Aloevera",
+        "nameDe": "Aloe Vera",
         "amount": 1
       },
       "skill": "Prepare Potion",
@@ -3577,24 +7785,28 @@
         {
           "itemId": 7144,
           "name": "Potion Creation Guide",
+          "nameDe": "Herstellungsanleitung für Standardtränke",
           "amount": 0,
           "role": "tool"
         },
         {
           "itemId": 704,
           "name": "Aloe",
+          "nameDe": "Aloe",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 518,
           "name": "Honey",
+          "nameDe": "Honig",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 713,
           "name": "Empty Bottle",
+          "nameDe": "Leere Flasche",
           "amount": 1,
           "role": "ingredient"
         }
@@ -3611,6 +7823,7 @@
       "output": {
         "itemId": 970,
         "name": "Alcohol",
+        "nameDe": "Alkohol",
         "amount": 1
       },
       "skill": "Prepare Potion",
@@ -3620,30 +7833,35 @@
         {
           "itemId": 7127,
           "name": "Alcohol Creation Guide",
+          "nameDe": "Alkohol-Herstellungsanleitung",
           "amount": 0,
           "role": "tool"
         },
         {
           "itemId": 713,
           "name": "Empty Bottle",
+          "nameDe": "Leere Flasche",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 7033,
           "name": "Poison Spore",
+          "nameDe": "Giftspore",
           "amount": 5,
           "role": "ingredient"
         },
         {
           "itemId": 905,
           "name": "Stem",
+          "nameDe": "Pflanzenstängel",
           "amount": 5,
           "role": "ingredient"
         },
         {
           "itemId": 1092,
           "name": "Empty Test Tube",
+          "nameDe": "Leeres Reagenzglas",
           "amount": 1,
           "role": "ingredient"
         }
@@ -3660,6 +7878,7 @@
       "output": {
         "itemId": 7142,
         "name": "Embryo",
+        "nameDe": "Embryo",
         "amount": 1
       },
       "skill": "Prepare Potion",
@@ -3669,24 +7888,28 @@
         {
           "itemId": 7144,
           "name": "Potion Creation Guide",
+          "nameDe": "Herstellungsanleitung für Standardtränke",
           "amount": 0,
           "role": "tool"
         },
         {
           "itemId": 7140,
           "name": "Seed of Life",
+          "nameDe": "Samen des Lebens",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 7141,
           "name": "Yggdrasil Morning Dew",
+          "nameDe": "Yggdrasil-Tau",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 7143,
           "name": "Glass Tube",
+          "nameDe": "Glasröhre",
           "amount": 1,
           "role": "ingredient"
         }
@@ -3703,6 +7926,7 @@
       "output": {
         "itemId": 100371,
         "name": "Homunculus Nutrient",
+        "nameDe": "Homunkulus-Nährmittel",
         "amount": 1
       },
       "skill": "Prepare Potion",
@@ -3712,24 +7936,28 @@
         {
           "itemId": 7144,
           "name": "Potion Creation Guide",
+          "nameDe": "Herstellungsanleitung für Standardtränke",
           "amount": 0,
           "role": "tool"
         },
         {
           "itemId": 7140,
           "name": "Seed of Life",
+          "nameDe": "Samen des Lebens",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 508,
           "name": "Yellow Herb",
+          "nameDe": "Gelbes Kraut",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 713,
           "name": "Empty Bottle",
+          "nameDe": "Leere Flasche",
           "amount": 1,
           "role": "ingredient"
         }
@@ -3746,6 +7974,7 @@
       "output": {
         "itemId": 12114,
         "name": "Elemental Converter (Fire)",
+        "nameDe": "Elementarer Konverter",
         "amount": 1
       },
       "skill": "Create Elemental Converter",
@@ -3755,12 +7984,14 @@
         {
           "itemId": 7433,
           "name": "Empty Scroll",
+          "nameDe": "Leere Schriftrolle",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 990,
           "name": "Red Blood",
+          "nameDe": "Rotes Blut",
           "amount": 1,
           "role": "ingredient"
         }
@@ -3777,6 +8008,7 @@
       "output": {
         "itemId": 12115,
         "name": "Elemental Converter (Water)",
+        "nameDe": "Elementarer Konverter",
         "amount": 1
       },
       "skill": "Create Elemental Converter",
@@ -3786,12 +8018,14 @@
         {
           "itemId": 7433,
           "name": "Empty Scroll",
+          "nameDe": "Leere Schriftrolle",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 991,
           "name": "Crystal Blue",
+          "nameDe": "Kristallblau",
           "amount": 1,
           "role": "ingredient"
         }
@@ -3808,6 +8042,7 @@
       "output": {
         "itemId": 12116,
         "name": "Elemental Converter (Earth)",
+        "nameDe": "Elementarer Konverter",
         "amount": 1
       },
       "skill": "Create Elemental Converter",
@@ -3817,12 +8052,14 @@
         {
           "itemId": 7433,
           "name": "Empty Scroll",
+          "nameDe": "Leere Schriftrolle",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 993,
           "name": "Green Live",
+          "nameDe": "Green Live",
           "amount": 1,
           "role": "ingredient"
         }
@@ -3839,6 +8076,7 @@
       "output": {
         "itemId": 12117,
         "name": "Elemental Converter (Wind)",
+        "nameDe": "Elementarer Konverter",
         "amount": 1
       },
       "skill": "Create Elemental Converter",
@@ -3848,12 +8086,14 @@
         {
           "itemId": 7433,
           "name": "Empty Scroll",
+          "nameDe": "Leere Schriftrolle",
           "amount": 1,
           "role": "ingredient"
         },
         {
           "itemId": 992,
           "name": "Wind of Verdure",
+          "nameDe": "Grüner Wind",
           "amount": 1,
           "role": "ingredient"
         }

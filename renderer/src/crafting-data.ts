@@ -2,7 +2,7 @@ import imported from "./data/crafting-recipes.json";
 
 export type CraftLang = "de" | "en";
 export type CraftText = { de: string; en: string };
-export type CraftProfession = "npc" | "alchemist" | "blacksmith" | "priest" | "assassin" | "sage";
+export type CraftProfession = "npc" | "cooking" | "smelting" | "alchemist" | "blacksmith" | "priest" | "assassin" | "sage";
 export type CraftConfidence = "client" | "classic";
 
 export type CraftMaterial = {
@@ -33,6 +33,7 @@ const t = (de: string, en: string): CraftText => ({ de, en });
 
 const skillDe: Record<string, string> = {
   "NPC Crafting": "NPC-Herstellung",
+  "Cooking": "Kochen",
   "Holy Water": "Weihwasser herstellen",
   "Iron Tempering": "Eisen herstellen",
   "Steel Tempering": "Stahl herstellen",
@@ -58,14 +59,14 @@ function roleFor(name: string, amount: number): CraftMaterial["role"] {
 export const craftingRecipes: CraftRecipe[] = imported.recipes.map((recipe) => ({
   id: recipe.id,
   profession: recipe.profession as CraftProfession,
-  output: t(recipe.output.name, recipe.output.name),
+  output: t(recipe.output.nameDe || recipe.output.name, recipe.output.name),
   outputItemId: recipe.output.itemId,
   amount: recipe.output.amount,
   skill: t(skillDe[recipe.skill] || recipe.skill, recipe.skill),
   skillLevel: "skillLevel" in recipe ? recipe.skillLevel : null,
   materials: recipe.materials.map((material) => ({
     itemId: material.itemId,
-    name: t(material.name, material.name),
+    name: t(material.nameDe || material.name, material.name),
     amount: material.amount,
     role: roleFor(material.name, material.amount),
   })),
@@ -81,6 +82,8 @@ export const craftingRecipes: CraftRecipe[] = imported.recipes.map((recipe) => (
 
 export const professionNames: Record<CraftProfession, CraftText> = {
   npc: t("NPC-Handwerk", "NPC crafting"),
+  cooking: t("Kochen", "Cooking"),
+  smelting: t("Schmelzen", "Smelting"),
   alchemist: t("Alchemist", "Alchemist"),
   blacksmith: t("Schmied", "Blacksmith"),
   priest: t("Priester", "Priest"),
@@ -89,7 +92,7 @@ export const professionNames: Record<CraftProfession, CraftText> = {
 };
 
 export const professionIcons: Record<CraftProfession, string> = {
-  npc: "✦", alchemist: "⚗", blacksmith: "⚒", priest: "✚", assassin: "◆", sage: "◇",
+  npc: "✦", cooking: "♨", smelting: "⛏", alchemist: "⚗", blacksmith: "⚒", priest: "✚", assassin: "◆", sage: "◇",
 };
 
 export const confidenceNames: Record<CraftConfidence, CraftText> = {
