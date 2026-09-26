@@ -7,9 +7,11 @@ NPC-only Money Helper work without a running PC or a permanent connection.
 
 ## Build
 
-The supported build is the `Android Alpha` GitHub Actions workflow. It installs
-the Android SDK, refreshes the public mobile dataset, builds the web application,
-syncs it into the native project and creates a debug-signed APK for testing.
+Tagged releases use the `Release` GitHub Actions workflow and publish a signed
+APK directly on the matching GitHub release page. The `Android Alpha` workflow
+continues to provide short-lived debug builds for testing. Both workflows install
+the Android SDK, refresh the public mobile dataset, build the web application and
+sync it into the native project. Tagged releases use the stored release signing key.
 
 For a local build, install Android Studio with Android SDK 36 and Java 21, then run:
 
