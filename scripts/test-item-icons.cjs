@@ -18,7 +18,7 @@ const craftingIds=new Set();
 for(const recipe of recipes)for(const entry of [recipe.output,...recipe.materials]){
  assert.ok(entry.itemId,`Crafting item without identity: ${entry.name}`);
  const id=String(aliases[entry.itemId]??entry.itemId);craftingIds.add(entry.itemId);
- if(recipe.profession==='cooking')continue; // New classic cooking references use the deterministic in-app fallback until authored icons are added.
+ if(recipe.profession==='cooking'&&entry!==recipe.output)continue; // Cooking ingredients keep the deterministic fallback; every finished dish has an authored icon.
  assert.ok(exactIds.has(id),`Crafting item has no exact illustration: ${entry.name} #${entry.itemId}`);
  assert.ok(fs.existsSync(path.resolve(__dirname,'../renderer/src/assets/item-exact-icons',id+'.png')),entry.name);
 }

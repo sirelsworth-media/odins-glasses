@@ -1548,6 +1548,366 @@
       "reference": "https://www.divine-pride.net/database/item/5082",
       "method": "built-in image_gen",
       "date": "2026-09-11"
+    },
+    {
+      "itemId": 12041,
+      "name": "Fried Grasshopper",
+      "subject": "original illustrated cooking dish: Fried Grasshopper",
+      "source": "generated-images/exec-a79b57ae-1da2-4a30-9b41-b7cb3cb01540.png"
+    },
+    {
+      "itemId": 12046,
+      "name": "Grape Juice Herbal Tea",
+      "subject": "original illustrated cooking dish: Grape Juice Herbal Tea",
+      "source": "generated-images/exec-f3542550-bcff-4902-8604-7ec9811b5f87.png"
+    },
+    {
+      "itemId": 12051,
+      "name": "Steamed Crab",
+      "subject": "original illustrated cooking dish: Steamed Crab",
+      "source": "generated-images/exec-0ce24dbd-7fc9-4347-8f3f-17dc9af9ed37.png"
+    },
+    {
+      "itemId": 12056,
+      "name": "Frog Egg Squid Ink Soup",
+      "subject": "original illustrated cooking dish: Frog Egg Squid Ink Soup",
+      "source": "generated-images/exec-3e627587-8067-4e4b-8ec6-8fb88f5fbba7.png"
+    },
+    {
+      "itemId": 12061,
+      "name": "Honey Grape Juice",
+      "subject": "original illustrated cooking dish: Honey Grape Juice",
+      "source": "generated-images/exec-615d6bb4-442f-4ced-a04b-7fa0ee286e1d.png"
+    },
+    {
+      "itemId": 12066,
+      "name": "Fried Monkey Tails",
+      "subject": "original illustrated cooking dish: Fried Monkey Tails",
+      "source": "generated-images/exec-b244b6a6-0ef5-4a37-b76e-09ea50c566ba.png"
+    },
+    {
+      "itemId": 12042,
+      "name": "Flipper Salad",
+      "subject": "original illustrated cooking dish: Flipper Salad",
+      "source": "generated-images/exec-063cb150-1807-4fa2-92b7-bbdc65eaab5d.png"
+    },
+    {
+      "itemId": 12052,
+      "name": "Assorted Seafood",
+      "subject": "original illustrated cooking dish: Assorted Seafood",
+      "source": "generated-images/exec-c726969e-c862-4760-b705-31c91e768b10.png"
+    },
+    {
+      "itemId": 12047,
+      "name": "Autumn Red Tea",
+      "subject": "original illustrated cooking dish: Autumn Red Tea",
+      "source": "generated-images/exec-8147115d-c184-4414-9712-edeab5ceef95.png"
+    },
+    {
+      "itemId": 12057,
+      "name": "Smooth Noodle",
+      "subject": "original illustrated cooking dish: Smooth Noodle",
+      "source": "generated-images/exec-42a471e2-24ab-4ef1-be3f-70ca0e8f8c37.png"
+    },
+    {
+      "itemId": 12062,
+      "name": "Chocolate Mousse Cake",
+      "subject": "original illustrated cooking dish: Chocolate Mousse Cake",
+      "source": "generated-images/exec-865fb991-ff25-4efb-b605-fe54ffc0fb98.png"
+    },
+    {
+      "itemId": 12067,
+      "name": "Mixed Juice",
+      "subject": "original illustrated cooking dish: Mixed Juice",
+      "source": "generated-images/exec-10774bb2-9877-48dd-96f2-6675fc6a2cb6.png"
+    },
+    {
+      "itemId": 12063,
+      "name": "Fruit Mix",
+      "subject": "original illustrated cooking dish: Fruit Mix",
+      "source": "generated-images/exec-51510f5b-54c0-4c2a-9d28-4bd8e10e23e2.png"
+    },
+    {
+      "itemId": 12048,
+      "name": "Honey Herbal Tea",
+      "subject": "original illustrated cooking dish: Honey Herbal Tea",
+      "source": "generated-images/exec-d6cbf306-e291-48f6-ab0e-31522daf3398.png"
+    },
+    {
+      "itemId": 12043,
+      "name": "Bomber Steak",
+      "subject": "original illustrated cooking dish: Bomber Steak",
+      "source": "generated-images/exec-8ef7c0b6-8d2c-4857-8d41-04a6f53e7173.png"
+    },
+    {
+      "itemId": 12053,
+      "name": "Clam Soup",
+      "subject": "original illustrated cooking dish: Clam Soup",
+      "source": "generated-images/exec-1c2b6e95-d45e-4a88-874d-5e930130546e.png"
+    },
+    {
+      "itemId": 12058,
+      "name": "Tentacle Cheese Gratin",
+      "subject": "original illustrated cooking dish: Tentacle Cheese Gratin",
+      "source": "generated-images/exec-0706ee52-3765-4074-88d7-f16436f1843b.png"
+    },
+    {
+      "itemId": 12068,
+      "name": "Fried Sweet Potato",
+      "subject": "original illustrated cooking dish: Fried Sweet Potato",
+      "source": "generated-images/exec-b8abd134-a848-4a1e-9077-6dfafdb74d63.png"
+    },
+    {
+      "itemId": 12049,
+      "name": "Morrcc Fruit Wine",
+      "subject": "original illustrated cooking dish: Morrcc Fruit Wine",
+      "source": "generated-images/exec-f2aab464-9f6b-455f-80da-fae9b2feadb4.png"
+    },
+    {
+      "itemId": 12054,
+      "name": "Seasoned Jellyfish",
+      "subject": "original illustrated cooking dish: Seasoned Jellyfish",
+      "source": "generated-images/exec-cca3fb1b-35ee-4d5e-a100-c16259c6f8a6.png"
+    },
+    {
+      "itemId": 12044,
+      "name": "Herb Marinade Beef",
+      "subject": "original illustrated cooking dish: Herb Marinade Beef",
+      "source": "generated-images/exec-314f1551-7d3f-4956-b2f0-47fbd1762b95.png"
+    },
+    {
+      "itemId": 12064,
+      "name": "Cream Sandwich",
+      "subject": "original illustrated cooking dish: Cream Sandwich",
+      "source": "generated-images/exec-9e4f8a38-7080-452c-9e4c-b41b51784c2c.png"
+    },
+    {
+      "itemId": 12059,
+      "name": "Lutie Cold Noodle",
+      "subject": "original illustrated cooking dish: Lutie Cold Noodle",
+      "source": "generated-images/exec-4eebb305-fc13-435b-b3d0-af38efac960e.png"
+    },
+    {
+      "itemId": 12069,
+      "name": "Steamed Ancient Lips",
+      "subject": "original illustrated cooking dish: Steamed Ancient Lips",
+      "source": "generated-images/exec-8ad61b5c-8874-4fa1-8512-46cb14bf9b97.png"
+    },
+    {
+      "itemId": 12050,
+      "name": "Mastela Fruit Wine",
+      "subject": "original illustrated cooking dish: Mastela Fruit Wine",
+      "source": "generated-images/exec-ce1e7ea7-95b6-4c80-8c29-6eb718849757.png"
+    },
+    {
+      "itemId": 12045,
+      "name": "Lutie Lady's Pancake",
+      "subject": "original illustrated cooking dish: Lutie Lady's Pancake",
+      "source": "generated-images/exec-feb1f0d7-e029-4033-9a1b-672bebf0e960.png"
+    },
+    {
+      "itemId": 12065,
+      "name": "Green Salad",
+      "subject": "original illustrated cooking dish: Green Salad",
+      "source": "generated-images/exec-e409e726-5c10-47fc-989d-50285491e8ec.png"
+    },
+    {
+      "itemId": 12060,
+      "name": "Steamed Bat Wing in Pumpkin",
+      "subject": "original illustrated cooking dish: Steamed Bat Wing in Pumpkin",
+      "source": "generated-images/exec-3d2e1577-0bd5-42ff-8f95-841dcca2881d.png"
+    },
+    {
+      "itemId": 12055,
+      "name": "Spicy Fried Bao",
+      "subject": "original illustrated cooking dish: Spicy Fried Bao",
+      "source": "generated-images/exec-1ce177d3-909b-487b-b38a-020d221a7827.png"
+    },
+    {
+      "itemId": 12070,
+      "name": "Fried Scorpion Tails",
+      "subject": "original illustrated cooking dish: Fried Scorpion Tails",
+      "source": "generated-images/exec-8a3194ef-697e-4e16-bcbb-5371d4cb661a.png"
+    },
+    {
+      "itemId": 12071,
+      "name": "Shiny Marinade Beef",
+      "subject": "original illustrated cooking dish: Shiny Marinade Beef",
+      "source": "generated-images/exec-beb9ba74-d890-44d6-b582-7e98caec016b.png"
+    },
+    {
+      "itemId": 12076,
+      "name": "Red Mushroom Wine",
+      "subject": "original illustrated cooking dish: Red Mushroom Wine",
+      "source": "generated-images/exec-387841f0-da62-4cb3-ab6c-23119766dab6.png"
+    },
+    {
+      "itemId": 12091,
+      "name": "Peach Cake",
+      "subject": "original illustrated cooking dish: Peach Cake",
+      "source": "generated-images/exec-fcf6160e-1c26-4e1b-8faa-56e8d307d976.png"
+    },
+    {
+      "itemId": 12086,
+      "name": "Chile Shrimp Gratin",
+      "subject": "original illustrated cooking dish: Chile Shrimp Gratin",
+      "source": "generated-images/exec-e30d8f62-0c1b-44d8-9a88-80da2668dfa8.png"
+    },
+    {
+      "itemId": 12081,
+      "name": "Awfully Bitter Bracer",
+      "subject": "original illustrated cooking dish: Awfully Bitter Bracer",
+      "source": "generated-images/exec-68c08511-b2ed-4fd2-93ba-6cb03c2d993f.png"
+    },
+    {
+      "itemId": 12096,
+      "name": "Lucky Soup",
+      "subject": "original illustrated cooking dish: Lucky Soup",
+      "source": "generated-images/exec-1250a426-f1ef-4784-ac42-002edbf7c3cf.png"
+    },
+    {
+      "itemId": 12072,
+      "name": "Whole Roast",
+      "subject": "original illustrated cooking dish: Whole Roast",
+      "source": "generated-images/exec-03d14d5a-3f28-4d63-8fda-376aac5dd5c1.png"
+    },
+    {
+      "itemId": 12077,
+      "name": "Special Royal Jelly Herbal Tea",
+      "subject": "original illustrated cooking dish: Special Royal Jelly Herbal Tea",
+      "source": "generated-images/exec-4d2736b0-fd9a-44af-83fc-01e83bda0047.png"
+    },
+    {
+      "itemId": 12092,
+      "name": "Soul Haunted Bread",
+      "subject": "original illustrated cooking dish: Soul Haunted Bread",
+      "source": "generated-images/exec-ae0ccde7-6268-44fc-b1b6-801e4f8f7c4c.png"
+    },
+    {
+      "itemId": 12087,
+      "name": "Steamed Alligator with Vegetable",
+      "subject": "original illustrated cooking dish: Steamed Alligator with Vegetable",
+      "source": "generated-images/exec-2d2a45c6-5989-48b5-949a-7b9c45683c87.png"
+    },
+    {
+      "itemId": 12082,
+      "name": "Sumptuous Feast",
+      "subject": "original illustrated cooking dish: Sumptuous Feast",
+      "source": "generated-images/exec-cc12a0da-98da-47ac-b5aa-ddecd088db15.png"
+    },
+    {
+      "itemId": 12097,
+      "name": "Assorted Shish Kebob",
+      "subject": "original illustrated cooking dish: Assorted Shish Kebob",
+      "source": "generated-images/exec-c8c6e806-b9f6-4ae8-aad3-10cc827f6d28.png"
+    },
+    {
+      "itemId": 12073,
+      "name": "Bearfoot Special",
+      "subject": "original illustrated cooking dish: Bearfoot Special",
+      "source": "generated-images/exec-d8e3809f-f95e-4db2-882d-4819d0b0941d.png"
+    },
+    {
+      "itemId": 12078,
+      "name": "Royal Family Tea",
+      "subject": "original illustrated cooking dish: Royal Family Tea",
+      "source": "generated-images/exec-aa34ed81-d0c4-4585-bd6e-4691d980122f.png"
+    },
+    {
+      "itemId": 12093,
+      "name": "Special Toast",
+      "subject": "original illustrated cooking dish: Special Toast",
+      "source": "generated-images/exec-c5800e97-18b1-4f88-9f72-f57b51610729.png"
+    },
+    {
+      "itemId": 12088,
+      "name": "Incredibly Spicy Curry",
+      "subject": "original illustrated cooking dish: Incredibly Spicy Curry",
+      "source": "generated-images/exec-91b636da-cfe0-43df-a85a-b86fdc8eaede.png"
+    },
+    {
+      "itemId": 12083,
+      "name": "Giant Burito",
+      "subject": "original illustrated cooking dish: Giant Burito",
+      "source": "generated-images/exec-8ec17739-cea9-438c-85fa-0a5b78f1832a.png"
+    },
+    {
+      "itemId": 12098,
+      "name": "Strawberry Flavored Rice Ball",
+      "subject": "original illustrated cooking dish: Strawberry Flavored Rice Ball",
+      "source": "generated-images/exec-7c0690a9-ad35-4338-8ddd-23a95c596bd8.png"
+    },
+    {
+      "itemId": 12074,
+      "name": "Tendon Satay",
+      "subject": "original illustrated cooking dish: Tendon Satay",
+      "source": "generated-images/exec-ace8f4b1-406d-4a63-94fa-0aa05b35df1d.png"
+    },
+    {
+      "itemId": 12079,
+      "name": "Tristan 12-Year",
+      "subject": "original illustrated cooking dish: Tristan 12-Year",
+      "source": "generated-images/exec-6f21e1ac-20d4-4de4-ba86-5b49f9b81a52.png"
+    },
+    {
+      "itemId": 12094,
+      "name": "Heavenly Fruit Juice",
+      "subject": "original illustrated cooking dish: Heavenly Fruit Juice",
+      "source": "generated-images/exec-f0d3fd51-0fc4-4121-9a1f-b5769c429318.png"
+    },
+    {
+      "itemId": 12089,
+      "name": "Special Meat Stew",
+      "subject": "original illustrated cooking dish: Special Meat Stew",
+      "source": "generated-images/exec-d2c0e823-e19b-4885-bd0f-f7810c49ed21.png"
+    },
+    {
+      "itemId": 12084,
+      "name": "Ascending Dragon Soup",
+      "subject": "original illustrated cooking dish: Ascending Dragon Soup",
+      "source": "generated-images/exec-4edda6ee-3b63-4dcb-9f17-930a3cd6cb64.png"
+    },
+    {
+      "itemId": 12099,
+      "name": "Blood Flavored Soda",
+      "subject": "original illustrated cooking dish: Blood Flavored Soda",
+      "source": "generated-images/exec-216ce860-c745-45ec-913f-38e73e62add6.png"
+    },
+    {
+      "itemId": 12075,
+      "name": "Steamed Tongue",
+      "subject": "original illustrated cooking dish: Steamed Tongue",
+      "source": "generated-images/exec-f135011f-6880-4843-9cab-e860c675413a.png"
+    },
+    {
+      "itemId": 12080,
+      "name": "Dragon Breath Cocktail",
+      "subject": "original illustrated cooking dish: Dragon Breath Cocktail",
+      "source": "generated-images/exec-10824436-5c0d-4233-8f03-04593547b8c1.png"
+    },
+    {
+      "itemId": 12095,
+      "name": "Hwergelmir's Tonic",
+      "subject": "original illustrated cooking dish: Hwergelmir's Tonic",
+      "source": "generated-images/exec-143d4b6d-bb5a-4ade-9aa9-90ad60eee180.png"
+    },
+    {
+      "itemId": 12090,
+      "name": "Steamed Desert Scorpions",
+      "subject": "original illustrated cooking dish: Steamed Desert Scorpions",
+      "source": "generated-images/exec-d260c044-a538-445f-881b-38377bbacec5.png"
+    },
+    {
+      "itemId": 12085,
+      "name": "Immortal Stew",
+      "subject": "original illustrated cooking dish: Immortal Stew",
+      "source": "generated-images/exec-a08d4b19-a6a0-47b8-ba45-25063a769571.png"
+    },
+    {
+      "itemId": 12100,
+      "name": "Cooked Nine Tail's Tails",
+      "subject": "original illustrated cooking dish: Cooked Nine Tail's Tails",
+      "source": "generated-images/exec-1dafd433-02b7-4bc4-b069-dee65319c2b9.png"
     }
   ]
 }
