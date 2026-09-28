@@ -116,7 +116,7 @@ app.on('browser-window-created',(_,win)=>{
     }
     if(i===3){
      assert.equal(await run('document.querySelectorAll(".recipeOutputImage .exactItemIcon").length'), await run('document.querySelectorAll(".recipeOutputImage").length'));
-     assert.equal(await run('document.querySelectorAll(".recipeMaterialIcon .exactItemIcon").length'), await run('document.querySelectorAll(".recipeMaterialIcon").length'));
+     assert.equal(await run('document.querySelectorAll(".recipeMaterialIcon .generatedItemIcon").length'), await run('document.querySelectorAll(".recipeMaterialIcon").length'));
      await sleep(500);
      assert.ok(await run('document.querySelectorAll(".recipeOutputImage .generatedItemIcon").length > 0'));
      assert.ok(await run('document.querySelectorAll(".recipeMaterialIcon .exactItemIcon img").length > 0'));
