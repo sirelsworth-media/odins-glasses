@@ -1,6 +1,6 @@
 {
   "name": "odins-glasses",
-  "version": "1.32.1",
+  "version": "1.33.0",
   "description": "Windows desktop companion for Ragnarok Online Zero Global",
   "main": "main.cjs",
   "author": "Sirelsworth Media",
