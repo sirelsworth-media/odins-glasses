@@ -18,7 +18,7 @@ An offline-capable Android companion is in alpha development. See
 - Hunt targets by level, element, race, size, EXP efficiency, and NPC drop value
 - Region suggestions based on known monster spawns
 - Monster, item, field, dungeon, boss, crafting, class, and skill information
-- NPC sale values only; player-market prices are deliberately excluded
+- NPC sale values and linked NPC shops with copyable navigation commands; player-market prices are deliberately excluded
 - Clear distinction between Zero Global measurements and reference data
 - Persistent last-good data cache with background refresh
 

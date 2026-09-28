@@ -26,7 +26,7 @@ Included and modified sources:
 
 - `assets/rathena-behavior/`
 - `assets/crafting-sources/`
-- `assets/economy-sources/` (NPC price references; fixed upstream revision and importer included)
+- `assets/economy-sources/` (NPC price and shop-location references; fixed upstream revision and importers included)
 
 Those directories contain upstream revisions, complete license texts,
 modification notices, editable source inputs, and rebuild information. Zero
@@ -61,5 +61,7 @@ not licensed by the Odin’s Glasses GPL license.
 ## Money Helper and skills (1.29.0)
 
 Money Helper derives expected gross NPC revenue from RagnaDex drop probabilities and identity-matched rAthena reference prices. Prices are not Zero Global verified; unknown values remain unknown. Map population products are not hourly income. No player-market prices are used.
+
+The Item Lexicon links purchasable items to identity-matched rAthena common and Renewal shop references. Seller names, map codes, coordinates and `/navi` commands remain visibly marked as unverified for Zero Global. They are not presented as player-market offers.
 
 The class and skill reference loads https://ragnadex.com/api/skills.json. RagnaDex identifies its sources as rAthena and community data. Quest status and per-level reference values retain their source status; the UI does not label them as independently verified.

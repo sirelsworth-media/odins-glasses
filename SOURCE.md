@@ -40,4 +40,4 @@ coverage, and the production renderer build. RagnaDex values retain their
 individual source status in the application.
 
 
-NPC reference prices can be regenerated with `node scripts/import-npc-prices.cjs`. The importer uses the upstream schema Sell or floor(Buy/2), excludes NoSell entries and unspecified prices, and retains ID/Aegis identity. YAML duplicate keys in unrelated upstream records are read with last-key semantics (`json: true`). Original sources are unchanged.
+NPC reference prices can be regenerated with `node scripts/import-npc-prices.cjs`. Shop links can be regenerated with `node scripts/import-npc-shops.cjs`. The importers retain exact ID/Aegis identity and the fixed upstream rAthena revision. Shop seller names, maps, coordinates and explicit prices come from the retained common and Renewal shop scripts. YAML duplicate keys in unrelated upstream records are read with last-key semantics (`json: true`). Original sources are unchanged.

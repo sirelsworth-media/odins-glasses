@@ -156,6 +156,11 @@ html[data-theme=nocturne] body{background:radial-gradient(circle at 82% -8%,#3c2
 [data-theme=nocturne] .legalFooter{background:#0c1221;color:#8f9db5;border-color:#263149}
 [data-theme=nocturne] .sourceNote{color:#8998b0}
 [data-theme=nocturne] .generatedItemIcon{border-radius:10px;overflow:hidden}
+[data-theme=aurora] .itemVendors{background:#edf3f7}
+[data-theme=nocturne] .itemVendors{background:#151e32;border-color:#313d58}
+[data-theme=nocturne] .itemVendorList>button{background:#10192b;border-color:#34415e;color:#f7f2e8}
+[data-theme=nocturne] .itemVendorList>button:hover,[data-theme=nocturne] .itemVendorList>button:focus-visible{background:#1a2940;border-color:#58bbcc}
+[data-theme=nocturne] .itemVendorList code{color:#87ddea}
 [data-theme=nocturne] .paperPortrait>img{mix-blend-mode:normal}
 [data-theme=nocturne] .monsterArtwork{background:#10182a;border-color:#2d3954}
 [data-theme=nocturne] .monsterArtwork img{background:#edf0f4}

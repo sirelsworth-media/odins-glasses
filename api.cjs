@@ -1,4 +1,5 @@
-const { npcPrice } = require('./server/npc-prices.cjs');
+const { npcPrice, npcBuyPrice } = require('./server/npc-prices.cjs');
+const { npcVendors } = require('./server/npc-shops.cjs');
 const RAGNADEX = "https://ragnadex.com/api";
 const { fetchJson, cached } = require("./server/http.cjs");
 const { createApiHandler } = require("./server/router.cjs");
@@ -170,7 +171,7 @@ function normalizeItem(raw) {
   return {
     key: `${source}:${raw.id}`, source, source_slug: raw.aegis || String(raw.id), item_id: Number(raw.id), name_en: raw.name || raw.name_de || `Item #${raw.id}`,
     category: raw.typ === "Card" ? "Card" : source === "weapon" ? "Weapon" : source === "armor" ? "Armor" : source === "costume" ? "Costume" : raw.typ || "Unknown",
-    subtype: itemSubtype(raw, source), icon_url: null, resolved: true, attack: numberOrNull(raw.atk), defense: numberOrNull(raw.def), required_level: numberOrNull(raw.stufe_min), slots: numberOrNull(raw.slots), buy_price: null, sell_price: null,
+    subtype: itemSubtype(raw, source), icon_url: null, resolved: true, attack: numberOrNull(raw.atk), defense: numberOrNull(raw.def), required_level: numberOrNull(raw.stufe_min), slots: numberOrNull(raw.slots), buy_price: npcBuyPrice(raw), sell_price: npcPrice(raw),
   };
 }
 
@@ -213,7 +214,7 @@ function normalizeItemDetail(raw, monsters) {
     category: raw.typ === "Card" ? "Card" : source === "weapon" ? "Weapon" : source === "armor" ? "Armor" : source === "costume" ? "Costume" : raw.typ || "Unknown",
     subtype: itemSubtype(raw, source), slot: raw.plaetze?.join(", ") || null, description: itemDescription(raw), icon_url: null, slots: numberOrNull(raw.slots),
     attack: numberOrNull(raw.atk), magic_attack: numberOrNull(raw.matk), defense: numberOrNull(raw.def), magic_defense: null, weapon_level: numberOrNull(raw.waffenstufe), required_level: numberOrNull(raw.stufe_min), weight: numberOrNull(raw.gewicht),
-    buy_price: null, sell_price: null, equip_jobs: Array.isArray(raw.jobs) ? raw.jobs.join(", ") : raw.jobs || null, can_trade: null, refinable: raw.aufwertbar == null ? null : Boolean(raw.aufwertbar), element: raw.element || null, card_prefix_name: null, dropped_by: droppedBy,
+    buy_price: npcBuyPrice(raw), sell_price: npcPrice(raw), vendors: npcVendors(raw), equip_jobs: Array.isArray(raw.jobs) ? raw.jobs.join(", ") : raw.jobs || null, can_trade: null, refinable: raw.aufwertbar == null ? null : Boolean(raw.aufwertbar), element: raw.element || null, card_prefix_name: null, dropped_by: droppedBy,
   };
 }
 

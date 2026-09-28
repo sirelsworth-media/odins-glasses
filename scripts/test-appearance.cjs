@@ -20,7 +20,7 @@ const mob = { monster_id:1019,name_en:'Peco Peco',aegis_name:'PECOPECO',level:27
 require('../api.cjs').handleApi = async (req,res) => {
  if(!req.url.startsWith('/api/'))return false;
  res.setHeader('Content-Type','application/json');
- const body=req.url.startsWith('/api/skills')?{families:[{erst:'Swordsman',zweit:['Knight']}],skills:{Swordsman:[{k:'bash',n:'Bash',b:'Strikes a target with great force and deals heavy physical damage.',max:10,a:'Active',q:0,v:[],st:[{Level:'1',SP:'8',Effect:'ATK 130%'}]}],Knight:[]}}:req.url.startsWith('/api/fields')?{fields:[]}:req.url.startsWith('/api/dungeons')?{maps:[]}:req.url.startsWith('/api/bosses')?{bosses:[]}:req.url.startsWith('/api/item-search')?{items:[{key:'test',item_id:4100,name_en:'Test Card',source_slug:'test-card',category:'Card',subtype:'Shoes',sell_price:10}],total:1}:{items:[mob, {...mob, monster_id:1002, name_en:"Race filter fixture", aegis_name:"PORING", race:"Plant", size:"Small", spawns:[{code:"fixture_plant",name:"Plant fixture map",count:5}]}]};
+ const body=req.url.startsWith('/api/skills')?{families:[{erst:'Swordsman',zweit:['Knight']}],skills:{Swordsman:[{k:'bash',n:'Bash',b:'Strikes a target with great force and deals heavy physical damage.',max:10,a:'Active',q:0,v:[],st:[{Level:'1',SP:'8',Effect:'ATK 130%'}]}],Knight:[]}}:req.url.startsWith('/api/fields')?{fields:[]}:req.url.startsWith('/api/dungeons')?{maps:[]}:req.url.startsWith('/api/bosses')?{bosses:[]}:req.url.startsWith('/api/item-detail')?{item:{source:'card',source_slug:'test-card',item_id:4100,name_en:'Test Card',aegis_name:'TEST_CARD',category:'Card',subtype:'Shoes',slots:0,buy_price:10,sell_price:5,vendors:[{name:'Tool Dealer',map:'prt_in',x:126,y:76,price:10,navigation:'/navi prt_in 126/76',source:'rAthena reference',zero_verified:false}],dropped_by:[]}}:req.url.startsWith('/api/item-search')?{items:[{key:'test',source:'card',item_id:4100,name_en:'Test Card',source_slug:'test-card',category:'Card',subtype:'Shoes',sell_price:10}],total:1}:{items:[mob, {...mob, monster_id:1002, name_en:"Race filter fixture", aegis_name:"PORING", race:"Plant", size:"Small", spawns:[{code:"fixture_plant",name:"Plant fixture map",count:5}]}]};
  res.end(JSON.stringify(body)); return true;
 };
 const sleep = ms => new Promise(resolve=>setTimeout(resolve,ms));
@@ -113,6 +113,9 @@ app.on('browser-window-created',(_,win)=>{
      await run('document.querySelector(".itemCategoryPreview").scrollIntoView({block:"center",behavior:"instant"})');
      win.setSize(902,980);await sleep(800);
      fs.writeFileSync(path.join(output,'item-icons-in-app.png'),(await win.webContents.capturePage()).toPNG());
+     await run('document.querySelector(".itemSummary").click()');await sleep(350);
+     assert.equal(await run('document.querySelectorAll(".itemVendorList button").length'),1);
+     assert.ok(await run('document.querySelector(".itemVendorList").textContent.includes("/navi prt_in 126/76")'));
     }
     if(i===3){
      assert.equal(await run('document.querySelectorAll(".recipeOutputImage .exactItemIcon").length'), await run('document.querySelectorAll(".recipeOutputImage").length'));

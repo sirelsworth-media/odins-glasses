@@ -1,9 +1,14 @@
-NPC price references: rAthena, GPL-3.0-or-later.
+NPC price and shop references: rAthena, GPL-3.0-or-later.
 Revision: e985006171d2eb320ee512a653f4c83aea3d81b6
 Sources: https://github.com/rathena/rathena/tree/e985006171d2eb320ee512a653f4c83aea3d81b6/db/re
-Original item_db_etc.yml, item_db_usable.yml and item_db_equip.yml retained.
-Derived prices.json created 2026-09-11 by scripts/import-npc-prices.cjs.
+Original item_db_etc.yml, item_db_usable.yml, item_db_equip.yml,
+npc/merchants/shops.txt and npc/re/merchants/shops.txt retained.
+The shop files are stored as shops-common.txt and shops-renewal.txt.
+Derived prices.json and shops.json are rebuilt by the import scripts.
 Sell is used if present; otherwise floor(Buy / 2), per upstream schema.
+Buy is retained only when explicitly present. Shop prices use an explicit shop
+override or that exact item Buy value; missing prices stay unknown.
 Entries with neither price are omitted: no confirmed Zero Global price is inferred.
 Only matching item ID and Aegis identity may use a reference price.
-Not verified for Zero Global. No player-market prices. Full license: LICENSE.
+Shop NPCs, maps and coordinates are rAthena common and Renewal references and are not
+automatically verified for Zero Global. No player-market prices. Full license: LICENSE.
