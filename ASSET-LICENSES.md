@@ -30,6 +30,10 @@ in `THIRD_PARTY_NOTICES.md`; it is not relicensed as original Odin’s Glasses a
 
 ## Excluded working material
 
+The raven detective application icon was created with the integrated image generation tool on 2026-10-01. Its original project master is `assets/raven-detective-master.png`; `scripts/generate-app-icons.ps1` creates desktop and Android derivatives. Prompt: simplify the original raven detective with a gold hat, trench collar and magnifying glass into a compact navy-and-teal app icon with clear shapes and wider margins. The same project-created asset terms above apply.
+
+## Excluded working material
+
 `previews/`, development contact sheets, generated-image working folders, old
 release directories, and local source-reference downloads are not part of the
 public source release unless a release manifest explicitly includes them.

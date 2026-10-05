@@ -92,3 +92,6 @@ body.mobileDrawerOpen{overflow:hidden}
 }
 @media(max-width:430px){.mobileApp .langSwitch{display:none}.mobileApp .brand span:last-child small{display:none}}
 @media(prefers-reduced-motion:reduce){.mobileApp .tabs,.mobileApp .mobileDrawer,.mobileApp .mobileDrawerScrim,.mobileMenuButton span{transition:none}}
+.brandMark img{width:100%;height:100%;object-fit:cover;border-radius:inherit}.monsterStatControls{margin:12px 0}.monsterStatControls>label{display:block;margin-top:10px}.monsterStatRange{display:grid;grid-template-columns:1fr 1fr;gap:10px}.monsterStatRange input{width:100%;min-width:0}.monsterStatControls p{font-size:11px;line-height:1.5;color:var(--muted)}
+
+.monsterStatRange label{display:block;letter-spacing:0;text-transform:none}.monsterStatRange input{margin-top:9px;border:1px solid var(--line);background:var(--paper);color:var(--ink);padding:10px;border-radius:6px}

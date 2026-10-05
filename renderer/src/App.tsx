@@ -1,6 +1,8 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import appIcon from "../../assets/icon-512.png";
+import { monsterStats, monsterStatValue, compareMonsterStat, matchesMonsterStat, type MonsterStat } from "./domain/monster-stats";
 import MoneyHelper from "./MoneyHelper";
 import ClassGuide from "./ClassGuide";
 import Crafting from "./Crafting";
@@ -14,7 +16,7 @@ import type { Boss, Dungeon, DungeonDetail, FieldMonster, HuntField, ItemDetail,
 import { categoryNames, fmt, itemSubtypeNames } from "./domain/display";
 
 type AppTab = "money" | "classes" | "hunt" | "search" | "items" | "crafting" | "specials" | "fields" | "dungeons";
-type MonsterSort = "exp" | "total" | "level" | "loot" | "sizeAsc" | "sizeDesc";
+type MonsterSort = "stats" | "exp" | "total" | "level" | "loot" | "sizeAsc" | "sizeDesc";
 
 const profiles = {
   novice: { label: { de: "Novize", en: "Novice" }, icon: "◇", element: "All", counter: { de: "Physisch", en: "Physical" }, group: "general" },
@@ -141,6 +143,11 @@ export default function Home() {
   const [monsterSize, setMonsterSize] = useState("All");
   const [visibleMonsterCount, setVisibleMonsterCount] = useState(30);
   const [sort, setSort] = useState<MonsterSort>("exp");
+  const [statKey, setStatKey] = useState<MonsterStat>("flee_95");
+  const [statDirection, setStatDirection] = useState<"asc" | "desc">("asc");
+  const [statMin, setStatMin] = useState("");
+  const [statMax, setStatMax] = useState("");
+  const selectedStat = monsterStats.find(stat => stat.key === statKey)!;
   const [huntView, setHuntView] = useState<"monsters" | "regions">("monsters");
   const [regionSort, setRegionSort] = useState<"score" | "level" | "efficiency">("score");
   const [expandedMonster, setExpandedMonster] = useState<number | null>(null);
@@ -260,13 +267,13 @@ export default function Home() {
   }, [lang]);
   useEffect(() => {
     setVisibleMonsterCount(30);
-  }, [race, monsterSize, sort, min, max, element, tab]);
+  }, [race, monsterSize, sort, statKey, statDirection, statMin, statMax, min, max, element, tab]);
   useEffect(() => {
     const controller = new AbortController();
     const timer = window.setTimeout(async () => {
       setMonsterLoading(true); setError("");
       try {
-        const data = await api.monsters(new URLSearchParams({ min: String(min), max: String(max), element, sort }), controller.signal);
+        const data = await api.monsters(new URLSearchParams({ min: String(min), max: String(max), element, sort: sort === "stats" ? "exp" : sort }), controller.signal);
         if (!controller.signal.aborted) setMonsters(data.items || []);
       } catch (cause) {
         if (!controller.signal.aborted) setError(cause instanceof Error ? cause.message : lang === "de" ? "Unbekannter Fehler" : "Unknown error");
@@ -351,14 +358,15 @@ export default function Home() {
   const eligibleMonsters = useMemo(() => monsters.filter((mob) =>
     (race === "All" || mob.race === race)
     && (monsterSize === "All" || mob.size === monsterSize)
-    && (specialMode ? isVariant(mob) : !isVariant(mob))), [monsters, specialMode, race, monsterSize]);
+    && (specialMode ? isVariant(mob) : !isVariant(mob))
+    && (sort !== "stats" || matchesMonsterStat(mob, statKey, statMin, statMax))), [monsters, specialMode, race, monsterSize, sort, statKey, statMin, statMax]);
   const ranked = useMemo(() => [...eligibleMonsters]
-    .sort((a, b) => sort === "level" ? a.level - b.level
+    .sort((a, b) => sort === "stats" ? compareMonsterStat(a, b, statKey, statDirection) : sort === "level" ? a.level - b.level
       : sort === "total" ? b.total_exp_per_hp - a.total_exp_per_hp
       : sort === "loot" ? Number(b.zeny_per_kill || 0) - Number(a.zeny_per_kill || 0)
       : sort === "sizeAsc" ? (sizeOrder[a.size] ?? 3) - (sizeOrder[b.size] ?? 3) || a.level - b.level
       : sort === "sizeDesc" ? (sizeOrder[b.size] ?? -1) - (sizeOrder[a.size] ?? -1) || a.level - b.level
-      : b.exp_per_hp - a.exp_per_hp), [eligibleMonsters, sort]);
+      : b.exp_per_hp - a.exp_per_hp), [eligibleMonsters, sort, statKey, statDirection]);
   const visibleRanked = useMemo(() => ranked.slice(0, visibleMonsterCount), [ranked, visibleMonsterCount]);
   const regions = useMemo(() => {
     const maps = new Map<string, Region>();
@@ -501,14 +509,14 @@ export default function Home() {
       <header className="topbar">
         {__ODINS_MOBILE_BUILD__ && <button type="button" className="mobileMenuButton" aria-label={lang === "de" ? "Navigation öffnen" : "Open navigation"} aria-controls="mobile-navigation" aria-expanded={mobileMenuOpen} onClick={() => setMobileMenuOpen((current) => !current)}><span /><span /><span /></button>}
         <ThemeSwitch lang={lang} />
-        <a className="brand" href="#top"><span className="brandMark">OG</span><span><strong>Odin’s Glasses</strong><small>RO Zero Global Companion</small></span></a>
+        <a className="brand" href="#top"><span className="brandMark"><img src={appIcon} alt="" /></span><span><strong>Odin’s Glasses</strong><small>RO Zero Global Companion</small></span></a>
         <div className="topActions"><button type="button" className="appBackButton" disabled={!tabHistory.length} onClick={goBack}>← {lang === "de" ? "Zurück" : "Back"}</button><div className="status"><i /> {__ODINS_MOBILE_BUILD__ ? (lang === "de" ? "Offline-Daten bereit" : "Offline data ready") : words.live}</div><div className="desktopBadge">{__ODINS_MOBILE_BUILD__ ? "ANDROID ALPHA" : "WINDOWS APP"}</div><div className="langSwitch" aria-label={lang === "de" ? "Sprache" : "Language"}><button className={lang === "de" ? "active" : ""} onClick={() => setLang("de")}>DE</button><button className={lang === "en" ? "active" : ""} onClick={() => setLang("en")}>EN</button></div></div>
       </header>
 
       {__ODINS_MOBILE_BUILD__ && <>
         <button type="button" className={`mobileDrawerScrim${mobileMenuOpen ? " open" : ""}`} aria-label={lang === "de" ? "Navigation schließen" : "Close navigation"} tabIndex={mobileMenuOpen ? 0 : -1} onClick={() => setMobileMenuOpen(false)} />
         <aside id="mobile-navigation" className={`mobileDrawer${mobileMenuOpen ? " open" : ""}`} aria-hidden={!mobileMenuOpen}>
-          <div className="mobileDrawerHead"><span className="brandMark">OG</span><div><strong>Odin’s Glasses</strong><small>{lang === "de" ? "Navigation" : "Navigation"}</small></div><button type="button" aria-label={lang === "de" ? "Navigation schließen" : "Close navigation"} onClick={() => setMobileMenuOpen(false)}>×</button></div>
+          <div className="mobileDrawerHead"><span className="brandMark"><img src={appIcon} alt="" /></span><div><strong>Odin’s Glasses</strong><small>{lang === "de" ? "Navigation" : "Navigation"}</small></div><button type="button" aria-label={lang === "de" ? "Navigation schließen" : "Close navigation"} onClick={() => setMobileMenuOpen(false)}>×</button></div>
           <nav aria-label={lang === "de" ? "Bereiche" : "Sections"}>{navigationItems.map((item) => <button type="button" key={item.key} className={tab === item.key ? "active" : ""} onClick={() => navigateToTab(item.key)}><NavigationIcon name={item.key} /><span>{item.label}</span></button>)}</nav>
         </aside>
       </>}
@@ -590,7 +598,8 @@ export default function Home() {
           <label htmlFor="hunt-race">{lang === "de" ? "Monsterrasse" : "Monster race"}</label><select id="hunt-race" value={race} onChange={(event) => setRace(event.target.value)}><option value="All">{lang === "de" ? "Alle Rassen" : "All races"}</option>{raceOptions.map((option) => <option key={option} value={option}>{option}</option>)}</select>
           <label htmlFor="hunt-size">{lang === "de" ? "Monstergröße" : "Monster size"}</label><select id="hunt-size" value={monsterSize} onChange={(event) => setMonsterSize(event.target.value)}><option value="All">{lang === "de" ? "Alle Größen" : "All sizes"}</option>{sizeOptions.map((option) => <option key={option} value={option}>{sizeNames[option][lang]}</option>)}</select>
           <label>{words.targetElement}</label><select value={element} onChange={(event) => setElement(event.target.value)}>{elementOptions.map((option) => <option key={option} value={option}>{elementNames[option][lang]}</option>)}</select>
-          <label>{huntView === "regions" ? (lang === "de" ? "Regionen sortieren" : "Sort regions") : words.sorting}</label>{huntView === "regions" ? <select value={regionSort} onChange={(event) => setRegionSort(event.target.value as typeof regionSort)}><option value="score">{lang === "de" ? "Beste Gesamtwertung" : "Best combined score"}</option><option value="level">{lang === "de" ? "Niedrigstes Durchschnittslevel" : "Lowest average level"}</option><option value="efficiency">{lang === "de" ? "Höchste EXP / HP" : "Highest EXP / HP"}</option></select> : <select value={sort} onChange={(event) => setSort(event.target.value as MonsterSort)}><option value="exp">{words.expHp}</option><option value="total">{words.totalExpHp}</option><option value="loot">{lang === "de" ? "Wertvollste Drops (Ø NPC-Zeny/Kill)" : "Most valuable drops (avg NPC zeny/kill)"}</option><option value="level">{words.lowestLevel}</option><option value="sizeAsc">{lang === "de" ? "Monstergröße: Klein → Groß" : "Monster size: Small → Large"}</option><option value="sizeDesc">{lang === "de" ? "Monstergröße: Groß → Klein" : "Monster size: Large → Small"}</option></select>}
+          <label>{huntView === "regions" ? (lang === "de" ? "Regionen sortieren" : "Sort regions") : words.sorting}</label>{huntView === "regions" ? <select value={regionSort} onChange={(event) => setRegionSort(event.target.value as typeof regionSort)}><option value="score">{lang === "de" ? "Beste Gesamtwertung" : "Best combined score"}</option><option value="level">{lang === "de" ? "Niedrigstes Durchschnittslevel" : "Lowest average level"}</option><option value="efficiency">{lang === "de" ? "Höchste EXP / HP" : "Highest EXP / HP"}</option></select> : <select id="hunt-sort" value={sort} onChange={(event) => setSort(event.target.value as MonsterSort)}><option value="stats">{lang === "de" ? "Nach Monsterwerten" : "By monster stats"}</option><option value="exp">{words.expHp}</option><option value="total">{words.totalExpHp}</option><option value="loot">{lang === "de" ? "Wertvollste Drops (Ø NPC-Zeny/Kill)" : "Most valuable drops (avg NPC zeny/kill)"}</option><option value="level">{words.lowestLevel}</option><option value="sizeAsc">{lang === "de" ? "Monstergröße: Klein → Groß" : "Monster size: Small → Large"}</option><option value="sizeDesc">{lang === "de" ? "Monstergröße: Groß → Klein" : "Monster size: Large → Small"}</option></select>}
+          {sort === "stats" && <div className="monsterStatControls"><label htmlFor="monster-stat">{lang === "de" ? "Monsterwert" : "Monster stat"}</label><select id="monster-stat" value={statKey} onChange={event => { setStatKey(event.target.value as MonsterStat); setStatMin(""); setStatMax(""); }}>{monsterStats.map(stat => <option key={stat.key} value={stat.key}>{stat[lang]}</option>)}</select><label htmlFor="monster-stat-direction">{lang === "de" ? "Reihenfolge" : "Order"}</label><select id="monster-stat-direction" value={statDirection} onChange={event => setStatDirection(event.target.value as "asc" | "desc")}><option value="asc">{lang === "de" ? "Niedrig → Hoch" : "Low → High"}</option><option value="desc">{lang === "de" ? "Hoch → Niedrig" : "High → Low"}</option></select><div className="monsterStatRange"><label>{lang === "de" ? "Wert von" : "Value from"}<input aria-label={lang === "de" ? "Monsterwert von" : "Monster stat from"} type="number" min="0" value={statMin} placeholder="—" onChange={event => setStatMin(event.target.value)} /></label><label>{lang === "de" ? "Wert bis" : "Value to"}<input aria-label={lang === "de" ? "Monsterwert bis" : "Monster stat to"} type="number" min="0" value={statMax} placeholder="—" onChange={event => setStatMax(event.target.value)} /></label></div><p>{lang === "de" ? "Leere Grenzen: alle Werte. Unbekannte Werte stehen am Ende und werden bei gesetzter Grenze ausgeschlossen. FLEE/HIT sind benötigte Spielerwerte laut Quelle; ATK/MATK verwenden den oberen Angriffswert." : "Empty bounds: all values. Unknown values sort last and are excluded when a bound is set. FLEE/HIT are required player stats according to the source; ATK/MATK use the upper attack value."}</p>{statMin !== "" && statMax !== "" && Number(statMin) > Number(statMax) && <p role="alert">{lang === "de" ? "Der Von-Wert ist größer als der Bis-Wert." : "The lower bound exceeds the upper bound."}</p>}</div>}
           <button className="applyButton" onClick={() => setRefreshKey((value) => value + 1)}>{words.update}</button>
           <p className="sourceNote">{lang === "de" ? "Grunddaten stammen aus der offen zur Tool-Nutzung freigegebenen RagnaDex-API (Client-, rAthena- und Communitydaten). HP, EXP und Spawnzahlen sind Referenzwerte und nicht automatisch für Zero Global bestätigt. Grün markierte EXP wurden direkt in Zero Global gemessen und überschreiben die Referenz." : "Baseline data comes from the RagnaDex API, which is openly available for tools (client, rAthena, and community data). HP, EXP, and spawn counts are reference values and are not automatically confirmed for Zero Global. Green EXP values were measured directly on Zero Global and override the reference."}{sort === "loot" && <><br /><br />{lang === "de" ? "Dropwertung: erwarteter NPC-Verkaufswert pro Kill. Nur bekannte Dropchancen und NPC-Werte zählen; Spieler-Marktpreise werden nicht geschätzt." : "Drop rating: expected NPC sell value per kill. Only known drop rates and NPC values count; player-market prices are not estimated."}</>}</p>
         </aside>
@@ -605,7 +614,7 @@ export default function Home() {
           </article>)}{regions.length === 0 && <div className="loadingBox">{lang === "de" ? "Für diese Auswahl sind keine Spawnkarten hinterlegt." : "No spawn maps are listed for this selection."}</div>}</div> : <div className="mobList" data-result-count={ranked.length}>{ranked.length === 0 && <div className="loadingBox">{lang === "de" ? "Keine Monster für diese Auswahl. Prüfe Rasse, Größe, Levelbereich und Ziel-Element." : "No monsters match. Check race, size, level range, and target element."}</div>}{visibleRanked.map((mob, index) => <article className={`${isVariant(mob) ? "mobCard variantCard" : "mobCard"}${expandedMonster === mob.monster_id ? " expanded" : ""}`} key={mob.monster_id} role="button" tabIndex={0} aria-expanded={expandedMonster === mob.monster_id} onClick={() => setExpandedMonster((current) => current === mob.monster_id ? null : mob.monster_id)} onKeyDown={(event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); setExpandedMonster((current) => current === mob.monster_id ? null : mob.monster_id); } }}>
             <span className="rank">{String(index + 1).padStart(2, "0")}</span>
             <div className="mobIdentity"><MonsterPortrait monsterId={mob.monster_id} name={mob.name_en} race={mob.race} element={mob.element} monsterSize={mob.size} variant={isVariant(mob)} /><div><h3>{monsterTitle(mob, lang)}{isVariant(mob) && <small className="variantBadge">{words.variant}</small>}</h3><p>{isVariant(mob) ? `${mob.aegis_name} · ` : ""}#{mob.monster_id} · Lv {mob.level} · {mob.race} · {sizeNames[mob.size]?.[lang] || mob.size} · {elementNames[mob.element]?.[lang] || mob.element} {mob.element_level}</p></div></div>
-            <div className="metric"><small>HP</small><strong>{fmt(mob.hp, lang)}</strong></div><div className={mob.exp_source_kind !== "ragnadex_reference" ? "metric verifiedExp" : "metric"}><small>{mob.exp_source_kind === "global_measurement" ? (lang === "de" ? "GLOBAL GEMESSEN" : "GLOBAL MEASURED") : mob.exp_source_kind === "ragnadex_zero_verified" ? (lang === "de" ? "RAGNADEX ZERO-GEPRÜFT" : "RAGNADEX ZERO-VERIFIED") : (lang === "de" ? "OFFENE REFERENZ-EXP" : "OPEN REFERENCE EXP")}</small><strong>{fmt(mob.base_exp, lang)} / {fmt(mob.job_exp, lang)}</strong></div><div className="metric accent"><small>{sort === "loot" ? (lang === "de" ? "Ø NPC-ZENY / KILL" : "AVG NPC ZENY / KILL") : "EXP / HP"}</small><strong>{sort === "loot" ? (mob.zeny_per_kill != null ? `${fmt(Math.round(mob.zeny_per_kill), lang)} z` : "—") : mob.exp_per_hp.toLocaleString(lang === "de" ? "de-DE" : "en-US", { minimumFractionDigits: 3, maximumFractionDigits: 3 })}</strong></div>
+            <div className="metric"><small>HP</small><strong>{fmt(mob.hp, lang)}</strong></div><div className={mob.exp_source_kind !== "ragnadex_reference" ? "metric verifiedExp" : "metric"}><small>{mob.exp_source_kind === "global_measurement" ? (lang === "de" ? "GLOBAL GEMESSEN" : "GLOBAL MEASURED") : mob.exp_source_kind === "ragnadex_zero_verified" ? (lang === "de" ? "RAGNADEX ZERO-GEPRÜFT" : "RAGNADEX ZERO-VERIFIED") : (lang === "de" ? "OFFENE REFERENZ-EXP" : "OPEN REFERENCE EXP")}</small><strong>{fmt(mob.base_exp, lang)} / {fmt(mob.job_exp, lang)}</strong></div><div className="metric accent"><small>{sort === "stats" ? selectedStat[lang] : sort === "loot" ? (lang === "de" ? "Ø NPC-ZENY / KILL" : "AVG NPC ZENY / KILL") : "EXP / HP"}</small><strong>{sort === "stats" ? fmt(monsterStatValue(mob, statKey), lang) : sort === "loot" ? (mob.zeny_per_kill != null ? `${fmt(Math.round(mob.zeny_per_kill), lang)} z` : "—") : mob.exp_per_hp.toLocaleString(lang === "de" ? "de-DE" : "en-US", { minimumFractionDigits: 3, maximumFractionDigits: 3 })}</strong></div>
             <div className="weakness"><small>{profiles[profile].counter[lang].toUpperCase()}</small><strong>{profileAdvantage(profile, mob)}%</strong></div>
             <div className="mapline">⌖ {mob.spawns?.length ? mob.spawns.map((spawn) => `${spawn.name}${spawn.count ? ` ≈${spawn.count}` : ""}`).join(" · ") : words.noMap} <em className={mob.exp_source_kind !== "ragnadex_reference" ? "verifiedTag" : "referenceTag"}>{mob.exp_source_kind === "global_measurement" ? (lang === "de" ? "✓ Global gemessen" : "✓ Global measured") : mob.exp_source_kind === "ragnadex_zero_verified" ? (lang === "de" ? "✓ RagnaDex Zero-geprüft" : "✓ RagnaDex Zero-verified") : (lang === "de" ? "RagnaDex-Referenz" : "RagnaDex reference")}</em><span>{expandedMonster === mob.monster_id ? "▴" : "▾"} {lang === "de" ? "Details" : "Details"}</span></div>
             {expandedMonster === mob.monster_id && <div className="monsterDetails" onClick={(event) => event.stopPropagation()}>

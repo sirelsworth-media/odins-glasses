@@ -16,6 +16,7 @@ An offline-capable Android companion is in alpha development. See
 ## Current scope
 
 - Hunt targets by level, element, race, size, EXP efficiency, and NPC drop value
+- Fine-tune hunts by FLEE/HIT requirements, ATK/MATK, defenses, HP, and base attributes with ascending/descending sorting and optional value ranges
 - Region suggestions based on known monster spawns
 - Monster, item, field, dungeon, boss, crafting, class, and skill information
 - NPC sale values and linked NPC shops with copyable navigation commands; player-market prices are deliberately excluded

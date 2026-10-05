@@ -16,11 +16,11 @@ app.setPath('userData', testProfile);
 app.setPath('sessionData', path.join(testProfile,'session'));
 const output = path.resolve(__dirname,'../previews');
 fs.mkdirSync(output, { recursive: true });
-const mob = { monster_id:1019,name_en:'Peco Peco',aegis_name:'PECOPECO',level:27,hp:525,base_exp:315,job_exp:63,exp_per_hp:.6,total_exp_per_hp:.72,element:'Fire',element_level:1,race:'Brute',size:'Large',defense:0,magic_defense:0,attack_min:20,attack_max:30,exp_source:'UI test fixture',exp_source_kind:'global_measurement',spawns:[{code:'moc_fild03',name:'Sograt Desert',count:30,count_kind:'reference'}],drops:[{item_id:909,name_en:'Jellopy',category:'Etc',rate_percent:50,rate_known:true,npc_sell_price:100,image_url:null}] };
+const mob = { monster_id:1019,name_en:'Peco Peco',aegis_name:'PECOPECO',level:27,hp:525,base_exp:315,job_exp:63,exp_per_hp:.6,total_exp_per_hp:.72,element:'Fire',element_level:1,race:'Brute',size:'Large',flee_95:200,defense:0,magic_defense:0,attack_min:20,attack_max:30,exp_source:'UI test fixture',exp_source_kind:'global_measurement',spawns:[{code:'moc_fild03',name:'Sograt Desert',count:30,count_kind:'reference'}],drops:[{item_id:909,name_en:'Jellopy',category:'Etc',rate_percent:50,rate_known:true,npc_sell_price:100,image_url:null}] };
 require('../api.cjs').handleApi = async (req,res) => {
  if(!req.url.startsWith('/api/'))return false;
  res.setHeader('Content-Type','application/json');
- const body=req.url.startsWith('/api/skills')?{families:[{erst:'Swordsman',zweit:['Knight']}],skills:{Swordsman:[{k:'bash',n:'Bash',b:'Strikes a target with great force and deals heavy physical damage.',max:10,a:'Active',q:0,v:[],st:[{Level:'1',SP:'8',Effect:'ATK 130%'}]}],Knight:[]}}:req.url.startsWith('/api/fields')?{fields:[]}:req.url.startsWith('/api/dungeons')?{maps:[]}:req.url.startsWith('/api/bosses')?{bosses:[]}:req.url.startsWith('/api/item-detail')?{item:{source:'card',source_slug:'test-card',item_id:4100,name_en:'Test Card',aegis_name:'TEST_CARD',category:'Card',subtype:'Shoes',slots:0,buy_price:10,sell_price:5,vendors:[{name:'Tool Dealer',map:'prt_in',x:126,y:76,price:10,navigation:'/navi prt_in 126/76',source:'rAthena reference',zero_verified:false}],dropped_by:[]}}:req.url.startsWith('/api/item-search')?{items:[{key:'test',source:'card',item_id:4100,name_en:'Test Card',source_slug:'test-card',category:'Card',subtype:'Shoes',sell_price:10}],total:1}:{items:[mob, {...mob, monster_id:1002, name_en:"Race filter fixture", aegis_name:"PORING", race:"Plant", size:"Small", spawns:[{code:"fixture_plant",name:"Plant fixture map",count:5}]}]};
+ const body=req.url.startsWith('/api/skills')?{families:[{erst:'Swordsman',zweit:['Knight']}],skills:{Swordsman:[{k:'bash',n:'Bash',b:'Strikes a target with great force and deals heavy physical damage.',max:10,a:'Active',q:0,v:[],st:[{Level:'1',SP:'8',Effect:'ATK 130%'}]}],Knight:[]}}:req.url.startsWith('/api/fields')?{fields:[]}:req.url.startsWith('/api/dungeons')?{maps:[]}:req.url.startsWith('/api/bosses')?{bosses:[]}:req.url.startsWith('/api/item-detail')?{item:{source:'card',source_slug:'test-card',item_id:4100,name_en:'Test Card',aegis_name:'TEST_CARD',category:'Card',subtype:'Shoes',slots:0,buy_price:10,sell_price:5,vendors:[{name:'Tool Dealer',map:'prt_in',x:126,y:76,price:10,navigation:'/navi prt_in 126/76',source:'rAthena reference',zero_verified:false}],dropped_by:[]}}:req.url.startsWith('/api/item-search')?{items:[{key:'test',source:'card',item_id:4100,name_en:'Test Card',source_slug:'test-card',category:'Card',subtype:'Shoes',sell_price:10}],total:1}:{items:[mob, {...mob, monster_id:1002, flee_95:100, name_en:"Race filter fixture", aegis_name:"PORING", race:"Plant", size:"Small", spawns:[{code:"fixture_plant",name:"Plant fixture map",count:5}]}]};
  res.end(JSON.stringify(body)); return true;
 };
 const sleep = ms => new Promise(resolve=>setTimeout(resolve,ms));
@@ -50,6 +50,17 @@ app.on('browser-window-created',(_,win)=>{
    assert.ok(await run('document.querySelector(".mobIdentity").textContent.includes("Peco Peco")'));
    await selectSize('All');
    assert.equal(await run('document.querySelectorAll(".mobCard").length'),2);
+   const selectStat = async (id,value) => { await run(`{const el=document.getElementById('${id}');el.value='${value}';el.dispatchEvent(new Event('change',{bubbles:true}));}`);await sleep(250); };
+   await selectStat('hunt-sort','stats');
+   assert.ok(await run('document.querySelector(".mobIdentity").textContent.includes("Race filter fixture")'));
+   await selectStat('monster-stat-direction','desc');
+   assert.ok(await run('document.querySelector(".mobIdentity").textContent.includes("Peco Peco")'));
+   await run(`{const el=document.querySelector('.monsterStatRange input[aria-label="Monsterwert bis"]');Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set.call(el,'150');el.dispatchEvent(new Event('input',{bubbles:true}));}`);await sleep(250);
+   assert.equal(await run('document.querySelectorAll(".mobCard").length'),1);
+   assert.ok(await run('document.querySelector(".mobIdentity").textContent.includes("Race filter fixture")'));
+   await selectStat('monster-stat','attack_max');
+   assert.equal(await run('document.querySelectorAll(".mobCard").length'),2);
+   await selectStat('hunt-sort','exp');
    await selectRace('Brute');
    assert.equal(await run('document.querySelectorAll(".mobCard").length'),1);
    assert.ok(await run('document.querySelector(".mobIdentity").textContent.includes("Peco Peco")'));
@@ -95,6 +106,7 @@ app.on('browser-window-created',(_,win)=>{
    assert.equal(await run('document.documentElement.dataset.theme'),'nocturne');
    for(let i=0;i<9;i++){
     await run(`document.querySelectorAll('.tabs button')[${i}].click()`);await sleep(400);
+    if(i===0){await selectStat('hunt-sort','stats');}
     const failures=await run(`(${auditContrast.toString()})()`);
     assert.deepEqual(failures,[],`Nocturne WCAG 2 AA contrast failures on tab ${i}: ${JSON.stringify(failures)}`);
     if(i===3){await run('document.querySelector(".recipeGrid").scrollIntoView({block:"start",behavior:"instant"})');win.setSize(1100,980);await sleep(500);fs.writeFileSync(path.join(output,'crafting-nocturne.png'),(await win.webContents.capturePage()).toPNG());}
@@ -157,6 +169,13 @@ app.on('browser-window-created',(_,win)=>{
     }
     assert.equal(await run('document.documentElement.scrollWidth <= innerWidth'),true,`Tab overflow ${i}`);
    }
+   await run('document.querySelectorAll(".tabs button")[0].click()');await sleep(300);
+   await selectStat('hunt-sort','stats');
+   await run('document.querySelector("main").classList.add("mobileApp")');
+   win.setMinimumSize(320,400);win.setSize(390,844);await sleep(300);
+   assert.equal(await run('document.documentElement.scrollWidth <= innerWidth'),true,'Stat controls mobile overflow');
+   await run('document.querySelector(".monsterStatControls").scrollIntoView({block:"center",behavior:"instant"})');await sleep(300);
+   fs.writeFileSync(path.join(output,'monster-stats-mobile.png'),(await win.webContents.capturePage()).toPNG());
    console.log('PASS: 9 tabs, race and size filters, money and skills, 9 SVG icons, three themes, saved preferences + reload, 900/1360px, screenshots.');
    app.exit(0);
   }catch(error){console.error(error);app.exit(1);}
@@ -164,4 +183,4 @@ app.on('browser-window-created',(_,win)=>{
 });
 process.env.ODINS_GLASSES_SMOKE_TEST='1';
 require('../main.cjs');
-setTimeout(()=>{console.error('Smoke test timeout');app.exit(1);},60000);
+setTimeout(()=>{console.error('Smoke test timeout');app.exit(1);},90000);
