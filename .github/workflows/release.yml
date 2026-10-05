@@ -87,6 +87,7 @@ jobs:
     needs: [windows, android]
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - uses: actions/download-artifact@v4
         with:
           pattern: odins-glasses-*
@@ -99,5 +100,5 @@ jobs:
           gh release create "$GITHUB_REF_NAME" release-files/* \
             --repo "$GITHUB_REPOSITORY" \
             --title "Odin's Glasses $GITHUB_REF_NAME" \
-            --generate-notes \
+            --notes-file "docs/releases/$GITHUB_REF_NAME.md" \
             --verify-tag

@@ -39,7 +39,11 @@ app.on('browser-window-created',(_,win)=>{
  win.webContents.once('did-finish-load',async()=>{
   try{
    const run = code => win.webContents.executeJavaScript(code).catch(error=>{console.error('Failed UI check:',code);throw error;});
-   await sleep(900);
+   // The CI runner may need longer to load the renderer and complete its first request.
+   for(let attempt=0;attempt<100;attempt++){
+    if(await run('document.querySelectorAll(".mobCard").length')===2)break;
+    await sleep(100);
+   }
    assert.equal(await run('document.documentElement.dataset.theme'),'aurora');
    assert.equal(await run('document.querySelectorAll(".tabs svg").length'),9);
    assert.equal(await run('document.querySelectorAll(".mobCard").length'),2);
