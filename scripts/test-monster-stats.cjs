@@ -15,3 +15,21 @@ assert.deepEqual(mobs.filter(m=>matchesMonsterStat(m,'flee_95','0','100')).map(m
 assert.deepEqual(mobs.filter(m=>matchesMonsterStat(m,'flee_95','100','')).map(m=>m.monster_id),[1,4]);
 assert.deepEqual(mobs.filter(m=>matchesMonsterStat(m,'flee_95','200','100')),[]);
 });
+
+const {fieldStatSummary,matchesFieldStats}=mod.exports;
+test('field stats use known values and spawn weights, with explicit coverage',()=>{
+const mobs=[{flee_95:100,count:3},{flee_95:200,count:1},{flee_95:null,count:500}];
+assert.deepEqual(fieldStatSummary(mobs,'flee_95','average'),{value:125,known:2,total:3});
+assert.equal(fieldStatSummary(mobs,'flee_95','max').value,200);
+assert.equal(fieldStatSummary(mobs,'flee_95','min').value,100);
+assert.equal(fieldStatSummary([{flee_95:null}],'flee_95','max').value,null);
+assert.equal(fieldStatSummary([{hp:0,count:0}],'hp','average').value,0);
+});
+test('field bounds test individual monsters rather than hiding risks behind an average',()=>{
+const mobs=[{flee_95:100},{flee_95:200}];
+assert.equal(matchesFieldStats(mobs,'flee_95','','150','all'),false);
+assert.equal(matchesFieldStats(mobs,'flee_95','','150','any'),true);
+assert.equal(matchesFieldStats([{flee_95:100},{flee_95:null}],'flee_95','','150','all'),false);
+assert.equal(matchesFieldStats([{flee_95:null}],'flee_95','','150','any'),false);
+assert.equal(matchesFieldStats([{flee_95:null}],'flee_95','','','all'),true);
+});

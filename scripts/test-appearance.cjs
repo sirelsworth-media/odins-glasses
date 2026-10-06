@@ -20,7 +20,7 @@ const mob = { monster_id:1019,name_en:'Peco Peco',aegis_name:'PECOPECO',level:27
 require('../api.cjs').handleApi = async (req,res) => {
  if(!req.url.startsWith('/api/'))return false;
  res.setHeader('Content-Type','application/json');
- const body=req.url.startsWith('/api/skills')?{families:[{erst:'Swordsman',zweit:['Knight']}],skills:{Swordsman:[{k:'bash',n:'Bash',b:'Strikes a target with great force and deals heavy physical damage.',max:10,a:'Active',q:0,v:[],st:[{Level:'1',SP:'8',Effect:'ATK 130%'}]}],Knight:[]}}:req.url.startsWith('/api/fields')?{fields:[]}:req.url.startsWith('/api/dungeons')?{maps:[]}:req.url.startsWith('/api/bosses')?{bosses:[]}:req.url.startsWith('/api/item-detail')?{item:{source:'card',source_slug:'test-card',item_id:4100,name_en:'Test Card',aegis_name:'TEST_CARD',category:'Card',subtype:'Shoes',slots:0,buy_price:10,sell_price:5,vendors:[{name:'Tool Dealer',map:'prt_in',x:126,y:76,price:10,navigation:'/navi prt_in 126/76',source:'rAthena reference',zero_verified:false}],dropped_by:[]}}:req.url.startsWith('/api/item-search')?{items:[{key:'test',source:'card',item_id:4100,name_en:'Test Card',source_slug:'test-card',category:'Card',subtype:'Shoes',sell_price:10}],total:1}:{items:[mob, {...mob, monster_id:1002, flee_95:100, name_en:"Race filter fixture", aegis_name:"PORING", race:"Plant", size:"Small", spawns:[{code:"fixture_plant",name:"Plant fixture map",count:5}]}]};
+ const body=req.url.startsWith('/api/skills')?{families:[{erst:'Swordsman',zweit:['Knight']}],skills:{Swordsman:[{k:'bash',n:'Bash',b:'Strikes a target with great force and deals heavy physical damage.',max:10,a:'Active',q:0,v:[],st:[{Level:'1',SP:'8',Effect:'ATK 130%'}]}],Knight:[]}}:req.url.startsWith('/api/fields')?{fields:[{map_code:'fixture_fild01',name_en:'Stat fixture field',map_kind:'field',monster_count:2,known_spawn_total:4,monsters:[{...mob,count:3,is_variant:false},{...mob,monster_id:1002,name_en:'Low FLEE fixture',flee_95:100,count:1,is_variant:false}]}]}:req.url.startsWith('/api/dungeons')?{maps:[]}:req.url.startsWith('/api/bosses')?{bosses:[]}:req.url.startsWith('/api/item-detail')?{item:{source:'card',source_slug:'test-card',item_id:4100,name_en:'Test Card',aegis_name:'TEST_CARD',category:'Card',subtype:'Shoes',slots:0,buy_price:10,sell_price:5,vendors:[{name:'Tool Dealer',map:'prt_in',x:126,y:76,price:10,navigation:'/navi prt_in 126/76',source:'rAthena reference',zero_verified:false}],dropped_by:[]}}:req.url.startsWith('/api/item-search')?{items:[{key:'test',source:'card',item_id:4100,name_en:'Test Card',source_slug:'test-card',category:'Card',subtype:'Shoes',sell_price:10}],total:1}:{items:[mob, {...mob, monster_id:1002, flee_95:100, name_en:"Race filter fixture", aegis_name:"PORING", race:"Plant", size:"Small", spawns:[{code:"fixture_plant",name:"Plant fixture map",count:5}]}]};
  res.end(JSON.stringify(body)); return true;
 };
 const sleep = ms => new Promise(resolve=>setTimeout(resolve,ms));
@@ -113,12 +113,29 @@ app.on('browser-window-created',(_,win)=>{
     if(i===0){await selectStat('hunt-sort','stats');}
     const failures=await run(`(${auditContrast.toString()})()`);
     assert.deepEqual(failures,[],`Nocturne WCAG 2 AA contrast failures on tab ${i}: ${JSON.stringify(failures)}`);
+    if(i===4){await selectStat('field-sort','stats');}
     if(i===3){await run('document.querySelector(".recipeGrid").scrollIntoView({block:"start",behavior:"instant"})');win.setSize(1100,980);await sleep(500);fs.writeFileSync(path.join(output,'crafting-nocturne.png'),(await win.webContents.capturePage()).toPNG());}
    }
    await run('document.querySelectorAll(".themeSwitch button")[1].click()');
    for(let i=0;i<9;i++){
     await run(`document.querySelectorAll('.tabs button')[${i}].click()`);await sleep(400);
     assert.equal(await run('!!document.querySelector(".tabs button.active")'),true);
+    if(i===4){
+     await selectStat('field-sort','stats');
+     assert.equal(await run('document.querySelectorAll(".fieldCard").length'),1);
+     assert.ok(await run('document.querySelector(".fieldMetric.score").textContent.includes("200")'));
+     await selectStat('field-stat-aggregation','average');
+     assert.ok(await run('document.querySelector(".fieldMetric.score").textContent.includes("175")'));
+     await run(`{const el=document.getElementById('field-stat-max');Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set.call(el,'150');el.dispatchEvent(new Event('input',{bubbles:true}));}`);await sleep(200);
+     assert.equal(await run('document.querySelectorAll(".fieldCard").length'),0);
+     await selectStat('field-stat-mode','any');
+     assert.equal(await run('document.querySelectorAll(".fieldCard").length'),1);
+     await run('document.querySelector(".fieldSummary").click()');await sleep(100);
+     assert.ok(await run('document.querySelector(".fieldMonsters").textContent.includes("FLEE")'));
+     win.setSize(390,844);await sleep(200);
+     assert.equal(await run('document.documentElement.scrollWidth <= innerWidth'),true,'Field stat mobile overflow');
+     win.setSize(900,980);
+    }
     if(i===2){
      await run(`{const select=document.querySelector('.itemFilters select');select.value='card';select.dispatchEvent(new Event('change',{bubbles:true}));}`);
      await sleep(1600);

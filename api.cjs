@@ -234,13 +234,13 @@ const NORMAL_DUNGEON_PATTERNS = [/^anthell\d{2}$/i, /^prt_sewb\d$/i, /^pay_dun\d
 function isNormalDungeon(code) { return NORMAL_DUNGEON_PATTERNS.some((pattern) => pattern.test(String(code || ""))); }
 
 async function fieldsApi() {
-  return cached("fields:ragnadex:v1", 60 * 60 * 1000, async () => {
+  return cached("fields:ragnadex:v2", 60 * 60 * 1000, async () => {
     const monsters = await allMonsters();
     const maps = new Map();
     for (const mob of monsters) for (const spawn of mob.spawns || []) {
       if (!/_fild\d{2}[a-z]?$/i.test(spawn.code) && !isNormalDungeon(spawn.code)) continue;
       if (!maps.has(spawn.code)) maps.set(spawn.code, { code: spawn.code, name: spawn.name, members: [] });
-      maps.get(spawn.code).members.push({ monster_id: mob.monster_id, name_en: mob.name_en, aegis_name: mob.aegis_name, level: mob.level, hp: mob.hp, base_exp: mob.base_exp, job_exp: mob.job_exp, exp_per_hp: mob.exp_per_hp, element: mob.element, element_level: mob.element_level, element_modifiers: mob.element_modifiers, count: spawn.count, count_kind: spawn.count_kind, is_variant: /^C[1-5]_/i.test(mob.aegis_name) });
+      maps.get(spawn.code).members.push({ ...Object.fromEntries(['defense','magic_defense','attack_max','matk_max','flee_95','hit_100','str','agi','vit','int_stat','dex','luk'].map(key => [key, mob[key] ?? null])), monster_id: mob.monster_id, name_en: mob.name_en, aegis_name: mob.aegis_name, level: mob.level, hp: mob.hp, base_exp: mob.base_exp, job_exp: mob.job_exp, exp_per_hp: mob.exp_per_hp, element: mob.element, element_level: mob.element_level, element_modifiers: mob.element_modifiers, count: spawn.count, count_kind: spawn.count_kind, is_variant: /^C[1-5]_/i.test(mob.aegis_name) });
     }
     const fields = [...maps.values()].map((field) => {
       const members = field.members;

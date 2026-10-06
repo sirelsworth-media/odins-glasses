@@ -18,7 +18,7 @@ export type Monster = {
 };
 
 export type Region = { code: string; name: string; score: number; weightedExpPerHp: number; averageLevel: number; knownSpawns: number; targets: { mob: Monster; count: number | null }[] };
-export type FieldMonster = { monster_id: number; name_en: string; aegis_name: string; level: number; hp: number; base_exp: number; job_exp: number; exp_per_hp: number; element: string; element_level: number; element_modifiers?: Record<string, number> | null; count: number | null; count_kind: string | null; is_variant: boolean };
+export type FieldMonster = Partial<Pick<Monster, "defense" | "magic_defense" | "attack_max" | "matk_max" | "flee_95" | "hit_100" | "str" | "agi" | "vit" | "int_stat" | "dex" | "luk">> & { monster_id: number; name_en: string; aegis_name: string; level: number; hp: number; base_exp: number; job_exp: number; exp_per_hp: number; element: string; element_level: number; element_modifiers?: Record<string, number> | null; count: number | null; count_kind: string | null; is_variant: boolean };
 export type HuntField = { map_code: string; name_en: string; map_kind: "field" | "dungeon"; monster_count: number; known_spawn_total: number; average_level: number; min_level: number; max_level: number; average_exp_per_hp: number; average_base_exp_per_kill: number; monsters: FieldMonster[] };
 export type UnratedMap = { map_code: string; name_en: string; name_de: string; map_kind: "field" | "dungeon"; region: string; data_status: "map_only"; source: string };
 export type Dungeon = { slug: string; name: string; floor: string | null; location: string | null; spawns: number; warps: number };
